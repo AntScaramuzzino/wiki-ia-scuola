@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "it-IT",
-    baseUrl: "ia-scuola-wiki.vercel.app",
+    baseUrl: "wiki-ia-scuola.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
