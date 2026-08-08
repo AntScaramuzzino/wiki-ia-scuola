@@ -12,7 +12,18 @@ import os, re, sys, shutil, glob
 
 SRC = "/Users/antonioscaramuzzino/Library/CloudStorage/GoogleDrive-a.scaramuzzino@gmail.com/Il mio Drive/Brain/LLM-Wiki/LLM-Wiki/wiki"
 DST = "/Users/antonioscaramuzzino/wiki-ia-scuola/content"
-FOLDERS = {"concepts": "concept", "entities": "entity", "sources": "source", "analyses": "analyses"}
+
+# Il wiki sorgente (Obsidian, su Drive) è la FONTE UNICA: tutto nasce lì e viene
+# copiato qui. Le cartelle al plurale diventano singolari per avere URL più puliti.
+FOLDERS = {
+    "concepts": "concept",
+    "entities": "entity",
+    "sources": "source",
+    "analyses": "analyses",
+    "news": "news",
+    "social": "social",      # bozze di distribuzione: escluse dal build via ignorePatterns
+}
+ROOT_FILES = ("index.md", "overview.md", "crediti.md")
 
 def copy_from_source():
     for src_dir, dst_dir in FOLDERS.items():
@@ -22,7 +33,7 @@ def copy_from_source():
         os.makedirs(d, exist_ok=True)
         for f in glob.glob(os.path.join(s, "*.md")):
             shutil.copy2(f, os.path.join(d, os.path.basename(f)))
-    for f in ("index.md", "overview.md"):
+    for f in ROOT_FILES:
         p = os.path.join(SRC, f)
         if os.path.exists(p):
             shutil.copy2(p, os.path.join(DST, f))
