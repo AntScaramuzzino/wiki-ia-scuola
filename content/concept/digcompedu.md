@@ -3,7 +3,7 @@ title: "DigCompEdu — competenze digitali degli educatori"
 type: concept
 tags: [competenze, pedagogia, educazione, ai-formazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["DM 219/2025 snodi formativi", "Formare all'IA (paper)", "Strategia formazione PNRR"]
 ---
 
@@ -31,4 +31,4 @@ DigCompEdu articola le competenze professionali e pedagogiche dei docenti in are
 Nessuna. DigCompEdu e DigComp 3.0 sono complementari (educatori vs cittadini); il rischio segnalato è la distanza tra i quadri di competenza e l'effettiva padronanza del personale.
 
 ## Fonti
-[[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], [[source/formare-all-intelligenza-artificiale-un-progetto-studio|Formare all'intelligenza artificiale: un progetto-studio con docenti e futuri docenti]]
+[[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], [[source/formare-all-intelligenza-artificiale-un-progetto-studio|Formare all'intelligenza artificiale: un progetto-studio con docenti e futuri docenti]], [[source/formazione-pnrr-strumenti-2026|Formazione PNRR e strumenti per la classe (stato agosto 2026)]]

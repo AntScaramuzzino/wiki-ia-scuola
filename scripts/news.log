@@ -3,3 +3,11 @@
 Failed to authenticate. API Error: 401 OAuth access token has been revoked.
 [2026-08-08 08:53:31] Claude terminato (rc=1)
 [2026-08-08 08:53:31] nessuna edizione creata (nessuna novità o errore) — nessun commit
+[2026-08-08 09:11:39] === avvio aggiornamento news 2026-08-09 ===
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+[2026-08-08 09:11:39] warning: git pull fallito
+[2026-08-08 09:11:39] chiamo Claude per generare l'edizione...
+Failed to authenticate. API Error: 401 OAuth access token has been revoked.
+[2026-08-08 09:11:46] Claude terminato (rc=1)
+[2026-08-08 09:11:46] nessuna edizione creata (nessuna novità o errore) — nessun commit

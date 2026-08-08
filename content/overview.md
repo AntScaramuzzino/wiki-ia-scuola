@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 type: overview
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [llm-wiki-pattern, linee-guida-mim-dm166-2025, ai-act-ue, legge-132-2025]
 ---
 
@@ -20,7 +20,7 @@ Il wiki copre due cluster:
 
 ## Tesi principale (IA nella scuola)
 
-L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proceduralizzata**: non è vietata né lasciata all'iniziativa individuale, ma incanalata in una governance rigorosa che antepone la **centralità della persona** (approccio antropocentrico) e la **supervisione umana** all'automazione. Le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] anticipano gli obblighi dell'[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] (pienamente applicabile dal 2 agosto 2026) e della [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], trasformando ogni scuola in un **"deployer"** giuridicamente responsabile.
+L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proceduralizzata**: non è vietata né lasciata all'iniziativa individuale, ma incanalata in una governance rigorosa che antepone la **centralità della persona** (approccio antropocentrico) e la **supervisione umana** all'automazione. Le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] anticipano gli obblighi dell'[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] (applicabile per gradi: vigilanza e trasparenza dal 2 agosto 2026, alto rischio dal 2 dicembre 2027) e della [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], trasformando ogni scuola in un **"deployer"** giuridicamente responsabile.
 
 ---
 
@@ -39,6 +39,8 @@ L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proce
 
 ## Tensioni e contraddizioni aperte
 
+- **Calendario AI Act rivisto (agosto 2026)**: il *Digital Omnibus* rinvia gli obblighi sull'alto rischio (istruzione inclusa) al **2 dicembre 2027**; dal 2 agosto 2026 restano vigilanza, trasparenza, sanzioni, divieti e alfabetizzazione. Vedi [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]].
+- **Efficacia didattica dell'IA**: l'OCSE ([[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]]) documenta che senza guida pedagogica la GenAI migliora la prestazione ma non l'apprendimento.
 - **Innovazione vs controllo**: spinta all'adozione dell'IA contro obblighi stringenti (DPIA/FRIA, opt-out) che possono rallentare le scuole meno attrezzate.
 - **FRIA inassolvibile?**: più fonti (webinar, analisi) sostengono che la FRIA è di fatto difficile da svolgere a regola d'arte, perché la scuola-deployer non dispone delle informazioni interne dei fornitori (Google, Microsoft).
 - **Centralità del Dirigente Scolastico**: le Linee Guida concentrano la responsabilità sul DS; alcune analisi (es. USR Lombardia) auspicano una governance più collaborativa.
@@ -67,3 +69,4 @@ L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proce
 | 2026-06-21 | Ingest: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti) — nasce il cluster "IA nella scuola" (34 pagine) |
 | 2026-06-21 | Ingest glossario competenze digitali (126 voci) + 4 concetti (deepfake, cyberbullismo, disinformazione, gamification) |
 | 2026-06-21 | Download full-text delle 70 fonti in `raw/` e ingest completo: 52 nuove pagine source + 6 pagine-ponte (categorie rischio, DPIA/FRIA, deployer, explainable AI, IA-PA, ACN) |
+| 2026-08-08 | Rassegna news: rinvio AI Act al 2027 (Digital Omnibus), evidenze OCSE 2026, stato formazione PNRR |

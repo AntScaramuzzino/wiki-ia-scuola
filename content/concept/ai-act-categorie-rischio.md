@@ -37,4 +37,4 @@ Alcune fonti rilevano che gli obblighi per i sistemi ad alto rischio (specie la 
 > Fonte: rassegna dell'[[news/2026-08-08|8 agosto 2026]].
 
 ## Fonti
-[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]
+[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]]

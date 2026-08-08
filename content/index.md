@@ -1,18 +1,18 @@
 ---
 title: "Indice del wiki"
 type: index
-updated: 2026-06-21
-total_sources: 3
-total_pages: 117
+updated: 2026-08-08
+total_sources: 4
+total_pages: 120
 ---
 
-Aggiornato: 2026-06-21 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti, scaricate in `raw/`) + glossario (126 voci). 117 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 120 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
-## Fonti — 65
+## Fonti — 68
 
 | Pagina | Sommario | Data |
 |--------|----------|------|
@@ -20,6 +20,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/adempimenti-e-cronoprogramma|Adempimenti e cronoprogramma per l'IA a scuola (A.S. 2025/2026)]] | Presentazione operativa (15 slide) che traduce le Linee Guida MIM in un percorso d'istituto ver… | 2026-06-21 |
 | [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]] | Testo integrale (v1.0 del 14.02.2025, in consultazione pubblica) delle linee guida AgID per l'a… | 2026-06-21 |
 | [[source/agid-piano-triennale-2024-2026-agg-2026|AGID — Piano Triennale per l'informatica nella PA 2024-2026 (Agg. 2026)]] | Aggiornamento 2026 del Piano Triennale per l'informatica nella Pubblica Amministrazione di AgID… | 2026-06-21 |
+| [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]] | Ricostruisce che cosa è effettivamente entrato in applicazione il 2 agosto 2026 con l'AI Act e … | 2026-08-08 |
 | [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] | Il Regolamento (UE) 2024/1689, noto come AI Act, è il primo quadro giuridico globale sull'Intel… | 2026-06-21 |
 | [[source/analisi-delle-linee-guida-mim-sull-ia-nella-scuola|Analisi critica delle Linee Guida MIM sull'IA nella scuola (Gianfranco Bordoni — prospettiva USR Lombardia)]] | Analisi critico-propositiva (Gianfranco Bordoni) delle Linee Guida MIM del 9 agosto 2025, orien… | 2026-06-21 |
 | [[source/approvata-in-via-definitiva-la-legge-italiana-sull-inte|Approvata in via definitiva la legge italiana sull'Intelligenza Artificiale (DTD)]] | Comunicato del Dipartimento per la trasformazione digitale (17 settembre 2025) sull'approvazion… | 2026-06-21 |
@@ -30,6 +31,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/ec-edh-explainable-ai-in-education-fostering-human-over|EC/EDEH — Explainable AI in education: Fostering human oversight and shared responsibility (2025)]] | Report 2025 dello squad dello European Digital Education Hub (EDEH) sull'IA spiegabile (Explain… | 2026-06-21 |
 | [[source/explainable-ai-in-education-fostering-human-oversight-a|Explainable AI in education: fostering human oversight and shared responsibility]] | Pagina di annuncio di una sessione online (20 maggio 2025) dello European Digital Education Hub… | 2026-06-21 |
 | [[source/formare-all-intelligenza-artificiale-un-progetto-studio|Formare all'intelligenza artificiale: un progetto-studio con docenti e futuri docenti]] | Paper accademico di Roberta Scarano e Concetta Ferrantino (Università degli Studi di Salerno), … | 2026-06-21 |
+| [[source/formazione-pnrr-strumenti-2026|Formazione PNRR e strumenti per la classe (stato agosto 2026)]] | Fotografa lo stato di attuazione della formazione PNRR sull'IA e il panorama degli strumenti us… | 2026-08-08 |
 | [[source/glossario-competenze-digitali|Glossario delle competenze digitali e dell'IA]] | Glossario di riferimento di 126 voci sulle competenze digitali e sull'intelligenza artificiale,… | 2026-06-21 |
 | [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]] | La "Guida Pratica all'Intelligenza Artificiale nella Scuola Secondaria di Primo Grado: Idee e S… | 2026-06-21 |
 | [[source/ia-e-personale-amministrativo-scolastico-applicazioni-e|IA e Personale Amministrativo Scolastico: Applicazioni e Ruolo]] | Scheda di sintesi (file breve, ~4KB) che estrae dalle Linee guida MIM il ruolo e le applicazion… | 2026-06-21 |
@@ -65,6 +67,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/manifesto-codice-etico-isis-europa|Manifesto e Codice Etico IA Generativa a Scuola (ISIS Europa)]] | Il Manifesto e il Codice Etico dell'IA Generativa a Scuola, a cura dell'ISIS Europa, sono docum… | 2026-06-21 |
 | [[source/new-eu-publication-explainable-ai-in-education-efvet|New EU Publication: Explainable AI in Education (EfVET / European Digital Education Hub)]] | Breve notizia (EfVET, 30 ottobre 2025) che annuncia la pubblicazione ufficiale da parte dell'Un… | 2026-06-21 |
 | [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]] | L'OECD AI Literacy Framework for Primary & Secondary Education (2025) delinea 22 competenze str… | 2026-06-21 |
+| [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]] | Rapporto dell'OCSE che analizza le evidenze empiriche sull'uso dell'IA generativa in educazione… | 2026-08-08 |
 | [[source/online-l-aggiornamento-2026-del-piano-triennale-per-l-i|Online l'aggiornamento 2026 del Piano Triennale per l'informatica nella PA (AgID)]] | Notizia istituzionale (22/10/2025) sull'uscita dell'aggiornamento 2026 del Piano Triennale per … | 2026-06-21 |
 | [[source/percorsi-scuola-futura-pnrr|Percorsi - Scuola Futura - PNRR (catalogo formazione)]] | Estrazione dell'area "Percorsi" del portale Scuola Futura, la piattaforma del MIM per la formaz… | 2026-06-21 |
 | [[source/pnrr-avviso-snodi-formativi|Avviso pubblico PNRR snodi formativi IA nella scuola (circolare 73226/2026)]] | Testo integrale dell'Avviso pubblico del MIM (Unità di missione PNRR) attuativo del DM 219/2025… | 2026-06-21 |

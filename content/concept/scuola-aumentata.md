@@ -3,7 +3,7 @@ title: "Scuola aumentata"
 type: concept
 tags: [ai, educazione, apprendimento, pedagogia, ai-formazione, design-formativo]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Linee Guida MIM (DM 166/2025), Guida Pratica all'IA nella Scuola Secondaria di I grado]
 ---
 
@@ -34,4 +34,4 @@ Il modello si fonda su tre meccanismi principali:
 Il potenziamento della didattica convive con il rischio di **dipendenza cognitiva**: l'uso acritico dell'IA può disincentivare lo sforzo personale e ridurre pensiero critico e problem solving autonomo. L'IA deve "potenziare e umanizzare la didattica", non bypassare il processo di apprendimento.
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]]

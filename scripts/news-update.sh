@@ -23,7 +23,7 @@ if [ -f "$NEWS_FILE" ]; then
   exit 0
 fi
 
-git pull -q --rebase 2>>"$LOG" || log "warning: git pull fallito"
+git pull -q --rebase --autostash 2>>"$LOG" || log "warning: git pull fallito (proseguo)"
 
 PROMPT=$(cat <<EOF
 Sei il redattore della sezione News del wiki "IA nella scuola" ($REPO).

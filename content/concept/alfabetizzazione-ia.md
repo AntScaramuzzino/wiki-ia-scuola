@@ -3,7 +3,7 @@ title: "Alfabetizzazione all'IA (AI Literacy)"
 type: concept
 tags: [ai, educazione, competenze, ai-formazione, curriculum]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Glossario IA a scuola, Regolamento UE 2024/1689 (AI Act), Legge 132/2025, OECD AI Literacy Framework (2025)]
 ---
 
@@ -33,4 +33,4 @@ Non si tratta solo di insegnare la tecnologia, ma di formare cittadini consapevo
 - [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — la formazione dei docenti attua l'alfabetizzazione all'IA.
 
 ## Fonti
-[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]]
+[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]], [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]]

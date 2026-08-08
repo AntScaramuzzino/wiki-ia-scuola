@@ -3,7 +3,7 @@ title: "Deployer (utilizzatore professionale di IA)"
 type: concept
 tags: [ai, normativa, politiche, governance-scolastica]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["AI Act (art. 3)", "Linee Guida MIM DM 166/2025", "Linee guida AgID IA nella PA"]
 ---
 
@@ -26,4 +26,4 @@ Le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM]] qualificano formalmente
 Il peso degli obblighi del deployer (specie la FRIA) è ritenuto da alcune fonti gravoso per le scuole. Vedi [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi|Linee Guida IA a Scuola: Aspetti Normativi e Operativi (webinar)]].
 
 ## Fonti
-[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]]
+[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]], [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]]

@@ -3,7 +3,7 @@ title: "Snodi formativi PNRR (DM 219/2025)"
 type: concept
 tags: [ai, pnrr, formazione, educazione, competenze, politiche, ai-formazione, design-formativo]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [DM 219/2025, Avviso snodi formativi IA (PNRR), Linee Guida MIM (DM 166/2025), DigComp 3.0]
 ---
 
@@ -39,4 +39,4 @@ Tutta la formazione è allineata ai quadri europei **DigComp 3.0** (cittadinanza
 La formazione "va ben oltre l'addestramento all'uso dei software": è concepita come trasformazione pedagogica ed educativa (docente come "co-progettista"). Il vincolo dei 100 milioni con riserva del 40% al Mezzogiorno mira esplicitamente a contrastare il divario territoriale, tema connesso al divario digitale.
 
 ## Fonti
-[[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]]
+[[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]], [[source/formazione-pnrr-strumenti-2026|Formazione PNRR e strumenti per la classe (stato agosto 2026)]]
