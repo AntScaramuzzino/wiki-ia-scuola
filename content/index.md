@@ -10,6 +10,8 @@ Aggiornato: 2026-06-21 — corpus principale: notebook NotebookLM «Linee Guida 
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
+📰 **[[news/index|News — IA e didattica]]**: rassegna aggiornata di notizie, documenti e ricerche, con rimandi alle pagine del wiki.
+
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
 ## Fonti — 65
