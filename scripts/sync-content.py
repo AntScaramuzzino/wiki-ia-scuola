@@ -14,15 +14,9 @@ SRC = "/Users/antonioscaramuzzino/Library/CloudStorage/GoogleDrive-a.scaramuzzin
 DST = "/Users/antonioscaramuzzino/wiki-ia-scuola/content"
 
 # Il wiki sorgente (Obsidian, su Drive) è la FONTE UNICA: tutto nasce lì e viene
-# copiato qui. Le cartelle al plurale diventano singolari per avere URL più puliti.
-FOLDERS = {
-    "concepts": "concept",
-    "entities": "entity",
-    "sources": "source",
-    "analyses": "analyses",
-    "news": "news",
-    "social": "social",      # bozze di distribuzione: escluse dal build via ignorePatterns
-}
+# copiato qui con gli stessi nomi, così i wikilink [[concept/...]] funzionano
+# identici in Obsidian e sul sito.
+FOLDERS = {c: c for c in ("concept", "entity", "source", "analyses", "news", "social")}
 ROOT_FILES = ("index.md", "overview.md", "crediti.md")
 
 def copy_from_source():

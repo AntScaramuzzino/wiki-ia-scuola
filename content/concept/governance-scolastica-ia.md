@@ -41,7 +41,7 @@ Cronoprogramma operativo sull'anno scolastico 2025/2026, in vista della piena ap
 - [[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]] — la categoria di rischio determina gli obblighi.
 - [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle Linee Guida (DM 166/2025).
 - [[entity/piattaforma-unica|Piattaforma Unica (MIM)]] — canale MIM dove si mappano e condividono i «Progetti IA».
-- [[analyses/2026-06-21-adempimenti-ia-dirigente-scolastico|Adempimenti IA per il Dirigente Scolastico: dalla governance alla conformità]] — vista d'insieme operativa dalla governance alla conformità.
+- [[2026-06-13-adempimenti-ia-dirigente-scolastico]] — vista d'insieme operativa dalla governance alla conformità.
 
 ## Contraddizioni e dibattiti
 Il quadro fa leva su un **vantaggio temporale**: il MIM anticipa gli obblighi dell'AI Act per dare alle scuole il tempo di strutturare un'innovazione controllata. La tensione è tra l'incoraggiamento all'innovazione e il carico procedurale (atti, piani, valutazioni d'impatto) richiesto a istituzioni con risorse e maturità digitale disomogenee.

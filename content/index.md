@@ -3,16 +3,16 @@ title: "Indice del wiki"
 type: index
 updated: 2026-08-08
 total_sources: 4
-total_pages: 135
+total_pages: 131
 ---
 
-Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 135 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 131 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
-## Fonti — 70
+## Fonti — 69
 
 | Pagina | Sommario | Data |
 |--------|----------|------|
@@ -43,7 +43,6 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/il-difficile-rapporto-tra-scuola-e-chatgpt-lucy-sulla-c|Il difficile rapporto tra scuola e ChatGPT (Lucy, Pietro Minto)]] | Reportage di Pietro Minto (Lucy, 14 febbraio 2025) sull'uso reale dell'IA generativa nelle scuo… | 2026-06-21 |
 | [[source/il-ministro-dell-istruzione-e-del-merito-mim|Decreto Ministeriale MIM (DM 166/2025) — testo del decreto e servizio digitale IA su Unica]] | Testo integrale del Decreto Ministeriale del MIM (firmato dal Ministro Giuseppe Valditara) che … | 2026-06-21 |
 | [[source/in-vigore-dal-10-ottobre-l-obbligo-di-informativa-per-i|Obbligo di informativa ai clienti sull'uso dell'IA dal 10 ottobre (Ordine avvocati Bergamo)]] | Comunicazione dell'Ordine degli Avvocati di Bergamo (10 ottobre 2025) sull'entrata in vigore de… | 2026-06-21 |
-| [[source/index]] |  |  |
 | [[source/indice|Modulo di Microlearning — Navigare le Linee Guida sull'IA secondo il Metodo EAS]] | Modulo formativo di microlearning strutturato secondo il Metodo EAS (Episodi di Apprendimento S… | 2026-06-21 |
 | [[source/innovazione-digitale-e-strategie-scolastiche-nazionali-|Innovazione Digitale e Strategie Scolastiche Nazionali — Intervento D'Amico]] | Trascrizione dell'intervento del direttore D'Amico (responsabile dell'innovazione digitale del … | 2026-06-21 |
 | [[source/intelligenza-artificiale-a-scuola-dm-166-2025-e-linee-g|Guida pratica per DS: IA a scuola — DM 166/2025 e Linee guida MIM (Tosolini)]] | Guida operativa per dirigenti scolastici (collana "SOS Dirigenti scolastici", a cura di Aluisi … | 2026-06-21 |
@@ -87,7 +86,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/uso-pervasivo-dell-intelligenza-artificiale-ia-e-import|Uso pervasivo dell'IA e importanza del prompt per l'utilizzo dell'IA a scuola (OPPI)]] | Contributo divulgativo dell'Equipe Formazione Digitale di OPPI (Mario Gabbari, Daniela Sacchi, … | 2026-06-21 |
 | [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]] | Bozza in consultazione pubblica (versione 1.0 del 14.02.2025) della matrice AgID per la Valutaz… | 2026-06-21 |
 
-## Entità — 16
+## Entità — 15
 
 | Pagina | Descrizione |
 |--------|-------------|
@@ -96,7 +95,6 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[entity/commissione-europea|Commissione Europea (e JRC)]] | La Commissione Europea è l'organo esecutivo dell'Unione Europea, promotore della legislazione U… |
 | [[entity/consiglio-europa|Consiglio d'Europa]] | Organizzazione internazionale (46 Stati membri) per la tutela di diritti umani, democrazia e st… |
 | [[entity/garante-privacy|Garante per la protezione dei dati personali]] | Il Garante per la protezione dei dati personali è l'autorità amministrativa indipendente italia… |
-| [[entity/index]] |  |
 | [[entity/isis-europa|ISIS Europa]] | ISIS Europa è un'istituzione scolastica autrice di documenti di autoregolamentazione sull'uso d… |
 | [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] | Il Ministero dell'Istruzione e del Merito (MIM) è l'amministrazione centrale italiana responsab… |
 | [[entity/notebooklm|NotebookLM]] |  |
@@ -108,7 +106,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[entity/unesco|UNESCO]] | L'UNESCO (Organizzazione delle Nazioni Unite per l'Educazione, la Scienza e la Cultura) è l'age… |
 | [[entity/vannevar-bush|Vannevar Bush]] | Ingegnere e scienziato americano (1890–1974). Direttore dell'OSRD durante la Seconda Guerra Mon… |
 
-## Concetti — 44
+## Concetti — 43
 
 | Pagina | Definizione breve |
 |--------|-------------------|
@@ -133,7 +131,6 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/huderia|HUDERIA — metodologia di valutazione del rischio IA]] | HUDERIA (Human Rights, Democracy and the Rule of Law Impact Assessment) è la metodologia del Co… |
 | [[concept/ia-generativa|IA Generativa]] | L'IA generativa (IAg o GenAI) è uno specifico sottoinsieme dell'intelligenza-artificiale che ut… |
 | [[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]] | Filone normativo e operativo, curato da agid, sull'adozione responsabile dell'IA nella Pubblica… |
-| [[concept/index]] |  |
 | [[concept/ingest|Ingest]] | Operazione con cui una fonte raw viene letta, analizzata e integrata nel wiki. È l'azione fonda… |
 | [[concept/intelligenza-artificiale|Intelligenza Artificiale]] | L'Intelligenza Artificiale (IA) è una branca dell'informatica preposta allo studio e alla creaz… |
 | [[concept/lint-wiki|Lint Wiki]] | Operazione periodica di health-check del wiki. L'LLM scansiona le pagine alla ricerca di proble… |
@@ -157,12 +154,11 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] | Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e onestà intellett… |
 | [[concept/wiki-persistente|Wiki Persistente]] | Un wiki persistente è una raccolta strutturata di file markdown interlinkati che un LLM costrui… |
 
-## Analisi — 5
+## Analisi — 4
 
 | Pagina | Domanda | Data |
 |--------|---------|------|
-| [[analyses/2026-06-21-adempimenti-ia-dirigente-scolastico|Adempimenti IA per il Dirigente Scolastico: dalla governance alla conformità]] | Cosa deve fare concretamente un Dirigente Scolastico per introdurre l'IA nell'istituto in modo … | 2026-06-21 |
-| [[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] | Come si confrontano i principali framework di competenze sull'IA rilevanti per la scuola? | 2026-06-21 |
-| [[analyses/2026-06-21-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]] | Qual è il quadro normativo che regola l'IA nella scuola italiana e come si articolano i diversi… | 2026-06-21 |
+| [[analyses/2026-06-13-adempimenti-ia-dirigente-scolastico|Adempimenti IA per il Dirigente Scolastico: dalla governance alla conformità]] | Cosa deve fare concretamente un Dirigente Scolastico per introdurre l'IA nell'istituto in modo … | 2026-06-13 |
+| [[analyses/2026-06-20-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]] | Qual è il quadro normativo che regola l'IA nella scuola italiana e come si articolano i diversi… | 2026-06-20 |
+| [[analyses/2026-06-27-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] | Come si confrontano i principali framework di competenze sull'IA rilevanti per la scuola? | 2026-06-27 |
 | [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] | Se l'IA generativa può produrre il compito al posto dello studente, e non esiste un modo affida… | 2026-08-08 |
-| [[analyses/index]] |  |  |

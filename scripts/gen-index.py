@@ -30,8 +30,10 @@ def clean(s, n=95):
 def load(kind):
     rows = []
     for f in sorted(glob.glob(f"{WIKI}/{kind}/*.md")):
-        t = open(f, encoding="utf-8").read()
         slug = os.path.splitext(os.path.basename(f))[0]
+        if slug == "index":
+            continue
+        t = open(f, encoding="utf-8").read()
         rows.append({
             "slug": slug,
             "created": fm(t, "created"),
@@ -42,8 +44,8 @@ def load(kind):
         })
     return rows
 
-sources, entities = load("sources"), load("entities")
-concepts, analyses = load("concepts"), load("analyses")
+sources, entities = load("source"), load("entity")
+concepts, analyses = load("concept"), load("analyses")
 total = len(sources) + len(entities) + len(concepts) + len(analyses)
 
 o = ["---", 'title: "Indice del wiki"', "type: index", "updated: 2026-08-08",

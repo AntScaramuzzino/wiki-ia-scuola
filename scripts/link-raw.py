@@ -46,7 +46,7 @@ MAP = {
 
 changed = 0
 for slug, raws in MAP.items():
-    p = os.path.join(WIKI, "sources", slug + ".md")
+    p = os.path.join(WIKI, "source", slug + ".md")
     if not os.path.exists(p):
         print("MANCA la pagina:", slug); continue
     t = open(p, encoding="utf-8").read()

@@ -26,12 +26,12 @@ L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proce
 
 ## Temi emergenti
 
-- **Quadro normativo a tre livelli**: AI Act UE → Legge 132/2025 → Linee Guida MIM. L'istruzione è settore **ad alto rischio** ([[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]], Allegato III AI Act). Vedi [[analyses/2026-06-21-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]].
+- **Quadro normativo a tre livelli**: AI Act UE → Legge 132/2025 → Linee Guida MIM. L'istruzione è settore **ad alto rischio** ([[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]], Allegato III AI Act). Vedi [[2026-06-20-quadro-normativo-ia-scuola]].
 - **Scuola come [[concept/deployer|Deployer (utilizzatore professionale di IA)]]**: responsabilità giuridica che attiva [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] e [[concept/explainable-ai|Explainable AI (IA spiegabile)]].
 - **IA nella PA**: [[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]] — quadro AgID (linee guida, strategia, valutazione d'impatto), [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] e [[entity/acn|ACN — Agenzia per la Cybersicurezza Nazionale]] autorità nazionali.
 - **Governance d'istituto**: [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — atto di indirizzo, Piano d'Istituto per l'IA (PIA) nel PTOF, Referente IA (RIA), DPO, cronoprogramma a.s. 2025/2026.
 - **Didattica trasformata**: [[concept/scuola-aumentata|Scuola aumentata]] (docente co-pilota, personalizzazione) e [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] (UDL, BES/DSA).
-- **Competenze e alfabetizzazione**: [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] e il confronto tra framework UNESCO, OECD e DigComp ([[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]]).
+- **Competenze e alfabetizzazione**: [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] e il confronto tra framework UNESCO, OECD e DigComp ([[2026-06-27-confronto-framework-competenze-ia]]).
 - **Etica e rischi**: [[concept/privacy-protezione-dati|Privacy e protezione dei dati]], [[concept/bias-algoritmico|Bias Algoritmico]], [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]], [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]].
 - **Formazione e finanziamenti**: [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] (DM 219/2025, PNRR, 100 mln €, [[entity/scuola-futura|Piattaforma Scuola Futura]]).
 

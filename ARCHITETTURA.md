@@ -8,7 +8,7 @@ Tutti i contenuti nascono **nel wiki sorgente** su Google Drive:
 …/Il mio Drive/Brain/LLM-Wiki/LLM-Wiki/
 ├── raw/          fonti grezze (immutabili, mai pubblicate)
 └── wiki/         ← FONTE UNICA. Tutto si scrive qui.
-    ├── concepts/     entities/     sources/     analyses/
+    ├── concept/  entity/  source/  analyses/
     ├── news/         rassegna quotidiana
     ├── social/       bozze per la distribuzione (non pubblicate)
     ├── index.md      overview.md   log.md       crediti.md
@@ -24,15 +24,15 @@ Questo repo (`~/wiki-ia-scuola`) è **solo la copia pubblicata**.
 wiki/ (Drive)  →  scripts/sync-content.py  →  content/  →  npx quartz build  →  public/  →  git push  →  Vercel
 ```
 
-Durante la sincronizzazione le cartelle passano dal plurale al singolare
-(`concepts/` → `concept/`) per avere URL più puliti, e vengono applicate due
-trasformazioni alla sola copia pubblicata:
+Le cartelle hanno gli **stessi nomi** nel sorgente e nel sito, così i wikilink
+`[[concept/fria]]` funzionano identici in Obsidian e online. Alla sola copia
+pubblicata vengono applicate due trasformazioni:
 
 1. rimozione dell'H1 iniziale duplicato (Quartz mostra già il `title` del frontmatter);
 2. conversione dei wikilink `[[tipo/slug]]` → `[[tipo/slug|Titolo leggibile]]`.
 
-**Nei wikilink si usa sempre il nome singolare** (`[[concept/fria]]`), anche se il file
-sorgente sta in `concepts/`.
+> ⚠️ Le cartelle sono al **singolare** (`concept/`, `entity/`, `source/`). Erano al plurale
+> fino al 2026-08-08: con i link scritti al singolare, in Obsidian risultavano tutti rotti.
 
 ## Script
 

@@ -26,7 +26,7 @@ I due framework del 2024 sono concepiti per funzionare in sinergia.
 - [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — la "mentalità antropocentrica" è una dimensione chiave dei framework
 - [[entity/ocse|OCSE (OECD)]] — ente parallelo con un proprio framework di AI literacy (2025)
 - [[entity/commissione-europea|Commissione Europea (e JRC)]] — il JRC pubblica DigComp 3.0, framework complementare
-- [[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] — confronto tra i framework UNESCO/OECD/DigComp
+- [[2026-06-27-confronto-framework-competenze-ia]] — confronto tra i framework UNESCO/OECD/DigComp
 
 ## Fonti
 [[source/unesco-guidance-genai-2023|UNESCO — Guidance for generative AI in education and research (2023)]], [[source/unesco-competenze-docenti-2024|UNESCO — AI competency framework for teachers (2024)]], [[source/unesco-competenze-studenti-2024|UNESCO — AI competency framework for students (2024)]]
