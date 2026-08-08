@@ -34,4 +34,4 @@ L'IA offre supporti trasformativi che si integrano con gli strumenti istituziona
 L'IA come strumento di equità è in tensione con il **divario digitale**: l'accesso disomogeneo a strumenti, abbonamenti premium e formazione rischia di creare una "scuola a due velocità". Per questo equità e accessibilità (anche per studenti con BES/DSA) sono considerate imperativi categorici. Inoltre i dati relativi a PEI/PDP, essendo sensibili, non possono essere inseriti nei prompt di sistemi pubblici.
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/fiorucci-bevilacqua-scoping-review-2024|Fiorucci & Bevilacqua — Il dibattito scientifico sull'IA in educazione: scoping review (2024)]]

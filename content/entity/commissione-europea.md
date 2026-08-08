@@ -29,8 +29,8 @@ Il principio di trasparenza e spiegabilità (explainable AI) sancito dall'AI Act
 - [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — recepisce l'AI Act nelle Linee Guida nazionali
 - [[entity/ocse|OCSE (OECD)]] — co-autore del framework di AI literacy
 - [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autorità nazionale di vigilanza ex L.132/2025, attua l'AI Act in Italia
-- [[2026-06-20-quadro-normativo-ia-scuola]] — AI Act a confronto con L.132 e DM166
-- [[2026-06-27-confronto-framework-competenze-ia]] — DigComp a confronto con UNESCO/OECD
+- [[analyses/2026-06-20-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]] — AI Act a confronto con L.132 e DM166
+- [[analyses/2026-06-27-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] — DigComp a confronto con UNESCO/OECD
 
 ## Fonti
 [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]]

@@ -24,7 +24,7 @@ Delinea **22 competenze specifiche** strutturate attorno a quattro domini centra
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — il framework OCSE definisce le competenze di AI literacy per la scuola
 - [[entity/commissione-europea|Commissione Europea (e JRC)]] — co-sviluppatrice del framework OCSE
 - [[entity/unesco|UNESCO]] — ente con framework di competenze IA paralleli (2024)
-- [[2026-06-27-confronto-framework-competenze-ia]] — confronto tra i framework UNESCO/OECD/DigComp
+- [[analyses/2026-06-27-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] — confronto tra i framework UNESCO/OECD/DigComp
 
 ## Fonti
 [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]]

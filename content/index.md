@@ -3,16 +3,16 @@ title: "Indice del wiki"
 type: index
 updated: 2026-08-08
 total_sources: 4
-total_pages: 131
+total_pages: 135
 ---
 
-Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 131 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 135 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
-## Fonti — 69
+## Fonti — 73
 
 | Pagina | Sommario | Data |
 |--------|----------|------|
@@ -29,11 +29,15 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]] | DigComp 3.0 (2025) è il quadro europeo trasversale delle competenze digitali per tutti i cittad… | 2026-06-21 |
 | [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]] | Il Decreto del Ministro dell'istruzione e del merito 11 novembre 2025, n. 219 pubblica l'Avviso… | 2026-06-21 |
 | [[source/ec-edh-explainable-ai-in-education-fostering-human-over|EC/EDEH — Explainable AI in education: Fostering human oversight and shared responsibility (2025)]] | Report 2025 dello squad dello European Digital Education Hub (EDEH) sull'IA spiegabile (Explain… | 2026-06-21 |
+| [[source/epistemia-2-0-baranzini-2026|Epistemia 2.0: l'illusione di sapere perché una risposta «suona» giusta (2026)]] | Articolo divulgativo che introduce il termine «Epistemia»: l'illusione di sapere prodotta dal f… | 2026-08-08 |
 | [[source/explainable-ai-in-education-fostering-human-oversight-a|Explainable AI in education: fostering human oversight and shared responsibility]] | Pagina di annuncio di una sessione online (20 maggio 2025) dello European Digital Education Hub… | 2026-06-21 |
+| [[source/fiorucci-bevilacqua-scoping-review-2024|Fiorucci & Bevilacqua — Il dibattito scientifico sull'IA in educazione: scoping review (2024)]] | Scoping review che mappa dieci anni di ricerca pedagogica italiana sull'IA in educazione (IAed)… | 2026-08-08 |
 | [[source/formare-all-intelligenza-artificiale-un-progetto-studio|Formare all'intelligenza artificiale: un progetto-studio con docenti e futuri docenti]] | Paper accademico di Roberta Scarano e Concetta Ferrantino (Università degli Studi di Salerno), … | 2026-06-21 |
 | [[source/formazione-pnrr-strumenti-2026|Formazione PNRR e strumenti per la classe (stato agosto 2026)]] | Fotografa lo stato di attuazione della formazione PNRR sull'IA e il panorama degli strumenti us… | 2026-08-08 |
+| [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]] | Panoramica interdisciplinare sullo stato dell'arte dell'IA nell'istruzione italiana, che unisce… | 2026-08-08 |
 | [[source/glossario-competenze-digitali|Glossario delle competenze digitali e dell'IA]] | Glossario di riferimento di 126 voci sulle competenze digitali e sull'intelligenza artificiale,… | 2026-06-21 |
 | [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]] | La "Guida Pratica all'Intelligenza Artificiale nella Scuola Secondaria di Primo Grado: Idee e S… | 2026-06-21 |
+| [[source/hofer-epistemologia-personale-2001|Hofer — Epistemologia personale: implicazioni per apprendimento e insegnamento (2001)]] | Rassegna sistematica della ricerca sull'epistemologia personale: le idee che gli individui hann… | 2026-08-08 |
 | [[source/ia-e-personale-amministrativo-scolastico-applicazioni-e|IA e Personale Amministrativo Scolastico: Applicazioni e Ruolo]] | Scheda di sintesi (file breve, ~4KB) che estrae dalle Linee guida MIM il ruolo e le applicazion… | 2026-06-21 |
 | [[source/ia-generativa-in-classe-le-linee-guida-internazionali-r|IA (generativa) in classe: le linee guida internazionali (Bricks, 2023)]] | Articolo di Eleonora Pantò (Associazione Dschola) pubblicato su BRICKS n.3-2023, che mappa e co… | 2026-06-21 |
 | [[source/ia-guidelines-generale-01-unibg|Linee guida UniBg per l'uso dell'IA in Didattica, Ricerca e Processi Amministrativi]] | Documento di indirizzo dell'Università degli Studi di Bergamo che definisce una cornice orienta… | 2026-06-21 |

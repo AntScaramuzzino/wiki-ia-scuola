@@ -26,18 +26,21 @@ L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proce
 
 ## Temi emergenti
 
-- **Quadro normativo a tre livelli**: AI Act UE → Legge 132/2025 → Linee Guida MIM. L'istruzione è settore **ad alto rischio** ([[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]], Allegato III AI Act). Vedi [[2026-06-20-quadro-normativo-ia-scuola]].
+- **Quadro normativo a tre livelli**: AI Act UE → Legge 132/2025 → Linee Guida MIM. L'istruzione è settore **ad alto rischio** ([[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]], Allegato III AI Act). Vedi [[analyses/2026-06-20-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]].
 - **Scuola come [[concept/deployer|Deployer (utilizzatore professionale di IA)]]**: responsabilità giuridica che attiva [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] e [[concept/explainable-ai|Explainable AI (IA spiegabile)]].
 - **IA nella PA**: [[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]] — quadro AgID (linee guida, strategia, valutazione d'impatto), [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] e [[entity/acn|ACN — Agenzia per la Cybersicurezza Nazionale]] autorità nazionali.
 - **Governance d'istituto**: [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — atto di indirizzo, Piano d'Istituto per l'IA (PIA) nel PTOF, Referente IA (RIA), DPO, cronoprogramma a.s. 2025/2026.
 - **Didattica trasformata**: [[concept/scuola-aumentata|Scuola aumentata]] (docente co-pilota, personalizzazione) e [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] (UDL, BES/DSA).
-- **Competenze e alfabetizzazione**: [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] e il confronto tra framework UNESCO, OECD e DigComp ([[2026-06-27-confronto-framework-competenze-ia]]).
+- **Competenze e alfabetizzazione**: [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] e il confronto tra framework UNESCO, OECD e DigComp ([[analyses/2026-06-27-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]]).
 - **Etica e rischi**: [[concept/privacy-protezione-dati|Privacy e protezione dei dati]], [[concept/bias-algoritmico|Bias Algoritmico]], [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]], [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]].
 - **Formazione e finanziamenti**: [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] (DM 219/2025, PNRR, 100 mln €, [[entity/scuola-futura|Piattaforma Scuola Futura]]).
 
 ---
 
 ## Tensioni e contraddizioni aperte
+
+- **L'adozione ha corso più veloce della governance**: l'83% degli studenti della secondaria usa già l'IA generativa ogni settimana, ma solo il 18% ha ricevuto indicazioni dalla scuola ([[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]]). Il cronoprogramma MIM regola un fenomeno già in corso, non lo precede.
+- **Ricerca italiana in ritardo sull'inclusione**: la pedagogia speciale è internazionalmente tra i campi più fecondi per l'IA, ma la letteratura nazionale mostra "notevoli ritardi" ([[source/fiorucci-bevilacqua-scoping-review-2024|Fiorucci & Bevilacqua — Il dibattito scientifico sull'IA in educazione: scoping review (2024)]]) — mentre le Linee Guida puntano molto sull'inclusione.
 
 - **Calendario AI Act rivisto (agosto 2026)**: il *Digital Omnibus* rinvia gli obblighi sull'alto rischio (istruzione inclusa) al **2 dicembre 2027**; dal 2 agosto 2026 restano vigilanza, trasparenza, sanzioni, divieti e alfabetizzazione. Vedi [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]].
 - **Efficacia didattica dell'IA**: l'OCSE ([[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]]) documenta che senza guida pedagogica la GenAI migliora la prestazione ma non l'apprendimento.
@@ -54,6 +57,8 @@ L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proce
 ## Lacune di conoscenza
 
 - Esiti delle prime sperimentazioni ("Progetti IA") sulla Piattaforma Unica: nessun dato d'impatto ancora nel corpus.
+- ~~Dati di adozione italiani~~ → **colmata** da [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]] (83% studenti secondaria, 66% docenti).
+- ~~Ricerca pedagogica italiana~~ → **colmata** da [[source/fiorucci-bevilacqua-scoping-review-2024|Fiorucci & Bevilacqua — Il dibattito scientifico sull'IA in educazione: scoping review (2024)]] (142 articoli, 2014-2024).
 - Strumenti specifici e listini (oltre agli esempi didattici): copertura parziale.
 - Contesto comparato extra-UE (USA, Asia): assente; il corpus è UE/Italia-centrico.
 - Valutazioni indipendenti dell'efficacia degli interventi formativi PNRR.
@@ -70,3 +75,4 @@ L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proce
 | 2026-06-21 | Ingest glossario competenze digitali (126 voci) + 4 concetti (deepfake, cyberbullismo, disinformazione, gamification) |
 | 2026-06-21 | Download full-text delle 70 fonti in `raw/` e ingest completo: 52 nuove pagine source + 6 pagine-ponte (categorie rischio, DPIA/FRIA, deployer, explainable AI, IA-PA, ACN) |
 | 2026-08-08 | Rassegna news: rinvio AI Act al 2027 (Digital Omnibus), evidenze OCSE 2026, stato formazione PNRR |
+| 2026-08-08 | Ingest di 3 paper accademici: scoping review italiana, dati di adozione nazionali, fondamento epistemologico |

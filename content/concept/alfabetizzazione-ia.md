@@ -22,6 +22,7 @@ Non si tratta solo di insegnare la tecnologia, ma di formare cittadini consapevo
 
 ## Applicazioni o esempi
 - L'AI Act definisce l'alfabetizzazione all'IA come la comprensione che consente agli utenti una diffusione informata dei sistemi, con consapevolezza di opportunità, rischi e possibili danni.
+- L'**art. 4 dell'AI Act** impone a fornitori e [[concept/deployer|deployer]] di garantire un livello adeguato di alfabetizzazione all'IA per tutto il personale coinvolto: non un valore aggiunto ma una condizione strutturale ([[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]]).
 - La Legge 132/2025, all'Articolo 24, prevede il potenziamento delle competenze STEM nei curricoli scolastici e richiede l'inserimento di percorsi di alfabetizzazione all'IA per educare a un utilizzo consapevole e all'interpretazione critica degli output algoritmici.
 - L'OECD AI Literacy Framework (2025), sviluppato con la Commissione Europea e TeachAI, fornisce un quadro di competenze per la scuola primaria e secondaria.
 
@@ -35,4 +36,4 @@ Non si tratta solo di insegnare la tecnologia, ma di formare cittadini consapevo
 - [[concept/divario-digitale|Divario digitale]] — la competenza digitale è una delle quattro leve dell'inclusione digitale.
 
 ## Fonti
-[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]], [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]]
+[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]], [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]], [[source/fiorucci-bevilacqua-scoping-review-2024|Fiorucci & Bevilacqua — Il dibattito scientifico sull'IA in educazione: scoping review (2024)]], [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]], [[source/epistemia-2-0-baranzini-2026|Epistemia 2.0: l'illusione di sapere perché una risposta «suona» giusta (2026)]]

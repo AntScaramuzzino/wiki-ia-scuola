@@ -3,7 +3,7 @@ title: "Allucinazione"
 type: concept
 tags: [ai, llm, etica]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Glossario IA a scuola, Guida Pratica IA scuola secondaria, Linee Guida MIM (DM 166/2025)]
 ---
 
@@ -24,4 +24,4 @@ Il fenomeno si verifica quando un modello generativo (come un chatbot o un [[con
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — riconoscere le allucinazioni è parte della dimensione critica.
 
 ## Fonti
-[[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]
+[[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/epistemia-2-0-baranzini-2026|Epistemia 2.0: l'illusione di sapere perché una risposta «suona» giusta (2026)]]

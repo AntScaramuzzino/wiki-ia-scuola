@@ -29,7 +29,7 @@ La scuola è un **[[concept/deployer|Deployer (utilizzatore professionale di IA)
 ## Analisi
 
 ### 1. Il fondamento: la scuola come deployer
-Le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM (DM 166/2025)]] qualificano la scuola come **[[concept/deployer|Deployer (utilizzatore professionale di IA)]]** ai sensi dell'[[source/ai-act-ue|AI Act]]: utilizzatore professionale con piena responsabilità giuridica, tecnica ed etica. Da qui discende tutto il resto. Il quadro è a tre livelli — AI Act UE → [[source/legge-132-2025|Legge 132/2025]] → Linee Guida MIM (vedi [[2026-06-20-quadro-normativo-ia-scuola]]).
+Le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM (DM 166/2025)]] qualificano la scuola come **[[concept/deployer|Deployer (utilizzatore professionale di IA)]]** ai sensi dell'[[source/ai-act-ue|AI Act]]: utilizzatore professionale con piena responsabilità giuridica, tecnica ed etica. Da qui discende tutto il resto. Il quadro è a tre livelli — AI Act UE → [[source/legge-132-2025|Legge 132/2025]] → Linee Guida MIM (vedi [[analyses/2026-06-20-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]]).
 
 ### 2. La catena di governance
 | Passo | Strumento | Organo |

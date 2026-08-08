@@ -3,7 +3,7 @@ title: "LLM (Large Language Model)"
 type: concept
 tags: [ai, llm, machine-learning]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Glossario IA a scuola, Guida Pratica IA scuola secondaria]
 ---
 
@@ -27,4 +27,4 @@ Il modello si basa su schemi statistici per calcolare la parola successiva più 
 Poiché l'LLM calcola la parola statisticamente più probabile e non "comprende" i fatti, può produrre [[concept/allucinazione|Allucinazione]] — output coerenti ma fattualmente errati — che richiedono sempre verifica e [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]].
 
 ## Fonti
-[[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/mollick-guida-era-agentica|Mollick — Quale IA usare nell'era agentica (2026)]]
+[[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/mollick-guida-era-agentica|Mollick — Quale IA usare nell'era agentica (2026)]], [[source/epistemia-2-0-baranzini-2026|Epistemia 2.0: l'illusione di sapere perché una risposta «suona» giusta (2026)]]

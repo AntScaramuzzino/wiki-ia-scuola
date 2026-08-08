@@ -30,4 +30,4 @@ Questa tecnologia impara da enormi quantità di dati esistenti per produrre outp
 L'uso acritico della GenAI per svolgere compiti scolastici può disincentivare lo sforzo personale, portando a una "pigrizia metacognitiva" e alla riduzione del pensiero critico (vedi [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]]). L'IA deve potenziare e umanizzare la didattica, non bypassare il processo di apprendimento.
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/mollick-guida-era-agentica|Mollick — Quale IA usare nell'era agentica (2026)]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/mollick-guida-era-agentica|Mollick — Quale IA usare nell'era agentica (2026)]], [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]]
