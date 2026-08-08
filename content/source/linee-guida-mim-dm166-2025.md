@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["Decreto Ministeriale n. 166 del 9 agosto 2025", "Linee guida per l'introduzione dell'IA nelle Istituzioni scolastiche (Versione 1.0)"]
 ---
 
+**File raw**: `raw/papers/2025-mim-linee-guida-per-l-introduzione-dell-intelligenza-artificiale-.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

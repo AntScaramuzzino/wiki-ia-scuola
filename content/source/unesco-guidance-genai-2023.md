@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["UNESCO, Guidance for generative AI in education and research (2023)"]
 ---
 
+**File raw**: `raw/papers/2023-unesco-guidance-for-generative-al-in-education-and-research-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

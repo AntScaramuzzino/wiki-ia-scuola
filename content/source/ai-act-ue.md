@@ -7,6 +7,7 @@ updated: 2026-08-08
 sources: ["Regolamento (UE) 2024/1689 (AI Act)"]
 ---
 
+**File raw**: `raw/papers/2024-ai-act-pdf.md` · `raw/papers/2024-ai-act-shaping-europe-s-digital-future.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

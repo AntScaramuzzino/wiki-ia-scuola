@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["UNESCO AI Competency Framework for Teachers (2024)"]
 ---
 
+**File raw**: `raw/papers/2024-unesco-ai-competency-framework-for-teachers-cedefop.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

@@ -7,7 +7,7 @@ updated: 2026-06-21
 sources: ["In vigore dal 10 ottobre l'obbligo di informativa per i clienti sull'utilizzo di strumenti di Intelligenza Artificiale (AI) - Ordine avvocati Bergamo"]
 ---
 
-**File raw**: `raw/articles/in-vigore-dal-10-ottobre-l-obbligo-di-informativa-per-i.md`
+**File raw**: `raw/articles/in-vigore-dal-10-ottobre-l-obbligo-di-informativa-per-i-clienti-sull-u.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 > **Nota**: il file raw è quasi vuoto (0 KB) — contiene solo titolo, data (10/10/2025) e menu di navigazione del sito, senza il corpo dell'articolo. Pagina minima per tracciabilità.

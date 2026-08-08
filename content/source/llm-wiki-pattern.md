@@ -69,3 +69,6 @@ Nessuna contraddizione interna. La fonte è programmatica e intenzionalmente ast
 - Qual è il dominio specifico di questo wiki? (da definire con l'utente)
 - Quale soglia di fonti richiede un motore di ricerca (qmd) invece del solo index.md?
 - Come gestire fonti in lingue diverse (italiano/inglese)?
+
+## Fonti correlate
+[[source/mollick-guida-era-agentica|Mollick — Quale IA usare nell'era agentica (2026)]] — panorama degli strumenti IA nell'era agentica (stesso cluster meta)

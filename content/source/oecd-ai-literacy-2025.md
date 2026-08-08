@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["OECD AI Literacy Framework for Primary & Secondary Education (2025)"]
 ---
 
+**File raw**: `raw/papers/2025-oecd-ai-literacy-framework-for-primary-secondary-education-oecd-e.md` · `raw/papers/2025-oecd-ai-literacy-framework-home.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

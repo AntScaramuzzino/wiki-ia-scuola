@@ -3,16 +3,16 @@ title: "Indice del wiki"
 type: index
 updated: 2026-08-08
 total_sources: 4
-total_pages: 120
+total_pages: 121
 ---
 
-Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 120 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 121 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
-## Fonti — 68
+## Fonti — 69
 
 | Pagina | Sommario | Data |
 |--------|----------|------|
@@ -65,6 +65,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/linee-guida-sull-ia-e-scuola-del-futuro-governance-priv|Webinar — Linee guida sull'IA e scuola del futuro: governance, privacy e didattica (Mondadori Education)]] | Trascrizione del terzo anno del progetto «Intelligenza Artificiale a Scuola» di Mondadori Educa… | 2026-06-21 |
 | [[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]] | Il documento descrive un pattern per costruire una base di conoscenza personale persistente usa… | 2026-04-22 |
 | [[source/manifesto-codice-etico-isis-europa|Manifesto e Codice Etico IA Generativa a Scuola (ISIS Europa)]] | Il Manifesto e il Codice Etico dell'IA Generativa a Scuola, a cura dell'ISIS Europa, sono docum… | 2026-06-21 |
+| [[source/mollick-guida-era-agentica|Mollick — Quale IA usare nell'era agentica (2026)]] | Guida orientativa alla scelta degli strumenti di IA in una fase che l'autore descrive come rott… | 2026-08-08 |
 | [[source/new-eu-publication-explainable-ai-in-education-efvet|New EU Publication: Explainable AI in Education (EfVET / European Digital Education Hub)]] | Breve notizia (EfVET, 30 ottobre 2025) che annuncia la pubblicazione ufficiale da parte dell'Un… | 2026-06-21 |
 | [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]] | L'OECD AI Literacy Framework for Primary & Secondary Education (2025) delinea 22 competenze str… | 2026-06-21 |
 | [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]] | Rapporto dell'OCSE che analizza le evidenze empiriche sull'uso dell'IA generativa in educazione… | 2026-08-08 |

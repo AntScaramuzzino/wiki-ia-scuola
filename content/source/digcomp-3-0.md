@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["DigComp 3.0 (2025)"]
 ---
 
+**File raw**: `raw/papers/2025-digcomp-3-0-jrc144121-01-pdf.md` · `raw/papers/2026-digcomp-3-0-quadro-europeo-competenze-digitali-italiano-v1-pdf.md` · `raw/papers/digcomp-3-0-quadro-europeo-competenze-digitali-italiano-v1-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

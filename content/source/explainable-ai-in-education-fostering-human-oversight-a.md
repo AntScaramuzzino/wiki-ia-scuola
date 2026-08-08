@@ -7,7 +7,7 @@ updated: 2026-06-21
 sources: ["Explainable AI in education: fostering human oversight and shared responsibility"]
 ---
 
-**File raw**: `raw/articles/explainable-ai-in-education-fostering-human-oversight-and-respo.md`
+**File raw**: `raw/articles/explainable-ai-in-education-fostering-human-oversight-and-shared-respo.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

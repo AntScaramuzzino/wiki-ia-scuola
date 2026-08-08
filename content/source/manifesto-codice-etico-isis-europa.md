@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["Manifesto dell'Intelligenza Artificiale Generativa a Scuola (ISIS Europa)", "Codice Etico AI Generative a Scuola (ISIS Europa)"]
 ---
 
+**File raw**: `raw/notes/manifesto-dell-intelligenza-artificiale-a-scuola-isis-europa-manifesto.md` · `raw/papers/codice-etico-pdf.md` · `raw/papers/codice-etico-intelligenza-artificiale-generativa-a-scuola-una-pagina-p.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

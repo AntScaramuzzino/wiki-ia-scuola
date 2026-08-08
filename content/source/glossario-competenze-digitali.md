@@ -7,7 +7,7 @@ updated: 2026-06-21
 sources: ["Glossario competenze digitali (DigComp 3.0 / Generative AI Outlook Report 2025)"]
 ---
 
-**File raw**: `raw/notes/glossario-competenze-digitali.csv`
+**File raw**: `raw/notes/glossario-pdf.md`
 
 ## Sommario
 Glossario di riferimento di 126 voci sulle competenze digitali e sull'intelligenza artificiale, allineato al quadro europeo **DigComp 3.0** e attinto in larga parte dal **Generative AI Outlook Report (2025)** del JRC, oltre che da GDPR, AI Act, DigComp 2.2 e altre fonti istituzionali. Copre concetti di IA, sicurezza informatica, protezione dei dati, cittadinanza e inclusione digitale, terminologia tecnica e metodologica.

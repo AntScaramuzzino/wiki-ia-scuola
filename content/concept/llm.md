@@ -27,4 +27,4 @@ Il modello si basa su schemi statistici per calcolare la parola successiva più 
 Poiché l'LLM calcola la parola statisticamente più probabile e non "comprende" i fatti, può produrre [[concept/allucinazione|Allucinazione]] — output coerenti ma fattualmente errati — che richiedono sempre verifica e [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]].
 
 ## Fonti
-[[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]]
+[[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/mollick-guida-era-agentica|Mollick — Quale IA usare nell'era agentica (2026)]]

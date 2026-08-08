@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["Guida Pratica all'Intelligenza Artificiale nella Scuola Secondaria di Primo Grado: Idee e Strategie Applicabili"]
 ---
 
+**File raw**: `raw/papers/guida-pratica-all-ia-nella-scuola-secondaria.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

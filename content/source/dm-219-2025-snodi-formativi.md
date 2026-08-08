@@ -7,6 +7,7 @@ updated: 2026-06-21
 sources: ["Decreto del Ministro dell'istruzione e del merito 11 novembre 2025, n. 219", "Avviso snodi formativi territoriali per la transizione digitale (PNRR)"]
 ---
 
+**File raw**: `raw/notes/candidatura-snodi-formativi-intelligenza-artificiale-dm219-25-docx.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario

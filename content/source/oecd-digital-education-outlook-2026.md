@@ -7,7 +7,7 @@ updated: 2026-08-08
 sources: ["OECD Digital Education Outlook 2026", "OECD/EC — Empowering Learners for the Age of AI", "UNESCO — AI in education"]
 ---
 
-**File raw**: `raw/papers/2026-oecd-digital-education-outlook-ai-literacy.md`
+**File raw**: `raw/papers/062a7394-en.pdf` · `raw/papers/65cd27d4-en.pdf`
 **Origine**: rassegna dell'[[news/2026-08-08|8 agosto 2026]] (sintesi da fonti pubbliche)
 
 ## Sommario
