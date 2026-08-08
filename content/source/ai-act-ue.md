@@ -3,7 +3,7 @@ title: "AI Act — Regolamento (UE) 2024/1689"
 type: source
 tags: [ai, politiche, normativa, ai-società, impatto, educazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["Regolamento (UE) 2024/1689 (AI Act)"]
 ---
 
@@ -42,3 +42,9 @@ Nessuna rilevata. È la fonte sovraordinata recepita da [[source/legge-132-2025]
 
 ## Domande aperte
 - Quali standard tecnici armonizzati definiranno in concreto la conformità dei sistemi educativi ad alto rischio?
+
+## Aggiornamento — Digital Omnibus (agosto 2026)
+
+> **Claim aggiornato.** Con il *Digital Omnibus* (accordo del 7 maggio 2026) gli obblighi del Titolo III per i sistemi ad **alto rischio dell'Allegato III** — inclusi quelli scolastici (ammissioni, valutazione degli apprendimenti, livello di istruzione) — **non decorrono più dal 2 agosto 2026 ma dal 2 dicembre 2027** (2 agosto 2028 per l'IA nei prodotti regolamentati).
+> Dal **2 agosto 2026** sono comunque operativi: autorità di vigilanza, obblighi di **trasparenza** (art. 50), poteri sanzionatori della Commissione, **divieti** (incl. riconoscimento emozioni a scuola) e obbligo di **alfabetizzazione all'IA** (dal 2 febbraio 2025).
+> Fonte: rassegna dell'[[news/2026-08-08|8 agosto 2026]].

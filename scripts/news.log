@@ -1,0 +1,5 @@
+[2026-08-08 08:53:26] === avvio aggiornamento news 2026-08-09 ===
+[2026-08-08 08:53:28] chiamo Claude per generare l'edizione...
+Failed to authenticate. API Error: 401 OAuth access token has been revoked.
+[2026-08-08 08:53:31] Claude terminato (rc=1)
+[2026-08-08 08:53:31] nessuna edizione creata (nessuna novità o errore) — nessun commit

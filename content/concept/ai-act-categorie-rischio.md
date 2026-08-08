@@ -3,7 +3,7 @@ title: "AI Act — categorie di rischio"
 type: concept
 tags: [ai, politiche, normativa, etica]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["AI Act (Reg. UE 2024/1689)", "Valutazione d'impatto IA - AgID", "Linee Guida MIM DM 166/2025"]
 ---
 
@@ -31,6 +31,12 @@ L'[[source/ai-act-ue|AI Act]] adotta un **approccio basato sul rischio** (*risk-
 
 ## Contraddizioni e dibattiti
 Alcune fonti rilevano che gli obblighi per i sistemi ad alto rischio (specie la FRIA) sono di difficile attuazione pratica per le scuole. Vedi [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi]].
+
+## Aggiornamento — Digital Omnibus (agosto 2026)
+
+> **Claim aggiornato.** Con il *Digital Omnibus* (accordo del 7 maggio 2026) gli obblighi del Titolo III per i sistemi ad **alto rischio dell'Allegato III** — inclusi quelli scolastici (ammissioni, valutazione degli apprendimenti, livello di istruzione) — **non decorrono più dal 2 agosto 2026 ma dal 2 dicembre 2027** (2 agosto 2028 per l'IA nei prodotti regolamentati).
+> Dal **2 agosto 2026** sono comunque operativi: autorità di vigilanza, obblighi di **trasparenza** (art. 50), poteri sanzionatori della Commissione, **divieti** (incl. riconoscimento emozioni a scuola) e obbligo di **alfabetizzazione all'IA** (dal 2 febbraio 2025).
+> Fonte: rassegna dell'[[news/2026-08-08|8 agosto 2026]].
 
 ## Fonti
 [[source/ai-act-ue]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi]], [[source/linee-guida-mim-dm166-2025]]
