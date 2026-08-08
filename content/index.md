@@ -3,10 +3,10 @@ title: "Indice del wiki"
 type: index
 updated: 2026-08-08
 total_sources: 4
-total_pages: 121
+total_pages: 122
 ---
 
-Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 121 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 122 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
@@ -145,10 +145,11 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] | Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e onestà intellett… |
 | [[concept/wiki-persistente|Wiki Persistente]] | Un wiki persistente è una raccolta strutturata di file markdown interlinkati che un LLM costrui… |
 
-## Analisi — 3
+## Analisi — 4
 
 | Pagina | Domanda | Data |
 |--------|---------|------|
 | [[analyses/2026-06-21-adempimenti-ia-dirigente-scolastico|Adempimenti IA per il Dirigente Scolastico: dalla governance alla conformità]] | Cosa deve fare concretamente un Dirigente Scolastico per introdurre l'IA nell'istituto in modo … | 2026-06-21 |
 | [[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] | Come si confrontano i principali framework di competenze sull'IA rilevanti per la scuola? | 2026-06-21 |
 | [[analyses/2026-06-21-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]] | Qual è il quadro normativo che regola l'IA nella scuola italiana e come si articolano i diversi… | 2026-06-21 |
+| [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] | Se l'IA generativa può produrre il compito al posto dello studente, e non esiste un modo affida… | 2026-08-08 |

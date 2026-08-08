@@ -30,6 +30,7 @@ Il modello si fonda su tre meccanismi principali:
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — la scuola aumentata richiede competenze di AI literacy in docenti e studenti.
 - [[concept/allucinazione|Allucinazione]] — la validazione dell'accuratezza degli output spetta sempre al docente.
 
+- [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] — implicazioni sulla valutazione
 ## Contraddizioni e dibattiti
 Il potenziamento della didattica convive con il rischio di **dipendenza cognitiva**: l'uso acritico dell'IA può disincentivare lo sforzo personale e ridurre pensiero critico e problem solving autonomo. L'IA deve "potenziare e umanizzare la didattica", non bypassare il processo di apprendimento.
 

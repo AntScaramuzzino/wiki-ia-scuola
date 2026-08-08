@@ -3,7 +3,7 @@ title: "Prompt"
 type: concept
 tags: [ai, llm, ai-formazione, privacy]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Glossario IA a scuola, Guida Pratica IA scuola secondaria, Linee Guida MIM (DM 166/2025)]
 ---
 
@@ -30,6 +30,7 @@ Una strategia efficace consiste nel partire con istruzioni semplici e ottimizzar
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — saper formulare prompt è una competenza operativa.
 - [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — il prompt è un punto critico per la tutela dei dati.
 
+- [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] — il prompt come oggetto di valutazione
 ## Contraddizioni e dibattiti
 Vige il divieto assoluto (o la forte raccomandazione a evitarlo) di inserire dati personali, sensibili o identificativi — come nomi di studenti, PDP o PEI — all'interno dei prompt di sistemi pubblici, per evitare gravi violazioni della privacy e applicare il principio di minimizzazione dei dati (vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]]).
 

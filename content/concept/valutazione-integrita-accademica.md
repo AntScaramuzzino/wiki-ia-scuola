@@ -29,6 +29,7 @@ Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e o
 - [[concept/prompt|Prompt]] — la qualità dei prompt diventa oggetto di valutazione.
 - [[concept/scuola-aumentata|Scuola aumentata]] — il nuovo ruolo del docente ridefinisce le pratiche valutative.
 
+- [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] — analisi operativa: come spostare la valutazione dal prodotto al processo
 ## Contraddizioni e dibattiti
 Il dibattito centrale oppone il **divieto** dell'IA alla sua **integrazione critica**: le fonti propendono per la seconda via, spostando la valutazione sul processo. Resta irrisolta l'assenza di strumenti tecnici affidabili per accertare l'uso dell'IA (inefficacia degli AI detector), che rende la trasparenza dichiarata dallo studente il principale presidio dell'integrità.
 
