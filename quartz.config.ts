@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "it-IT",
     baseUrl: "wiki-ia-scuola.vercel.app",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "social"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
