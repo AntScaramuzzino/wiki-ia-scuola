@@ -12,7 +12,7 @@ Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
-## Fonti (wiki/sources/) — 65
+## Fonti — 65
 
 | Pagina | Sommario | Data |
 |--------|----------|------|
@@ -82,7 +82,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/uso-pervasivo-dell-intelligenza-artificiale-ia-e-import]] | Contributo divulgativo dell'Equipe Formazione Digitale di OPPI (Mario Gabbari, Daniela Sacchi, … | 2026-06-21 |
 | [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi]] | Bozza in consultazione pubblica (versione 1.0 del 14.02.2025) della matrice AgID per la Valutaz… | 2026-06-21 |
 
-## Entità (wiki/entities/) — 14
+## Entità — 14
 
 | Pagina | Descrizione |
 |--------|-------------|
@@ -101,7 +101,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[entity/unesco]] | L'UNESCO (Organizzazione delle Nazioni Unite per l'Educazione, la Scienza e la Cultura) è l'age… |
 | [[entity/vannevar-bush]] | Ingegnere e scienziato americano (1890–1974). Direttore dell'OSRD durante la Seconda Guerra Mon… |
 
-## Concetti (wiki/concepts/) — 35
+## Concetti — 35
 
 | Pagina | Definizione breve |
 |--------|-------------------|
@@ -141,7 +141,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/valutazione-integrita-accademica]] | Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e onestà intellett… |
 | [[concept/wiki-persistente]] | Un wiki persistente è una raccolta strutturata di file markdown interlinkati che un LLM costrui… |
 
-## Analisi (wiki/analyses/) — 3
+## Analisi — 3
 
 | Pagina | Domanda | Data |
 |--------|---------|------|
