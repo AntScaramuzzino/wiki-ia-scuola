@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# Memex
-
 ## Definizione
 
 Dispositivo ipotetico immaginato da Vannevar Bush nel saggio "As We May Think" (1945). Un archivio personale di libri, record e comunicazioni meccanizzato, con la capacità di creare "tracce associative" tra documenti — l'antesignano dei link ipertestuali e dei personal knowledge managers.
@@ -27,9 +25,9 @@ La visione di Bush: una scrivania con superfici traslucide per visualizzare docu
 
 ## Relazioni con altri concetti
 
-- [[concept/wiki-persistente]] — il Memex è il precursore concettuale
-- [[entity/vannevar-bush]] — l'autore
+- [[concept/wiki-persistente|Wiki Persistente]] — il Memex è il precursore concettuale
+- [[entity/vannevar-bush|Vannevar Bush]] — l'autore
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["IA@School linee guida sull’Intelligenza Artificiale nella scuola.pdf"]
 ---
 
-# IA@School: linee guida sull'Intelligenza Artificiale nella scuola (webinar)
-
 **File raw**: `raw/papers/ia-school-linee-guida-sull-intelligenza-artificiale-nella-scuola-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -25,12 +23,12 @@ Materiale di copertina del ciclo di webinar online "IA@School: linee guida sull'
 Nessuna entità con pagina esistente nel wiki è citata nel materiale.
 
 ## Concetti trattati
-[[concept/alfabetizzazione-ia]] — finalità formativa implicita del webinar
-[[concept/ia-generativa]] — tema del secondo incontro
-[[concept/governance-scolastica-ia]] — progettazione dell'uso dell'IA a scuola tra normativa e didattica
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — finalità formativa implicita del webinar
+[[concept/ia-generativa|IA Generativa]] — tema del secondo incontro
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — progettazione dell'uso dell'IA a scuola tra normativa e didattica
 
 ## Contraddizioni o tensioni
-Nessuna rilevata. Fonte priva di contenuto sostanziale (sole slide-titolo di un webinar); segnalata come file quasi vuoto. Tematicamente allineata alle linee guida MIM ([[source/linee-guida-mim-dm166-2025]]).
+Nessuna rilevata. Fonte priva di contenuto sostanziale (sole slide-titolo di un webinar); segnalata come file quasi vuoto. Tematicamente allineata alle linee guida MIM ([[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]).
 
 ## Domande aperte
 - Recuperare le registrazioni o i materiali completi del webinar per estrarne i contenuti effettivi.

@@ -7,8 +7,6 @@ updated: 2026-08-08
 sources: ["AI Act (Reg. UE 2024/1689)", "Valutazione d'impatto IA - AgID", "Linee Guida MIM DM 166/2025"]
 ---
 
-# AI Act — categorie di rischio
-
 ## Definizione
 L'[[source/ai-act-ue|AI Act]] adotta un **approccio basato sul rischio** (*risk-based approach*) che classifica i sistemi di IA in quattro categorie, a cui corrispondono obblighi proporzionati.
 
@@ -19,18 +17,18 @@ L'[[source/ai-act-ue|AI Act]] adotta un **approccio basato sul rischio** (*risk-
 - **Rischio minimo o nullo** — es. filtri anti-spam; nessuna regolamentazione specifica.
 
 ## Applicazioni o esempi
-- A scuola, i software che **valutano gli studenti** ricadono nell'alto rischio → richiedono [[concept/dpia-fria]] e [[concept/supervisione-umana]] tassativa (vedi [[concept/valutazione-integrita-accademica]]).
-- La matrice AgID di valutazione d'impatto opera la stessa classificazione per la PA (vedi [[concept/ia-pubblica-amministrazione]]).
+- A scuola, i software che **valutano gli studenti** ricadono nell'alto rischio → richiedono [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] e [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] tassativa (vedi [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]]).
+- La matrice AgID di valutazione d'impatto opera la stessa classificazione per la PA (vedi [[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]]).
 
 ## Relazioni con altri concetti
-- [[concept/governance-scolastica-ia]] — la categoria di rischio determina gli adempimenti
-- [[concept/dpia-fria]] — l'alto rischio attiva la FRIA
-- [[concept/fria]] — la valutazione d'impatto sui diritti fondamentali in dettaglio
-- [[concept/deployer]] — chi usa il sistema ne valuta il rischio
-- [[concept/bias-algoritmico]] — motivazione della classificazione ad alto rischio dell'istruzione
+- [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — la categoria di rischio determina gli adempimenti
+- [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — l'alto rischio attiva la FRIA
+- [[concept/fria|FRIA — Valutazione d'Impatto sui Diritti Fondamentali]] — la valutazione d'impatto sui diritti fondamentali in dettaglio
+- [[concept/deployer|Deployer (utilizzatore professionale di IA)]] — chi usa il sistema ne valuta il rischio
+- [[concept/bias-algoritmico|Bias Algoritmico]] — motivazione della classificazione ad alto rischio dell'istruzione
 
 ## Contraddizioni e dibattiti
-Alcune fonti rilevano che gli obblighi per i sistemi ad alto rischio (specie la FRIA) sono di difficile attuazione pratica per le scuole. Vedi [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi]].
+Alcune fonti rilevano che gli obblighi per i sistemi ad alto rischio (specie la FRIA) sono di difficile attuazione pratica per le scuole. Vedi [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi|Linee Guida IA a Scuola: Aspetti Normativi e Operativi (webinar)]].
 
 ## Aggiornamento — Digital Omnibus (agosto 2026)
 
@@ -39,4 +37,4 @@ Alcune fonti rilevano che gli obblighi per i sistemi ad alto rischio (specie la 
 > Fonte: rassegna dell'[[news/2026-08-08|8 agosto 2026]].
 
 ## Fonti
-[[source/ai-act-ue]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi]], [[source/linee-guida-mim-dm166-2025]]
+[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]

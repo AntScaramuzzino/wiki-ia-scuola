@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["DM 219/2025, Avviso snodi formativi IA (PNRR)", "DigComp 3.0, Quadro europeo competenze digitali (2025)"]
 ---
 
-# Piattaforma Scuola Futura
-
 ## Descrizione
 Scuola Futura è la piattaforma digitale e gestionale del Ministero dell'Istruzione e del Merito dedicata alla formazione del personale scolastico nell'ambito del PNRR. Ospita il catalogo dei percorsi formativi gestiti dai Poli Formativi e dalle Equipe Formative Territoriali (EFT).
 
@@ -24,15 +22,15 @@ Esempi di percorsi ospitati:
 La formazione erogata tramite la piattaforma deve essere allineata ai quadri europei DigComp 3.0 e, per i docenti, DigCompEdu.
 
 ## Connessioni
-- [[source/dm-219-2025-snodi-formativi]] — istituisce l'obbligo d'uso della piattaforma
-- [[concept/snodi-formativi-pnrr]] — Scuola Futura è l'infrastruttura gestionale degli snodi
-- [[concept/alfabetizzazione-ia]] — finalità formativa dei percorsi ospitati
-- [[concept/scuola-aumentata]] — formazione del docente come "co-progettista"
-- [[entity/mim]] — titolare della piattaforma e dell'avviso DM 219/2025
-- [[entity/commissione-europea]] — i percorsi sono allineati a DigComp 3.0 / DigCompEdu
+- [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]] — istituisce l'obbligo d'uso della piattaforma
+- [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — Scuola Futura è l'infrastruttura gestionale degli snodi
+- [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — finalità formativa dei percorsi ospitati
+- [[concept/scuola-aumentata|Scuola aumentata]] — formazione del docente come "co-progettista"
+- [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — titolare della piattaforma e dell'avviso DM 219/2025
+- [[entity/commissione-europea|Commissione Europea (e JRC)]] — i percorsi sono allineati a DigComp 3.0 / DigCompEdu
 
 ## Fonti
-[[source/dm-219-2025-snodi-formativi]]
+[[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]]
 
 ## Note e aggiornamenti
 - 2026-06-21: pagina creata. L'uso della piattaforma è condizione di ammissibilità al finanziamento; data di fine progetto fissata al 31/12/2026.

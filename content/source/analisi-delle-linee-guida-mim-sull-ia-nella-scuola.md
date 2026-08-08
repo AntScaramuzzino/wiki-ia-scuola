@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Analisi delle Linee Guida MIM sull'IA nella scuola"]
 ---
 
-# Analisi critica delle Linee Guida MIM sull'IA nella scuola (Gianfranco Bordoni — prospettiva USR Lombardia)
-
 **File raw**: `raw/papers/analisi-delle-linee-guida-mim-sull-ia-nella-scuola.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,17 +19,17 @@ Analisi critico-propositiva (Gianfranco Bordoni) delle Linee Guida MIM del 9 ago
 - **Implementazioni ulteriori**: collegamento sistematico con il PNRR (DM 65, DM 66, DM 184); roadmap differenziata per ordini di scuola (infanzia/primaria, secondaria I e II grado); coinvolgimento delle famiglie; strumenti pratici (repository di lesson plan, template di rubriche, checklist); governance multilivello (nazionale, regionale, d'istituto); etica dell'IA nei curricoli di Educazione Civica (L. 92/2019); KPI dettagliati (es. % docenti formati DigCompEdu B2, riduzione dispersione).
 
 ## Entità menzionate
-[[entity/mim]] — autore delle Linee Guida oggetto dell'analisi
-[[entity/agid]] — certificazioni richiamate nelle linee guida
-[[entity/garante-privacy]] — collaborazione proposta per la gestione di consenso e dati
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle Linee Guida oggetto dell'analisi
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — certificazioni richiamate nelle linee guida
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — collaborazione proposta per la gestione di consenso e dati
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — critica alla governance verticale, proposta multilivello
-[[concept/alfabetizzazione-ia]] — alfabetizzazione IA per famiglie e comunità educante
-[[concept/snodi-formativi-pnrr]] — collegamento con investimenti PNRR
-[[concept/privacy-protezione-dati]] — gestione dell'opt-out e tutela dei dati
-[[concept/didattica-inclusiva-ia]] — IA per inclusione, riduzione dispersione
-[[concept/valutazione-integrita-accademica]] — rubriche e checklist per l'uso consapevole
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — critica alla governance verticale, proposta multilivello
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — alfabetizzazione IA per famiglie e comunità educante
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — collegamento con investimenti PNRR
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — gestione dell'opt-out e tutela dei dati
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — IA per inclusione, riduzione dispersione
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — rubriche e checklist per l'uso consapevole
 
 ## Citazioni rilevanti
 > "Le linee guida enunciano principi generali (equità, trasparenza, sostenibilità) ma mancano di esempi pratici di applicazione nelle discipline"
@@ -39,7 +37,7 @@ Analisi critico-propositiva (Gianfranco Bordoni) delle Linee Guida MIM del 9 ago
 > obiettivo: trasformare le linee guida ministeriali "in un laboratorio concreto di innovazione responsabile" perché l'IA "non sarà un ennesimo adempimento burocratico"
 
 ## Contraddizioni o tensioni
-Non contraddice [[source/linee-guida-mim-dm166-2025]] sul piano dei principi, ma ne fornisce una **critica applicativa** sostanziale e originale: segnala lacune (mancanza di KPI, di modello formativo, di criteri di scelta dei fornitori, eccessiva centralità del DS) che integrano e mettono in tensione costruttiva la fonte canonica. Converge con [[source/l-intelligenza-artificiale-nel-sistema-istruzione-itali]] sul rischio di "poca applicazione pratica". La critica alla centralità del DS è in tensione con la scelta esplicita delle Linee Guida di attribuire al DS la responsabilità primaria di governance.
+Non contraddice [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] sul piano dei principi, ma ne fornisce una **critica applicativa** sostanziale e originale: segnala lacune (mancanza di KPI, di modello formativo, di criteri di scelta dei fornitori, eccessiva centralità del DS) che integrano e mettono in tensione costruttiva la fonte canonica. Converge con [[source/l-intelligenza-artificiale-nel-sistema-istruzione-itali|REPORT — L'IA nel Sistema Istruzione Italiano: analisi delle Linee Guida MIM (DM 166/2025), quadro UE e PNRR]] sul rischio di "poca applicazione pratica". La critica alla centralità del DS è in tensione con la scelta esplicita delle Linee Guida di attribuire al DS la responsabilità primaria di governance.
 
 ## Domande aperte
 - Quale modello di formazione strutturata (livelli, ore, standard DigCompEdu) potrebbe essere adottato a livello nazionale?

@@ -5,8 +5,6 @@ updated: 2026-06-21
 sources: [llm-wiki-pattern, linee-guida-mim-dm166-2025, ai-act-ue, legge-132-2025]
 ---
 
-# Overview
-
 > Sintesi evolutiva dell'intero wiki. Aggiornata dopo ogni ingest significativo per riflettere la comprensione attuale del dominio.
 
 ---
@@ -15,27 +13,27 @@ sources: [llm-wiki-pattern, linee-guida-mim-dm166-2025, ai-act-ue, legge-132-202
 
 Il wiki copre due cluster:
 
-1. **Meta — second brain**: il pattern di wiki persistente costruito da LLM (vedi [[source/llm-wiki-pattern]]).
-2. **IA nella scuola**: il cluster principale. Le 70 fonti del notebook NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola» sono state scaricate in full-text in `raw/` e ingestate (oltre 60 pagine `source`). Copre i quattro assi — didattica, policy, strumenti, etica — con sguardo italiano e internazionale, e include un sotto-filone su **IA nella Pubblica Amministrazione** ([[concept/ia-pubblica-amministrazione]]).
+1. **Meta — second brain**: il pattern di wiki persistente costruito da LLM (vedi [[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]).
+2. **IA nella scuola**: il cluster principale. Le 70 fonti del notebook NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola» sono state scaricate in full-text in `raw/` e ingestate (oltre 60 pagine `source`). Copre i quattro assi — didattica, policy, strumenti, etica — con sguardo italiano e internazionale, e include un sotto-filone su **IA nella Pubblica Amministrazione** ([[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]]).
 
 ---
 
 ## Tesi principale (IA nella scuola)
 
-L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proceduralizzata**: non è vietata né lasciata all'iniziativa individuale, ma incanalata in una governance rigorosa che antepone la **centralità della persona** (approccio antropocentrico) e la **supervisione umana** all'automazione. Le [[source/linee-guida-mim-dm166-2025]] anticipano gli obblighi dell'[[source/ai-act-ue]] (pienamente applicabile dal 2 agosto 2026) e della [[source/legge-132-2025]], trasformando ogni scuola in un **"deployer"** giuridicamente responsabile.
+L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proceduralizzata**: non è vietata né lasciata all'iniziativa individuale, ma incanalata in una governance rigorosa che antepone la **centralità della persona** (approccio antropocentrico) e la **supervisione umana** all'automazione. Le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] anticipano gli obblighi dell'[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] (pienamente applicabile dal 2 agosto 2026) e della [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], trasformando ogni scuola in un **"deployer"** giuridicamente responsabile.
 
 ---
 
 ## Temi emergenti
 
-- **Quadro normativo a tre livelli**: AI Act UE → Legge 132/2025 → Linee Guida MIM. L'istruzione è settore **ad alto rischio** ([[concept/ai-act-categorie-rischio]], Allegato III AI Act). Vedi [[analyses/2026-06-21-quadro-normativo-ia-scuola]].
-- **Scuola come [[concept/deployer]]**: responsabilità giuridica che attiva [[concept/dpia-fria]] e [[concept/explainable-ai]].
-- **IA nella PA**: [[concept/ia-pubblica-amministrazione]] — quadro AgID (linee guida, strategia, valutazione d'impatto), [[entity/agid]] e [[entity/acn]] autorità nazionali.
-- **Governance d'istituto**: [[concept/governance-scolastica-ia]] — atto di indirizzo, Piano d'Istituto per l'IA (PIA) nel PTOF, Referente IA (RIA), DPO, cronoprogramma a.s. 2025/2026.
-- **Didattica trasformata**: [[concept/scuola-aumentata]] (docente co-pilota, personalizzazione) e [[concept/didattica-inclusiva-ia]] (UDL, BES/DSA).
-- **Competenze e alfabetizzazione**: [[concept/alfabetizzazione-ia]] e il confronto tra framework UNESCO, OECD e DigComp ([[analyses/2026-06-21-confronto-framework-competenze-ia]]).
-- **Etica e rischi**: [[concept/privacy-protezione-dati]], [[concept/bias-algoritmico]], [[concept/supervisione-umana]], [[concept/valutazione-integrita-accademica]].
-- **Formazione e finanziamenti**: [[concept/snodi-formativi-pnrr]] (DM 219/2025, PNRR, 100 mln €, [[entity/scuola-futura]]).
+- **Quadro normativo a tre livelli**: AI Act UE → Legge 132/2025 → Linee Guida MIM. L'istruzione è settore **ad alto rischio** ([[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]], Allegato III AI Act). Vedi [[analyses/2026-06-21-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]].
+- **Scuola come [[concept/deployer|Deployer (utilizzatore professionale di IA)]]**: responsabilità giuridica che attiva [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] e [[concept/explainable-ai|Explainable AI (IA spiegabile)]].
+- **IA nella PA**: [[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]] — quadro AgID (linee guida, strategia, valutazione d'impatto), [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] e [[entity/acn|ACN — Agenzia per la Cybersicurezza Nazionale]] autorità nazionali.
+- **Governance d'istituto**: [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — atto di indirizzo, Piano d'Istituto per l'IA (PIA) nel PTOF, Referente IA (RIA), DPO, cronoprogramma a.s. 2025/2026.
+- **Didattica trasformata**: [[concept/scuola-aumentata|Scuola aumentata]] (docente co-pilota, personalizzazione) e [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] (UDL, BES/DSA).
+- **Competenze e alfabetizzazione**: [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] e il confronto tra framework UNESCO, OECD e DigComp ([[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]]).
+- **Etica e rischi**: [[concept/privacy-protezione-dati|Privacy e protezione dei dati]], [[concept/bias-algoritmico|Bias Algoritmico]], [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]], [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]].
+- **Formazione e finanziamenti**: [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] (DM 219/2025, PNRR, 100 mln €, [[entity/scuola-futura|Piattaforma Scuola Futura]]).
 
 ---
 

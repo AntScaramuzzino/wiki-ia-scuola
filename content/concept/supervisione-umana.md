@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: [Linee Guida MIM (DM 166/2025), Regolamento UE 2024/1689 (AI Act), Legge 132/2025]
 ---
 
-# Supervisione umana (human-in-the-loop)
-
 ## Definizione
 Principio cardine secondo cui l'essere umano deve mantenere un ruolo centrale e insostituibile nel governo dei sistemi di IA. Si fonda sull'**approccio antropocentrico** (l'IA è uno strumento al servizio dello sviluppo umano) e sul principio di **non delegabilità**: nessuna decisione significativa può essere demandata esclusivamente all'algoritmo.
 
@@ -24,15 +22,15 @@ Principio cardine secondo cui l'essere umano deve mantenere un ruolo centrale e 
 - Informativa agli utenti sull'interazione con un sistema di IA.
 
 ## Relazioni con altri concetti
-- [[concept/valutazione-integrita-accademica]] — la supervisione è tassativa sui sistemi di valutazione ad alto rischio.
-- [[concept/governance-scolastica-ia]] — la supervisione si traduce in figure e procedure di governance d'istituto.
-- [[concept/privacy-protezione-dati]] — trasparenza e antropocentrismo sono principi condivisi.
-- [[concept/allucinazione]] — la spiegabilità include la comprensione di risposte plausibili ma errate.
-- [[concept/explainable-ai]] — la spiegabilità tecnica è precondizione dell'oversight umano consapevole.
-- [[concept/scuola-aumentata]] — il potenziamento della didattica resta subordinato al controllo umano.
+- [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — la supervisione è tassativa sui sistemi di valutazione ad alto rischio.
+- [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — la supervisione si traduce in figure e procedure di governance d'istituto.
+- [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — trasparenza e antropocentrismo sono principi condivisi.
+- [[concept/allucinazione|Allucinazione]] — la spiegabilità include la comprensione di risposte plausibili ma errate.
+- [[concept/explainable-ai|Explainable AI (IA spiegabile)]] — la spiegabilità tecnica è precondizione dell'oversight umano consapevole.
+- [[concept/scuola-aumentata|Scuola aumentata]] — il potenziamento della didattica resta subordinato al controllo umano.
 
 ## Contraddizioni e dibattiti
 Il principio di spiegabilità si scontra con l'opacità tecnica dei modelli ("scatole nere"): garantire decisioni comprensibili è un obiettivo normativo non sempre pienamente realizzabile sul piano tecnologico.
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025]], [[source/ai-act-ue]], [[source/legge-132-2025]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]]

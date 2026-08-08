@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["IA e Personale Amministrativo Scolastico: Applicazioni e Ruolo"]
 ---
 
-# IA e Personale Amministrativo Scolastico: Applicazioni e Ruolo
-
 **File raw**: `raw/articles/ia-e-personale-amministrativo-scolastico-applicazioni-e-ruolo.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -23,16 +21,16 @@ Scheda di sintesi (file breve, ~4KB) che estrae dalle Linee guida MIM il ruolo e
 - Formazione: previsti percorsi e moduli obbligatori anche per il personale amministrativo, in un modello strutturato basato sul DigCompEdu (a livello regionale).
 
 ## Entità menzionate
-[[entity/mim]] — autore delle linee guida da cui è tratta la scheda
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle linee guida da cui è tratta la scheda
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — ruolo di DSGA/ATA e Piattaforma Unica
-[[concept/scuola-aumentata]] — IA a sostegno dell'organizzazione scolastica
-[[concept/privacy-protezione-dati]] — divieto di inserire dati personali nella sezione Progetti IA
-[[concept/alfabetizzazione-ia]] — formazione del personale amministrativo (riferimento DigCompEdu)
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — ruolo di DSGA/ATA e Piattaforma Unica
+[[concept/scuola-aumentata|Scuola aumentata]] — IA a sostegno dell'organizzazione scolastica
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — divieto di inserire dati personali nella sezione Progetti IA
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — formazione del personale amministrativo (riferimento DigCompEdu)
 
 ## Contraddizioni o tensioni
-Conferma/approfondimento di [[source/linee-guida-mim-dm166-2025]]; nessun fatto nuovo rispetto alla fonte canonica, di cui isola e dettaglia la parte relativa al personale amministrativo (DSGA/ATA). Si collega a [[source/glossario-competenze-digitali]] e al framework DigCompEdu citato anche in [[source/digcomp-3-0]].
+Conferma/approfondimento di [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; nessun fatto nuovo rispetto alla fonte canonica, di cui isola e dettaglia la parte relativa al personale amministrativo (DSGA/ATA). Si collega a [[source/glossario-competenze-digitali|Glossario delle competenze digitali e dell'IA]] e al framework DigCompEdu citato anche in [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]].
 
 ## Domande aperte
 - Quali moduli formativi specifici per DSGA/ATA verranno definiti a livello regionale sul modello DigCompEdu?

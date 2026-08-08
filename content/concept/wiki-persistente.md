@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# Wiki Persistente
-
 ## Definizione
 
 Un wiki persistente è una raccolta strutturata di file markdown interlinkati che un LLM costruisce e mantiene nel tempo. Si distingue da un sistema RAG classico perché la conoscenza viene sintetizzata una volta (al momento dell'ingest) e poi mantenuta aggiornata — non ri-derivata ad ogni query.
@@ -31,10 +29,10 @@ Un wiki persistente è una raccolta strutturata di file markdown interlinkati ch
 
 ## Relazioni con altri concetti
 
-- [[concept/rag]] — il paradigma alternativo: recupero al momento della query invece di sintesi persistente
-- [[concept/memex]] — precursore concettuale di Bush (1945)
-- [[concept/ingest]] — l'operazione che alimenta il wiki
-- [[concept/lint-wiki]] — l'operazione che mantiene sano il wiki
+- [[concept/rag|RAG — Retrieval-Augmented Generation]] — il paradigma alternativo: recupero al momento della query invece di sintesi persistente
+- [[concept/memex|Memex]] — precursore concettuale di Bush (1945)
+- [[concept/ingest|Ingest]] — l'operazione che alimenta il wiki
+- [[concept/lint-wiki|Lint Wiki]] — l'operazione che mantiene sano il wiki
 
 ## Contraddizioni e dibattiti
 
@@ -42,4 +40,4 @@ Nessuna nella letteratura ingested finora. La fonte principale riconosce che que
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]

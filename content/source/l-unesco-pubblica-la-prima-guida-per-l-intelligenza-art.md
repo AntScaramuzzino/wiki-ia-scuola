@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["L'UNESCO pubblica la prima Guida per l'Intelligenza Artificiale ..."]
 ---
 
-# L'UNESCO pubblica la prima Guida per l'IA generativa nell'educazione (CNIU)
-
 **File raw**: `raw/papers/l-unesco-pubblica-la-prima-guida-per-l-intelligenza-artificiale.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -20,15 +18,15 @@ Breve notizia della Commissione Nazionale Italiana per l'UNESCO (12 ottobre 2023
 - Indica un approccio basato sulla validazione etica e su processi di progettazione pedagogica per un uso appropriato in educazione e ricerca.
 
 ## Entità menzionate
-[[entity/unesco]] — autore della Guida
+[[entity/unesco|UNESCO]] — autore della Guida
 
 ## Concetti trattati
-[[concept/ia-generativa]] — oggetto specifico della Guida
-[[concept/privacy-protezione-dati]] — protezione dati e limite d'età
-[[concept/alfabetizzazione-ia]] — uso consapevole in educazione e ricerca
+[[concept/ia-generativa|IA Generativa]] — oggetto specifico della Guida
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — protezione dati e limite d'età
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — uso consapevole in educazione e ricerca
 
 ## Contraddizioni o tensioni
-Annuncio/commento di [[source/unesco-guidance-genai-2023]] (fonte canonica corrispondente alla Guida UNESCO 2023); nessun fatto nuovo rispetto alla fonte canonica.
+Annuncio/commento di [[source/unesco-guidance-genai-2023|UNESCO — Guidance for generative AI in education and research (2023)]] (fonte canonica corrispondente alla Guida UNESCO 2023); nessun fatto nuovo rispetto alla fonte canonica.
 
 ## Domande aperte
 - Nessuna ulteriore rispetto alla fonte canonica.

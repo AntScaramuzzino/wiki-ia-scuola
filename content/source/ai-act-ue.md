@@ -7,8 +7,6 @@ updated: 2026-08-08
 sources: ["Regolamento (UE) 2024/1689 (AI Act)"]
 ---
 
-# AI Act — Regolamento (UE) 2024/1689
-
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario
@@ -25,20 +23,20 @@ Il Regolamento (UE) 2024/1689, noto come AI Act, è il primo quadro giuridico gl
 - **Art. 3, punto 4**: definizione di **deployer**, su cui le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM]] fondano la qualifica giuridica della scuola.
 
 ## Entità menzionate
-[[entity/commissione-europea]] — quadro regolatorio europeo dell'IA
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — quadro regolatorio europeo dell'IA
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — qualifica di deployer, sistemi ad alto rischio
-[[concept/privacy-protezione-dati]] — DPIA e FRIA (art. 27)
-[[concept/supervisione-umana]] — obbligo di operatore umano sui sistemi ad alto rischio
-[[concept/bias-algoritmico]] — rischio di discriminazione storica
-[[concept/intelligenza-artificiale]] — definizione e classificazione dei sistemi
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — qualifica di deployer, sistemi ad alto rischio
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPIA e FRIA (art. 27)
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — obbligo di operatore umano sui sistemi ad alto rischio
+[[concept/bias-algoritmico|Bias Algoritmico]] — rischio di discriminazione storica
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — definizione e classificazione dei sistemi
 
 ## Citazioni rilevanti
 > Questi sistemi possono determinare l'accesso all'istruzione e, di conseguenza, incidere profondamente sul percorso professionale e sulla capacità di una persona di garantirsi il sostentamento. (sintesi del Considerando 56)
 
 ## Contraddizioni o tensioni
-Nessuna rilevata. È la fonte sovraordinata recepita da [[source/legge-132-2025]] e [[source/linee-guida-mim-dm166-2025]].
+Nessuna rilevata. È la fonte sovraordinata recepita da [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] e [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]].
 
 ## Domande aperte
 - Quali standard tecnici armonizzati definiranno in concreto la conformità dei sistemi educativi ad alto rischio?

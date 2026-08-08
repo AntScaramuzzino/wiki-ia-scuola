@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["2024 | Agid, Bozza di linee guida per l'adozione di IA nella pubblica amministrazione - Agid"]
 ---
 
-# AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)
-
 **File raw**: `raw/papers/2024-agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pubblica-amm.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -29,16 +27,16 @@ Testo integrale (v1.0 del 14.02.2025, in consultazione pubblica) delle linee gui
 - Gruppo di lavoro ampio: AgID, ACN, ANAC, ANCI, Consip, Funzione Pubblica, Dip. Trasformazione Digitale, INAIL, INPS, ISTAT, IPZS, MEF, MIMIT, PagoPA.
 
 ## Entità menzionate
-[[entity/agid]] — autore del documento
-[[entity/commissione-europea]] — AI Act, Dichiarazione diritti digitali, Linee guida sulle pratiche vietate
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autore del documento
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act, Dichiarazione diritti digitali, Linee guida sulle pratiche vietate
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — definizione e ciclo di vita
-[[concept/machine-learning]] — tecniche di apprendimento citate
-[[concept/governance-scolastica-ia]] — modello di governance trasferibile alla PA/scuola
-[[concept/bias-algoritmico]] — bias nei dati e nei modelli
-[[concept/supervisione-umana]] — controllo umano e responsabilità ultima
-[[concept/privacy-protezione-dati]] — DPIA, capitolo 10
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — definizione e ciclo di vita
+[[concept/machine-learning|Machine Learning]] — tecniche di apprendimento citate
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — modello di governance trasferibile alla PA/scuola
+[[concept/bias-algoritmico|Bias Algoritmico]] — bias nei dati e nei modelli
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — controllo umano e responsabilità ultima
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPIA, capitolo 10
 
 ## Citazioni rilevanti
 > "Con «sistema di IA» si intende un sistema automatizzato progettato per funzionare con livelli di autonomia variabili e che può presentare adattabilità dopo la diffusione [...]"
@@ -46,8 +44,8 @@ Testo integrale (v1.0 del 14.02.2025, in consultazione pubblica) delle linee gui
 > "La PA, al fine di cogliere in modo consapevole i vantaggi dell'IA, DEVE lavorare su una serie di fattori abilitanti, di tipo gestionale, organizzativo e culturale oltre che tecnologico [...]"
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata. È la fonte canonica primaria per le linee guida AgID PA; le altre fonti del batch ([[source/linee-guida-agid-per-l-adozione-dell-ia-nella-pa]], [[source/linee-guida-agid-sull-intelligenza-artificiale-nella-pu]], [[source/l-intelligenza-artificiale-nella-pubblica-amministrazio]]) sono commenti/sintesi di questo documento e vanno lette come derivate.
+Nessuna contraddizione rilevata. È la fonte canonica primaria per le linee guida AgID PA; le altre fonti del batch ([[source/linee-guida-agid-per-l-adozione-dell-ia-nella-pa|Linee guida AgID per l'adozione dell'IA nella PA: dai principi agli strumenti pratici (FPA)]], [[source/linee-guida-agid-sull-intelligenza-artificiale-nella-pu|Linee Guida AgID sull'IA nella PA: consultazione pubblica e Codice Etico (AI4PA)]], [[source/l-intelligenza-artificiale-nella-pubblica-amministrazio|L'IA nella PA e nelle imprese: AgID, AI Act e strumenti per le valutazioni d'impatto (Federprivacy)]]) sono commenti/sintesi di questo documento e vanno lette come derivate.
 
 ## Domande aperte
-- Quale rapporto strutturale tra le linee guida AgID per la PA e le [[source/linee-guida-mim-dm166-2025]] per la scuola (che riprendono lo stesso modello deployer/rischio)?
+- Quale rapporto strutturale tra le linee guida AgID per la PA e le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] per la scuola (che riprendono lo stesso modello deployer/rischio)?
 - Come si declinano gli allegati B e C (valutazione rischio e d'impatto) nel contesto scolastico?

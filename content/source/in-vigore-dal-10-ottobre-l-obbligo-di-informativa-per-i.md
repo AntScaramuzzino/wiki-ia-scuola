@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["In vigore dal 10 ottobre l'obbligo di informativa per i clienti sull'utilizzo di strumenti di Intelligenza Artificiale (AI) - Ordine avvocati Bergamo"]
 ---
 
-# Obbligo di informativa ai clienti sull'uso dell'IA dal 10 ottobre (Ordine avvocati Bergamo)
-
 **File raw**: `raw/articles/in-vigore-dal-10-ottobre-l-obbligo-di-informativa-per-i.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -22,11 +20,11 @@ Comunicazione dell'Ordine degli Avvocati di Bergamo (10 ottobre 2025) sull'entra
 - Dettagli ulteriori non desumibili dal file raw (testo dell'articolo assente).
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — uso professionale di strumenti di IA
-[[concept/privacy-protezione-dati]] — obbligo di trasparenza/informativa verso i clienti
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — uso professionale di strumenti di IA
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — obbligo di trasparenza/informativa verso i clienti
 
 ## Contraddizioni o tensioni
-Conferma/applicazione settoriale (ambito forense) della trasparenza introdotta da [[source/legge-132-2025]]; nessun fatto nuovo verificabile dal file raw, che è privo di corpo testuale.
+Conferma/applicazione settoriale (ambito forense) della trasparenza introdotta da [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]]; nessun fatto nuovo verificabile dal file raw, che è privo di corpo testuale.
 
 ## Domande aperte
 - Recuperare il testo completo dell'articolo per verificare la base normativa esatta dell'obbligo (Legge 132/2025 e/o codice deontologico forense) e il suo contenuto.

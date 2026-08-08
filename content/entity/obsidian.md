@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# Obsidian
-
 ## Descrizione
 
 Editor markdown locale con graph view, plugin ecosystem e supporto nativo ai wiki link (`[[link]]`). Usato come "IDE" per il wiki LLM — l'utente naviga e legge in Obsidian mentre l'LLM scrive e aggiorna.
@@ -19,8 +17,8 @@ Interfaccia di lettura e navigazione del wiki. L'LLM è il programmatore; Obsidi
 
 ## Connessioni
 
-- [[concept/wiki-persistente]] — Obsidian è lo strumento di visualizzazione
-- [[entity/qmd]] — alternativa/complemento per la ricerca
+- [[concept/wiki-persistente|Wiki Persistente]] — Obsidian è lo strumento di visualizzazione
+- [[entity/qmd|qmd]] — alternativa/complemento per la ricerca
 
 ## Plugin rilevanti menzionati
 
@@ -31,4 +29,4 @@ Interfaccia di lettura e navigazione del wiki. L'LLM è il programmatore; Obsidi
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]

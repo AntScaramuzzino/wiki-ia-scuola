@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["IA_Guidelines_GENERALE_01-UNIBG.pdf"]
 ---
 
-# Linee guida UniBg per l'uso dell'IA in Didattica, Ricerca e Processi Amministrativi
-
 **File raw**: `raw/papers/ia-guidelines-generale-01-unibg-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -25,23 +23,23 @@ Documento di indirizzo dell'Università degli Studi di Bergamo che definisce una
 - Riferimenti normativi: Regolamento (UE) 2016/679 (GDPR), Regolamento (UE) 2024/1689 (AI Act), documentazione di Garante privacy, EDPB ed EDPS.
 
 ## Entità menzionate
-[[entity/unesco]] — fonte ispiratrice (Guidance for generative AI in education and research, 2023)
-[[entity/commissione-europea]] — AI Act e EU Living Guidelines sull'uso responsabile della GenAI nella ricerca
-[[entity/garante-privacy]] — documentazione di riferimento sulla tutela dei dati nell'uso dell'IA
-[[entity/agid]] — Linee guida per l'adozione dell'IA nella Pubblica Amministrazione, citate come quadro di riferimento
+[[entity/unesco|UNESCO]] — fonte ispiratrice (Guidance for generative AI in education and research, 2023)
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act e EU Living Guidelines sull'uso responsabile della GenAI nella ricerca
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — documentazione di riferimento sulla tutela dei dati nell'uso dell'IA
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Linee guida per l'adozione dell'IA nella Pubblica Amministrazione, citate come quadro di riferimento
 
 ## Concetti trattati
-[[concept/ia-generativa]] — oggetto principale delle linee guida
-[[concept/intelligenza-artificiale]] — applicabilità a tutti i sistemi di IA, non solo generativi
-[[concept/machine-learning]] — definito nel glossario
-[[concept/allucinazione]] — rischio chiave di imprecisione degli output
-[[concept/bias-algoritmico]] — rischio di discriminazione nei processi decisionali
-[[concept/privacy-protezione-dati]] — pilastro del principio di Sicurezza (GDPR)
-[[concept/supervisione-umana]] — presidio obbligatorio sui processi automatizzati (AI Act)
-[[concept/valutazione-integrita-accademica]] — adeguamento dei metodi di valutazione, plagio, AI detecting
-[[concept/prompt]] — input per attivare l'output dell'IA generativa
-[[concept/alfabetizzazione-ia]] — innalzamento del livello di AI literacy e competenze digitali
-[[concept/governance-scolastica-ia]] — modello di governance dell'IA per un'istituzione formativa
+[[concept/ia-generativa|IA Generativa]] — oggetto principale delle linee guida
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — applicabilità a tutti i sistemi di IA, non solo generativi
+[[concept/machine-learning|Machine Learning]] — definito nel glossario
+[[concept/allucinazione|Allucinazione]] — rischio chiave di imprecisione degli output
+[[concept/bias-algoritmico|Bias Algoritmico]] — rischio di discriminazione nei processi decisionali
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — pilastro del principio di Sicurezza (GDPR)
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — presidio obbligatorio sui processi automatizzati (AI Act)
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — adeguamento dei metodi di valutazione, plagio, AI detecting
+[[concept/prompt|Prompt]] — input per attivare l'output dell'IA generativa
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — innalzamento del livello di AI literacy e competenze digitali
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — modello di governance dell'IA per un'istituzione formativa
 
 ## Citazioni rilevanti
 > "Chiunque utilizzi strumenti di IA è personalmente responsabile dell'uso corretto e appropriato che ne fa."
@@ -51,7 +49,7 @@ Documento di indirizzo dell'Università degli Studi di Bergamo che definisce una
 > "L'IA, infatti non può essere inserita nella lista degli autori di un prodotto della ricerca."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata. La fonte è coerente con le [[source/linee-guida-mim-dm166-2025]] e con [[source/unesco-guidance-genai-2023]], ma offre un punto di vista distintivo (ambito universitario, non scolastico) e una mappatura operativa benefici/rischi più dettagliata. Lo scetticismo esplicito verso gli strumenti di AI detection è un elemento di rilievo da confrontare con altre fonti del wiki.
+Nessuna contraddizione rilevata. La fonte è coerente con le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] e con [[source/unesco-guidance-genai-2023|UNESCO — Guidance for generative AI in education and research (2023)]], ma offre un punto di vista distintivo (ambito universitario, non scolastico) e una mappatura operativa benefici/rischi più dettagliata. Lo scetticismo esplicito verso gli strumenti di AI detection è un elemento di rilievo da confrontare con altre fonti del wiki.
 
 ## Domande aperte
 - Come si traducono questi principi universitari nel contesto della scuola secondaria (destinatari minorenni)?

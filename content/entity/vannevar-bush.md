@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# Vannevar Bush
-
 ## Descrizione
 
 Ingegnere e scienziato americano (1890–1974). Direttore dell'OSRD durante la Seconda Guerra Mondiale. Autore del saggio seminale "As We May Think" (1945) su *The Atlantic*.
@@ -19,12 +17,12 @@ Precursore concettuale del pattern LLM-Wiki attraverso la visione del Memex — 
 
 ## Connessioni
 
-- [[concept/memex]] — il dispositivo da lui immaginato
-- [[concept/wiki-persistente]] — il pattern LLM-Wiki come realizzazione moderna della sua visione
+- [[concept/memex|Memex]] — il dispositivo da lui immaginato
+- [[concept/wiki-persistente|Wiki Persistente]] — il pattern LLM-Wiki come realizzazione moderna della sua visione
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]
 
 ## Note e aggiornamenti
 

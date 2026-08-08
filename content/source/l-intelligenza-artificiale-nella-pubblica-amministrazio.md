@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["L'intelligenza artificiale nella Pubblica Amministrazione e nelle imprese: AgID, AI Act e strumenti a supporto per le valutazioni d'impatto - Federprivacy"]
 ---
 
-# L'IA nella PA e nelle imprese: AgID, AI Act e strumenti per le valutazioni d'impatto (Federprivacy)
-
 **File raw**: `raw/papers/l-intelligenza-artificiale-nella-pubblica-amministrazione-e-nelle-impr.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -25,17 +23,17 @@ Articolo di Angelo Emanuele Cavallaro (AC2 srl) pubblicato su Federprivacy (23 m
 - Raccomandazione: dotarsi di procedure (comitati etici), strumenti digitali (software che guidano FRIA/DPIA) e competenze specialistiche (AI governance, ingegneria etica, data protection).
 
 ## Entità menzionate
-[[entity/agid]] — Linee Guida 2025
-[[entity/commissione-europea]] — AI Act
-[[entity/garante-privacy]] — quadro GDPR sulla DPIA
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Linee Guida 2025
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — quadro GDPR sulla DPIA
 
 ## Concetti trattati
-[[concept/privacy-protezione-dati]] — DPIA, GDPR
-[[concept/governance-scolastica-ia]] — governance e processi di valutazione d'impatto
-[[concept/supervisione-umana]] — ruolo del deployer e sorveglianza
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPIA, GDPR
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — governance e processi di valutazione d'impatto
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — ruolo del deployer e sorveglianza
 
 ## Contraddizioni o tensioni
-Commento/approfondimento coerente con [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu]] e [[source/ai-act-ue]]; nessun fatto nuovo normativo, ma chiarisce in modo utile la distinzione e l'integrazione FRIA/DPIA (utile anche per la scuola-deployer descritta in [[source/linee-guida-del-mim-sull-intelligenza-artificiale-aspet]]). Articolo con finalità anche promozionale (piattaforma AC2).
+Commento/approfondimento coerente con [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]] e [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]]; nessun fatto nuovo normativo, ma chiarisce in modo utile la distinzione e l'integrazione FRIA/DPIA (utile anche per la scuola-deployer descritta in [[source/linee-guida-del-mim-sull-intelligenza-artificiale-aspet|WEBINAR — Linee guida del MIM sull'IA: aspetti normativi e didattici (Redaelli, Galli)]]). Articolo con finalità anche promozionale (piattaforma AC2).
 
 ## Domande aperte
 - Esistono software/checklist guidate validati per integrare FRIA e DPIA in ambito scolastico?

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["EC/EDEH, Explainable AI in education (2025)", "Linee Guida MIM DM 166/2025"]
 ---
 
-# Explainable AI (IA spiegabile)
-
 ## Definizione
 L'**Explainable AI (XAI)** è l'insieme di approcci che rendono **comprensibili e interpretabili** le logiche decisionali di un sistema di IA, affinché gli utenti possano capirne motivazioni, limiti ed errori. Va oltre la mera **trasparenza** (sapere *che* si interagisce con un'IA): riguarda il *perché* di un output.
 
@@ -20,13 +18,13 @@ Si contrappongono modelli *white-box* (intrinsecamente interpretabili) e *black-
 - Riconoscere le [[concept/allucinazione|allucinazioni]] richiede output tracciabili e verificabili.
 
 ## Relazioni con altri concetti
-- [[concept/supervisione-umana]] — la spiegabilità abilita l'oversight umano
-- [[concept/dpia-fria]] — l'interpretabilità è parte della mitigazione del rischio
-- [[concept/bias-algoritmico]] — spiegare aiuta a individuare discriminazioni
-- [[concept/alfabetizzazione-ia]] — capacità critica di interrogare gli output
+- [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — la spiegabilità abilita l'oversight umano
+- [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — l'interpretabilità è parte della mitigazione del rischio
+- [[concept/bias-algoritmico|Bias Algoritmico]] — spiegare aiuta a individuare discriminazioni
+- [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — capacità critica di interrogare gli output
 
 ## Contraddizioni e dibattiti
 Il trade-off accuratezza/interpretabilità è una tensione aperta: sistemi più performanti possono risultare meno conformi ai requisiti di spiegabilità richiesti in ambito educativo.
 
 ## Fonti
-[[source/ec-edh-explainable-ai-in-education-fostering-human-over]], [[source/linee-guida-mim-dm166-2025]]
+[[source/ec-edh-explainable-ai-in-education-fostering-human-over|EC/EDEH — Explainable AI in education: Fostering human oversight and shared responsibility (2025)]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]

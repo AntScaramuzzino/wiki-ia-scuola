@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Uso pervasivo dell'intelligenza artificiale (IA) e importanza del “Prompt” per l'utilizzo dell'IA a scuola - oppi.it"]
 ---
 
-# Uso pervasivo dell'IA e importanza del prompt per l'utilizzo dell'IA a scuola (OPPI)
-
 **File raw**: `raw/articles/uso-pervasivo-dell-intelligenza-artificiale-ia-e-importanza-del-prompt.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -28,12 +26,12 @@ Contributo divulgativo dell'Equipe Formazione Digitale di OPPI (Mario Gabbari, D
 Nessuna delle entità con pagina esistente nel wiki è menzionata. (Citati ma senza pagina: OPPI, Khan Academy/Sal Khan, OpenAI/ChatGPT, Google/Bard, Dall-E, Midjourney — vedi suggerimenti.)
 
 ## Concetti trattati
-[[concept/prompt]] — tema centrale dell'articolo (struttura e tecniche di prompting)
-[[concept/ia-generativa]] — tecnologia oggetto della riflessione
-[[concept/allucinazione]] — rischio di output errati da prompt mal formulati
-[[concept/supervisione-umana]] — necessità di moderazione umana sugli output
-[[concept/didattica-inclusiva-ia]] — personalizzazione "su misura" dell'apprendimento
-[[concept/alfabetizzazione-ia]] — sviluppo nelle competenze di prompting in docenti e studenti
+[[concept/prompt|Prompt]] — tema centrale dell'articolo (struttura e tecniche di prompting)
+[[concept/ia-generativa|IA Generativa]] — tecnologia oggetto della riflessione
+[[concept/allucinazione|Allucinazione]] — rischio di output errati da prompt mal formulati
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — necessità di moderazione umana sugli output
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — personalizzazione "su misura" dell'apprendimento
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — sviluppo nelle competenze di prompting in docenti e studenti
 
 ## Citazioni rilevanti
 > "GPT4 sarà la più grande rivoluzione delle nostre vite, soprattutto nell'istruzione: permetterà di sviluppare la curiosità dei ragazzi e di appassionarli all'apprendimento. Potranno avere sempre a portata un tutor personale dotato di una pazienza infinita." (Sal Khan)

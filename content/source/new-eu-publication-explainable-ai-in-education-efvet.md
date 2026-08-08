@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["New EU Publication: Explainable AI in Education - EfVET"]
 ---
 
-# New EU Publication: Explainable AI in Education (EfVET / European Digital Education Hub)
-
 **File raw**: `raw/articles/new-eu-publication-explainable-ai-in-education-efvet.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,15 +19,15 @@ Breve notizia (EfVET, 30 ottobre 2025) che annuncia la pubblicazione ufficiale d
 - Prodotto nell'ambito dell'**European Digital Education Hub (EDEH)**, iniziativa UE finanziata dal programma Erasmus+ (2021-2027) e operata da un consorzio sotto contratto con l'EACEA.
 
 ## Entità menzionate
-[[entity/commissione-europea]] — l'UE come editore ufficiale del report (tramite EDEH/EACEA)
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — l'UE come editore ufficiale del report (tramite EDEH/EACEA)
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — spiegabilità (explainability) dei sistemi IA
-[[concept/supervisione-umana]] — fiducia e comprensibilità come presupposti del controllo umano
-[[concept/alfabetizzazione-ia]] — competenze degli educatori verso l'IA spiegabile
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — spiegabilità (explainability) dei sistemi IA
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — fiducia e comprensibilità come presupposti del controllo umano
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — competenze degli educatori verso l'IA spiegabile
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata. Fonte minima (notizia di lancio): non riporta il contenuto del report XAI. Introduce il tema dell'**explainable AI** non ancora presente come pagina concept nel wiki (vedi suggerimento nel messaggio finale). Complementare ai principi di trasparenza già richiamati da [[source/linee-guida-mim-dm166-2025]].
+Nessuna contraddizione rilevata. Fonte minima (notizia di lancio): non riporta il contenuto del report XAI. Introduce il tema dell'**explainable AI** non ancora presente come pagina concept nel wiki (vedi suggerimento nel messaggio finale). Complementare ai principi di trasparenza già richiamati da [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]].
 
 ## Domande aperte
 - Quali sono i contenuti operativi del report XAI (aspetti legali, competenze degli educatori) una volta consultato il documento integrale?

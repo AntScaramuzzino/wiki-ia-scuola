@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [Benvenuto.md]
 ---
 
-# LLM Wiki — Il Pattern del Second Brain
-
 **File raw**: `Benvenuto.md`
 
 ---
@@ -32,21 +30,21 @@ Il documento descrive un pattern per costruire una base di conoscenza personale 
 
 ## Entità menzionate
 
-[[entity/vannevar-bush]] — ideatore del Memex (1945)
-[[entity/obsidian]] — IDE per il wiki (graph view, Dataview, Marp)
-[[entity/notebooklm]] — esempio di sistema RAG classico (contrasto)
-[[entity/qmd]] — motore di ricerca locale per markdown (BM25 + vector)
+[[entity/vannevar-bush|Vannevar Bush]] — ideatore del Memex (1945)
+[[entity/obsidian|Obsidian]] — IDE per il wiki (graph view, Dataview, Marp)
+[[entity/notebooklm|NotebookLM]] — esempio di sistema RAG classico (contrasto)
+[[entity/qmd|qmd]] — motore di ricerca locale per markdown (BM25 + vector)
 
 ---
 
 ## Concetti trattati
 
-[[concept/rag]] — Retrieval-Augmented Generation, il paradigma alternativo
-[[concept/wiki-persistente]] — il concetto centrale: wiki come artefatto cumulativo
-[[concept/memex]] — visione di Bush del 1945, precursore concettuale
-[[concept/ingest]] — operazione di aggiunta e integrazione di una fonte
-[[concept/lint-wiki]] — health-check periodico del wiki
-[[concept/schema-agente]] — CLAUDE.md / AGENTS.md come configurazione dell'LLM
+[[concept/rag|RAG — Retrieval-Augmented Generation]] — Retrieval-Augmented Generation, il paradigma alternativo
+[[concept/wiki-persistente|Wiki Persistente]] — il concetto centrale: wiki come artefatto cumulativo
+[[concept/memex|Memex]] — visione di Bush del 1945, precursore concettuale
+[[concept/ingest|Ingest]] — operazione di aggiunta e integrazione di una fonte
+[[concept/lint-wiki|Lint Wiki]] — health-check periodico del wiki
+[[concept/schema-agente|Schema Agente (CLAUDE.md / AGENTS.md)]] — CLAUDE.md / AGENTS.md come configurazione dell'LLM
 
 ---
 

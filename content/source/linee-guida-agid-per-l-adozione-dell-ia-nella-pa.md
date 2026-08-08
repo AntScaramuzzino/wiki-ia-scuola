@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Linee guida AGID per l'adozione dell'IA nella PA"]
 ---
 
-# Linee guida AgID per l'adozione dell'IA nella PA: dai principi agli strumenti pratici (FPA)
-
 **File raw**: `raw/papers/linee-guida-agid-per-l-adozione-dell-ia-nella-pa.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -23,16 +21,16 @@ Articolo di Michela Stentella (FORUM PA, 21 febbraio 2025) che presenta e commen
 - Nove allegati "strumenti" aggiornabili: maturità, valutazione del rischio, valutazione d'impatto, modello di codice etico, casi d'uso, norme tecniche, funzionalità IA, governance, KPI.
 
 ## Entità menzionate
-[[entity/agid]] — autore delle linee guida
-[[entity/commissione-europea]] — AI Act, approccio basato sul rischio
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autore delle linee guida
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act, approccio basato sul rischio
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — modello di governance e adozione
-[[concept/intelligenza-artificiale]] — adozione nella PA
-[[concept/privacy-protezione-dati]] — gestione e protezione del dato
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — modello di governance e adozione
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — adozione nella PA
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — gestione e protezione del dato
 
 ## Contraddizioni o tensioni
-Commento/sintesi giornalistica della fonte canonica [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu]]; nessun fatto nuovo sostanziale rispetto al documento AgID, salvo le dichiarazioni dei funzionari e la cronologia della consultazione (18 febbraio – 20 marzo 2025).
+Commento/sintesi giornalistica della fonte canonica [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]]; nessun fatto nuovo sostanziale rispetto al documento AgID, salvo le dichiarazioni dei funzionari e la cronologia della consultazione (18 febbraio – 20 marzo 2025).
 
 ## Domande aperte
 - Quale versione definitiva è emersa al termine della consultazione del 20 marzo 2025?

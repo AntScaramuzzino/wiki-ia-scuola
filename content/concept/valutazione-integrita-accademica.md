@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: [Linee Guida MIM (DM 166/2025), Regolamento UE 2024/1689 (AI Act), Guida Pratica all'IA nella Scuola Secondaria di I grado]
 ---
 
-# Valutazione e integrità accademica
-
 ## Definizione
 Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e onestà intellettuale a scuola. Comprende la classificazione ad "alto rischio" dei sistemi di valutazione automatica, il contrasto al plagio mascherato, il rischio di "pigrizia metacognitiva", l'inaffidabilità degli AI detector e il conseguente spostamento del paradigma valutativo dal prodotto finale al processo di apprendimento.
 
@@ -25,14 +23,14 @@ Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e o
 - Attività di smascheramento delle "allucinazioni" e test di Turing in classe per riconoscere i vizi di forma dell'IA.
 
 ## Relazioni con altri concetti
-- [[concept/allucinazione]] — la revisione critica difende dall'accettazione di risposte plausibili ma errate.
-- [[concept/bias-algoritmico]] — i sistemi di valutazione automatica rischiano di perpetuare discriminazioni.
-- [[concept/supervisione-umana]] — sui sistemi di valutazione la presenza umana qualificata è obbligatoria.
-- [[concept/prompt]] — la qualità dei prompt diventa oggetto di valutazione.
-- [[concept/scuola-aumentata]] — il nuovo ruolo del docente ridefinisce le pratiche valutative.
+- [[concept/allucinazione|Allucinazione]] — la revisione critica difende dall'accettazione di risposte plausibili ma errate.
+- [[concept/bias-algoritmico|Bias Algoritmico]] — i sistemi di valutazione automatica rischiano di perpetuare discriminazioni.
+- [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — sui sistemi di valutazione la presenza umana qualificata è obbligatoria.
+- [[concept/prompt|Prompt]] — la qualità dei prompt diventa oggetto di valutazione.
+- [[concept/scuola-aumentata|Scuola aumentata]] — il nuovo ruolo del docente ridefinisce le pratiche valutative.
 
 ## Contraddizioni e dibattiti
 Il dibattito centrale oppone il **divieto** dell'IA alla sua **integrazione critica**: le fonti propendono per la seconda via, spostando la valutazione sul processo. Resta irrisolta l'assenza di strumenti tecnici affidabili per accertare l'uso dell'IA (inefficacia degli AI detector), che rende la trasparenza dichiarata dallo studente il principale presidio dell'integrità.
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025]], [[source/ai-act-ue]], [[source/guida-pratica-ia-secondaria]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]]

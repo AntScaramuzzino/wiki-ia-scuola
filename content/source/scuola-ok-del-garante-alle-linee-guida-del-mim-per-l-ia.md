@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["NEWS | Scuola: ok del Garante alle Linee guida del MIM per l'IA negli istituti scolastici - Privacy.it"]
 ---
 
-# Scuola: ok del Garante alle Linee guida del MIM per l'IA negli istituti (news)
-
 **File raw**: `raw/papers/scuola-ok-del-garante-alle-linee-guida-del-mim-per-l-ia-negli-istituti.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,16 +19,16 @@ Breve notizia (dalla newsletter del Garante del 10/09/2025, ripresa da Privacy.i
 - Uso dei dati personali di studenti e docenti solo se strettamente indispensabili, prediligendo dati sintetici.
 
 ## Entità menzionate
-[[entity/garante-privacy]] — autore del parere favorevole
-[[entity/mim]] — proponente dello schema di decreto e delle Linee Guida
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — autore del parere favorevole
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — proponente dello schema di decreto e delle Linee Guida
 
 ## Concetti trattati
-[[concept/privacy-protezione-dati]] — minimizzazione, dati sintetici, tutela degli interessati
-[[concept/governance-scolastica-ia]] — ruoli, responsabilità, sistemi ad alto rischio
-[[concept/supervisione-umana]] — trasparenza e garanzie sui trattamenti tramite IA
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — minimizzazione, dati sintetici, tutela degli interessati
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — ruoli, responsabilità, sistemi ad alto rischio
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — trasparenza e garanzie sui trattamenti tramite IA
 
 ## Contraddizioni o tensioni
-Conferma/commento giornalistico di [[source/linee-guida-mim-dm166-2025]]; nessun fatto nuovo rispetto alla fonte canonica (il dettaglio "dati sintetici" e il riferimento alla Piattaforma Unica sono già parte del quadro del decreto MIM).
+Conferma/commento giornalistico di [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; nessun fatto nuovo rispetto alla fonte canonica (il dettaglio "dati sintetici" e il riferimento alla Piattaforma Unica sono già parte del quadro del decreto MIM).
 
 ## Domande aperte
 - Quali osservazioni specifiche del Garante sono state recepite nello schema finale?

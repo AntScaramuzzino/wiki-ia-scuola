@@ -1,3 +1,262 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+// Restyling contemporaneo — wiki "IA nella scuola"
+// ============================================================
+
+:root {
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+}
+
+// --- Tipografia ---------------------------------------------
+body {
+  font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.006em;
+}
+
+.page > #quartz-body .center,
+.page > #quartz-body .page-header {
+  line-height: 1.72;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.025em;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.18;
+}
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--lightgray);
+}
+h3 {
+  font-size: 1.12rem;
+  margin-top: 1.7rem;
+}
+
+.article-title {
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.032em;
+}
+
+// --- Link ---------------------------------------------------
+a {
+  transition:
+    color 0.12s ease,
+    background-color 0.12s ease;
+
+  &.internal {
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 0 0.12em;
+    box-decoration-break: clone;
+    border-bottom: 1px solid color-mix(in srgb, var(--secondary) 32%, transparent);
+
+    &:hover {
+      background-color: var(--highlight);
+      border-bottom-color: var(--secondary);
+    }
+
+    &.tag-link {
+      border-bottom: none;
+      background-color: var(--highlight);
+      font-size: 0.82rem;
+      padding: 0.14em 0.6em;
+      border-radius: 999px;
+    }
+  }
+
+  &.external .external-icon {
+    opacity: 0.55;
+  }
+}
+
+// --- Tabelle (index del wiki) -------------------------------
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid var(--lightgray);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  font-size: 0.93rem;
+  margin: 1.4rem 0;
+}
+
+th,
+td {
+  border: none;
+  border-bottom: 1px solid var(--lightgray);
+  padding: 0.62rem 0.9rem;
+}
+
+thead th {
+  background-color: color-mix(in srgb, var(--lightgray) 45%, transparent);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--dark);
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr {
+  transition: background-color 0.12s ease;
+  &:hover {
+    background-color: color-mix(in srgb, var(--lightgray) 28%, transparent);
+  }
+}
+
+// --- Citazioni / note di aggiornamento ----------------------
+blockquote {
+  border-left: 3px solid var(--secondary);
+  background-color: var(--highlight);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.85rem 1.1rem;
+  margin: 1.3rem 0;
+  color: var(--darkgray);
+
+  & > :first-child {
+    margin-top: 0;
+  }
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+// --- Codice -------------------------------------------------
+code {
+  font-size: 0.87em;
+  border-radius: 5px;
+  padding: 0.12em 0.36em;
+  background-color: color-mix(in srgb, var(--lightgray) 55%, transparent);
+}
+
+pre {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--lightgray);
+  padding: 1rem 1.2rem !important;
+
+  & > code {
+    background: none;
+    padding: 0;
+  }
+}
+
+// --- Sidebar / explorer -------------------------------------
+.explorer-content {
+  font-size: 0.92rem;
+}
+
+.explorer-content ul li > a,
+.explorer-content .folder-title {
+  border-radius: var(--radius-sm);
+  padding: 0.18rem 0.45rem;
+  display: inline-block;
+  transition: background-color 0.12s ease;
+
+  &:hover {
+    background-color: var(--highlight);
+  }
+}
+
+.folder-title {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.page-title {
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+// --- Ricerca ------------------------------------------------
+#search-container .search-space {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--lightgray);
+}
+
+.search-button {
+  border-radius: var(--radius-sm);
+  transition: background-color 0.12s ease;
+}
+
+// --- Backlinks / grafo / TOC --------------------------------
+.backlinks,
+.graph,
+.toc {
+  & > h3 {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--gray);
+    font-weight: 600;
+  }
+}
+
+.graph > #graph-container {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--lightgray);
+}
+
+.backlinks > ul > li > a {
+  border-radius: var(--radius-sm);
+}
+
+// --- Popover (anteprima link) -------------------------------
+.popover > .popover-inner {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--lightgray);
+  box-shadow: 0 12px 32px rgba(15, 15, 20, 0.1);
+}
+
+// --- Breadcrumb / meta --------------------------------------
+.breadcrumb-container,
+.content-meta {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+// --- Footer -------------------------------------------------
+footer {
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1.4rem;
+  font-size: 0.86rem;
+  color: var(--gray);
+
+  & ul {
+    gap: 1rem;
+  }
+}
+
+// --- Separatori ---------------------------------------------
+hr {
+  border: none;
+  border-top: 1px solid var(--lightgray);
+  margin: 2.2rem 0;
+}
+
+// --- Dark mode: attenua i bordi troppo netti ----------------
+[saved-theme="dark"] {
+  pre,
+  table,
+  .graph > #graph-container,
+  .popover > .popover-inner {
+    border-color: color-mix(in srgb, var(--lightgray) 85%, transparent);
+  }
+}

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Guida Pratica all'Intelligenza Artificiale nella Scuola Secondaria di Primo Grado: Idee e Strategie Applicabili"]
 ---
 
-# Guida Pratica all'IA nella Scuola Secondaria di I grado
-
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario
@@ -26,23 +24,23 @@ La "Guida Pratica all'Intelligenza Artificiale nella Scuola Secondaria di Primo 
 - Tra le attività laboratoriali del corpus collegate: "E-mozioni", "AI Benchmark e Fact-Checking", "Il Test di Turing in classe", "Interviste impossibili" (Character.ai), "Le città visibili" (DreamStudio), "Epica e IA / Catene di Markov".
 
 ## Entità menzionate
-[[entity/mim]] — fonte dei principi guida richiamati
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — fonte dei principi guida richiamati
 
 ## Concetti trattati
-[[concept/scuola-aumentata]] — docente orchestratore, personalizzazione
-[[concept/alfabetizzazione-ia]] — metodologia Comprendere/Applicare/Creare
-[[concept/prompt]] — workshop "Progettare il prompt perfetto"
-[[concept/allucinazione]] — fact-checking degli output algoritmici
-[[concept/bias-algoritmico]] — comprensione dei bias dei dati (Teachable Machine)
-[[concept/valutazione-integrita-accademica]] — rubriche e salvaguardia etica
-[[concept/didattica-inclusiva-ia]] — materiali differenziati per PEI e PDP
-[[concept/llm]] — analogia tra catene di Markov e modelli predittivi
+[[concept/scuola-aumentata|Scuola aumentata]] — docente orchestratore, personalizzazione
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — metodologia Comprendere/Applicare/Creare
+[[concept/prompt|Prompt]] — workshop "Progettare il prompt perfetto"
+[[concept/allucinazione|Allucinazione]] — fact-checking degli output algoritmici
+[[concept/bias-algoritmico|Bias Algoritmico]] — comprensione dei bias dei dati (Teachable Machine)
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — rubriche e salvaguardia etica
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — materiali differenziati per PEI e PDP
+[[concept/llm|LLM (Large Language Model)]] — analogia tra catene di Markov e modelli predittivi
 
 ## Citazioni rilevanti
 > L'IA deve essere sempre subordinata a una chiara finalità pedagogica.
 
 ## Contraddizioni o tensioni
-Nessuna rilevata. La metodologia a tre livelli riprende la progressione "Comprendere/Applicare/Creare" del framework UNESCO per gli studenti ([[source/unesco-competenze-studenti-2024]]).
+Nessuna rilevata. La metodologia a tre livelli riprende la progressione "Comprendere/Applicare/Creare" del framework UNESCO per gli studenti ([[source/unesco-competenze-studenti-2024|UNESCO — AI competency framework for students (2024)]]).
 
 ## Domande aperte
 - Quali strumenti gratuiti consentono alle scuole con meno risorse di svolgere le attività di livello "Creare" senza ampliare il divario digitale?

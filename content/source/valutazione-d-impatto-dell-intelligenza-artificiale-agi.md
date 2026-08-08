@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["VALUTAZIONE D'IMPATTO DELL'INTELLIGENZA ARTIFICIALE - Agid"]
 ---
 
-# AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025
-
 **File raw**: `raw/papers/valutazione-d-impatto-dell-intelligenza-artificiale-agid.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -26,15 +24,15 @@ Bozza in consultazione pubblica (versione 1.0 del 14.02.2025) della matrice AgID
 - L'Appendice 1 traspone l'art. 5 AI Act (pratiche vietate: tecniche subliminali/manipolative, sfruttamento di vulnerabilità, social scoring, predizione di reati su sola profilazione, scraping non mirato per riconoscimento facciale, **riconoscimento delle emozioni in scuole e luoghi di lavoro**, categorizzazione biometrica di dati sensibili, identificazione biometrica remota in tempo reale) e l'art. 6 (criteri del rischio alto, incluso l'**ambito istruzione e formazione professionale** nell'allegato III).
 
 ## Entità menzionate
-[[entity/agid]] — autrice della matrice AIIA per la PA
-[[entity/garante-privacy]] — implicito tramite riferimenti a DPIA, RPD e tutela degli interessati
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autrice della matrice AIIA per la PA
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — implicito tramite riferimenti a DPIA, RPD e tutela degli interessati
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — sistemi di IA nella PA e relativa valutazione d'impatto
-[[concept/bias-algoritmico]] — valutazione di bias in input, modello e output
-[[concept/privacy-protezione-dati]] — GDPR, DPIA, categorie particolari di dati, RPD
-[[concept/supervisione-umana]] — verifica e supervisione umana, procedura alternativa
-[[concept/governance-scolastica-ia]] — modello di governance multipartecipativa e accountability trasferibile alla scuola
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — sistemi di IA nella PA e relativa valutazione d'impatto
+[[concept/bias-algoritmico|Bias Algoritmico]] — valutazione di bias in input, modello e output
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — GDPR, DPIA, categorie particolari di dati, RPD
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — verifica e supervisione umana, procedura alternativa
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — modello di governance multipartecipativa e accountability trasferibile alla scuola
 
 ## Citazioni rilevanti
 > "qualora il sistema rientri tra quelli vietati dall'art. 5 del predetto Regolamento, non potrà essere introdotto."
@@ -42,7 +40,7 @@ Bozza in consultazione pubblica (versione 1.0 del 14.02.2025) della matrice AgID
 > "Il sistema inferisce le emozioni di una persona fisica nell'ambito del luogo di lavoro e degli istituti di istruzione… [pratica vietata, salvo motivi medici o di sicurezza]"
 
 ## Contraddizioni o tensioni
-- Nessuna contraddizione rilevata. Il documento è complementare a [[source/ai-act-ue]] (ne è la trasposizione operativa per la PA italiana) e fornisce lo strumento di valutazione del rischio che le scuole possono usare insieme alle [[source/linee-guida-mim-dm166-2025]] per i sistemi di IA ad alto rischio (istruzione è ambito ad alto rischio nell'allegato III).
+- Nessuna contraddizione rilevata. Il documento è complementare a [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] (ne è la trasposizione operativa per la PA italiana) e fornisce lo strumento di valutazione del rischio che le scuole possono usare insieme alle [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] per i sistemi di IA ad alto rischio (istruzione è ambito ad alto rischio nell'allegato III).
 - Il file raw appare troncato (le schede si interrompono a A1.2 sul rischio alto): potrebbe mancare la parte finale dell'appendice.
 
 ## Domande aperte

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Linee Guida AgID sull'Intelligenza Artificiale nella Pubblica Amministrazione: consultazione pubblica e Codice Etico - AI4PA"]
 ---
 
-# Linee Guida AgID sull'IA nella PA: consultazione pubblica e Codice Etico (AI4PA)
-
 **File raw**: `raw/papers/linee-guida-agid-sull-intelligenza-artificiale-nella-pubblica-amminist.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,15 +19,15 @@ Breve nota di AI4PA (Osservatorio sull'IA nelle PA) sull'avvio della consultazio
 - Dato di contesto (Osservatorio AI Politecnico di Milano): mercato italiano dell'IA a 1,2 miliardi di euro nel 2024 (+58% sull'anno precedente).
 
 ## Entità menzionate
-[[entity/agid]] — autore delle linee guida
-[[entity/commissione-europea]] — cornice AI Act
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autore delle linee guida
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — cornice AI Act
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — codice etico e governance
-[[concept/intelligenza-artificiale]] — adozione nella PA
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — codice etico e governance
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — adozione nella PA
 
 ## Contraddizioni o tensioni
-Commento/notizia della fonte canonica [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu]]; nessun fatto nuovo rilevante rispetto al documento AgID, salvo i dati di mercato dell'Osservatorio del Politecnico di Milano.
+Commento/notizia della fonte canonica [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]]; nessun fatto nuovo rilevante rispetto al documento AgID, salvo i dati di mercato dell'Osservatorio del Politecnico di Milano.
 
 ## Domande aperte
 - Nessuna rilevante.

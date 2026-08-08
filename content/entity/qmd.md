@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# qmd
-
 ## Descrizione
 
 Motore di ricerca locale per file markdown con ricerca ibrida BM25 + vettoriale e re-ranking LLM. Tutto on-device. Disponibile come CLI (per shell-out dell'LLM) e come server MCP (strumento nativo dell'LLM).
@@ -19,8 +17,8 @@ Alternativa all'index.md quando il wiki cresce oltre la scala dove un indice tes
 
 ## Connessioni
 
-- [[concept/wiki-persistente]] — strumento di supporto per wiki grandi
-- [[entity/obsidian]] — complementare come strumento di navigazione
+- [[concept/wiki-persistente|Wiki Persistente]] — strumento di supporto per wiki grandi
+- [[entity/obsidian|Obsidian]] — complementare come strumento di navigazione
 
 ## Note e aggiornamenti
 
@@ -28,4 +26,4 @@ Alternativa all'index.md quando il wiki cresce oltre la scala dove un indice tes
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Manifesto dell'Intelligenza Artificiale Generativa a Scuola (ISIS Europa)", "Codice Etico AI Generative a Scuola (ISIS Europa)"]
 ---
 
-# Manifesto e Codice Etico IA Generativa a Scuola (ISIS Europa)
-
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario
@@ -25,14 +23,14 @@ Il Manifesto e il Codice Etico dell'IA Generativa a Scuola, a cura dell'ISIS Eur
 - Definisce "Pratiche da Evitare": il **plagio e la disonestà** (presentare contenuti generati dall'IA come propri senza dichiararlo) e l'uso improprio dei dati.
 
 ## Entità menzionate
-[[entity/isis-europa]] — scuola autrice del Manifesto e del Codice Etico
+[[entity/isis-europa|ISIS Europa]] — scuola autrice del Manifesto e del Codice Etico
 
 ## Concetti trattati
-[[concept/valutazione-integrita-accademica]] — plagio, autenticità, valutazione olistica
-[[concept/supervisione-umana]] — responsabilità ultima umana, umanizzazione dell'apprendimento
-[[concept/ia-generativa]] — oggetto specifico dei due documenti
-[[concept/privacy-protezione-dati]] — uso corretto dei dati
-[[concept/alfabetizzazione-ia]] — promozione del pensiero critico
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — plagio, autenticità, valutazione olistica
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — responsabilità ultima umana, umanizzazione dell'apprendimento
+[[concept/ia-generativa|IA Generativa]] — oggetto specifico dei due documenti
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — uso corretto dei dati
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — promozione del pensiero critico
 
 ## Citazioni rilevanti
 > Tra le pratiche da evitare: il plagio e la disonestà, ovvero presentare contenuti generati dall'IA come propri senza dichiararlo.

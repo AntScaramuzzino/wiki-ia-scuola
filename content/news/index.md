@@ -2,8 +2,6 @@
 title: "News"
 ---
 
-# News — IA e didattica
-
 Rassegna periodica di notizie, documenti e ricerche sull'uso dell'**intelligenza artificiale nella scuola**, con collegamenti alle pagine del wiki che ne spiegano i concetti.
 
 Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche righe: i testi non vengono riprodotti.

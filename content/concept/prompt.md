@@ -7,10 +7,8 @@ updated: 2026-06-21
 sources: [Glossario IA a scuola, Guida Pratica IA scuola secondaria, Linee Guida MIM (DM 166/2025)]
 ---
 
-# Prompt
-
 ## Definizione
-Il prompt è l'istruzione, il comando testuale o la domanda iniziale fornita dall'utente in linguaggio naturale a un modello di [[concept/ia-generativa]] per guidarne la risposta e fargli eseguire un'attività specifica. Spesso può essere corredato da ulteriori dati multimodali (immagini o documenti) per contestualizzare la richiesta.
+Il prompt è l'istruzione, il comando testuale o la domanda iniziale fornita dall'utente in linguaggio naturale a un modello di [[concept/ia-generativa|IA Generativa]] per guidarne la risposta e fargli eseguire un'attività specifica. Spesso può essere corredato da ulteriori dati multimodali (immagini o documenti) per contestualizzare la richiesta.
 
 ## Come funziona
 La qualità, la chiarezza e la specificità del prompt determinano direttamente la pertinenza, l'accuratezza, l'inclusività e l'impatto etico dell'output generato dal sistema. La disciplina che ne studia la stesura è il prompt engineering. Un prompt ben articolato dovrebbe idealmente includere quattro componenti chiave:
@@ -24,16 +22,16 @@ Una strategia efficace consiste nel partire con istruzioni semplici e ottimizzar
 
 ## Applicazioni o esempi
 - Per i docenti: generare bozze di materiali, quiz e rubriche di valutazione.
-- Per gli studenti: workshop per "progettare il prompt perfetto"; generazione di immagini da descrizioni letterarie. Insegnare la scrittura dei prompt sviluppa il senso critico e la capacità di formulare richieste precise (vedi [[concept/alfabetizzazione-ia]]).
+- Per gli studenti: workshop per "progettare il prompt perfetto"; generazione di immagini da descrizioni letterarie. Insegnare la scrittura dei prompt sviluppa il senso critico e la capacità di formulare richieste precise (vedi [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]]).
 
 ## Relazioni con altri concetti
-- [[concept/ia-generativa]] — il prompt è l'input che la guida.
-- [[concept/llm]] — la risposta del modello dipende dal prompt ricevuto.
-- [[concept/alfabetizzazione-ia]] — saper formulare prompt è una competenza operativa.
-- [[concept/privacy-protezione-dati]] — il prompt è un punto critico per la tutela dei dati.
+- [[concept/ia-generativa|IA Generativa]] — il prompt è l'input che la guida.
+- [[concept/llm|LLM (Large Language Model)]] — la risposta del modello dipende dal prompt ricevuto.
+- [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — saper formulare prompt è una competenza operativa.
+- [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — il prompt è un punto critico per la tutela dei dati.
 
 ## Contraddizioni e dibattiti
-Vige il divieto assoluto (o la forte raccomandazione a evitarlo) di inserire dati personali, sensibili o identificativi — come nomi di studenti, PDP o PEI — all'interno dei prompt di sistemi pubblici, per evitare gravi violazioni della privacy e applicare il principio di minimizzazione dei dati (vedi [[concept/privacy-protezione-dati]]).
+Vige il divieto assoluto (o la forte raccomandazione a evitarlo) di inserire dati personali, sensibili o identificativi — come nomi di studenti, PDP o PEI — all'interno dei prompt di sistemi pubblici, per evitare gravi violazioni della privacy e applicare il principio di minimizzazione dei dati (vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]]).
 
 ## Fonti
-[[source/guida-pratica-ia-secondaria]], [[source/linee-guida-mim-dm166-2025]]
+[[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]

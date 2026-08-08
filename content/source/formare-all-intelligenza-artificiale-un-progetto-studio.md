@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["PAPER | Formare all'intelligenza artificiale: un progetto-studio con do- centi e futuri docenti - FrancoAngeli Journals"]
 ---
 
-# Formare all'intelligenza artificiale: un progetto-studio con docenti e futuri docenti
-
 **File raw**: `raw/papers/formare-all-intelligenza-artificiale-un-progetto-studio-con-do-centi-e.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -26,16 +24,16 @@ Paper accademico di Roberta Scarano e Concetta Ferrantino (Università degli Stu
 - Quadro normativo nazionale citato: PNSD (azioni 25 e 27), Legge 107/2015, Missione 4 PNRR, Piano Scuola 4.0, DigCompEdu, Legge 92/2019 (cittadinanza digitale).
 
 ## Entità menzionate
-[[entity/ocse]] — ha sottolineato l'importanza della consapevolezza dei docenti nell'uso delle ICT (richiamata dal PNSD azione 27)
-[[entity/mim]] — riferimenti a MIUR/Indicazioni Nazionali e Nuovi scenari (2018), PNSD, Piano Scuola 4.0
+[[entity/ocse|OCSE (OECD)]] — ha sottolineato l'importanza della consapevolezza dei docenti nell'uso delle ICT (richiamata dal PNSD azione 27)
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — riferimenti a MIUR/Indicazioni Nazionali e Nuovi scenari (2018), PNSD, Piano Scuola 4.0
 
 ## Concetti trattati
-[[concept/alfabetizzazione-ia]] — concetto centrale (AI Literacy e suo framework a quattro dimensioni)
-[[concept/intelligenza-artificiale]] — oggetto formativo
-[[concept/machine-learning]] — incluso nella dimensione conoscitiva dell'AI Literacy
-[[concept/ia-generativa]] — citata in relazione a scrittura, plagio, ChatGPT
-[[concept/didattica-inclusiva-ia]] — l'IA come supporto a inclusione, personalizzazione e riduzione di stereotipi di genere in STEM
-[[concept/gamification]] — uso di Kahoot! e attività ludiche nella formazione attiva
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — concetto centrale (AI Literacy e suo framework a quattro dimensioni)
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — oggetto formativo
+[[concept/machine-learning|Machine Learning]] — incluso nella dimensione conoscitiva dell'AI Literacy
+[[concept/ia-generativa|IA Generativa]] — citata in relazione a scrittura, plagio, ChatGPT
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — l'IA come supporto a inclusione, personalizzazione e riduzione di stereotipi di genere in STEM
+[[concept/gamification|Gamification]] — uso di Kahoot! e attività ludiche nella formazione attiva
 
 ## Citazioni rilevanti
 > "L'uso di sistemi di IA generativa nell'insegnamento-apprendimento richiede la conoscenza e la comprensione di tali sistemi sia da parte del docente e del formatore, sia da parte dell'allievo." (Ottone, 2024)
@@ -43,7 +41,7 @@ Paper accademico di Roberta Scarano e Concetta Ferrantino (Università degli Stu
 > "L'IA può solo mediare l'esperienza di insegnamento-apprendimento, ma […] restano loro [docenti e studenti] i costruttori attivi del processo apprenditivo."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata. La fonte fornisce la cornice pedagogico-scientifica (framework AI Literacy a 4 dimensioni, distinzione AI Literacy vs AIED, modello andragogico) che integra e arricchisce le fonti normative del wiki ([[source/linee-guida-mim-dm166-2025]], [[source/oecd-ai-literacy-2025]]).
+Nessuna contraddizione rilevata. La fonte fornisce la cornice pedagogico-scientifica (framework AI Literacy a 4 dimensioni, distinzione AI Literacy vs AIED, modello andragogico) che integra e arricchisce le fonti normative del wiki ([[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]]).
 
 ## Domande aperte
 - Risultati empirici dello studio: il paper presenta solo il disegno, non i dati raccolti.

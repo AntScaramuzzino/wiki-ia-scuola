@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Il Ministro dell'istruzione e del merito - MIM"]
 ---
 
-# Decreto Ministeriale MIM (DM 166/2025) — testo del decreto e servizio digitale IA su Unica
-
 **File raw**: `raw/articles/il-ministro-dell-istruzione-e-del-merito-mim.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -27,18 +25,18 @@ Testo integrale del Decreto Ministeriale del MIM (firmato dal Ministro Giuseppe 
 - Il Servizio sarà attivo entro ottobre 2025; previsti decreti attuativi successivi su progettazione delle iniziative, formazione e modelli documentali. Nessun nuovo onere per la finanza pubblica.
 
 ## Entità menzionate
-[[entity/mim]] — Titolare del trattamento, autore del decreto
-[[entity/garante-privacy]] — parere favorevole del 4 agosto 2025
-[[entity/commissione-europea]] — AI Act (Reg. UE 2024/1689), Libro Bianco, orientamenti etici
-[[entity/agid]] — Strategia Italiana IA 2024-2026, Piano Triennale per l'informatica nella PA
-[[entity/unesco]] — Recommendation on the Ethics of AI (2021)
-[[entity/ocse]] — OECD Recommendation on AI (2019)
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — Titolare del trattamento, autore del decreto
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — parere favorevole del 4 agosto 2025
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act (Reg. UE 2024/1689), Libro Bianco, orientamenti etici
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Strategia Italiana IA 2024-2026, Piano Triennale per l'informatica nella PA
+[[entity/unesco|UNESCO]] — Recommendation on the Ethics of AI (2021)
+[[entity/ocse|OCSE (OECD)]] — OECD Recommendation on AI (2019)
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — servizio digitale, sezioni, mappa delle sperimentazioni
-[[concept/privacy-protezione-dati]] — ruoli GDPR, misure di sicurezza, art. 32
-[[concept/supervisione-umana]] — intervento e sorveglianza umani tra i requisiti etici
-[[concept/intelligenza-artificiale]] — definizione ai sensi del Reg. UE 2024/1689
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — servizio digitale, sezioni, mappa delle sperimentazioni
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — ruoli GDPR, misure di sicurezza, art. 32
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — intervento e sorveglianza umani tra i requisiti etici
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — definizione ai sensi del Reg. UE 2024/1689
 
 ## Citazioni rilevanti
 > «La diffusione dei sistemi di IA nell'istruzione è importante per promuovere un'istruzione e una formazione digitali di alta qualità...» (considerando 56, Reg. UE 2024/1689)
@@ -46,7 +44,7 @@ Testo integrale del Decreto Ministeriale del MIM (firmato dal Ministro Giuseppe 
 > «L'intelligenza artificiale dovrebbe fungere da strumento per le persone, con l'obiettivo ultimo di aumentare il benessere umano» (Dichiarazione europea sui diritti e i principi digitali)
 
 ## Contraddizioni o tensioni
-È la fonte normativa primaria del provvedimento descritto da [[source/linee-guida-mim-dm166-2025]] e commentato da [[source/l-intelligenza-artificiale-entra-nelle-scuole-italiane-]]. Questo file riporta il testo del **decreto** (servizio digitale, piattaforma Unica, ruoli di trattamento), mentre la pagina canonica copre il contenuto delle **Linee Guida** allegate: i due testi sono complementari, non in conflitto. Nessuna contraddizione rilevata.
+È la fonte normativa primaria del provvedimento descritto da [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] e commentato da [[source/l-intelligenza-artificiale-entra-nelle-scuole-italiane-|L'intelligenza artificiale entra nelle scuole italiane: ecco le linee guida del Ministero (FPA)]]. Questo file riporta il testo del **decreto** (servizio digitale, piattaforma Unica, ruoli di trattamento), mentre la pagina canonica copre il contenuto delle **Linee Guida** allegate: i due testi sono complementari, non in conflitto. Nessuna contraddizione rilevata.
 
 ## Domande aperte
 - Quali saranno i contenuti dei decreti attuativi su formazione e modalità di progettazione delle iniziative di IA?

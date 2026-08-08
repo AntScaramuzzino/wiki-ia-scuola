@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["GUIDE | Sanoma, LR_MV560300017U.pdf"]
 ---
 
-# Sanoma — Intelligenza Artificiale: Guida all'IA (con attività didattiche)
-
 **File raw**: `raw/papers/sanoma-lr-mv560300017u-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -26,20 +24,20 @@ Guida didattica edita da Sanoma Italia (2024) che inquadra l'uso dell'IA generat
 - La Parte 2 propone attività didattiche graduate (per cominciare, intermedie, avanzate): costruzione del prompt, AI benchmark, test di Turing, interviste impossibili, IA come tutor di scrittura, ecc.
 
 ## Entità menzionate
-[[entity/unesco]] — citato per il Consenso di Pechino (2019) come riferimento etico sui bias
-[[entity/commissione-europea]] — autrice dell'AI Act richiamato nel volume
+[[entity/unesco|UNESCO]] — citato per il Consenso di Pechino (2019) come riferimento etico sui bias
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — autrice dell'AI Act richiamato nel volume
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — definizione e inquadramento didattico
-[[concept/ia-generativa]] — oggetto centrale della guida (ChatGPT, Gemini)
-[[concept/llm]] — modelli linguistici come tecnologia di riferimento
-[[concept/machine-learning]] — addestramento delle reti neurali
-[[concept/allucinazione]] — limite epistemologico dell'IA, da insegnare a riconoscere
-[[concept/bias-algoritmico]] — pregiudizi nei dati di addestramento
-[[concept/prompt]] — prompt engineering e regole di scrittura
-[[concept/valutazione-integrita-accademica]] — plagio e valutazione in presenza di IA
-[[concept/alfabetizzazione-ia]] — sviluppo di competenze digitali critiche
-[[concept/supervisione-umana]] — responsabilità nel controllare gli output dell'IA
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — definizione e inquadramento didattico
+[[concept/ia-generativa|IA Generativa]] — oggetto centrale della guida (ChatGPT, Gemini)
+[[concept/llm|LLM (Large Language Model)]] — modelli linguistici come tecnologia di riferimento
+[[concept/machine-learning|Machine Learning]] — addestramento delle reti neurali
+[[concept/allucinazione|Allucinazione]] — limite epistemologico dell'IA, da insegnare a riconoscere
+[[concept/bias-algoritmico|Bias Algoritmico]] — pregiudizi nei dati di addestramento
+[[concept/prompt|Prompt]] — prompt engineering e regole di scrittura
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — plagio e valutazione in presenza di IA
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — sviluppo di competenze digitali critiche
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — responsabilità nel controllare gli output dell'IA
 
 ## Citazioni rilevanti
 > "sii consapevole che le applicazioni IA possono imporre diversi tipi di pregiudizi che sono insiti nei dati su cui la tecnologia è addestrata e che usa come input, così come nel modo in cui i processi e gli algoritmi sono costruiti e utilizzati." (UNESCO – Consenso di Pechino, art. 28)
@@ -47,7 +45,7 @@ Guida didattica edita da Sanoma Italia (2024) che inquadra l'uso dell'IA generat
 > "un prompt deve essere descrittivo e semplice. Se un compito è complesso, è bene dividerlo in sottoattività."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata rispetto alle altre fonti. La guida è coerente con i principi delle Linee Guida MIM ([[source/linee-guida-mim-dm166-2025]]) su trasparenza, supervisione umana e alfabetizzazione, ma è una risorsa didattico-operativa (non normativa) che precede e completa quel quadro con tecniche pratiche e attività in aula. Possibile sovrapposizione concettuale con [[source/guida-pratica-ia-secondaria]] sul piano delle attività in classe.
+Nessuna contraddizione rilevata rispetto alle altre fonti. La guida è coerente con i principi delle Linee Guida MIM ([[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]) su trasparenza, supervisione umana e alfabetizzazione, ma è una risorsa didattico-operativa (non normativa) che precede e completa quel quadro con tecniche pratiche e attività in aula. Possibile sovrapposizione concettuale con [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]] sul piano delle attività in classe.
 
 ## Domande aperte
 - Le attività didattiche proposte sono compatibili con i limiti di età delle piattaforme commerciali (ChatGPT, Gemini) per gli studenti minorenni?

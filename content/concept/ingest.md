@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# Ingest
-
 ## Definizione
 
 Operazione con cui una fonte raw viene letta, analizzata e integrata nel wiki. È l'azione fondamentale che fa crescere la base di conoscenza.
@@ -34,10 +32,10 @@ Una singola fonte tipicamente tocca 5–15 pagine del wiki.
 
 ## Relazioni con altri concetti
 
-- [[concept/wiki-persistente]] — l'ingest è ciò che alimenta il wiki
-- [[concept/lint-wiki]] — operazione complementare (manutenzione vs crescita)
-- [[concept/schema-agente]] — il CLAUDE.md definisce il protocollo di ingest
+- [[concept/wiki-persistente|Wiki Persistente]] — l'ingest è ciò che alimenta il wiki
+- [[concept/lint-wiki|Lint Wiki]] — operazione complementare (manutenzione vs crescita)
+- [[concept/schema-agente|Schema Agente (CLAUDE.md / AGENTS.md)]] — il CLAUDE.md definisce il protocollo di ingest
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]

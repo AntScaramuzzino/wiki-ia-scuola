@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["NEWS | Online l'aggiornamento 2026 del Piano Triennale per l'informatica nella PA | Agid"]
 ---
 
-# Online l'aggiornamento 2026 del Piano Triennale per l'informatica nella PA (AgID)
-
 **File raw**: `raw/papers/online-l-aggiornamento-2026-del-piano-triennale-per-l-informatica-nell.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,16 +19,16 @@ Notizia istituzionale (22/10/2025) sull'uscita dell'aggiornamento 2026 del Piano
 - Enfasi sull'**uso responsabile dell'IA** e sull'investimento nelle competenze tramite AgID Academy.
 
 ## Entità menzionate
-[[entity/agid]] — autore e protagonista del Piano Triennale (DG Mario Nobile)
-[[entity/commissione-europea]] — priorità europee e obiettivi PNRR richiamati come quadro di riferimento
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autore e protagonista del Piano Triennale (DG Mario Nobile)
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — priorità europee e obiettivi PNRR richiamati come quadro di riferimento
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — pertinente per la governance dei progetti IA nella PA
-[[concept/intelligenza-artificiale]] — tema delle sezioni aggiornate del Piano
-[[concept/alfabetizzazione-ia]] — investimento in competenze tramite AgID Academy
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — pertinente per la governance dei progetti IA nella PA
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — tema delle sezioni aggiornate del Piano
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — investimento in competenze tramite AgID Academy
 
 ## Contraddizioni o tensioni
-News istituzionale di carattere informativo sulla PA, non sul mondo scolastico in senso stretto; nessun fatto nuovo rilevante per i concetti già consolidati nel wiki oltre al tema della governance dei progetti IA. Complementare al ruolo di AgID delineato in [[source/legge-132-2025]] (AgID come Autorità nazionale competente). Nessuna contraddizione rilevata.
+News istituzionale di carattere informativo sulla PA, non sul mondo scolastico in senso stretto; nessun fatto nuovo rilevante per i concetti già consolidati nel wiki oltre al tema della governance dei progetti IA. Complementare al ruolo di AgID delineato in [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] (AgID come Autorità nazionale competente). Nessuna contraddizione rilevata.
 
 ## Domande aperte
 - Quali strumenti specifici del Piano sono trasferibili alla governance dell'IA in ambito scolastico?

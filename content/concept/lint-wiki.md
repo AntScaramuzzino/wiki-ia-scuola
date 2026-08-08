@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# Lint Wiki
-
 ## Definizione
 
 Operazione periodica di health-check del wiki. L'LLM scansiona le pagine alla ricerca di problemi strutturali, incoerenze e lacune, e propone azioni correttive.
@@ -33,9 +31,9 @@ Dopo il lint, l'LLM propone: nuove pagine da creare, aggiornamenti da fare, font
 
 ## Relazioni con altri concetti
 
-- [[concept/ingest]] — operazione complementare (crescita vs manutenzione)
-- [[concept/wiki-persistente]] — il lint è ciò che mantiene il wiki sano nel tempo
+- [[concept/ingest|Ingest]] — operazione complementare (crescita vs manutenzione)
+- [[concept/wiki-persistente|Wiki Persistente]] — il lint è ciò che mantiene il wiki sano nel tempo
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]

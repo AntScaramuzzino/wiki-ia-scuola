@@ -6,8 +6,6 @@ created: 2026-06-21
 updated: 2026-06-22
 ---
 
-# Crediti e metodologia
-
 ## Crediti
 
 **Ideazione, curatela e direzione scientifica:** Antonio Scaramuzzino.

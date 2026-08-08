@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["https://pnrr.istruzione.it/wp-content/uploads/2026/03/m_pi.AOOGABMI.REGISTRO-UFFICIALEU.0073226.27-03-2026.pdf"]
 ---
 
-# Avviso pubblico PNRR snodi formativi IA nella scuola (circolare 73226/2026)
-
 **File raw**: `raw/papers/pnrr-istruzione-circolare-073226-2026.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -25,16 +23,16 @@ Testo integrale dell'Avviso pubblico del MIM (Unità di missione PNRR) attuativo
 - Vincoli PNRR: opzioni di costo semplificate (OCS), principio DNSH, divieto di doppio finanziamento, selezione del personale tramite procedura pubblica (D.lgs. 36/2023). Responsabile del procedimento: dott. Andrea Bollini.
 
 ## Entità menzionate
-[[entity/mim]] — titolare dell'avviso (Unità di missione per il PNRR)
-[[entity/scuola-futura]] — piattaforma obbligatoria per la gestione dei percorsi formativi
-[[entity/commissione-europea]] — finanziamento Next Generation EU e regolamenti UE (incluso AI Act)
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — titolare dell'avviso (Unità di missione per il PNRR)
+[[entity/scuola-futura|Piattaforma Scuola Futura]] — piattaforma obbligatoria per la gestione dei percorsi formativi
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — finanziamento Next Generation EU e regolamenti UE (incluso AI Act)
 
 ## Concetti trattati
-[[concept/snodi-formativi-pnrr]] — oggetto centrale dell'avviso (costituzione di snodi formativi territoriali)
-[[concept/alfabetizzazione-ia]] — finalità formativa per il personale scolastico
-[[concept/intelligenza-artificiale]] — tema dei percorsi
-[[concept/governance-scolastica-ia]] — regolamentazione dell'uso dell'IA nella scuola
-[[concept/privacy-protezione-dati]] — rispetto della protezione dei dati nei laboratori
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — oggetto centrale dell'avviso (costituzione di snodi formativi territoriali)
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — finalità formativa per il personale scolastico
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — tema dei percorsi
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — regolamentazione dell'uso dell'IA nella scuola
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — rispetto della protezione dei dati nei laboratori
 
 ## Citazioni rilevanti
 > "La finalità del presente avviso è la costituzione di snodi formativi territoriali per la transizione digitale sull'utilizzo dell'intelligenza artificiale (IA) nella scuola […]."
@@ -42,7 +40,7 @@ Testo integrale dell'Avviso pubblico del MIM (Unità di missione PNRR) attuativo
 > "almeno un percorso dovrà essere finalizzato alla formazione di formatori che avranno poi il compito di diffondere le competenze acquisite all'interno del rispettivo contesto scolastico."
 
 ## Contraddizioni o tensioni
-Questa è la fonte primaria (testo integrale dell'avviso) dell'iniziativa già descritta in [[source/dm-219-2025-snodi-formativi]]: i due documenti sono complementari e coerenti (il DM istituisce la misura, l'avviso ne definisce i dettagli operativi). Nessuna contraddizione; segnalata sovrapposizione tematica. NOTA: lo slug del file (`fonte`) deriva dal JSON di batch ed è poco descrittivo — il titolo leggibile riportato nel frontmatter è quello canonico.
+Questa è la fonte primaria (testo integrale dell'avviso) dell'iniziativa già descritta in [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]]: i due documenti sono complementari e coerenti (il DM istituisce la misura, l'avviso ne definisce i dettagli operativi). Nessuna contraddizione; segnalata sovrapposizione tematica. NOTA: lo slug del file (`fonte`) deriva dal JSON di batch ed è poco descrittivo — il titolo leggibile riportato nel frontmatter è quello canonico.
 
 ## Domande aperte
 - Discrepanza temporale apparente: la circolare è protocollata 27-03-2026 ma fissa la scadenza al 17 aprile 2025; verificare quale data sia corretta nella fonte originale.

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Presentazione IA Scuola.pdf"]
 ---
 
-# Presentazione IA Scuola — privacy, DPIA e FRIA
-
 **File raw**: `raw/notes/presentazione-ia-scuola-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 **Nota**: contenuto recuperato via OCR (tesseract, 14 pagine) dal PDF a immagini originale; possibili lievi imprecisioni.
@@ -27,19 +25,19 @@ Presentazione (14 slide) sugli adempimenti di **protezione dati** connessi all'u
 - **DM 166/2025** (artt. 2 e 6): sulla **Piattaforma Unica** è attivo un Servizio Digitale con la sezione «Progetti IA» (strumenti metodologici, FAQ sulle Linee Guida).
 
 ## Concetti trattati
-[[concept/privacy-protezione-dati]] — Titolare/Responsabile, DPIA, age gate, minori
-[[concept/dpia-fria]] — obblighi di valutazione d'impatto (DPIA + FRIA)
-[[concept/fria]] — valutazione d'impatto sui diritti fondamentali (art. 27 AI Act)
-[[concept/deployer]] — la scuola come deployer ex art. 3 AI Act
-[[concept/ai-act-categorie-rischio]] — sistemi ad alto rischio nell'istruzione
-[[concept/supervisione-umana]] — misure di sorveglianza umana
-[[concept/governance-scolastica-ia]] — ruoli e Piattaforma Unica
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — Titolare/Responsabile, DPIA, age gate, minori
+[[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — obblighi di valutazione d'impatto (DPIA + FRIA)
+[[concept/fria|FRIA — Valutazione d'Impatto sui Diritti Fondamentali]] — valutazione d'impatto sui diritti fondamentali (art. 27 AI Act)
+[[concept/deployer|Deployer (utilizzatore professionale di IA)]] — la scuola come deployer ex art. 3 AI Act
+[[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]] — sistemi ad alto rischio nell'istruzione
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — misure di sorveglianza umana
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — ruoli e Piattaforma Unica
 
 ## Citazioni rilevanti
 > "Ai sensi dell'AI Act la scuola che eroga servizi di AI, legalmente rappresentata dal DS, è il DEPLOYER." (slide 5)
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione. Approfondimento operativo coerente con [[source/linee-guida-mim-dm166-2025]]; utile come checklist privacy a corredo della [[concept/governance-scolastica-ia|governance d'istituto]].
+Nessuna contraddizione. Approfondimento operativo coerente con [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; utile come checklist privacy a corredo della [[concept/governance-scolastica-ia|governance d'istituto]].
 
 ## Domande aperte
 - Come verificare in pratica le garanzie dei fornitori (responsabili del trattamento) richieste dall'art. 28 GDPR?

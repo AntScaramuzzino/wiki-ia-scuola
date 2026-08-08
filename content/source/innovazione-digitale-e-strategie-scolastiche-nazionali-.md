@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Innovazione Digitale e Strategie Scolastiche Nazionali Intervento D'Amico"]
 ---
 
-# Innovazione Digitale e Strategie Scolastiche Nazionali — Intervento D'Amico
-
 **File raw**: `raw/articles/innovazione-digitale-e-strategie-scolastiche-nazionali-intervento-d-am.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -24,16 +22,16 @@ Trascrizione dell'intervento del direttore D'Amico (responsabile dell'innovazion
 - Frassinetti ribadisce i principi delle linee guida (centralità della persona, tutela dei diritti, trasparenza, sicurezza), il valore dell'IA per equità/inclusione/personalizzazione, e il fatto che il docente ben formato non deve essere sostituito ma accompagnato dall'IA. Cita la riduzione della dispersione scolastica (anticipato obiettivo PNRR) e il modello 4+2 ordinamentale.
 
 ## Entità menzionate
-[[entity/mim]] — Ministero dell'Istruzione e del Merito, autore delle linee guida e della strategia
-[[entity/garante-privacy]] — parere positivo sul decreto delle linee guida
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — Ministero dell'Istruzione e del Merito, autore delle linee guida e della strategia
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — parere positivo sul decreto delle linee guida
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — strategia, kit di strumenti, monitoraggio su Unica
-[[concept/supervisione-umana]] — il docente accompagnato e non sostituito dall'IA
-[[concept/didattica-inclusiva-ia]] — equità, inclusione, personalizzazione della didattica
-[[concept/cyberbullismo]] — contesto di sicurezza e contrasto a condotte violente (modifica codice penale)
-[[concept/ia-generativa]] — digital human e strumenti commerciali in ambito scolastico
-[[concept/snodi-formativi-pnrr]] — obiettivi PNRR (dispersione scolastica) e formazione
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — strategia, kit di strumenti, monitoraggio su Unica
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — il docente accompagnato e non sostituito dall'IA
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — equità, inclusione, personalizzazione della didattica
+[[concept/cyberbullismo|Cyberbullismo]] — contesto di sicurezza e contrasto a condotte violente (modifica codice penale)
+[[concept/ia-generativa|IA Generativa]] — digital human e strumenti commerciali in ambito scolastico
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — obiettivi PNRR (dispersione scolastica) e formazione
 
 ## Citazioni rilevanti
 > "Noi non abbiamo messo alcun vincolo, noi abbiamo semplicemente raccolto, integrato, messo in modo il più possibile semplice tutte quelle cose che devono essere considerate rispetto alla normativa europea."
@@ -41,7 +39,7 @@ Trascrizione dell'intervento del direttore D'Amico (responsabile dell'innovazion
 > "L'insegnante ben formato non deve essere sostituito dall'intelligenza artificiale ma semmai deve essere accompagnato [...] l'intelligenza artificiale deve rimanere uno strumento."
 
 ## Contraddizioni o tensioni
-Tensione con la lettura critica del webinar [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi]]: D'Amico sostiene che le linee guida "non introducono vincoli" e sono un supporto, mentre i relatori del webinar evidenziano obblighi gravosi (DPIA, FRIA) di fatto difficilmente assolvibili dalle scuole. Conferma e contestualizza istituzionalmente [[source/linee-guida-mim-dm166-2025]]; aggiunge fatti propri (orientamento nel metaverso, progetto cybersicurezza con ACN, tempistica della nuova strategia 2026), quindi non è mera ridondanza.
+Tensione con la lettura critica del webinar [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi|Linee Guida IA a Scuola: Aspetti Normativi e Operativi (webinar)]]: D'Amico sostiene che le linee guida "non introducono vincoli" e sono un supporto, mentre i relatori del webinar evidenziano obblighi gravosi (DPIA, FRIA) di fatto difficilmente assolvibili dalle scuole. Conferma e contestualizza istituzionalmente [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; aggiunge fatti propri (orientamento nel metaverso, progetto cybersicurezza con ACN, tempistica della nuova strategia 2026), quindi non è mera ridondanza.
 
 ## Domande aperte
 - Quando sarà pubblicata la nuova strategia per la scuola digitale e quali contenuti avrà rispetto al PNSD/Scuola 4.0?

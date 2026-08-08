@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["IA@School.pdf"]
 ---
 
-# IA@School — Quadro normativo e strategico (EFT Calabria)
-
 **File raw**: `raw/papers/ia-school-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -28,23 +26,23 @@ Presentazione formativa a cura di Antonio Scaramuzzino e Rosetta Riotto (EFT Cal
 - Modello operativo basato sul ciclo **Plan-Do-Check-Act**; documento «vivo» aggiornato almeno annualmente.
 
 ## Entità menzionate
-[[entity/mim]] — autore delle Linee guida (DM 166/2025) illustrate
-[[entity/unesco]] — Raccomandazione 2021 sull'etica dell'IA, recepita dall'Italia
-[[entity/commissione-europea]] — AI Act UE 2024
-[[entity/agid]] — Strategia nazionale IA 2024-2026 (con il DTD)
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle Linee guida (DM 166/2025) illustrate
+[[entity/unesco|UNESCO]] — Raccomandazione 2021 sull'etica dell'IA, recepita dall'Italia
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act UE 2024
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Strategia nazionale IA 2024-2026 (con il DTD)
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — quattro pilastri, ruoli, Piattaforma Unica, ciclo PDCA
-[[concept/intelligenza-artificiale]] — inquadramento generale nel contesto educativo
-[[concept/supervisione-umana]] — controllo umano obbligatorio sulle decisioni significative
-[[concept/bias-algoritmico]] — equità e monitoraggio dei pregiudizi negli algoritmi
-[[concept/privacy-protezione-dati]] — GDPR, DPIA, privacy by design, diritto di non partecipazione
-[[concept/valutazione-integrita-accademica]] — valutazione studenti e proctoring come alto rischio
-[[concept/didattica-inclusiva-ia]] — supporto a PEI/PDP e riduzione delle disuguaglianze
-[[concept/ia-generativa]] — allucinazioni dei modelli generativi tra i limiti da spiegare
-[[concept/allucinazione]] — fenomeno da far comprendere a docenti e studenti
-[[concept/alfabetizzazione-ia]] — AI literacy e cittadinanza digitale critica
-[[concept/scuola-aumentata]] — visione di una scuola più inclusiva, equa e innovativa con l'IA
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — quattro pilastri, ruoli, Piattaforma Unica, ciclo PDCA
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — inquadramento generale nel contesto educativo
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — controllo umano obbligatorio sulle decisioni significative
+[[concept/bias-algoritmico|Bias Algoritmico]] — equità e monitoraggio dei pregiudizi negli algoritmi
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — GDPR, DPIA, privacy by design, diritto di non partecipazione
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — valutazione studenti e proctoring come alto rischio
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — supporto a PEI/PDP e riduzione delle disuguaglianze
+[[concept/ia-generativa|IA Generativa]] — allucinazioni dei modelli generativi tra i limiti da spiegare
+[[concept/allucinazione|Allucinazione]] — fenomeno da far comprendere a docenti e studenti
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — AI literacy e cittadinanza digitale critica
+[[concept/scuola-aumentata|Scuola aumentata]] — visione di una scuola più inclusiva, equa e innovativa con l'IA
 
 ## Citazioni rilevanti
 > "La tecnologia deve supportare il pieno sviluppo della persona, garantendo il ruolo centrale e insostituibile dell'uomo nel governo dei sistemi di IA."
@@ -52,7 +50,7 @@ Presentazione formativa a cura di Antonio Scaramuzzino e Rosetta Riotto (EFT Cal
 > "L'intelligenza artificiale può essere uno straordinario alleato dell'educazione, ma solo se rimane fedele ai valori umanistici che da sempre ispirano la scuola italiana."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione. È una sintesi formativa fedele che integra e ricapitola [[source/linee-guida-mim-dm166-2025]], [[source/ai-act-ue]], [[source/unesco-guidance-genai-2023]] e la Raccomandazione UNESCO 2021. Non introduce fatti normativi nuovi rispetto alle fonti canoniche, ma ne offre una rielaborazione didattica organica e una mappatura chiara dei livelli normativi.
+Nessuna contraddizione. È una sintesi formativa fedele che integra e ricapitola [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/unesco-guidance-genai-2023|UNESCO — Guidance for generative AI in education and research (2023)]] e la Raccomandazione UNESCO 2021. Non introduce fatti normativi nuovi rispetto alle fonti canoniche, ma ne offre una rielaborazione didattica organica e una mappatura chiara dei livelli normativi.
 
 ## Domande aperte
 - Il documento è pensato come materiale formativo riutilizzabile: a quale platea EFT Calabria e con quale percorso è destinato?

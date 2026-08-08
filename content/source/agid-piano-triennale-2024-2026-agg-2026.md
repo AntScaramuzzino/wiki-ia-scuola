@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["2024.2026 | AGID, Piano Triennale 2024-2026 Agg. 2026.pdf"]
 ---
 
-# AGID — Piano Triennale per l'informatica nella PA 2024-2026 (Agg. 2026)
-
 **File raw**: `raw/papers/2024-2026-agid-piano-triennale-2024-2026-agg-2026-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -25,21 +23,21 @@ Aggiornamento 2026 del Piano Triennale per l'informatica nella Pubblica Amminist
 - Le PA dovranno rispettare le Linee guida AgID sull'IA in corso di emanazione; la cybersicurezza è precondizione lungo l'intero ciclo di vita dei sistemi IA (coordinamento DTD-ACN-AgID).
 
 ## Entità menzionate
-[[entity/agid]] — autore del Piano e regolatore della trasformazione digitale della PA
-[[entity/commissione-europea]] — fonte di AI Act, GenAI4EU, Piano per il continente dell'IA
-[[entity/ocse]] — definizione di «sistema di IA» ripresa dal Piano (OECD AI principles)
-[[entity/mim]] — sistema scolastico come parte della PA destinataria delle linee d'azione
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autore del Piano e regolatore della trasformazione digitale della PA
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — fonte di AI Act, GenAI4EU, Piano per il continente dell'IA
+[[entity/ocse|OCSE (OECD)]] — definizione di «sistema di IA» ripresa dal Piano (OECD AI principles)
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — sistema scolastico come parte della PA destinataria delle linee d'azione
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — definizione operativa ripresa dall'OCSE
-[[concept/machine-learning]] — tra i building block abilitanti degli Ambienti di sperimentazione
-[[concept/llm]] — grandi modelli generalisti e SLM come tecnologie abilitanti
-[[concept/ia-generativa]] — grandi modelli generalisti; iniziativa GenAI4EU
-[[concept/allucinazione]] — rischio esplicito da gestire nelle risposte dei sistemi IA della PA
-[[concept/privacy-protezione-dati]] — governance dei dati e conformità GDPR come prerequisito
-[[concept/alfabetizzazione-ia]] — AI Literacy come competenza imprescindibile del personale PA
-[[concept/bias-algoritmico]] — distorsioni nei dataset da individuare e correggere
-[[concept/supervisione-umana]] — trasparenza e responsabilità nelle decisioni supportate da IA
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — definizione operativa ripresa dall'OCSE
+[[concept/machine-learning|Machine Learning]] — tra i building block abilitanti degli Ambienti di sperimentazione
+[[concept/llm|LLM (Large Language Model)]] — grandi modelli generalisti e SLM come tecnologie abilitanti
+[[concept/ia-generativa|IA Generativa]] — grandi modelli generalisti; iniziativa GenAI4EU
+[[concept/allucinazione|Allucinazione]] — rischio esplicito da gestire nelle risposte dei sistemi IA della PA
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — governance dei dati e conformità GDPR come prerequisito
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — AI Literacy come competenza imprescindibile del personale PA
+[[concept/bias-algoritmico|Bias Algoritmico]] — distorsioni nei dataset da individuare e correggere
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — trasparenza e responsabilità nelle decisioni supportate da IA
 
 ## Citazioni rilevanti
 > "Per sistema di Intelligenza Artificiale (IA) si intende un sistema automatico che, per obiettivi espliciti o impliciti, deduce dagli input ricevuti come generare output come previsioni, contenuti, raccomandazioni o decisioni che possono influenzare ambienti fisici o virtuali."
@@ -47,7 +45,7 @@ Aggiornamento 2026 del Piano Triennale per l'informatica nella Pubblica Amminist
 > "Le Pubbliche Amministrazioni adottano i sistemi di IA garantendo la compliance all'AI Act, con particolare attenzione al proprio ruolo, che, a seconda del contesto, può ricadere sia in quello di deployer che di fornitore."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata. Il Piano è la cornice di riferimento per la PA cui rinviano [[source/ai-act-ue]] (classificazione del rischio) e gli atti di indirizzo scolastici; è coerente con [[source/linee-guida-mim-dm166-2025]] nel collocare la scuola come deployer responsabile. Fornisce contesto più ampio (intera PA) rispetto al focus scolastico delle altre fonti.
+Nessuna contraddizione rilevata. Il Piano è la cornice di riferimento per la PA cui rinviano [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] (classificazione del rischio) e gli atti di indirizzo scolastici; è coerente con [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] nel collocare la scuola come deployer responsabile. Fornisce contesto più ampio (intera PA) rispetto al focus scolastico delle altre fonti.
 
 ## Domande aperte
 - Quando saranno emanate in forma definitiva e vincolante le Linee guida AgID sull'IA (Determinazione n. 17/2025) e quali obblighi specifici imporranno alle scuole come PA?

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["GUIDE | Intelligenza artificiale a scuola: dm 166/2025 e linee guida mim - RocketCDN"]
 ---
 
-# Guida pratica per DS: IA a scuola — DM 166/2025 e Linee guida MIM (Tosolini)
-
 **File raw**: `raw/papers/intelligenza-artificiale-a-scuola-dm-166-2025-e-linee-guida-mim-rocket.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -33,20 +31,20 @@ Guida operativa per dirigenti scolastici (collana "SOS Dirigenti scolastici", a 
 > Definizione di deployer: "una persona fisica o giuridica, un'autorità pubblica, un'agenzia o un altro organismo che utilizza un sistema di IA sotto la propria autorità …" (AI Act art. 3).
 
 ## Entità menzionate
-[[entity/mim]] — emana il DM 166/2025 ed è Titolare del trattamento in UNICA
-[[entity/garante-privacy]] — parere favorevole sul DM e su futuri decreti
-[[entity/commissione-europea]] — Linee guida etiche 2022, quadro UE di riferimento
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — emana il DM 166/2025 ed è Titolare del trattamento in UNICA
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — parere favorevole sul DM e su futuri decreti
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — Linee guida etiche 2022, quadro UE di riferimento
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — modello a 4 pilastri, ciclo in 5 fasi, governance d'istituto
-[[concept/supervisione-umana]] — presìdi di controllo umano sugli output
-[[concept/privacy-protezione-dati]] — GDPR, DPIA/FRIA, privacy by design, ruolo del DPO
-[[concept/valutazione-integrita-accademica]] — sistemi alto rischio per valutazione e proctoring
-[[concept/intelligenza-artificiale]] — quadro generale
-[[concept/snodi-formativi-pnrr]] — formazione del personale richiamata dal modello
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — modello a 4 pilastri, ciclo in 5 fasi, governance d'istituto
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — presìdi di controllo umano sugli output
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — GDPR, DPIA/FRIA, privacy by design, ruolo del DPO
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — sistemi alto rischio per valutazione e proctoring
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — quadro generale
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — formazione del personale richiamata dal modello
 
 ## Contraddizioni o tensioni
-Conferma e operazionalizza [[source/linee-guida-mim-dm166-2025]] (fonte canonica): non introduce fatti normativi nuovi rispetto al DM 166/2025 e alle Linee guida, ma aggiunge valore come strumento applicativo (check-list, HUDERIA dettagliata, descrizione del Servizio UNICA). Da considerare la fonte canonica per i contenuti del cronoprogramma richiamati da [[source/adempimenti-e-cronoprogramma]].
+Conferma e operazionalizza [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] (fonte canonica): non introduce fatti normativi nuovi rispetto al DM 166/2025 e alle Linee guida, ma aggiunge valore come strumento applicativo (check-list, HUDERIA dettagliata, descrizione del Servizio UNICA). Da considerare la fonte canonica per i contenuti del cronoprogramma richiamati da [[source/adempimenti-e-cronoprogramma|Adempimenti e cronoprogramma per l'IA a scuola (A.S. 2025/2026)]].
 
 ## Domande aperte
 - Quali saranno i contenuti dei futuri decreti ministeriali su progettazione delle iniziative e formazione?

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["IA nella Pubblica amministrazione: pubblicata la prima indagine di AgID svolta presso le amministrazioni centrali | Agid"]
 ---
 
-# IA nella Pubblica Amministrazione: prima indagine AgID presso le amministrazioni centrali (2025)
-
 **File raw**: `raw/papers/ia-nella-pubblica-amministrazione-pubblicata-la-prima-indagine-di-agid.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -25,16 +23,16 @@ Comunicato AgID (10 giugno 2025) sulla prima indagine nazionale sull'uso dell'IA
 - Raccomandazioni: tecnologie affidabili e a basso impatto ambientale, miglioramento della qualità/gestione dei dati, innovazione del procurement (gare dedicate precedute da pilota), pianificazione strategica con KPI, open innovation, sviluppo di figure dedicate come **AI Officer** e **Data Steward**.
 
 ## Entità menzionate
-[[entity/agid]] — autore dell'indagine, nell'ambito del Piano Triennale per l'Informatica nella PA
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autore dell'indagine, nell'ambito del Piano Triennale per l'Informatica nella PA
 
 ## Concetti trattati
-[[concept/machine-learning]] — tecnologia prevalente nei progetti PA
-[[concept/ia-generativa]] — in crescita per testi e linguaggio naturale
-[[concept/privacy-protezione-dati]] — uso di dati personali/sintetici, qualità dei dati
-[[concept/ia-pubblica-amministrazione]] — efficienza operativa come obiettivo primario
+[[concept/machine-learning|Machine Learning]] — tecnologia prevalente nei progetti PA
+[[concept/ia-generativa|IA Generativa]] — in crescita per testi e linguaggio naturale
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — uso di dati personali/sintetici, qualità dei dati
+[[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]] — efficienza operativa come obiettivo primario
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata. Fonte fuori dal perimetro strettamente scolastico: documenta l'adozione dell'IA nella PA italiana e fornisce un termine di confronto utile (carenza di KPI, dipendenza da consulenti, scarsa qualità dei dati) per le criticità segnalate in ambito scolastico da [[source/analisi-delle-linee-guida-mim-sull-ia-nella-scuola]]. Le raccomandazioni AgID (KPI, qualità dei dati, dati sintetici, figure dedicate) convergono con quelle del settore istruzione.
+Nessuna contraddizione rilevata. Fonte fuori dal perimetro strettamente scolastico: documenta l'adozione dell'IA nella PA italiana e fornisce un termine di confronto utile (carenza di KPI, dipendenza da consulenti, scarsa qualità dei dati) per le criticità segnalate in ambito scolastico da [[source/analisi-delle-linee-guida-mim-sull-ia-nella-scuola|Analisi critica delle Linee Guida MIM sull'IA nella scuola (Gianfranco Bordoni — prospettiva USR Lombardia)]]. Le raccomandazioni AgID (KPI, qualità dei dati, dati sintetici, figure dedicate) convergono con quelle del settore istruzione.
 
 ## Domande aperte
 - Le figure professionali proposte (AI Officer, Data Steward) potrebbero avere un analogo nel contesto scolastico?

@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# Schema Agente
-
 ## Definizione
 
 File di configurazione (CLAUDE.md per Claude Code, AGENTS.md per Codex) che trasforma un LLM generico in un wiki-maintainer disciplinato. Definisce struttura, convenzioni, workflow e regole comportamentali. È il layer che rende il sistema riproducibile tra sessioni diverse.
@@ -31,10 +29,10 @@ L'agente legge questo file all'inizio di ogni sessione prima di qualsiasi altra 
 
 ## Relazioni con altri concetti
 
-- [[concept/wiki-persistente]] — lo schema è il layer che governa il wiki
-- [[concept/ingest]] — il protocollo di ingest è definito nello schema
-- [[concept/lint-wiki]] — il protocollo di lint è definito nello schema
+- [[concept/wiki-persistente|Wiki Persistente]] — lo schema è il layer che governa il wiki
+- [[concept/ingest|Ingest]] — il protocollo di ingest è definito nello schema
+- [[concept/lint-wiki|Lint Wiki]] — il protocollo di lint è definito nello schema
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]

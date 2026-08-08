@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: [ai-act-ue, legge-132-2025, linee-guida-mim-dm166-2025]
 ---
 
-# Il quadro normativo dell'IA nella scuola italiana: i tre livelli
-
 ## Domanda
 Qual è il quadro normativo che regola l'IA nella scuola italiana e come si articolano i diversi livelli?
 
@@ -21,9 +19,9 @@ L'IA a scuola è regolata da un'architettura a tre livelli che si incastrano ger
 
 | Livello | Fonte | Entrata in vigore / applicabilità | Funzione |
 |---------|-------|-----------------------------------|----------|
-| Europeo | [[source/ai-act-ue]] — Regolamento UE 2024/1689 | In vigore 01/08/2024; pienamente applicabile **02/08/2026** (divieti già dal 02/02/2025) | Quadro giuridico generale basato sul rischio |
-| Nazionale | [[source/legge-132-2025]] — Legge 23/09/2025 n. 132 | In vigore **10/10/2025** | Affianca l'AI Act; principi costituzionali e promozione educativa |
-| Settoriale/scolastico | [[source/linee-guida-mim-dm166-2025]] — DM 166 del 09/08/2025 (Linee Guida v1.0, pubblicate 29/08/2025) | Cronoprogramma a.s. 2025/2026 | Traduzione operativa per le istituzioni scolastiche |
+| Europeo | [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] — Regolamento UE 2024/1689 | In vigore 01/08/2024; pienamente applicabile **02/08/2026** (divieti già dal 02/02/2025) | Quadro giuridico generale basato sul rischio |
+| Nazionale | [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] — Legge 23/09/2025 n. 132 | In vigore **10/10/2025** | Affianca l'AI Act; principi costituzionali e promozione educativa |
+| Settoriale/scolastico | [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] — DM 166 del 09/08/2025 (Linee Guida v1.0, pubblicate 29/08/2025) | Cronoprogramma a.s. 2025/2026 | Traduzione operativa per le istituzioni scolastiche |
 
 I tre livelli non sono alternativi ma cumulativi: la scuola deve rispettare contemporaneamente le prescrizioni europee, quelle nazionali e gli adempimenti ministeriali. Le Linee Guida MIM sono uno strumento **proattivo**: anticipando gli obblighi stringenti dell'AI Act, il Ministero offre alle scuole un vantaggio temporale per strutturare un'innovazione controllata prima del 2 agosto 2026.
 
@@ -45,25 +43,25 @@ L'**Articolo 5** vieta inoltre espressamente i sistemi di riconoscimento delle e
 
 La Legge 132/2025 è la **prima normativa nazionale in Europa ad affiancare l'AI Act**. Completa il quadro europeo ponendo l'accento sul rispetto dei diritti e delle libertà costituzionali. Punti salienti per la scuola:
 
-- **Antropocentrismo e non delegabilità (Art. 3):** ricerca e utilizzo dell'IA devono rispettare autonomia e potere decisionale umano; nessun processo automatizzato può sostituire integralmente la volontà umana ([[concept/supervisione-umana]]).
-- **Promozione educativa (Art. 24):** potenziamento delle competenze **STEM** nei curricoli e inserimento di percorsi di **alfabetizzazione all'IA** ([[concept/alfabetizzazione-ia]]) per un uso consapevole e l'interpretazione critica degli output.
-- **Governance nazionale:** [[entity/agid]] (Agenzia per l'Italia Digitale) e l'Agenzia per la Cybersicurezza Nazionale (ACN) sono designate autorità competenti per vigilanza e promozione.
+- **Antropocentrismo e non delegabilità (Art. 3):** ricerca e utilizzo dell'IA devono rispettare autonomia e potere decisionale umano; nessun processo automatizzato può sostituire integralmente la volontà umana ([[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]]).
+- **Promozione educativa (Art. 24):** potenziamento delle competenze **STEM** nei curricoli e inserimento di percorsi di **alfabetizzazione all'IA** ([[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]]) per un uso consapevole e l'interpretazione critica degli output.
+- **Governance nazionale:** [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] (Agenzia per l'Italia Digitale) e l'Agenzia per la Cybersicurezza Nazionale (ACN) sono designate autorità competenti per vigilanza e promozione.
 
 ### Livello 3 — Linee Guida MIM (DM 166/2025)
 
-Emanate da [[entity/mim]], traducono la normativa in adempimenti pratici fondati su principi non negoziabili: centralità della persona, *human-in-the-loop*, equità/inclusione, trasparenza/spiegabilità, tutela della privacy (*by design* e *by default*).
+Emanate da [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]], traducono la normativa in adempimenti pratici fondati su principi non negoziabili: centralità della persona, *human-in-the-loop*, equità/inclusione, trasparenza/spiegabilità, tutela della privacy (*by design* e *by default*).
 
-**A. La scuola come "deployer".** L'innovazione giuridica principale è che la scuola assume formalmente la qualifica di **deployer** (utilizzatore professionale) ai sensi dell'Art. 3, punto 4, dell'AI Act: usa i sistemi sotto la propria autorità e se ne assume la piena responsabilità giuridica, tecnica ed etica ([[concept/governance-scolastica-ia]]).
+**A. La scuola come "deployer".** L'innovazione giuridica principale è che la scuola assume formalmente la qualifica di **deployer** (utilizzatore professionale) ai sensi dell'Art. 3, punto 4, dell'AI Act: usa i sistemi sotto la propria autorità e se ne assume la piena responsabilità giuridica, tecnica ed etica ([[concept/governance-scolastica-ia|Governance scolastica dell'IA]]).
 
 **B. Valutazione del rischio — DPIA e FRIA.**
 - **DPIA** (Data Protection Impact Assessment, art. 35 GDPR): obbligatoria prima di implementare qualsiasi sistema IA, in quanto la scuola è Titolare del Trattamento.
-- **FRIA** (Fundamental Rights Impact Assessment): se la scuola adotta un sistema ad **alto rischio** (es. valutazione degli studenti), l'**Art. 27 dell'AI Act** impone di integrare la DPIA con una valutazione d'impatto sui diritti fondamentali (processi, categorie di persone interessate, rischi di danno, misure di mitigazione e supervisione). Vedi [[concept/privacy-protezione-dati]].
+- **FRIA** (Fundamental Rights Impact Assessment): se la scuola adotta un sistema ad **alto rischio** (es. valutazione degli studenti), l'**Art. 27 dell'AI Act** impone di integrare la DPIA con una valutazione d'impatto sui diritti fondamentali (processi, categorie di persone interessate, rischi di danno, misure di mitigazione e supervisione). Vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]].
 
 **C. Trasparenza, privacy, opt-out.** Diritto di non partecipazione (le famiglie possono rifiutare l'uso dei dati per l'addestramento, senza limitazioni all'accesso); divieto di inserire dati sensibili (es. PDP) nei prompt di modelli aperti (minimizzazione dei dati); obbligo di trasparenza ex Art. 50 AI Act (informare quando si interagisce con un'IA).
 
 **D. Supervisione umana.** Nessuna decisione significativa può essere demandata all'algoritmo: il personale deve essere formato per supervisionare, interpretare e all'occorrenza annullare gli output.
 
-**E. Governance d'istituto e atto di indirizzo.** Il Dirigente Scolastico è garante dell'innovazione ed emana l'**Atto di Indirizzo**, che orienta il **Piano d'Istituto per l'IA (PIA)**, integrato nel PTOF. Figure chiave: **Referente per l'IA (RIA)**, **Gruppo di Lavoro per l'IA**, e il **DPO** ([[entity/garante-privacy]] come riferimento esterno), obbligatoriamente consultato per DPIA e FRIA.
+**E. Governance d'istituto e atto di indirizzo.** Il Dirigente Scolastico è garante dell'innovazione ed emana l'**Atto di Indirizzo**, che orienta il **Piano d'Istituto per l'IA (PIA)**, integrato nel PTOF. Figure chiave: **Referente per l'IA (RIA)**, **Gruppo di Lavoro per l'IA**, e il **DPO** ([[entity/garante-privacy|Garante per la protezione dei dati personali]] come riferimento esterno), obbligatoriamente consultato per DPIA e FRIA.
 
 ### Cronoprogramma operativo (a.s. 2025/2026)
 
@@ -80,10 +78,10 @@ Il MIM istituisce inoltre un Servizio Digitale sulla **Piattaforma Unica** (atti
 Il combinato disposto di AI Act, Legge 132/2025 e Linee Guida MIM trasforma il rapporto delle scuole con la tecnologia: l'innovazione è incoraggiata ma sottoposta a una governance rigorosa, etica e proceduralizzata, dove la valutazione del rischio e la centralità decisionale umana sono presupposti non negoziabili.
 
 ## Fonti usate
-[[source/ai-act-ue]], [[source/legge-132-2025]], [[source/linee-guida-mim-dm166-2025]], [[concept/governance-scolastica-ia]], [[concept/privacy-protezione-dati]], [[concept/supervisione-umana]], [[concept/alfabetizzazione-ia]], [[entity/mim]], [[entity/agid]], [[entity/garante-privacy]]
+[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[concept/governance-scolastica-ia|Governance scolastica dell'IA]], [[concept/privacy-protezione-dati|Privacy e protezione dei dati]], [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]], [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]], [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]], [[entity/agid|Agenzia per l'Italia Digitale (AgID)]], [[entity/garante-privacy|Garante per la protezione dei dati personali]]
 
 ## Lacune e domande aperte
 - Il corpus non dettaglia le sanzioni previste per la non conformità delle scuole agli obblighi AI Act/GDPR.
-- Non è chiarito il rapporto operativo tra DPO scolastico e [[entity/garante-privacy]] nei casi ad alto rischio.
+- Non è chiarito il rapporto operativo tra DPO scolastico e [[entity/garante-privacy|Garante per la protezione dei dati personali]] nei casi ad alto rischio.
 - Manca un dettaglio sui criteri tecnici per classificare in concreto un software scolastico come "ad alto rischio" (chi e come effettua la classificazione).
 - Da approfondire il ruolo di AgID/ACN nella vigilanza pratica sulle istituzioni scolastiche.

@@ -7,12 +7,10 @@ updated: 2026-06-21
 sources: ["UNESCO AI Competency Framework for Teachers (2024)"]
 ---
 
-# UNESCO — AI competency framework for teachers (2024)
-
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario
-L'UNESCO AI Competency Framework for Teachers (2024) definisce le competenze necessarie ai docenti per integrare l'IA in modo efficace ed etico, articolandole in quattro aspetti fondamentali. È rivolto a docenti, decisori politici, fornitori di formazione e dirigenti scolastici, ed è pubblicato in parallelo al framework dedicato agli studenti ([[source/unesco-competenze-studenti-2024]]).
+L'UNESCO AI Competency Framework for Teachers (2024) definisce le competenze necessarie ai docenti per integrare l'IA in modo efficace ed etico, articolandole in quattro aspetti fondamentali. È rivolto a docenti, decisori politici, fornitori di formazione e dirigenti scolastici, ed è pubblicato in parallelo al framework dedicato agli studenti ([[source/unesco-competenze-studenti-2024|UNESCO — AI competency framework for students (2024)]]).
 
 ## Punti chiave
 - Pubblicato dall'UNESCO nel 2024, parallelamente al framework per studenti.
@@ -24,16 +22,16 @@ L'UNESCO AI Competency Framework for Teachers (2024) definisce le competenze nec
   - **IA per lo sviluppo professionale** — uso dell'IA per l'apprendimento professionale continuo e la collaborazione tra colleghi.
 
 ## Entità menzionate
-[[entity/unesco]] — ente autore del framework
+[[entity/unesco|UNESCO]] — ente autore del framework
 
 ## Concetti trattati
-[[concept/alfabetizzazione-ia]] — competenze IA per i docenti
-[[concept/scuola-aumentata]] — docente come orchestratore con il supporto dell'IA
-[[concept/supervisione-umana]] — approccio incentrato sull'uomo nella pedagogia
-[[concept/valutazione-integrita-accademica]] — uso dell'IA nella valutazione
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — competenze IA per i docenti
+[[concept/scuola-aumentata|Scuola aumentata]] — docente come orchestratore con il supporto dell'IA
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — approccio incentrato sull'uomo nella pedagogia
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — uso dell'IA nella valutazione
 
 ## Contraddizioni o tensioni
-Nessuna rilevata. Complementare a [[source/unesco-competenze-studenti-2024]] e coerente con [[source/oecd-ai-literacy-2025]].
+Nessuna rilevata. Complementare a [[source/unesco-competenze-studenti-2024|UNESCO — AI competency framework for students (2024)]] e coerente con [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]].
 
 ## Domande aperte
-- Come si raccorda con il quadro europeo **DigCompEdu**, richiamato dalla formazione PNRR ([[source/dm-219-2025-snodi-formativi]])?
+- Come si raccorda con il quadro europeo **DigCompEdu**, richiamato dalla formazione PNRR ([[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]])?

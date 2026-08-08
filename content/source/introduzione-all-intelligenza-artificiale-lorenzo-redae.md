@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["WEBINAR | Introduzione all'Intelligenza Artificiale | Lorenzo Redaelli"]
 ---
 
-# Webinar — Introduzione all'Intelligenza Artificiale (Lorenzo Redaelli)
-
 **File raw**: `raw/notes/introduzione-all-intelligenza-artificiale-lorenzo-redaelli.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -36,15 +34,15 @@ Trascrizione del primo di un ciclo di cinque webinar per docenti prodotto con Mo
 Nessuna delle entità con pagina esistente è menzionata nella fonte. (Vedi suggerimenti: Lorenzo Redaelli, OpenAI, Mondadori Education, Floridi, Turing.)
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — definizione, IA debole/forte, storia
-[[concept/machine-learning]] — supervisionato, non supervisionato, per rinforzo
-[[concept/llm]] — large language models, GPT, generazione di testo
-[[concept/ia-generativa]] — modelli generativi dal 2022
-[[concept/alfabetizzazione-ia]] — obiettivo formativo del webinar: lessico di base per docenti
-[[concept/prompt]] — interazione con i chatbot generativi
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — definizione, IA debole/forte, storia
+[[concept/machine-learning|Machine Learning]] — supervisionato, non supervisionato, per rinforzo
+[[concept/llm|LLM (Large Language Model)]] — large language models, GPT, generazione di testo
+[[concept/ia-generativa|IA Generativa]] — modelli generativi dal 2022
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — obiettivo formativo del webinar: lessico di base per docenti
+[[concept/prompt|Prompt]] — interazione con i chatbot generativi
 
 ## Contraddizioni o tensioni
-Nessuna rilevata. Fonte didattico-divulgativa coerente con il quadro concettuale del wiki; utile come base di alfabetizzazione tecnica complementare ai documenti normativi (es. [[source/linee-guida-mim-dm166-2025]]).
+Nessuna rilevata. Fonte didattico-divulgativa coerente con il quadro concettuale del wiki; utile come base di alfabetizzazione tecnica complementare ai documenti normativi (es. [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]).
 
 ## Domande aperte
 - Quali contenuti coprono i webinar successivi del ciclo (etica, applicazioni lato docente/studente)?

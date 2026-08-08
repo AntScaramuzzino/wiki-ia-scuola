@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Adempimenti e cronoprogramma.pdf"]
 ---
 
-# Adempimenti e cronoprogramma per l'IA a scuola (A.S. 2025/2026)
-
 **File raw**: `raw/notes/adempimenti-e-cronoprogramma-pdf.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 **Nota**: contenuto recuperato via OCR (tesseract, 15 pagine) dal PDF a immagini originale; possibili lievi imprecisioni.
@@ -25,14 +23,14 @@ Presentazione operativa (15 slide) che traduce le [[source/linee-guida-mim-dm166
 - **Obiettivi**: didattici (personalizzazione, inclusione/BES, AI literacy, contrasto alla dispersione) e gestionali (automazione, compliance CAD/privacy, comunicazione scuola-famiglia).
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — atto di indirizzo, PIA, RIA, DPO, cronoprogramma
-[[concept/supervisione-umana]] — antropocentrismo e *human oversight*
-[[concept/privacy-protezione-dati]] — privacy by design, minimizzazione
-[[concept/alfabetizzazione-ia]] — formazione AI literacy di personale e studenti
-[[concept/didattica-inclusiva-ia]] — tecnologie assistive, BES, contrasto alla dispersione
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — atto di indirizzo, PIA, RIA, DPO, cronoprogramma
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — antropocentrismo e *human oversight*
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — privacy by design, minimizzazione
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — formazione AI literacy di personale e studenti
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — tecnologie assistive, BES, contrasto alla dispersione
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione. Documento operativo coerente con la fonte canonica [[source/linee-guida-mim-dm166-2025]]; ne è la traduzione in roadmap d'istituto (cfr. [[source/1-atto-di-indirizzo-per-l-adozione-dell-intelligenza-ar]]).
+Nessuna contraddizione. Documento operativo coerente con la fonte canonica [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; ne è la traduzione in roadmap d'istituto (cfr. [[source/1-atto-di-indirizzo-per-l-adozione-dell-intelligenza-ar|Atto di indirizzo per l'adozione dell'IA nell'istituzione scolastica (modulistica ver. 0.2)]]).
 
 ## Domande aperte
 - Quali KPI concreti l'istituto adotterà per misurare l'impatto su apprendimento e inclusione?

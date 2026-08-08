@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["2025 | EC EDH, Explainable AI in education: Fostering human oversight and shared responsibility"]
 ---
 
-# EC/EDEH — Explainable AI in education: Fostering human oversight and shared responsibility (2025)
-
 **File raw**: `raw/articles/2025-ec-edh-explainable-ai-in-education-fostering-human-oversight-and-.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -27,18 +25,18 @@ Report 2025 dello squad dello European Digital Education Hub (EDEH) sull'IA spie
 - Richiamo al framework "AI Explainability in Practice" dell'Alan Turing Institute e alla tassonomia delle spiegazioni (scope, depth, alternatives, flow).
 
 ## Entità menzionate
-[[entity/commissione-europea]] — committente del report tramite EACEA; quadro AI Act e linee guida etiche
-[[entity/unesco]] — citata per le pratiche di open science a sostegno di equità e inclusione nell'IA
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — committente del report tramite EACEA; quadro AI Act e linee guida etiche
+[[entity/unesco|UNESCO]] — citata per le pratiche di open science a sostegno di equità e inclusione nell'IA
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — definizione (art. 3 AI Act), autonomia e adattività dei sistemi
-[[concept/machine-learning]] — approccio data-driven, parametri numerici, opacità dei modelli
-[[concept/llm]] — IA come strumento general-purpose, possibilità di output inaccurati
-[[concept/supervisione-umana]] — human oversight come finalità della XAI e requisito AI Act
-[[concept/bias-algoritmico]] — trasparenza su dati e fairness, bias nei dataset educativi
-[[concept/privacy-protezione-dati]] — conformità GDPR, protezione dei minori
-[[concept/alfabetizzazione-ia]] — capacity building, competenze dei docenti verso la XAI
-[[concept/valutazione-integrita-accademica]] — auditabilità e accountability nelle valutazioni IA-assistite
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — definizione (art. 3 AI Act), autonomia e adattività dei sistemi
+[[concept/machine-learning|Machine Learning]] — approccio data-driven, parametri numerici, opacità dei modelli
+[[concept/llm|LLM (Large Language Model)]] — IA come strumento general-purpose, possibilità di output inaccurati
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — human oversight come finalità della XAI e requisito AI Act
+[[concept/bias-algoritmico|Bias Algoritmico]] — trasparenza su dati e fairness, bias nei dataset educativi
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — conformità GDPR, protezione dei minori
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — capacity building, competenze dei docenti verso la XAI
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — auditabilità e accountability nelle valutazioni IA-assistite
 
 ## Citazioni rilevanti
 > "For an AI system to be trustworthy, we must be able to understand why it behaved a certain way and why it provided a given interpretation."
@@ -48,7 +46,7 @@ Report 2025 dello squad dello European Digital Education Hub (EDEH) sull'IA spie
 > "Regarding the AI Act, it does not explicitly stipulate that AI must be explainable. Instead, human oversight, data governance, cybersecurity and transparency are referred to."
 
 ## Contraddizioni o tensioni
-- Nessuna contraddizione diretta con altre pagine del wiki. Approfondisce il principio di supervisione umana e di trasparenza già presente in [[source/ai-act-ue]] e [[source/unesco-guidance-genai-2023]], introducendo il tema specifico della spiegabilità (XAI), poco coperto altrove.
+- Nessuna contraddizione diretta con altre pagine del wiki. Approfondisce il principio di supervisione umana e di trasparenza già presente in [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] e [[source/unesco-guidance-genai-2023|UNESCO — Guidance for generative AI in education and research (2023)]], introducendo il tema specifico della spiegabilità (XAI), poco coperto altrove.
 - Tensione concettuale segnalata dalla fonte stessa: trade-off tra performance dei modelli (favorevole ai black-box) e necessità di spiegabilità (favorevole ai white-box), particolarmente acuto in educazione.
 
 ## Domande aperte

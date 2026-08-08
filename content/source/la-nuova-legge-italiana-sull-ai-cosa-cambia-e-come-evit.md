@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["La nuova legge italiana sull'AI: cosa cambia e come evitare le sanzioni"]
 ---
 
-# La nuova legge italiana sull'AI: cosa cambia e come evitare le sanzioni (Furnari Consulting)
-
 **File raw**: `raw/papers/la-nuova-legge-italiana-sull-ai-cosa-cambia-e-come-evitare-le-sanzioni.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -22,16 +20,16 @@ Articolo di blog aziendale (Furnari Consulting Srl, ottobre 2025) che commenta i
 - Sanzioni: multe fino a 20 milioni di euro o 4% del fatturato globale; aggravanti penali (fino a 5 anni) per usi impropri come deepfake; rischio di sospensioni operative e interdizione dai contratti pubblici.
 
 ## Entità menzionate
-[[entity/agid]] — autorità di vigilanza insieme ad ACN
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autorità di vigilanza insieme ad ACN
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — quadro normativo nazionale
-[[concept/supervisione-umana]] — decisione finale umana negli ambiti sensibili
-[[concept/privacy-protezione-dati]] — DPIA, dati biometrici e di minori, GDPR
-[[concept/deepfake]] — uso improprio sanzionabile penalmente
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — quadro normativo nazionale
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — decisione finale umana negli ambiti sensibili
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPIA, dati biometrici e di minori, GDPR
+[[concept/deepfake|Deepfake]] — uso improprio sanzionabile penalmente
 
 ## Contraddizioni o tensioni
-Conferma/commento (in chiave di consulenza alle imprese) di [[source/legge-132-2025]]; nessun fatto nuovo rispetto alla fonte canonica. ACN non ha ancora una pagina entity dedicata nel wiki (vedi suggerimenti).
+Conferma/commento (in chiave di consulenza alle imprese) di [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]]; nessun fatto nuovo rispetto alla fonte canonica. ACN non ha ancora una pagina entity dedicata nel wiki (vedi suggerimenti).
 
 ## Domande aperte
 - Quali saranno i contenuti tecnici dei decreti attuativi 2026 su audit, certificazioni e log?

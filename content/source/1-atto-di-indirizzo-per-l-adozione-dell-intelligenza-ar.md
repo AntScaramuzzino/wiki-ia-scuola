@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["MODULISTICA | 1. Atto di indirizzo per l'adozione dell'Intelligenza Artificiale nell'Istituzione scolastica ver. 0.2.pdf"]
 ---
 
-# Atto di indirizzo per l'adozione dell'IA nell'istituzione scolastica (modulistica ver. 0.2)
-
 **File raw**: `raw/notes/1-atto-di-indirizzo-per-l-adozione-dell-intelligenza-artificiale-nell-.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -26,20 +24,20 @@ Modello editabile di Atto di indirizzo del Dirigente Scolastico per l'AS 2025/20
 - **Monitoraggio**: KPI su adozione, formazione, impatto sull'apprendimento, efficienza amministrativa, conformità; revisione annuale del PIA.
 
 ## Entità menzionate
-[[entity/mim]] — DM 166/2025 e Linee guida che il PIA attua
-[[entity/agid]] — Determinazione n. 17/2025 e Linee guida IA per la PA richiamate nelle premesse
-[[entity/garante-privacy]] — quadro GDPR/Codice privacy alla base degli adempimenti
-[[entity/commissione-europea]] — AI Act (Reg. 2024/1689) come fonte sovraordinata
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — DM 166/2025 e Linee guida che il PIA attua
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Determinazione n. 17/2025 e Linee guida IA per la PA richiamate nelle premesse
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — quadro GDPR/Codice privacy alla base degli adempimenti
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act (Reg. 2024/1689) come fonte sovraordinata
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — PIA, ruoli, Gruppo di Lavoro IA, cronoprogramma
-[[concept/supervisione-umana]] — antropocentrismo e ruolo insostituibile dell'uomo
-[[concept/privacy-protezione-dati]] — DPIA/FRIA, registro trattamenti, privacy by design/default
-[[concept/snodi-formativi-pnrr]] — PNRR Missione 4 e referenti PNRR nel Gruppo di Lavoro
-[[concept/alfabetizzazione-ia]] — AI Literacy come obiettivo formativo strategico
-[[concept/didattica-inclusiva-ia]] — inclusione BES e tecnologie assistive
-[[concept/bias-algoritmico]] — prevenzione di rischi, bias e malfunzionamenti
-[[concept/intelligenza-artificiale]] — adozione strutturata nei processi didattici e amministrativi
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — PIA, ruoli, Gruppo di Lavoro IA, cronoprogramma
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — antropocentrismo e ruolo insostituibile dell'uomo
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPIA/FRIA, registro trattamenti, privacy by design/default
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — PNRR Missione 4 e referenti PNRR nel Gruppo di Lavoro
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — AI Literacy come obiettivo formativo strategico
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — inclusione BES e tecnologie assistive
+[[concept/bias-algoritmico|Bias Algoritmico]] — prevenzione di rischi, bias e malfunzionamenti
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — adozione strutturata nei processi didattici e amministrativi
 
 ## Citazioni rilevanti
 > "L'intelligenza artificiale non deve essere concepita come sostitutiva del docente o riduttiva dell'esperienza educativa, ma come strumento al servizio della crescita integrale della persona."
@@ -47,7 +45,7 @@ Modello editabile di Atto di indirizzo del Dirigente Scolastico per l'AS 2025/20
 > "Il presente Atto di indirizzo è vincolante per tutti gli organi dell'Istituzione Scolastica e costituisce il quadro di riferimento strategico per l'elaborazione del Piano d'Istituto per l'IA."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione. È il template attuativo a livello d'istituto di [[source/linee-guida-mim-dm166-2025]]: ne traduce principi e fasi in un atto formale. Coerente con [[source/legge-132-2025]] (citata in premessa) e [[source/ai-act-ue]] (scadenza 2 agosto 2026). Introduce un dato operativo nuovo rispetto alle linee guida: il **cronoprogramma datato** e il riferimento esplicito alla Determinazione AgID n. 17/2025 (cfr. [[source/agid-piano-triennale-2024-2026-agg-2026]]).
+Nessuna contraddizione. È il template attuativo a livello d'istituto di [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]: ne traduce principi e fasi in un atto formale. Coerente con [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] (citata in premessa) e [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] (scadenza 2 agosto 2026). Introduce un dato operativo nuovo rispetto alle linee guida: il **cronoprogramma datato** e il riferimento esplicito alla Determinazione AgID n. 17/2025 (cfr. [[source/agid-piano-triennale-2024-2026-agg-2026|AGID — Piano Triennale per l'informatica nella PA 2024-2026 (Agg. 2026)]]).
 
 ## Domande aperte
 - Il PIA è strumento richiesto a tutte le scuole dal DM 166/2025: esiste un modello unico ministeriale o ogni istituto adatta il template?

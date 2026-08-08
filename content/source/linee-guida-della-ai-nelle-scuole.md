@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["WEBINAR | Linee guida della AI nelle scuole"]
 ---
 
-# Linee guida dell'AI nelle scuole (webinar Scuole AI)
-
 **File raw**: `raw/notes/linee-guida-della-ai-nelle-scuole.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,21 +19,21 @@ Trascrizione di un webinar divulgativo (canale "Scuole AI", relatore Francesco) 
 - Requisiti etici e tecnici: supervisione umana sempre garantita, trasparenza e spiegabilità, gestione delle allucinazioni, consenso delle famiglie all'addestramento, tutela della privacy.
 
 ## Entità menzionate
-[[entity/mim]] — autore del DM 166/2025 e delle Linee Guida
-[[entity/garante-privacy]] — parere favorevole citato nella gestazione
-[[entity/agid]] — qualificazione dei fornitori e raccomandazioni 2024-2026
-[[entity/unesco]] — Raccomandazione 2021 sull'etica dell'IA
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore del DM 166/2025 e delle Linee Guida
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — parere favorevole citato nella gestazione
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — qualificazione dei fornitori e raccomandazioni 2024-2026
+[[entity/unesco|UNESCO]] — Raccomandazione 2021 sull'etica dell'IA
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — quattro pilastri e framework in cinque fasi
-[[concept/supervisione-umana]] — intervento umano sempre garantito, IA come strumento non sostitutivo
-[[concept/privacy-protezione-dati]] — consenso famiglie, profilazione, dati sensibili
-[[concept/allucinazione]] — rischio di errori da gestire nei sistemi scolastici
-[[concept/didattica-inclusiva-ia]] — text-to-speech, DSA, personalizzazione
-[[concept/alfabetizzazione-ia]] — formazione continua del personale scolastico
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — quattro pilastri e framework in cinque fasi
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — intervento umano sempre garantito, IA come strumento non sostitutivo
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — consenso famiglie, profilazione, dati sensibili
+[[concept/allucinazione|Allucinazione]] — rischio di errori da gestire nei sistemi scolastici
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — text-to-speech, DSA, personalizzazione
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — formazione continua del personale scolastico
 
 ## Contraddizioni o tensioni
-Conferma/commento divulgativo di [[source/linee-guida-mim-dm166-2025]]; nessun fatto nuovo rispetto alla fonte canonica. Coerente anche con il parere del Garante (vedi [[source/linee-guida-mim-dm166-2025]]).
+Conferma/commento divulgativo di [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; nessun fatto nuovo rispetto alla fonte canonica. Coerente anche con il parere del Garante (vedi [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]).
 
 ## Domande aperte
 - Quali decreti attuativi e codici di condotta seguiranno il DM 166/2025?

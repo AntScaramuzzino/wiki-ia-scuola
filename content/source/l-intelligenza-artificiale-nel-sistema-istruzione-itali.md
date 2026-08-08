@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["REPORT | L'Intelligenza Artificiale nel Sistema Istruzione Italiano: Analisi Nuance delle Linee Guida MIM (DM 166/2025), Quadro Normativo UE e Strategie di Implementazione Finanziate dal PNRR."]
 ---
 
-# REPORT — L'IA nel Sistema Istruzione Italiano: analisi delle Linee Guida MIM (DM 166/2025), quadro UE e PNRR
-
 **File raw**: `raw/papers/l-intelligenza-artificiale-nel-sistema-istruzione-italiano-analisi-nua.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -28,25 +26,25 @@ Report analitico strutturato che integra le Linee Guida MIM (DM 166/2025) con il
 - Sfida critica: il rischio che le linee guida, ricche di principi, si traducano in "poca applicazione pratica" senza un vero "salto culturale".
 
 ## Entità menzionate
-[[entity/mim]] — autore delle Linee Guida DM 166/2025
-[[entity/agid]] — strategia nazionale e quadro normativo nazionale
-[[entity/garante-privacy]] — raccomandazioni su minimizzazione e dati sintetici
-[[entity/commissione-europea]] — AI Act, AILit Framework, Piano d'azione istruzione digitale
-[[entity/ocse]] — co-autore dell'AILit Framework
-[[entity/unesco]] — Guida sulla GenAI (2023), limite di età minimo
-[[entity/scuola-futura]] — piattaforma PNRR dei percorsi formativi
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle Linee Guida DM 166/2025
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — strategia nazionale e quadro normativo nazionale
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — raccomandazioni su minimizzazione e dati sintetici
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act, AILit Framework, Piano d'azione istruzione digitale
+[[entity/ocse|OCSE (OECD)]] — co-autore dell'AILit Framework
+[[entity/unesco|UNESCO]] — Guida sulla GenAI (2023), limite di età minimo
+[[entity/scuola-futura|Piattaforma Scuola Futura]] — piattaforma PNRR dei percorsi formativi
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — ruoli, responsabilità del DS, progetto d'istituto
-[[concept/alfabetizzazione-ia]] — AILit Framework, PISA 2029
-[[concept/supervisione-umana]] — requisito per i sistemi ad alto rischio
-[[concept/privacy-protezione-dati]] — FRIA, DPIA, minimizzazione, dati sintetici
-[[concept/bias-algoritmico]] — rischi discriminatori, qualità dei dati
-[[concept/valutazione-integrita-accademica]] — scoring esami come sistema ad alto rischio
-[[concept/snodi-formativi-pnrr]] — Poli EFT, formazione finanziata PNRR
-[[concept/didattica-inclusiva-ia]] — corsi STEAM inclusivi, abbattimento barriere
-[[concept/ia-generativa]] — chatbot e prompting nella didattica
-[[concept/prompt]] — competenze operative di prompting
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — ruoli, responsabilità del DS, progetto d'istituto
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — AILit Framework, PISA 2029
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — requisito per i sistemi ad alto rischio
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — FRIA, DPIA, minimizzazione, dati sintetici
+[[concept/bias-algoritmico|Bias Algoritmico]] — rischi discriminatori, qualità dei dati
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — scoring esami come sistema ad alto rischio
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — Poli EFT, formazione finanziata PNRR
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — corsi STEAM inclusivi, abbattimento barriere
+[[concept/ia-generativa|IA Generativa]] — chatbot e prompting nella didattica
+[[concept/prompt|Prompt]] — competenze operative di prompting
 
 ## Citazioni rilevanti
 > l'IA non è e non sarà mai un "sostituto dell'intelligenza umana e soprattutto della sensibilità umana"
@@ -54,7 +52,7 @@ Report analitico strutturato che integra le Linee Guida MIM (DM 166/2025) con il
 > rischio che le linee guida si traducano in "poca applicazione pratica" se non supportate da un vero "salto culturale"
 
 ## Contraddizioni o tensioni
-Analisi/meta-sintesi che integra [[source/linee-guida-mim-dm166-2025]], [[source/ai-act-ue]], [[source/oecd-ai-literacy-2025]], [[source/unesco-guidance-genai-2023]] e [[source/digcomp-3-0]]. Non contraddice tali fonti ma le mette in relazione; introduce dettagli operativi sui percorsi PNRR/Scuola Futura e sul collegamento con PISA 2029 che arricchiscono il quadro. Nessuna contraddizione sostanziale rilevata.
+Analisi/meta-sintesi che integra [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]], [[source/unesco-guidance-genai-2023|UNESCO — Guidance for generative AI in education and research (2023)]] e [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]]. Non contraddice tali fonti ma le mette in relazione; introduce dettagli operativi sui percorsi PNRR/Scuola Futura e sul collegamento con PISA 2029 che arricchiscono il quadro. Nessuna contraddizione sostanziale rilevata.
 
 ## Domande aperte
 - Come garantire l'effettiva applicazione pratica della FRIA come requisito vincolante per l'acquisto di sistemi ad alto rischio?

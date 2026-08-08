@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Explainable AI in education: fostering human oversight and shared responsibility"]
 ---
 
-# Explainable AI in education: fostering human oversight and shared responsibility
-
 **File raw**: `raw/articles/explainable-ai-in-education-fostering-human-oversight-and-respo.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,12 +19,12 @@ Pagina di annuncio di una sessione online (20 maggio 2025) dello European Digita
 - Relatori: lo squad leader Francisco Bellas e altri membri del gruppo.
 
 ## Entità menzionate
-[[entity/commissione-europea]] — European Digital Education Hub, organizzatore
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — European Digital Education Hub, organizzatore
 
 ## Concetti trattati
-[[concept/supervisione-umana]] — human oversight come tema centrale della sessione
-[[concept/alfabetizzazione-ia]] — competenze degli educatori per valutare i sistemi di IA
-[[concept/intelligenza-artificiale]] — explainability dei sistemi di IA
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — human oversight come tema centrale della sessione
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — competenze degli educatori per valutare i sistemi di IA
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — explainability dei sistemi di IA
 
 ## Contraddizioni o tensioni
 Nessuna rilevata. Fonte minima (annuncio di evento): non riporta contenuti sostanziali ma indica l'esistenza di un report dello squad XAI dell'European Digital Education Hub, potenzialmente da reperire come fonte autonoma.

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["WEBINAR | Convegno ANP 2025"]
 ---
 
-# Convegno ANP 2025 — VIII edizione (webinar)
-
 **File raw**: `raw/notes/convegno-anp-2025.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -27,19 +25,19 @@ Trascrizione dell'ottava edizione del convegno nazionale ANP (Associazione Nazio
 - Tema dell'umiltà e curiosità intellettuale come competenza chiave per contrastare disinformazione e bias cognitivi.
 
 ## Entità menzionate
-[[entity/mim]] — Carmela Palumbo (capo dipartimento) annuncia le Linee Guida sull'IA a scuola
-[[entity/garante-privacy]] — interlocutore chiave nella gestazione delle Linee Guida MIM
-[[entity/agid]] — citata nel quadro delle raccomandazioni e dei requisiti tecnici
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — Carmela Palumbo (capo dipartimento) annuncia le Linee Guida sull'IA a scuola
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — interlocutore chiave nella gestazione delle Linee Guida MIM
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — citata nel quadro delle raccomandazioni e dei requisiti tecnici
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — storia, funzionamento delle reti neurali, limiti rispetto all'intelligenza umana
-[[concept/llm]] — modelli linguistici, addestramento fisso, marketing vs evidenza scientifica
-[[concept/machine-learning]] — apprendimento da dati, addestramento, fragilità dei modelli
-[[concept/allucinazione]] — descritta come modalità intrinseca di funzionamento, non evento raro
-[[concept/disinformazione]] — echo chamber, confirmation bias, competizione di narrative
-[[concept/bias-algoritmico]] — bias cognitivi e ruolo del comportamento umano
-[[concept/supervisione-umana]] — approccio antropocentrico, decisione finale umana
-[[concept/alfabetizzazione-ia]] — competenze e formazione di docenti e studenti
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — storia, funzionamento delle reti neurali, limiti rispetto all'intelligenza umana
+[[concept/llm|LLM (Large Language Model)]] — modelli linguistici, addestramento fisso, marketing vs evidenza scientifica
+[[concept/machine-learning|Machine Learning]] — apprendimento da dati, addestramento, fragilità dei modelli
+[[concept/allucinazione|Allucinazione]] — descritta come modalità intrinseca di funzionamento, non evento raro
+[[concept/disinformazione|Disinformazione e misinformazione]] — echo chamber, confirmation bias, competizione di narrative
+[[concept/bias-algoritmico|Bias Algoritmico]] — bias cognitivi e ruolo del comportamento umano
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — approccio antropocentrico, decisione finale umana
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — competenze e formazione di docenti e studenti
 
 ## Citazioni rilevanti
 > "l'allucinazione non è un evento raro l'allucinazione è l'esatto modo in cui funziona l'attrezzo a volte ci prende a volte non ci prende"
@@ -52,7 +50,7 @@ Trascrizione dell'ottava edizione del convegno nazionale ANP (Associazione Nazio
 
 ## Contraddizioni o tensioni
 - Tensione interna alla scuola, esplicitata dai relatori: agli studenti viene spesso imposto di non usare l'IA (a volte demonizzandola), mentre fuori dalla scuola e nel mondo del lavoro il suo uso sarà obbligatorio.
-- L'annuncio delle Linee Guida MIM conferma quanto descritto nella fonte canonica [[source/linee-guida-mim-dm166-2025]] e nel parere del Garante; qui però è arricchito da un punto di vista istituzionale (MIM/ANP) e da contributi scientifici originali (IA, disinformazione, diritti dell'infanzia) non presenti nella fonte canonica.
+- L'annuncio delle Linee Guida MIM conferma quanto descritto nella fonte canonica [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] e nel parere del Garante; qui però è arricchito da un punto di vista istituzionale (MIM/ANP) e da contributi scientifici originali (IA, disinformazione, diritti dell'infanzia) non presenti nella fonte canonica.
 - Visione critica sugli LLM (marketing senza ground scientifico, allucinazione come funzionamento normale) in parziale tensione con il tono più strumentale-ottimista di altre fonti del wiki sull'uso didattico dell'IA.
 
 ## Domande aperte

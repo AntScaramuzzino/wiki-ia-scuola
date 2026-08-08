@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["La nuova legge italiana sull'IA: la prima normativa nazionale nella UE che affianca l'AI Act - Cleary Gottlieb"]
 ---
 
-# La nuova legge italiana sull'IA: prima normativa nazionale UE (Cleary Gottlieb)
-
 **File raw**: `raw/papers/la-nuova-legge-italiana-sull-ia-la-prima-normativa-nazionale-nella-ue-.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -27,17 +25,17 @@ Alert memorandum dello studio legale Cleary Gottlieb (29 ottobre 2025) che anali
 - Strategia Nazionale per l'IA biennale (art. 19) coordinata dalla Presidenza del Consiglio; investimenti fino a 1 miliardo di euro in PMI innovative.
 
 ## Entità menzionate
-[[entity/agid]] — Autorità nazionale per l'IA (promozione, accreditamento)
-[[entity/garante-privacy]] — richiamato come modello di autorità indipendente e con ruolo autorizzatorio in sanità
-[[entity/commissione-europea]] — Parere C(2024)7814 e ammonimenti sulla frammentazione del mercato
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Autorità nazionale per l'IA (promozione, accreditamento)
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — richiamato come modello di autorità indipendente e con ruolo autorizzatorio in sanità
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — Parere C(2024)7814 e ammonimenti sulla frammentazione del mercato
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — oggetto della legge
-[[concept/ia-generativa]] — TDM, deepfake e contenuti generati
-[[concept/deepfake]] — nuovo reato art. 612-quater c.p.
-[[concept/supervisione-umana]] — non delegabilità della decisione, responsabilità del medico/funzionario
-[[concept/privacy-protezione-dati]] — conformità GDPR, tutela minori, uso secondario dei dati sanitari
-[[concept/machine-learning]] — citato per il trattamento dati in ricerca sanitaria
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — oggetto della legge
+[[concept/ia-generativa|IA Generativa]] — TDM, deepfake e contenuti generati
+[[concept/deepfake|Deepfake]] — nuovo reato art. 612-quater c.p.
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — non delegabilità della decisione, responsabilità del medico/funzionario
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — conformità GDPR, tutela minori, uso secondario dei dati sanitari
+[[concept/machine-learning|Machine Learning]] — citato per il trattamento dati in ricerca sanitaria
 
 ## Citazioni rilevanti
 > "Con l'entrata in vigore, lo scorso 10 ottobre, della nuova Legge n. 132/2025 [...] l'Italia diventa il primo stato membro della UE a dotarsi di una legge quadro organica sullo sviluppo e l'utilizzo dei sistemi di intelligenza artificiale."
@@ -45,7 +43,7 @@ Alert memorandum dello studio legale Cleary Gottlieb (29 ottobre 2025) che anali
 > "La legge, in linea con l'approccio antropocentrico dell'AI Act, introduce un principio generale di non delegabilità della decisione, sancendo che nessun processo automatizzato possa sostituire integralmente la volontà umana."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione. Questa fonte è un'analisi tecnico-giuridica di approfondimento della [[source/legge-132-2025]] (fonte canonica) e ne arricchisce in modo sostanziale i contenuti (deleghe, autorità, profili penali, diritto d'autore, D.Lgs. 231). Si raccorda con [[source/ai-act-ue]] come quadro europeo di riferimento. Non duplica banalmente la fonte canonica: aggiunge dettaglio giuridico significativo.
+Nessuna contraddizione. Questa fonte è un'analisi tecnico-giuridica di approfondimento della [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] (fonte canonica) e ne arricchisce in modo sostanziale i contenuti (deleghe, autorità, profili penali, diritto d'autore, D.Lgs. 231). Si raccorda con [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] come quadro europeo di riferimento. Non duplica banalmente la fonte canonica: aggiunge dettaglio giuridico significativo.
 
 ## Domande aperte
 - Come i decreti delegati (artt. 16 e 24) definiranno il regime di responsabilità civile (responsabilità oggettiva? solidale? obblighi assicurativi?).

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: [Legge 132/2025, Regolamento UE 2024/1689 (AI Act), Linee Guida MIM (DM 166/2025), Manifesto + Codice Etico IA Generativa a Scuola (ISIS Europa)]
 ---
 
-# Privacy e protezione dei dati
-
 ## Definizione
 Insieme dei principi e degli adempimenti che la scuola deve rispettare nel trattamento dei dati personali connessi all'uso dell'IA, disciplinati dal GDPR e dall'AI Act. La protezione è una priorità assoluta perché i dati riguardano in maggioranza minori. I sistemi devono essere progettati secondo **privacy by design** e **privacy by default**, limitando la raccolta dei dati allo stretto necessario (minimizzazione).
 
@@ -24,16 +22,16 @@ Insieme dei principi e degli adempimenti che la scuola deve rispettare nel tratt
 - Consultazione obbligatoria del DPO per la stesura di DPIA e FRIA.
 
 ## Relazioni con altri concetti
-- [[concept/governance-scolastica-ia]] — DPIA, FRIA e ruolo del DPO sono parte della governance d'istituto.
-- [[concept/dpia]] — la valutazione d'impatto sulla protezione dati (art. 35 GDPR) in dettaglio.
-- [[concept/dpia-fria]] — il quadro che lega DPIA e [[concept/fria]].
-- [[concept/supervisione-umana]] — antropocentrismo e trasparenza sono principi condivisi.
-- [[concept/didattica-inclusiva-ia]] — i dati di PEI/PDP non possono essere inseriti nei prompt.
-- [[concept/bias-algoritmico]] — la profilazione mal gestita può alimentare discriminazioni.
-- [[entity/garante-privacy]] — autorità che ha espresso parere sullo schema di decreto MIM.
+- [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — DPIA, FRIA e ruolo del DPO sono parte della governance d'istituto.
+- [[concept/dpia|DPIA — Valutazione d'Impatto sulla Protezione dei Dati]] — la valutazione d'impatto sulla protezione dati (art. 35 GDPR) in dettaglio.
+- [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — il quadro che lega DPIA e [[concept/fria|FRIA — Valutazione d'Impatto sui Diritti Fondamentali]].
+- [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — antropocentrismo e trasparenza sono principi condivisi.
+- [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — i dati di PEI/PDP non possono essere inseriti nei prompt.
+- [[concept/bias-algoritmico|Bias Algoritmico]] — la profilazione mal gestita può alimentare discriminazioni.
+- [[entity/garante-privacy|Garante per la protezione dei dati personali]] — autorità che ha espresso parere sullo schema di decreto MIM.
 
 ## Contraddizioni e dibattiti
 Il **parere del Garante Privacy** è stato favorevole allo schema di decreto del MIM, ma con condizioni rigorose: prediligere i dati sintetici ai dati reali quando possibile e ribadire il divieto assoluto di pratiche come il riconoscimento delle emozioni. La tensione di fondo è tra l'innovazione didattica basata sui dati e la minimizzazione del trattamento di dati di minori.
 
 ## Fonti
-[[source/legge-132-2025]], [[source/ai-act-ue]], [[source/linee-guida-mim-dm166-2025]], [[source/manifesto-codice-etico-isis-europa]]
+[[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/manifesto-codice-etico-isis-europa|Manifesto e Codice Etico IA Generativa a Scuola (ISIS Europa)]]

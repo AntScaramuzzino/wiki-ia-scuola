@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Linee Guida MIM (DM 166 del 09/08/2025)"]
 ---
 
-# Garante per la protezione dei dati personali
-
 ## Descrizione
 Il Garante per la protezione dei dati personali è l'autorità amministrativa indipendente italiana che vigila sull'applicazione della normativa in materia di protezione dei dati personali (GDPR e Codice privacy).
 
@@ -23,14 +21,14 @@ Tra le condizioni e raccomandazioni poste dal Garante:
 Il parere del Garante rafforza il divieto di inserire dati personali, sensibili o identificativi (PDP, PEI) nei prompt forniti a modelli linguistici aperti, e il diritto di non partecipazione (opt-out) per studenti e famiglie.
 
 ## Connessioni
-- [[source/linee-guida-mim-dm166-2025]] — documento su cui il Garante ha espresso parere
-- [[concept/privacy-protezione-dati]] — dati sintetici, opt-out, privacy by design/default
-- [[concept/supervisione-umana]] — divieto di riconoscimento delle emozioni
-- [[entity/mim]] — destinatario del parere favorevole con condizioni
-- [[entity/agid]] — altra autorità nella governance dell'IA nella PA
+- [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] — documento su cui il Garante ha espresso parere
+- [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — dati sintetici, opt-out, privacy by design/default
+- [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — divieto di riconoscimento delle emozioni
+- [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — destinatario del parere favorevole con condizioni
+- [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — altra autorità nella governance dell'IA nella PA
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]
 
 ## Note e aggiornamenti
 - 2026-06-21: pagina creata. Il parere favorevole è subordinato a condizioni rigorose, tra cui la preferenza per i dati sintetici.

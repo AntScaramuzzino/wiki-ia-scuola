@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Linee Guida IA a Scuola: Aspetti Normativi e Operativi"]
 ---
 
-# Linee Guida IA a Scuola: Aspetti Normativi e Operativi (webinar)
-
 **File raw**: `raw/papers/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -27,19 +25,19 @@ Trascrizione di un webinar (relatori Lorenzo e Piergiorgio, esperto/DPO) che ana
 - Metodo operativo proposto dalle linee guida: ciclo in 5 fasi (definizione, pianificazione, adozione graduale/pilota, monitoraggio, conclusione), ispirato al design thinking; uso dell'acronimo UDHRIA/HUDERIA per la valutazione d'impatto sui diritti fondamentali.
 
 ## Entità menzionate
-[[entity/mim]] — autore delle linee guida analizzate
-[[entity/garante-privacy]] — mette a disposizione il software per la DPIA; ha dato parere sul decreto
-[[entity/commissione-europea]] — quadro AI Act di riferimento
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle linee guida analizzate
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — mette a disposizione il software per la DPIA; ha dato parere sul decreto
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — quadro AI Act di riferimento
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — ruolo del DS, del DPO e degli organi collegiali
-[[concept/privacy-protezione-dati]] — GDPR, titolare/responsabile, DPIA, privacy by design/default
-[[concept/valutazione-integrita-accademica]] — uso dell'IA per valutare elaborati (alto rischio)
-[[concept/supervisione-umana]] — sorveglianza umana richiesta dalla FRIA
-[[concept/llm]] — strumenti come Gemini/Copilot/ChatGPT discussi
-[[concept/ia-generativa]] — oggetto dell'adozione scolastica
-[[concept/allucinazione]] — citata a proposito della deep research sulla classificazione del rischio
-[[concept/alfabetizzazione-ia]] — necessità di un curricolo graduale di introduzione dell'IA
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — ruolo del DS, del DPO e degli organi collegiali
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — GDPR, titolare/responsabile, DPIA, privacy by design/default
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — uso dell'IA per valutare elaborati (alto rischio)
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — sorveglianza umana richiesta dalla FRIA
+[[concept/llm|LLM (Large Language Model)]] — strumenti come Gemini/Copilot/ChatGPT discussi
+[[concept/ia-generativa|IA Generativa]] — oggetto dell'adozione scolastica
+[[concept/allucinazione|Allucinazione]] — citata a proposito della deep research sulla classificazione del rischio
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — necessità di un curricolo graduale di introduzione dell'IA
 
 ## Citazioni rilevanti
 > "A tutti gli effetti il responsabile di quello che fa l'intelligenza artificiale è la scuola, non è Google, non è Microsoft, perché la scuola l'ha selezionata [...] e se ne assume la responsabilità."
@@ -47,7 +45,7 @@ Trascrizione di un webinar (relatori Lorenzo e Piergiorgio, esperto/DPO) che ana
 > "Il Ministero lo poteva fare una volta sola. [...] Le scuole possono usare tanto Gemini, unico Copilot. [...] Sarebbe stato molto semplice così."
 
 ## Contraddizioni o tensioni
-Tensione (non contraddizione fattuale) con la narrazione istituzionale di [[source/linee-guida-mim-dm166-2025]] e con l'intervento del direttore D'Amico ([[source/innovazione-digitale-e-strategie-scolastiche-nazionali-]]), che presentano le linee guida come un supporto "senza vincoli". I relatori del webinar evidenziano invece criticità operative gravissime (DPIA e FRIA di fatto impossibili da redigere a regola d'arte; scarico di responsabilità sui DS) e la mancanza di una soluzione "chiavi in mano" da parte del Ministero. Approfondisce operativamente i concetti di deployer e alto rischio già introdotti dalle fonti canoniche [[source/legge-132-2025]] e [[source/ai-act-ue]].
+Tensione (non contraddizione fattuale) con la narrazione istituzionale di [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] e con l'intervento del direttore D'Amico ([[source/innovazione-digitale-e-strategie-scolastiche-nazionali-|Innovazione Digitale e Strategie Scolastiche Nazionali — Intervento D'Amico]]), che presentano le linee guida come un supporto "senza vincoli". I relatori del webinar evidenziano invece criticità operative gravissime (DPIA e FRIA di fatto impossibili da redigere a regola d'arte; scarico di responsabilità sui DS) e la mancanza di una soluzione "chiavi in mano" da parte del Ministero. Approfondisce operativamente i concetti di deployer e alto rischio già introdotti dalle fonti canoniche [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] e [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]].
 
 ## Domande aperte
 - Quale tempo verrà concesso alle scuole per caricare i progetti IA su Piattaforma Unica?

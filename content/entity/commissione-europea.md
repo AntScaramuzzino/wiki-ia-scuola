@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Regolamento UE 2024/1689 (AI Act)", "DigComp 3.0, Quadro europeo competenze digitali (2025)", "OECD AI Literacy Framework (2025)"]
 ---
 
-# Commissione Europea (e JRC)
-
 ## Descrizione
 La Commissione Europea è l'organo esecutivo dell'Unione Europea, promotore della legislazione UE e di numerose iniziative in materia di competenze digitali. Il suo **Centro Comune di Ricerca (JRC, Joint Research Centre)** è il servizio scientifico interno che elabora i quadri di competenza europei.
 
@@ -21,21 +19,21 @@ La Commissione Europea è la fonte del quadro normativo sovranazionale che gover
 Il principio di trasparenza e spiegabilità (explainable AI) sancito dall'AI Act è centrale: le decisioni algoritmiche non devono essere "scatole nere".
 
 ## Connessioni
-- [[source/ai-act-ue]] — regolamento emanato dal legislatore UE
-- [[source/digcomp-3-0]] — framework pubblicato dal JRC
-- [[source/oecd-ai-literacy-2025]] — co-sviluppato con la Commissione
-- [[concept/governance-scolastica-ia]] — l'AI Act definisce deployer, FRIA, alto rischio
-- [[concept/privacy-protezione-dati]] — DPIA e FRIA derivano dal combinato GDPR/AI Act
-- [[concept/supervisione-umana]] — la spiegabilità (XAI) è prescritta dall'AI Act
-- [[concept/alfabetizzazione-ia]] — DigComp 3.0 integra l'IA nelle competenze digitali
-- [[entity/mim]] — recepisce l'AI Act nelle Linee Guida nazionali
-- [[entity/ocse]] — co-autore del framework di AI literacy
-- [[entity/agid]] — autorità nazionale di vigilanza ex L.132/2025, attua l'AI Act in Italia
-- [[analyses/2026-06-21-quadro-normativo-ia-scuola]] — AI Act a confronto con L.132 e DM166
-- [[analyses/2026-06-21-confronto-framework-competenze-ia]] — DigComp a confronto con UNESCO/OECD
+- [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] — regolamento emanato dal legislatore UE
+- [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]] — framework pubblicato dal JRC
+- [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]] — co-sviluppato con la Commissione
+- [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — l'AI Act definisce deployer, FRIA, alto rischio
+- [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPIA e FRIA derivano dal combinato GDPR/AI Act
+- [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — la spiegabilità (XAI) è prescritta dall'AI Act
+- [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — DigComp 3.0 integra l'IA nelle competenze digitali
+- [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — recepisce l'AI Act nelle Linee Guida nazionali
+- [[entity/ocse|OCSE (OECD)]] — co-autore del framework di AI literacy
+- [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autorità nazionale di vigilanza ex L.132/2025, attua l'AI Act in Italia
+- [[analyses/2026-06-21-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]] — AI Act a confronto con L.132 e DM166
+- [[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] — DigComp a confronto con UNESCO/OECD
 
 ## Fonti
-[[source/ai-act-ue]], [[source/digcomp-3-0]], [[source/oecd-ai-literacy-2025]]
+[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]]
 
 ## Note e aggiornamenti
 - 2026-06-21: pagina creata. L'AI Act è pienamente applicabile dal 2 agosto 2026; i divieti (rischio inaccettabile) sono applicabili già dal 2 febbraio 2025.

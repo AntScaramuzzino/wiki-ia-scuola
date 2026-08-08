@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["DigComp 3.0 (2025)"]
 ---
 
-# DigComp 3.0 — Quadro europeo delle competenze digitali (2025)
-
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario
@@ -24,18 +22,18 @@ DigComp 3.0 (2025) è il quadro europeo trasversale delle competenze digitali pe
   4. Sicurezza, benessere e uso responsabile (incluso l'impatto ambientale)
   5. Identificazione e risoluzione dei problemi
 - Mappa **21 competenze** su **quattro livelli di padronanza** (Base, Intermedio, Avanzato, Altamente avanzato) tramite **522 risultati di apprendimento**, etichettati come "IA-espliciti" o "IA-impliciti".
-- È quadro di riferimento per la formazione PNRR sulle competenze di cittadinanza digitale ([[source/dm-219-2025-snodi-formativi]]).
+- È quadro di riferimento per la formazione PNRR sulle competenze di cittadinanza digitale ([[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]]).
 
 ## Entità menzionate
-[[entity/commissione-europea]] — JRC, ente pubblicatore
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — JRC, ente pubblicatore
 
 ## Concetti trattati
-[[concept/alfabetizzazione-ia]] — l'IA come componente trasversale delle competenze digitali
-[[concept/privacy-protezione-dati]] — area "Sicurezza, benessere e uso responsabile"
-[[concept/intelligenza-artificiale]] — IA come tecnologia digitale capillare
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — l'IA come componente trasversale delle competenze digitali
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — area "Sicurezza, benessere e uso responsabile"
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — IA come tecnologia digitale capillare
 
 ## Contraddizioni o tensioni
-Differenza di impostazione rispetto a UNESCO e OCSE: DigComp 3.0 NON dedica un dominio autonomo all'IA, ma la integra trasversalmente nelle aree esistenti — scelta opposta a quella di [[source/unesco-competenze-studenti-2024]] e [[source/oecd-ai-literacy-2025]], che creano dimensioni/domini IA specifici.
+Differenza di impostazione rispetto a UNESCO e OCSE: DigComp 3.0 NON dedica un dominio autonomo all'IA, ma la integra trasversalmente nelle aree esistenti — scelta opposta a quella di [[source/unesco-competenze-studenti-2024|UNESCO — AI competency framework for students (2024)]] e [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]], che creano dimensioni/domini IA specifici.
 
 ## Domande aperte
 - Come si combinano in pratica i risultati "IA-espliciti" di DigComp 3.0 con i domini dedicati dei framework UNESCO/OCSE nei curricoli?

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["L'intelligenza artificiale entra nelle scuole italiane: ecco le linee guida del Ministero"]
 ---
 
-# L'intelligenza artificiale entra nelle scuole italiane: ecco le linee guida del Ministero (FPA)
-
 **File raw**: `raw/papers/l-intelligenza-artificiale-entra-nelle-scuole-italiane-ecco-le-linee-g.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -28,20 +26,20 @@ Articolo di approfondimento di FORUM PA (Claudia Bertozzi, 12 settembre 2025) ch
 - Applicazioni concrete per dirigenti, personale amministrativo, docenti (integrazione con PEI e PDP) e studenti.
 
 ## Entità menzionate
-[[entity/mim]] — autore delle Linee Guida e del DM 166/2025
-[[entity/agid]] — Strategia nazionale per l'IA 2024-2026
-[[entity/garante-privacy]] — da consultare in caso di rischi residui elevati
-[[entity/commissione-europea]] — AI Act e approccio basato sul rischio
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle Linee Guida e del DM 166/2025
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Strategia nazionale per l'IA 2024-2026
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — da consultare in caso di rischi residui elevati
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act e approccio basato sul rischio
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — modello a quattro elementi, ruolo di deployer
-[[concept/supervisione-umana]] — requisito cardine per i sistemi ad alto rischio
-[[concept/privacy-protezione-dati]] — DPA, GDPR, privacy by design/default, dati sintetici
-[[concept/bias-algoritmico]] — discriminazione algoritmica e principio di equità
-[[concept/allucinazione]] — da far riconoscere agli studenti
-[[concept/didattica-inclusiva-ia]] — integrazione con PEI e PDP
-[[concept/ia-generativa]] — già entrata in aula, "rivoluzione silenziosa"
-[[concept/snodi-formativi-pnrr]] — fondi PNRR per sperimentazioni e campus
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — modello a quattro elementi, ruolo di deployer
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — requisito cardine per i sistemi ad alto rischio
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPA, GDPR, privacy by design/default, dati sintetici
+[[concept/bias-algoritmico|Bias Algoritmico]] — discriminazione algoritmica e principio di equità
+[[concept/allucinazione|Allucinazione]] — da far riconoscere agli studenti
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — integrazione con PEI e PDP
+[[concept/ia-generativa|IA Generativa]] — già entrata in aula, "rivoluzione silenziosa"
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — fondi PNRR per sperimentazioni e campus
 
 ## Citazioni rilevanti
 > "La tecnologia deve supportare il pieno sviluppo della persona, garantendo il ruolo centrale e insostituibile dell'uomo nel governo dei sistemi di IA"
@@ -49,7 +47,7 @@ Articolo di approfondimento di FORUM PA (Claudia Bertozzi, 12 settembre 2025) ch
 > obiettivo dichiarato: costruire "una scuola più inclusiva, equa e preparata ad affrontare le sfide del futuro"
 
 ## Contraddizioni o tensioni
-Commento/approfondimento di [[source/linee-guida-mim-dm166-2025]]; non introduce fatti normativi nuovi rispetto alla fonte canonica, ma ne fornisce una rilettura analitica dettagliata (concetto di deployer, FRIA, divieti) utile come sintesi divulgativa. Coerente con [[source/ai-act-ue]] sull'approccio basato sul rischio.
+Commento/approfondimento di [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; non introduce fatti normativi nuovi rispetto alla fonte canonica, ma ne fornisce una rilettura analitica dettagliata (concetto di deployer, FRIA, divieti) utile come sintesi divulgativa. Coerente con [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] sull'approccio basato sul rischio.
 
 ## Domande aperte
 - Come verranno standardizzati i criteri di scelta dei fornitori e l'effettiva attuazione della supervisione umana nelle singole scuole?

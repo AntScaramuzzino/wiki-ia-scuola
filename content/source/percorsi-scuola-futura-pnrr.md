@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Percorsi - Scuola futura - PNRR"]
 ---
 
-# Percorsi - Scuola Futura - PNRR (catalogo formazione)
-
 **File raw**: `raw/articles/percorsi-scuola-futura-pnrr.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -24,18 +22,18 @@ Estrazione dell'area "Percorsi" del portale Scuola Futura, la piattaforma del MI
 - Cronologicamente i percorsi spaziano dal 2023 (molti MOOC dei Poli "Transizione digitale") fino a inizio 2026, mostrando una continuità pluriennale della formazione PNRR.
 
 ## Entità menzionate
-[[entity/mim]] — titolare del piano di formazione e della piattaforma Scuola Futura
-[[entity/scuola-futura]] — la piattaforma stessa oggetto della fonte
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — titolare del piano di formazione e della piattaforma Scuola Futura
+[[entity/scuola-futura|Piattaforma Scuola Futura]] — la piattaforma stessa oggetto della fonte
 
 ## Concetti trattati
-[[concept/snodi-formativi-pnrr]] — l'offerta è parte della formazione PNRR del personale scolastico
-[[concept/alfabetizzazione-ia]] — molti percorsi mirano a competenze di base e didattiche sull'IA
-[[concept/machine-learning]] — esplicitamente citato nei laboratori STEAM
-[[concept/intelligenza-artificiale]] — tema trasversale del macro-argomento "Transizione digitale"
-[[concept/ia-generativa]] — sottesa ai percorsi di didattica e media literacy con l'IA
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — l'offerta è parte della formazione PNRR del personale scolastico
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — molti percorsi mirano a competenze di base e didattiche sull'IA
+[[concept/machine-learning|Machine Learning]] — esplicitamente citato nei laboratori STEAM
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — tema trasversale del macro-argomento "Transizione digitale"
+[[concept/ia-generativa|IA Generativa]] — sottesa ai percorsi di didattica e media literacy con l'IA
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione di contenuto. La fonte è un catalogo dinamico (snapshot) e non un documento analitico: il suo valore è documentare l'ampiezza e la cronologia dell'offerta formativa PNRR sull'IA, non fornire posizioni o dati di merito. Complementare a [[source/dm-219-2025-snodi-formativi]], che disciplina gli snodi formativi.
+Nessuna contraddizione di contenuto. La fonte è un catalogo dinamico (snapshot) e non un documento analitico: il suo valore è documentare l'ampiezza e la cronologia dell'offerta formativa PNRR sull'IA, non fornire posizioni o dati di merito. Complementare a [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], che disciplina gli snodi formativi.
 
 ## Domande aperte
 - Quanti dei 1700+ percorsi riguardano specificamente l'IA, e con quale distribuzione regionale?

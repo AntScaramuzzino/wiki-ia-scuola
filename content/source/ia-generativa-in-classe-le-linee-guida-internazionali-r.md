@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["IA (generativa) in classe: le linee guida internazionali - Rivista Bricks"]
 ---
 
-# IA (generativa) in classe: le linee guida internazionali (Bricks, 2023)
-
 **File raw**: `raw/papers/ia-generativa-in-classe-le-linee-guida-internazionali-rivista-bricks.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -26,20 +24,20 @@ Articolo di Eleonora Pantò (Associazione Dschola) pubblicato su BRICKS n.3-2023
 - Avvertenza di Giannini (UNESCO): l'IAGen è stata "lanciata" nelle scuole senza validazione, a differenza di internet e telefoni cellulari; serve cautela; l'IAGen "non potrà mai essere una fonte autorevole di conoscenza".
 
 ## Entità menzionate
-[[entity/unesco]] — Raccomandazione 2021, guide 2023, comunicato Giannini; ruolo centrale nella governance globale
-[[entity/commissione-europea]] — Piano d'azione istruzione digitale, Orientamenti etici 2022, lista ALTAI
-[[entity/ocse]] — Osservatorio sull'IA (OECD.AI), conteggio delle politiche mondiali
+[[entity/unesco|UNESCO]] — Raccomandazione 2021, guide 2023, comunicato Giannini; ruolo centrale nella governance globale
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — Piano d'azione istruzione digitale, Orientamenti etici 2022, lista ALTAI
+[[entity/ocse|OCSE (OECD)]] — Osservatorio sull'IA (OECD.AI), conteggio delle politiche mondiali
 
 ## Concetti trattati
-[[concept/ia-generativa]] — definizione, EdGPT, rischi (scatole nere, inquinamento informativo, deepfake)
-[[concept/intelligenza-artificiale]] — quadro generale delle politiche e tecniche
-[[concept/disinformazione]] — "inquinamento informativo" con contenuti plausibili ma falsi
-[[concept/deepfake]] — manipolazione di voci e immagini tra i rischi dell'IAGen
-[[concept/privacy-protezione-dati]] — area comune a tutte le linee guida, GDPR, età minima
-[[concept/supervisione-umana]] — controllo umano e decisioni di alto rischio mantenute a livello umano
-[[concept/bias-algoritmico]] — minimizzazione dei pregiudizi e promozione dell'equità
-[[concept/valutazione-integrita-accademica]] — impatto sulle modalità di verifica dell'apprendimento
-[[concept/alfabetizzazione-ia]] — sviluppo di competenze IA per discenti e docenti
+[[concept/ia-generativa|IA Generativa]] — definizione, EdGPT, rischi (scatole nere, inquinamento informativo, deepfake)
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — quadro generale delle politiche e tecniche
+[[concept/disinformazione|Disinformazione e misinformazione]] — "inquinamento informativo" con contenuti plausibili ma falsi
+[[concept/deepfake|Deepfake]] — manipolazione di voci e immagini tra i rischi dell'IAGen
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — area comune a tutte le linee guida, GDPR, età minima
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — controllo umano e decisioni di alto rischio mantenute a livello umano
+[[concept/bias-algoritmico|Bias Algoritmico]] — minimizzazione dei pregiudizi e promozione dell'equità
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — impatto sulle modalità di verifica dell'apprendimento
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — sviluppo di competenze IA per discenti e docenti
 
 ## Citazioni rilevanti
 > "l'IAGen non potrà mai essere una fonte autorevole di conoscenza su qualsiasi argomento" (UNESCO)
@@ -47,8 +45,8 @@ Articolo di Eleonora Pantò (Associazione Dschola) pubblicato su BRICKS n.3-2023
 > "il tempo, i passaggi e le autorizzazioni necessarie per convalidare un nuovo libro di testo superano di gran lunga quelli necessari per usare l'IA generativa nelle scuole" (S. Giannini)
 
 ## Contraddizioni o tensioni
-- Nessuna contraddizione interna. È una fonte panoramica del 2023 che anticipa e contestualizza le linee guida poi adottate; integra e precede [[source/unesco-guidance-genai-2023]], [[source/unesco-competenze-docenti-2024]], [[source/unesco-competenze-studenti-2024]] e [[source/linee-guida-mim-dm166-2025]].
-- Da segnalare lo sfasamento temporale: al 2023 l'Italia non aveva indicazioni scolastiche nazionali; il quadro è poi mutato con le Linee Guida MIM 2025 e la Legge 132/2025 (vedi [[source/legge-132-2025]]).
+- Nessuna contraddizione interna. È una fonte panoramica del 2023 che anticipa e contestualizza le linee guida poi adottate; integra e precede [[source/unesco-guidance-genai-2023|UNESCO — Guidance for generative AI in education and research (2023)]], [[source/unesco-competenze-docenti-2024|UNESCO — AI competency framework for teachers (2024)]], [[source/unesco-competenze-studenti-2024|UNESCO — AI competency framework for students (2024)]] e [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]].
+- Da segnalare lo sfasamento temporale: al 2023 l'Italia non aveva indicazioni scolastiche nazionali; il quadro è poi mutato con le Linee Guida MIM 2025 e la Legge 132/2025 (vedi [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]]).
 
 ## Domande aperte
 - Quante delle aree comuni individuate da Pantò (2023) sono state recepite nelle Linee Guida MIM 2025?

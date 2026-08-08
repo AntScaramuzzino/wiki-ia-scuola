@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: [Linee Guida MIM (DM 166/2025), Guida Pratica all'IA nella Scuola Secondaria di I grado]
 ---
 
-# Scuola aumentata
-
 ## Definizione
 La "scuola aumentata" è il modello di sistema educativo in cui l'Intelligenza Artificiale Generativa (IAGen) non sostituisce l'interazione umana, ma la potenzia e la supporta. L'IA non è considerata una semplice nuova dotazione tecnologica, ma una trasformazione profonda che altera gli equilibri del setting formativo e incide sul significato stesso dell'apprendere, dell'insegnare e del valutare.
 
@@ -26,14 +24,14 @@ Il modello si fonda su tre meccanismi principali:
 - Creazione di materiali didattici su misura, quiz interattivi e bozze di rubriche di valutazione.
 
 ## Relazioni con altri concetti
-- [[concept/supervisione-umana]] — il potenziamento è subordinato al principio inderogabile dell'intervento umano (human-in-the-loop): il giudizio finale resta al docente.
-- [[concept/didattica-inclusiva-ia]] — la personalizzazione è la leva per l'equità verso studenti con BES/DSA.
-- [[concept/valutazione-integrita-accademica]] — l'evoluzione del ruolo docente ridefinisce anche le pratiche valutative.
-- [[concept/alfabetizzazione-ia]] — la scuola aumentata richiede competenze di AI literacy in docenti e studenti.
-- [[concept/allucinazione]] — la validazione dell'accuratezza degli output spetta sempre al docente.
+- [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — il potenziamento è subordinato al principio inderogabile dell'intervento umano (human-in-the-loop): il giudizio finale resta al docente.
+- [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — la personalizzazione è la leva per l'equità verso studenti con BES/DSA.
+- [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — l'evoluzione del ruolo docente ridefinisce anche le pratiche valutative.
+- [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — la scuola aumentata richiede competenze di AI literacy in docenti e studenti.
+- [[concept/allucinazione|Allucinazione]] — la validazione dell'accuratezza degli output spetta sempre al docente.
 
 ## Contraddizioni e dibattiti
 Il potenziamento della didattica convive con il rischio di **dipendenza cognitiva**: l'uso acritico dell'IA può disincentivare lo sforzo personale e ridurre pensiero critico e problem solving autonomo. L'IA deve "potenziare e umanizzare la didattica", non bypassare il processo di apprendimento.
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025]], [[source/guida-pratica-ia-secondaria]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]]

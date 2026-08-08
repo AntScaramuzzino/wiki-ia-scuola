@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["STRATEGIA ITALIANA PER L'INTELLIGENZA ARTIFICIALE 2024-2026 - Agid"]
 ---
 
-# Strategia Italiana per l'Intelligenza Artificiale 2024-2026 (AgID)
-
 **File raw**: `raw/papers/strategia-italiana-per-l-intelligenza-artificiale-2024-2026-agid.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -25,16 +23,16 @@ Documento strategico nazionale a cura dell'Agenzia per l'Italia Digitale (AgID) 
 - Azioni abilitanti: patrimonio nazionale di dataset e modelli, infrastrutture di rete per l'IA, Fondazione per l'IA, sistema di monitoraggio con target e indicatori.
 
 ## Entità menzionate
-[[entity/agid]] — autore del documento e Autorità nazionale per l'IA
-[[entity/commissione-europea]] — quadro regolatorio europeo di riferimento ("A Europe Fit for the Digital Age")
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autore del documento e Autorità nazionale per l'IA
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — quadro regolatorio europeo di riferimento ("A Europe Fit for the Digital Age")
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — oggetto della strategia
-[[concept/ia-generativa]] — leva trasformativa e fattore di crescita del PIL
-[[concept/machine-learning]] — svolta tecnologica alla base della rivoluzione IA
-[[concept/bias-algoritmico]] — implicito nei rischi di non neutralità e disuguaglianza
-[[concept/alfabetizzazione-ia]] — competenze digitali di base e percorsi per la cittadinanza
-[[concept/snodi-formativi-pnrr]] — collegato al filone formazione e investimenti PNRR (FAIR)
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — oggetto della strategia
+[[concept/ia-generativa|IA Generativa]] — leva trasformativa e fattore di crescita del PIL
+[[concept/machine-learning|Machine Learning]] — svolta tecnologica alla base della rivoluzione IA
+[[concept/bias-algoritmico|Bias Algoritmico]] — implicito nei rischi di non neutralità e disuguaglianza
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — competenze digitali di base e percorsi per la cittadinanza
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — collegato al filone formazione e investimenti PNRR (FAIR)
 
 ## Citazioni rilevanti
 > "La rivoluzione dell'Intelligenza Artificiale si innesta all'interno di questo terreno fertile e recettivo, che sa affondare le radici nella tradizione rivisitandola con slancio creativo e spinta all'innovazione."
@@ -42,7 +40,7 @@ Documento strategico nazionale a cura dell'Agenzia per l'Italia Digitale (AgID) 
 > "Confinarsi in una posizione di meri utilizzatori dell'IA sancirebbe [...] non solo una dipendenza strategica [...] ma porterebbe finanche [...] a una omogenizzazione e stereotipizzazione culturale."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione rilevata. Il documento è la fonte strategica nazionale di riferimento citata dalle [[source/linee-guida-mim-dm166-2025]] come uno dei riferimenti delle linee guida scolastiche; ne costituisce la cornice di policy più ampia (non solo scuola). Complementare alla [[source/legge-132-2025]], che ne dà attuazione istituzionale (es. Strategia Nazionale biennale ex art. 19).
+Nessuna contraddizione rilevata. Il documento è la fonte strategica nazionale di riferimento citata dalle [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] come uno dei riferimenti delle linee guida scolastiche; ne costituisce la cornice di policy più ampia (non solo scuola). Complementare alla [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], che ne dà attuazione istituzionale (es. Strategia Nazionale biennale ex art. 19).
 
 ## Domande aperte
 - Quale soggetto/fondazione gestisce concretamente il fondo e il coordinamento delle azioni abilitanti? (il documento rinvia a una "Fondazione per l'IA" — A.3).

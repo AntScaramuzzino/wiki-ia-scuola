@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["WEBINAR | Linee guida del MIM sull'Intelligenza Artificiale: aspetti normativi e didattici"]
 ---
 
-# WEBINAR — Linee guida del MIM sull'IA: aspetti normativi e didattici (Redaelli, Galli)
-
 **File raw**: `raw/notes/linee-guida-del-mim-sull-intelligenza-artificiale-aspetti-normativi-e-.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -28,19 +26,19 @@ Trascrizione di un webinar dell'Associazione Culturale Didattica Innovativa con 
 - Auspicio dei relatori: il Ministero avrebbe potuto fare una sola valutazione d'impatto centralizzata per Gemini/Copilot anziché lasciarla a migliaia di dirigenti.
 
 ## Entità menzionate
-[[entity/mim]] — autore delle linee guida commentate
-[[entity/garante-privacy]] — software per la DPIA
-[[entity/commissione-europea]] — AI Act, classificazione del rischio
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle linee guida commentate
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — software per la DPIA
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act, classificazione del rischio
 
 ## Concetti trattati
-[[concept/governance-scolastica-ia]] — ruolo deployer della scuola, nomine, responsabilità
-[[concept/privacy-protezione-dati]] — DPIA, titolare/responsabile, minimizzazione
-[[concept/valutazione-integrita-accademica]] — IA per valutare elaborati = alto rischio
-[[concept/supervisione-umana]] — sorveglianza umana richiesta dalla FRIA
-[[concept/ia-generativa]] — Gemini, Copilot, ChatGPT
-[[concept/llm]] — valutazione automatica di elaborati
-[[concept/allucinazione]] — citata a proposito delle risposte dei chatbot
-[[concept/prompt]] — rischio di inserimento dati personali
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — ruolo deployer della scuola, nomine, responsabilità
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DPIA, titolare/responsabile, minimizzazione
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — IA per valutare elaborati = alto rischio
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — sorveglianza umana richiesta dalla FRIA
+[[concept/ia-generativa|IA Generativa]] — Gemini, Copilot, ChatGPT
+[[concept/llm|LLM (Large Language Model)]] — valutazione automatica di elaborati
+[[concept/allucinazione|Allucinazione]] — citata a proposito delle risposte dei chatbot
+[[concept/prompt|Prompt]] — rischio di inserimento dati personali
 
 ## Citazioni rilevanti
 > "La scuola diventa deployer di intelligenza artificiale quando attiva l'intelligenza artificiale dentro Google Workspace o dentro Microsoft Teams [...] la responsabilità di quello che fa l'intelligenza artificiale è la scuola."
@@ -48,7 +46,7 @@ Trascrizione di un webinar dell'Associazione Culturale Didattica Innovativa con 
 > "L'aspetto più triste della vita in questo momento è che la scienza raccoglie conoscenza più velocemente di quanto la società raccolga saggezza." (Isaac Asimov, citato in chiusura)
 
 ## Contraddizioni o tensioni
-Conferma e approfondisce operativamente [[source/linee-guida-mim-dm166-2025]] (fonte canonica): non contraddice il testo normativo ma ne segnala le criticità applicative (DPIA/FRIA difficili da redigere, mancanza di una valutazione centralizzata). Coerente con l'impianto deployer/rischio dell'AI Act ([[source/ai-act-ue]]).
+Conferma e approfondisce operativamente [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] (fonte canonica): non contraddice il testo normativo ma ne segnala le criticità applicative (DPIA/FRIA difficili da redigere, mancanza di una valutazione centralizzata). Coerente con l'impianto deployer/rischio dell'AI Act ([[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]]).
 
 ## Domande aperte
 - La piattaforma Unica fornirà davvero DPIA/FRIA precompilate o modelli centralizzati?

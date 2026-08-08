@@ -7,12 +7,10 @@ updated: 2026-06-21
 sources: ["Decreto del Ministro dell'istruzione e del merito 11 novembre 2025, n. 219", "Avviso snodi formativi territoriali per la transizione digitale (PNRR)"]
 ---
 
-# DM 219/2025 — Avviso snodi formativi IA (PNRR)
-
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
 ## Sommario
-Il Decreto del Ministro dell'istruzione e del merito 11 novembre 2025, n. 219 pubblica l'Avviso per finanziare la creazione di **snodi formativi territoriali** per la transizione digitale sull'uso dell'IA, nell'ambito del PNRR (Missione 4 – Istruzione e Ricerca, Investimento 2.1). L'iniziativa è allineata all'[[source/ai-act-ue]], alla [[source/legge-132-2025]] e alle [[source/linee-guida-mim-dm166-2025|Linee Guida MIM]], e prevede una formazione a cascata gestita obbligatoriamente sulla piattaforma [[entity/scuola-futura]].
+Il Decreto del Ministro dell'istruzione e del merito 11 novembre 2025, n. 219 pubblica l'Avviso per finanziare la creazione di **snodi formativi territoriali** per la transizione digitale sull'uso dell'IA, nell'ambito del PNRR (Missione 4 – Istruzione e Ricerca, Investimento 2.1). L'iniziativa è allineata all'[[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], alla [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] e alle [[source/linee-guida-mim-dm166-2025|Linee Guida MIM]], e prevede una formazione a cascata gestita obbligatoriamente sulla piattaforma [[entity/scuola-futura|Piattaforma Scuola Futura]].
 
 ## Punti chiave
 - **DM 219 dell'11 novembre 2025**; finanzia snodi formativi territoriali per la transizione digitale sull'IA.
@@ -28,16 +26,16 @@ Il Decreto del Ministro dell'istruzione e del merito 11 novembre 2025, n. 219 pu
 - Per ATA/DSGA: snellimento della burocrazia, conformità normativa, privacy (GDPR) e supervisione umana sui processi automatizzati.
 
 ## Entità menzionate
-[[entity/mim]] — emanazione del decreto e dell'avviso
-[[entity/scuola-futura]] — piattaforma di gestione obbligatoria dei percorsi
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — emanazione del decreto e dell'avviso
+[[entity/scuola-futura|Piattaforma Scuola Futura]] — piattaforma di gestione obbligatoria dei percorsi
 
 ## Concetti trattati
-[[concept/snodi-formativi-pnrr]] — DM 219/2025, formazione a cascata
-[[concept/alfabetizzazione-ia]] — obiettivo formativo trasversale
-[[concept/scuola-aumentata]] — docente come co-progettista
-[[concept/didattica-inclusiva-ia]] — supporto BES/DSA nei percorsi
-[[concept/privacy-protezione-dati]] — formazione GDPR per ATA/DSGA
-[[concept/supervisione-umana]] — vigilanza umana sui processi automatizzati
+[[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — DM 219/2025, formazione a cascata
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — obiettivo formativo trasversale
+[[concept/scuola-aumentata|Scuola aumentata]] — docente come co-progettista
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — supporto BES/DSA nei percorsi
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — formazione GDPR per ATA/DSGA
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — vigilanza umana sui processi automatizzati
 
 ## Citazioni rilevanti
 > Gli snodi formativi devono assicurare la gestione di tutti i percorsi formativi utilizzando esclusivamente la piattaforma Scuola Futura; i percorsi non inseriti a sistema non sono considerati ammissibili.

@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Privacy e intelligenza artificiale dopo la nuova Legge 132/2025: il modello italiano per un'innovazione responsabile - Federprivacy"]
 ---
 
-# Privacy e IA dopo la Legge 132/2025: il modello italiano (Federprivacy)
-
 **File raw**: `raw/papers/privacy-e-intelligenza-artificiale-dopo-la-nuova-legge-132-2025-il-mod.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -28,16 +26,16 @@ Articolo di approfondimento giuridico dell'Avv. Michele Iaselli (Coordinatore de
 - **Nuove figure professionali**: il DPO assume competenze tecniche sull'IA; emerge l'AI Ethics Officer (competenze giuridiche, tecniche, etiche).
 
 ## Entità menzionate
-[[entity/garante-privacy]] — competenze e poteri confermati dall'art. 20 della Legge 132/2025
-[[entity/agid]] — coordinamento con il Garante come Autorità nazionale per l'IA
-[[entity/commissione-europea]] — diritto UE in materia di dati e AI Act come quadro di riferimento
+[[entity/garante-privacy|Garante per la protezione dei dati personali]] — competenze e poteri confermati dall'art. 20 della Legge 132/2025
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — coordinamento con il Garante come Autorità nazionale per l'IA
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — diritto UE in materia di dati e AI Act come quadro di riferimento
 
 ## Concetti trattati
-[[concept/privacy-protezione-dati]] — integrazione funzionale GDPR–Legge 132/2025
-[[concept/supervisione-umana]] — controllo umano effettivo sulle decisioni automatizzate
-[[concept/machine-learning]] — minimizzazione, dataset ridotti/anonimizzati, machine unlearning
-[[concept/intelligenza-artificiale]] — quadro giuridico nazionale dell'IA
-[[concept/bias-algoritmico]] — discriminazione algoritmica tra i rischi nella DPIA estesa
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — integrazione funzionale GDPR–Legge 132/2025
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — controllo umano effettivo sulle decisioni automatizzate
+[[concept/machine-learning|Machine Learning]] — minimizzazione, dataset ridotti/anonimizzati, machine unlearning
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — quadro giuridico nazionale dell'IA
+[[concept/bias-algoritmico|Bias Algoritmico]] — discriminazione algoritmica tra i rischi nella DPIA estesa
 
 ## Citazioni rilevanti
 > "L'utilizzo di sistemi di intelligenza artificiale garantisce il trattamento lecito, corretto e trasparente dei dati personali e la compatibilità con le finalità per le quali sono stati raccolti." (art. 4 L. 132/2025)
@@ -45,7 +43,7 @@ Articolo di approfondimento giuridico dell'Avv. Michele Iaselli (Coordinatore de
 > "La convergenza tra GDPR e legge italiana sull'AI rappresenta un modello di regolamentazione che potrebbe influenzare altri ordinamenti."
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione. Approfondisce il profilo privacy di [[source/legge-132-2025]] (fonte canonica), aggiungendo l'analisi articolo per articolo dell'integrazione con il GDPR e concetti tecnici nuovi (dati sintetici, machine unlearning, portabilità algoritmica, AI Ethics Officer) non presenti nella pagina canonica. Coerente con [[source/ai-act-ue]] sulla DPIA estesa e con la governance multi-autorità citata anche in [[source/agid-piano-triennale-2024-2026-agg-2026]].
+Nessuna contraddizione. Approfondisce il profilo privacy di [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] (fonte canonica), aggiungendo l'analisi articolo per articolo dell'integrazione con il GDPR e concetti tecnici nuovi (dati sintetici, machine unlearning, portabilità algoritmica, AI Ethics Officer) non presenti nella pagina canonica. Coerente con [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] sulla DPIA estesa e con la governance multi-autorità citata anche in [[source/agid-piano-triennale-2024-2026-agg-2026|AGID — Piano Triennale per l'informatica nella PA 2024-2026 (Agg. 2026)]].
 
 ## Domande aperte
 - Come sarà concretamente attuato il «machine unlearning» richiesto dal diritto all'oblio applicato a modelli già addestrati?

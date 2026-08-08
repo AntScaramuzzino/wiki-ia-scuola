@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["OECD AI Literacy Framework (2025)", "DigComp 3.0, Quadro europeo competenze digitali (2025)"]
 ---
 
-# OCSE (OECD)
-
 ## Descrizione
 L'OCSE (Organizzazione per la Cooperazione e lo Sviluppo Economico) è l'organizzazione internazionale che riunisce i Paesi a economia di mercato avanzata e produce analisi, statistiche e framework comparativi in numerosi ambiti di policy, inclusa l'istruzione.
 
@@ -22,14 +20,14 @@ Delinea **22 competenze specifiche** strutturate attorno a quattro domini centra
 - **Design AI** — comprensione concettuale profonda di come i sistemi di IA funzionano e vengono strutturati.
 
 ## Connessioni
-- [[source/oecd-ai-literacy-2025]] — framework di AI literacy dell'OCSE
-- [[concept/alfabetizzazione-ia]] — il framework OCSE definisce le competenze di AI literacy per la scuola
-- [[entity/commissione-europea]] — co-sviluppatrice del framework OCSE
-- [[entity/unesco]] — ente con framework di competenze IA paralleli (2024)
-- [[analyses/2026-06-21-confronto-framework-competenze-ia]] — confronto tra i framework UNESCO/OECD/DigComp
+- [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]] — framework di AI literacy dell'OCSE
+- [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — il framework OCSE definisce le competenze di AI literacy per la scuola
+- [[entity/commissione-europea|Commissione Europea (e JRC)]] — co-sviluppatrice del framework OCSE
+- [[entity/unesco|UNESCO]] — ente con framework di competenze IA paralleli (2024)
+- [[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] — confronto tra i framework UNESCO/OECD/DigComp
 
 ## Fonti
-[[source/oecd-ai-literacy-2025]]
+[[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]]
 
 ## Note e aggiornamenti
 - 2026-06-21: pagina creata. Il framework OCSE 2025 sarà base delle valutazioni PISA 2029.

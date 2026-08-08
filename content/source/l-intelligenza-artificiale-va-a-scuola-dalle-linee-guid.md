@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["L'intelligenza artificiale va a scuola: dalle Linee guida MIM al piano progettuale per l'inserimento della IA nell'istituzione scolastica"]
 ---
 
-# L'IA va a scuola: dalle Linee guida MIM al piano progettuale (corso Scuola Futura)
-
 **File raw**: `raw/papers/l-intelligenza-artificiale-va-a-scuola-dalle-linee-guida-mim-al-piano-.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -20,18 +18,18 @@ Scheda di un percorso formativo su Scuola Futura (Polo Formativo 2024-2026, Lucc
 - Contenuti: IA a servizio della didattica, framework UNESCO per docenti, IA generativa ed etica, sorveglianza umana; analisi di documenti chiave (UNESCO, Linee guida MIM, AI Act); approccio metodologico delle Linee guida (analisi bisogni → casi d'uso).
 
 ## Entità menzionate
-[[entity/scuola-futura]] — piattaforma che ospita il percorso formativo
-[[entity/mim]] — Linee guida MIM come riferimento del progetto d'istituto
-[[entity/unesco]] — framework UNESCO per docenti tra i contenuti
+[[entity/scuola-futura|Piattaforma Scuola Futura]] — piattaforma che ospita il percorso formativo
+[[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — Linee guida MIM come riferimento del progetto d'istituto
+[[entity/unesco|UNESCO]] — framework UNESCO per docenti tra i contenuti
 
 ## Concetti trattati
-[[concept/alfabetizzazione-ia]] — competenze per un uso consapevole, critico ed etico dell'IA
-[[concept/governance-scolastica-ia]] — progetto d'istituto di inserimento dell'IA
-[[concept/ia-generativa]] — IA generativa e didattica con approccio etico
-[[concept/supervisione-umana]] — sorveglianza umana e responsabilità condivisa
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — competenze per un uso consapevole, critico ed etico dell'IA
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — progetto d'istituto di inserimento dell'IA
+[[concept/ia-generativa|IA Generativa]] — IA generativa e didattica con approccio etico
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — sorveglianza umana e responsabilità condivisa
 
 ## Contraddizioni o tensioni
-Conferma/applicazione formativa di [[source/linee-guida-mim-dm166-2025]]; nessun fatto normativo nuovo rispetto alla fonte canonica. Rilevante come evidenza concreta dell'offerta formativa PNRR/Scuola Futura collegata alle Linee guida.
+Conferma/applicazione formativa di [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]]; nessun fatto normativo nuovo rispetto alla fonte canonica. Rilevante come evidenza concreta dell'offerta formativa PNRR/Scuola Futura collegata alle Linee guida.
 
 ## Domande aperte
 - I progetti d'istituto prodotti nel project work saranno condivisi come buone pratiche riusabili?

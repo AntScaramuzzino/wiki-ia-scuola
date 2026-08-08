@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: [Linee Guida MIM (DM 166/2025), Guida Pratica all'IA nella Scuola Secondaria di I grado]
 ---
 
-# Didattica inclusiva con IA
-
 ## Definizione
 La didattica inclusiva con IA è l'impiego dell'Intelligenza Artificiale come leva per l'equità e la giustizia educativa, in particolare a favore degli studenti con Bisogni Educativi Speciali (BES) e Disturbi Specifici dell'Apprendimento (DSA). È associata ai principi dell'**Universal Design for Learning (UDL)**, che mira a progettare ambienti e lezioni accessibili fin dall'inizio alla più vasta gamma di menti e neurodivergenze (es. disturbi dello spettro autistico, ADHD), superando l'idea dell'adattamento a posteriori.
 
@@ -25,13 +23,13 @@ L'IA offre supporti trasformativi che si integrano con gli strumenti istituziona
 - Conversione di contenuti in formati multimodali per diversi profili di apprendimento.
 
 ## Relazioni con altri concetti
-- [[concept/scuola-aumentata]] — l'inclusione è una declinazione della personalizzazione dell'apprendimento.
-- [[concept/privacy-protezione-dati]] — i dati di PEI/PDP sono dati sensibili: ne è vietato l'inserimento nei prompt di modelli aperti.
-- [[concept/bias-algoritmico]] — l'accessibilità impone di vigilare contro discriminazioni verso persone con disabilità.
-- [[concept/alfabetizzazione-ia]] — l'uso degli strumenti inclusivi richiede competenze digitali adeguate.
+- [[concept/scuola-aumentata|Scuola aumentata]] — l'inclusione è una declinazione della personalizzazione dell'apprendimento.
+- [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — i dati di PEI/PDP sono dati sensibili: ne è vietato l'inserimento nei prompt di modelli aperti.
+- [[concept/bias-algoritmico|Bias Algoritmico]] — l'accessibilità impone di vigilare contro discriminazioni verso persone con disabilità.
+- [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — l'uso degli strumenti inclusivi richiede competenze digitali adeguate.
 
 ## Contraddizioni e dibattiti
 L'IA come strumento di equità è in tensione con il **divario digitale**: l'accesso disomogeneo a strumenti, abbonamenti premium e formazione rischia di creare una "scuola a due velocità". Per questo equità e accessibilità (anche per studenti con BES/DSA) sono considerate imperativi categorici. Inoltre i dati relativi a PEI/PDP, essendo sensibili, non possono essere inseriti nei prompt di sistemi pubblici.
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025]], [[source/guida-pratica-ia-secondaria]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]]

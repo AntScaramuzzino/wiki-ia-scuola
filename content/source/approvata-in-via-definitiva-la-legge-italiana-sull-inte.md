@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Approvata in via definitiva la legge italiana sull'Intelligenza Artificiale"]
 ---
 
-# Approvata in via definitiva la legge italiana sull'Intelligenza Artificiale (DTD)
-
 **File raw**: `raw/papers/approvata-in-via-definitiva-la-legge-italiana-sull-intelligenza-artifi.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -21,17 +19,17 @@ Comunicato del Dipartimento per la trasformazione digitale (17 settembre 2025) s
 - Settori applicativi inclusi: scuola e formazione, sanità, lavoro, PA e giustizia, sport; 1 miliardo per startup e PMI.
 
 ## Entità menzionate
-[[entity/agid]] — Autorità nazionale competente (notifiche, promozione casi d'uso sicuri)
-[[entity/commissione-europea]] — AI Act come riferimento di allineamento
+[[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — Autorità nazionale competente (notifiche, promozione casi d'uso sicuri)
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — AI Act come riferimento di allineamento
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]] — oggetto della legge
-[[concept/supervisione-umana]] — centralità della decisione finale di una persona fisica
-[[concept/governance-scolastica-ia]] — governance nazionale dell'IA (anche per scuola/formazione)
-[[concept/privacy-protezione-dati]] — tutela della riservatezza tra i principi
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]] — oggetto della legge
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — centralità della decisione finale di una persona fisica
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — governance nazionale dell'IA (anche per scuola/formazione)
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — tutela della riservatezza tra i principi
 
 ## Contraddizioni o tensioni
-Conferma/commento giornalistico-istituzionale della [[source/legge-132-2025]] (Legge 23 settembre 2025, n. 132, "Disposizioni e deleghe al Governo in materia di intelligenza artificiale"); nessun fatto nuovo rispetto alla fonte canonica, che resta il riferimento per il testo di legge. Coerente anche con [[source/ai-act-ue]].
+Conferma/commento giornalistico-istituzionale della [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] (Legge 23 settembre 2025, n. 132, "Disposizioni e deleghe al Governo in materia di intelligenza artificiale"); nessun fatto nuovo rispetto alla fonte canonica, che resta il riferimento per il testo di legge. Coerente anche con [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]].
 
 ## Domande aperte
 - Quali ricadute concrete della legge sul comparto "scuola e formazione" rispetto alle linee guida MIM?

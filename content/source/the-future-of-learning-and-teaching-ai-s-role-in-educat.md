@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["The Future of Learning and Teaching: AI's Role in Education, Challenges, and Opportunities"]
 ---
 
-# The Future of Learning and Teaching: AI's Role in Education (EDEH)
-
 **File raw**: `raw/articles/the-future-of-learning-and-teaching-ai-s-role-in-education-challenges-.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -35,21 +33,21 @@ Set di slide (in inglese) di una presentazione, riconducibile all'European Digit
 > "'AI literacy' means skills, knowledge and understanding that allow providers, deployers and affected persons … to make an informed deployment of AI systems, as well as to gain awareness about the opportunities and risks of AI." (AI Act)
 
 ## Entità menzionate
-[[entity/commissione-europea]] — Linee guida etiche per educatori (2022), EDEH
-[[entity/unesco]] — AI Competency Frameworks per docenti e studenti
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — Linee guida etiche per educatori (2022), EDEH
+[[entity/unesco|UNESCO]] — AI Competency Frameworks per docenti e studenti
 
 ## Concetti trattati
-[[concept/alfabetizzazione-ia]] — AI literacy come definita dall'AI Act
-[[concept/supervisione-umana]] — "human in the loop", art. 86 diritto alla spiegazione
-[[concept/bias-algoritmico]] — fonti di bias da input umani, dataset, algoritmi
-[[concept/privacy-protezione-dati]] — DSA, caso OVIC su ChatGPT
-[[concept/valutazione-integrita-accademica]] — sistemi IA alto rischio per la valutazione
-[[concept/didattica-inclusiva-ia]] — fairness, inclusione, bisogni educativi speciali
-[[concept/ia-generativa]] — Australian Framework, uso di ChatGPT
-[[concept/governance-scolastica-ia]] — Data Governance Act, governance dei dati educativi
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — AI literacy come definita dall'AI Act
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — "human in the loop", art. 86 diritto alla spiegazione
+[[concept/bias-algoritmico|Bias Algoritmico]] — fonti di bias da input umani, dataset, algoritmi
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — DSA, caso OVIC su ChatGPT
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — sistemi IA alto rischio per la valutazione
+[[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — fairness, inclusione, bisogni educativi speciali
+[[concept/ia-generativa|IA Generativa]] — Australian Framework, uso di ChatGPT
+[[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — Data Governance Act, governance dei dati educativi
 
 ## Contraddizioni o tensioni
-Nessuna contraddizione. La fonte è coerente con e arricchisce [[source/ai-act-ue]] (categorie di rischio in ambito educativo), [[source/unesco-competenze-docenti-2024]] e [[source/unesco-competenze-studenti-2024]] (framework di competenze). Introduce regolamenti UE finora non coperti come fonti autonome (DSA, CSA, Data Governance Act).
+Nessuna contraddizione. La fonte è coerente con e arricchisce [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]] (categorie di rischio in ambito educativo), [[source/unesco-competenze-docenti-2024|UNESCO — AI competency framework for teachers (2024)]] e [[source/unesco-competenze-studenti-2024|UNESCO — AI competency framework for students (2024)]] (framework di competenze). Introduce regolamenti UE finora non coperti come fonti autonome (DSA, CSA, Data Governance Act).
 
 ## Domande aperte
 - Il "deskilling" cognitivo di docenti e studenti è misurabile empiricamente o resta una preoccupazione teorica?

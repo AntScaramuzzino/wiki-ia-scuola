@@ -7,31 +7,29 @@ updated: 2026-06-21
 sources: ["Glossario competenze digitali (DigComp 3.0 / Generative AI Outlook Report 2025)"]
 ---
 
-# Glossario delle competenze digitali e dell'IA
-
 **File raw**: `raw/notes/glossario-competenze-digitali.csv`
 
 ## Sommario
 Glossario di riferimento di 126 voci sulle competenze digitali e sull'intelligenza artificiale, allineato al quadro europeo **DigComp 3.0** e attinto in larga parte dal **Generative AI Outlook Report (2025)** del JRC, oltre che da GDPR, AI Act, DigComp 2.2 e altre fonti istituzionali. Copre concetti di IA, sicurezza informatica, protezione dei dati, cittadinanza e inclusione digitale, terminologia tecnica e metodologica.
 
 ## Punti chiave
-- Glossario trasversale: dai fondamenti dell'IA ([[concept/intelligenza-artificiale]], [[concept/ia-generativa]], [[concept/machine-learning]], [[concept/bias-algoritmico]]) ai temi di sicurezza, privacy e cittadinanza digitale.
-- Le definizioni normative (Sistema di IA, Sistema di IA ad alto rischio, Dati personali) sono ancorate ad **AI Act** e **GDPR** — coerenti con [[source/ai-act-ue]].
-- Molte voci derivano dal vocabolario **DigComp 3.0** ([[source/digcomp-3-0]]): livelli di padronanza, enunciati di competenza, risultati di apprendimento, compiti semplici/complessi.
+- Glossario trasversale: dai fondamenti dell'IA ([[concept/intelligenza-artificiale|Intelligenza Artificiale]], [[concept/ia-generativa|IA Generativa]], [[concept/machine-learning|Machine Learning]], [[concept/bias-algoritmico|Bias Algoritmico]]) ai temi di sicurezza, privacy e cittadinanza digitale.
+- Le definizioni normative (Sistema di IA, Sistema di IA ad alto rischio, Dati personali) sono ancorate ad **AI Act** e **GDPR** — coerenti con [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]].
+- Molte voci derivano dal vocabolario **DigComp 3.0** ([[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]]): livelli di padronanza, enunciati di competenza, risultati di apprendimento, compiti semplici/complessi.
 - Le voci che hanno una pagina concettuale dedicata nel wiki sono collegate con "→ vedi".
 
 ## Entità menzionate
-[[entity/commissione-europea]] — il JRC cura DigComp 3.0 e il Generative AI Outlook Report
-[[entity/unesco]], [[entity/ocse]] — quadri di competenza correlati
+[[entity/commissione-europea|Commissione Europea (e JRC)]] — il JRC cura DigComp 3.0 e il Generative AI Outlook Report
+[[entity/unesco|UNESCO]], [[entity/ocse|OCSE (OECD)]] — quadri di competenza correlati
 
 ## Concetti trattati
-[[concept/intelligenza-artificiale]], [[concept/ia-generativa]], [[concept/machine-learning]], [[concept/llm]], [[concept/bias-algoritmico]], [[concept/privacy-protezione-dati]], [[concept/alfabetizzazione-ia]], [[concept/didattica-inclusiva-ia]], [[concept/supervisione-umana]]
+[[concept/intelligenza-artificiale|Intelligenza Artificiale]], [[concept/ia-generativa|IA Generativa]], [[concept/machine-learning|Machine Learning]], [[concept/llm|LLM (Large Language Model)]], [[concept/bias-algoritmico|Bias Algoritmico]], [[concept/privacy-protezione-dati|Privacy e protezione dei dati]], [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]], [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]], [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]]
 
 ## Contraddizioni o tensioni
-Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel wiki; le definizioni di "Apprendimento automatico", "IA generativa" e "Bias" combaciano con quelle del [[source/digcomp-3-0]] e delle Linee Guida MIM.
+Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel wiki; le definizioni di "Apprendimento automatico", "IA generativa" e "Bias" combaciano con quelle del [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]] e delle Linee Guida MIM.
 
 ## Domande aperte
-- Diverse voci sono state promosse a pagine concept proprie ([[concept/deepfake]], [[concept/cyberbullismo]], [[concept/disinformazione]], [[concept/gamification]]); altre (es. *assistente virtuale*, *robotica*) potrebbero seguire se diventano centrali.
+- Diverse voci sono state promosse a pagine concept proprie ([[concept/deepfake|Deepfake]], [[concept/cyberbullismo|Cyberbullismo]], [[concept/disinformazione|Disinformazione e misinformazione]], [[concept/gamification|Gamification]]); altre (es. *assistente virtuale*, *robotica*) potrebbero seguire se diventano centrali.
 
 ---
 
@@ -42,7 +40,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 ### A
 
 **Accessibilità** — Misura in cui prodotti, sistemi, servizi, ambienti e strutture possono essere utilizzati da persone appartenenti a una popolazione con la più ampia gamma di bisogni, caratteristiche e capacità dell'utente per raggiungere obiettivi identificati in contesti d'uso specifici (incluso l'uso diretto o l'uso supportato da tecnologie assistive).  
-→ vedi [[concept/didattica-inclusiva-ia]]  
+→ vedi [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]]  
 *Fonte: Generative AI Outlook Report (2025)*
 
 **Algoritmo** — Una formula o un insieme di regole (o procedura, processi o istruzioni) per risolvere un problema o per eseguire un compito. Esempi comuni includono alberi decisionali, algoritmi di clustering, algoritmi di classificazione o algoritmi di regressione.  
@@ -58,14 +56,14 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: GeeksforGeeks*
 
 **Anonimizzazione** — Nel Regolamento generale sulla protezione dei dati (GDPR, 2018), l'anonimizzazione si riferisce al trattamento dei dati con l'obiettivo di impedire irreversibilmente l'identificazione di una persona fisica.  
-→ vedi [[concept/privacy-protezione-dati]]  
+→ vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]]  
 *Fonte: General Data Protection Regulation (GDPR) (2018)*
 
 **Applicazione/App** — Un programma informatico o un'applicazione software, specialmente progettata per funzionare su un dispositivo mobile come uno smartphone, un tablet o uno smartwatch.  
 *Fonte: Adattato dal Cambridge English Dictionary*
 
 **Apprendimento automatico** — Un campo dell'intelligenza artificiale che si occupa dello sviluppo e dello studio di algoritmi statistici in grado di apprendere dai dati e generalizzare a dati non visti, e quindi eseguire compiti senza istruzioni esplicite. I progressi nell'apprendimento profondo (deep learning), una sotto-disciplina dell'apprendimento automatico, hanno permesso alle reti neurali, una classe di algoritmi statistici, di superare molti approcci precedenti di apprendimento automatico. L'apprendimento automatico ha molte applicazioni, tra cui l'elaborazione del linguaggio naturale, la visione artificiale, il riconoscimento vocale, il filtraggio delle email, i sistemi di gestione agricola e la medicina diagnostica.  
-→ vedi [[concept/machine-learning]]  
+→ vedi [[concept/machine-learning|Machine Learning]]  
 *Fonte: Adattato da IBM: Machine learning e da Wikipedia: Machine learning*
 
 **Archiviazione esterna** — Spazio di archiviazione dati al di fuori dell'hardware interno di un dispositivo digitale. L'archiviazione esterna può riferirsi a supporti rimovibili, dispositivi di archiviazione portatili, archiviazione collegata alla rete o archiviazione cloud.  
@@ -95,7 +93,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Adattato da DigComp 2.2 (2022)*
 
 **Bias** — Una deviazione sistematica da uno stato reale. Esistono diverse forme di bias, come il bias soggettivo degli individui, il bias dei dati e degli algoritmi, il bias degli sviluppatori e i bias istituzionalizzati radicati nel contesto sociale sottostante.  
-→ vedi [[concept/bias-algoritmico]]  
+→ vedi [[concept/bias-algoritmico|Bias Algoritmico]]  
 *Fonte: Adattato dal Generative AI Outlook Report (2025)*
 
 **Big data** — Insiemi di dati massivi e complessi che gli strumenti tradizionali di gestione dei dati non possono gestire. I big data possono essere caratterizzati da grande volume, alta varietà (frequentemente in formati non strutturati o semi-strutturati), alta velocità nei tempi di generazione ed elaborazione, e diversi gradi di qualità e affidabilità.  
@@ -114,14 +112,14 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Generative AI Outlook Report (2025)*
 
 **Cittadinanza digitale** — La capacità di partecipare attivamente, continuamente e responsabilmente alle comunità online e offline, attraverso un impegno competente e positivo con le tecnologie digitali.  
-→ vedi [[concept/alfabetizzazione-ia]]  
+→ vedi [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]]  
 *Fonte: Council of Europe: Digital Citizenship Education Handbook (2022)*
 
 **Clickbait** — Un testo o un link con anteprima progettato per attirare l'attenzione e indurre gli utenti a cliccare su quel link per visualizzare, leggere, riprodurre in streaming o ascoltare il contenuto online collegato. Il contenuto è tipicamente ingannevole, sensazionalistico o comunque fuorviante. Denominato anche linkbait.  
 *Fonte: Adattato dal Cambridge English Dictionary e da Wikipedia: Clickbait*
 
 **Collaborazione uomo-IA** — Processo in cui uno o più esseri umani lavorano con un sistema o sistemi di IA per raggiungere un obiettivo definito dall'uomo, basato sul presupposto che gli esseri umani e i sistemi di IA abbiano punti di forza complementari.  
-→ vedi [[concept/scuola-aumentata]], [[concept/supervisione-umana]]  
+→ vedi [[concept/scuola-aumentata|Scuola aumentata]], [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]]  
 *Fonte: Adattato da Memmert and Bittner (2022)*
 
 **Compito** — Nel DigComp 3.0, in particolare in riferimento ai livelli di padronanza, agli enunciati di competenza e ai risultati di apprendimento, un compito è un'attività specifica che comporta l'uso di tecnologie digitali che contribuisce a un obiettivo, in qualsiasi contesto – vita quotidiana, lavoro o apprendimento. I compiti possono variare in dimensioni, durata e complessità e possono essere svolti individualmente o in collaborazione con altri.  
@@ -149,7 +147,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Adattato da European Parliament (2024): Understanding Cybercrime*
 
 **Cyberbullismo** — Attualmente (2025), la definizione più citata di cyberbullismo è un atto aggressivo e intenzionale compiuto da un gruppo o da un individuo, utilizzando forme elettroniche di contatto, ripetutamente e nel tempo contro una vittima che non può difendersi facilmente.  
-→ vedi [[concept/cyberbullismo]]  
+→ vedi [[concept/cyberbullismo|Cyberbullismo]]  
 *Fonte: Smith e altri (2008)*
 
 
@@ -165,15 +163,15 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: European Commission, 2022*
 
 **Dati personali** — I dati relativi a una persona fisica che con questi dati può essere identificata direttamente o indirettamente.  
-→ vedi [[concept/privacy-protezione-dati]]  
+→ vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]]  
 *Fonte: General Data Protection Regulation (GDPR) (2018)*
 
 **Debunking** — Il processo di esposizione di inesattezze, false informazioni o miti in varie teorie, credenze o affermazioni. Implica l'analisi critica delle prove, la confutazione di concezioni errate e la rivelazione della verità o delle informazioni fattuali su un determinato argomento o soggetto.  
-→ vedi [[concept/disinformazione]]  
+→ vedi [[concept/disinformazione|Disinformazione e misinformazione]]  
 *Fonte: Definitions.net: De-bunking*
 
 **Deepfake** — Contenuto di immagini, audio o video generato o manipolato che assomiglia a persone, oggetti, luoghi, entità o eventi esistenti e che potrebbe apparire falsamente autentico o veritiero a una persona.  
-→ vedi [[concept/deepfake]]  
+→ vedi [[concept/deepfake|Deepfake]]  
 *Fonte: Generative AI Outlook Report (2025)*
 
 **Design thinking** — Un approccio alla risoluzione dei problemi e all'innovazione incentrato sulla progettazione incentrata sulla persona, che coinvolge quattro fasi (chiarire, ideare, sviluppare e implementare).  
@@ -189,7 +187,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Generative AI Outlook Report (2025)*
 
 **Disinformazione** — Informazioni false o fuorvianti create e diffuse intenzionalmente per ingannare le persone, anche per profitto economico o per causare danni politici o pubblici.  
-→ vedi [[concept/disinformazione]]  
+→ vedi [[concept/disinformazione|Disinformazione e misinformazione]]  
 *Fonte: Adattato da DigComp 2.2 (2022)*
 
 **Dispositivo digitale** — Un'unità di apparecchiatura che contiene un computer o un microcontrollore. I dispositivi digitali comuni includono computer portatili, computer desktop, smartphone, tablet, smartwatch e smart TV.  
@@ -223,7 +221,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Adattato da Wikipedia: User experience e da Wikipedia: Customer experience*
 
 **Etico (uso delle tecnologie digitali)** — Uso delle tecnologie digitali che si allinea con i valori del rispetto della dignità umana, della libertà, della democrazia, dell'uguaglianza, dello stato di diritto e del rispetto dei diritti umani, inclusi i diritti delle persone appartenenti a minoranze. L'uso etico implica anche la considerazione dell'ambiente naturale e degli altri esseri viventi che fanno parte dell'ecosistema umano, nonché un approccio sostenibile che consenta il fiorire delle generazioni future.  
-→ vedi [[concept/supervisione-umana]]  
+→ vedi [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]]  
 *Fonte: Consolidated Treaty on the EU (2025) and Generative AI Outlook Report (2025)*
 
 
@@ -236,7 +234,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 ### G
 
 **Gamificazione (gamification)** — L'applicazione di caratteristiche del gioco in contesti non ludici. L'obiettivo è aumentare il coinvolgimento, la motivazione, la competizione e la partecipazione degli utenti attraverso l'uso di meccaniche di gioco come punti, badge, classifiche e ricompense.  
-→ vedi [[concept/gamification]]  
+→ vedi [[concept/gamification|Gamification]]  
 *Fonte: Adattato da ScienceDirect e da Wikipedia: Gamification*
 
 **Global Digital Compact (GDC) delle Nazioni Unite (ONU)** — Il primo quadro completo per la governance digitale globale concordato dagli Stati membri dell'ONU nel 2024 che mira a promuovere uno spazio digitale inclusivo, aperto, sicuro e protetto che rispetti, protegga e promuova i diritti umani. L'Ufficio delle Nazioni Unite per le tecnologie digitali ed emergenti, istituito nel gennaio 2025, supporta il follow-up e l'implementazione del GDC.  
@@ -246,11 +244,11 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 ### I
 
 **IA affidabile** — L'IA affidabile ha tre componenti: (1) dovrebbe essere legale, garantendo la conformità con tutte le leggi e i regolamenti applicabili (2) dovrebbe essere etica, dimostrando rispetto per, e garantendo l'aderenza a, principi e valori etici e (3) dovrebbe essere robusta, sia da una prospettiva tecnica che sociale, poiché, anche con buone intenzioni, i sistemi di IA possono causare danni non intenzionali. L'IA affidabile riguarda non solo l'affidabilità del sistema di IA ma comprende anche l'affidabilità di tutti i processi e gli attori che fanno parte del ciclo di vita del sistema di IA.  
-→ vedi [[concept/supervisione-umana]]  
+→ vedi [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]]  
 *Fonte: Generative AI Outlook Report (2025)*
 
 **IA generativa** — Un sottoinsieme dell'IA che utilizza modelli di apprendimento automatico specializzati progettati per produrre un'ampia e generale varietà di output, capaci di una gamma di compiti e applicazioni, come la generazione di testo, immagini o audio.  
-→ vedi [[concept/ia-generativa]]  
+→ vedi [[concept/ia-generativa|IA Generativa]]  
 *Fonte: Generative AI Outlook Report (2025)*
 
 **Identità digitale** — Nel DigComp 3.0, l'identità digitale si riferisce alla raccolta di informazioni digitali su un individuo, che copre aspetti quali dettagli personali, informazioni sugli account online, credenziali di nome utente e password, dati comportamentali e biometrici. L'identità digitale ha diverse funzioni, come l'accesso ai servizi, la protezione della privacy e la protezione dal furto d'identità. L'identità digitale è verificata attraverso vari mezzi, come nome utente e password, verifica biometrica, certificati digitali e documenti d'identità rilasciati dal governo. Esempi di identità digitali includono profili sui social media, indirizzi e-mail, dati di conti bancari online, cartelle cliniche e credenziali per portali educativi. L'identità digitale è multiforme e in evoluzione e può sovrapporsi all'identità fisica nei suoi riferimenti a realtà fisiche come l'indirizzo di casa o i dati delle impronte digitali nell'identificazione biometrica.  
@@ -260,7 +258,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Adattato da PCMag: Definizione di Impronta digitale*
 
 **Incentrato sulla persona** — Un approccio allo sviluppo e all'uso delle tecnologie digitali che si sforza di garantire che i valori umani siano centrali, assicurando il rispetto dei diritti fondamentali, inclusi quelli stabiliti nei Trattati dell'Unione Europea e nella Carta dei diritti fondamentali dell'Unione Europea, tutti uniti dal riferimento a un fondamento comune radicato nel rispetto della dignità umana, in cui l'essere umano gode di uno status morale unico e inalienabile. L'approccio incentrato sulla persona implica anche la considerazione dell'ambiente naturale e degli altri esseri viventi che fanno parte dell'ecosistema umano, nonché un approccio sostenibile che consenta il fiorire delle generazioni future.  
-→ vedi [[concept/supervisione-umana]]  
+→ vedi [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]]  
 *Fonte: Adattato da Generative AI Outlook Report (2025)*
 
 **Inclusione digitale** — Processo che mira a garantire che un individuo – o un gruppo – possa accedere e utilizzare le tecnologie dell'informazione e della comunicazione (TIC) per partecipare pienamente alla vita economica, sociale e culturale. L'inclusione digitale dipende da quattro fattori principali: accesso alle tecnologie digitali, sia fisico che finanziario; motivazione, inclusa la comprensione dei benefici delle tecnologie digitali; competenza digitale; e fiducia, inclusa quella riguardante la sicurezza online.  
@@ -306,7 +304,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: European Parliament: Cyber threats in the EU – facts and figures (2025)*
 
 **Misinformazione** — Informazioni false indipendentemente dall'intenzione di ingannare o fuorviare le persone.  
-→ vedi [[concept/disinformazione]]  
+→ vedi [[concept/disinformazione|Disinformazione e misinformazione]]  
 *Fonte: DigComp 2.2 (2022)*
 
 **Modello di economia circolare** — Un sistema in cui prodotti e materiali sono condivisi, noleggiati, riutilizzati, riparati, ricondizionati e riciclati invece di essere gettati via.  
@@ -322,7 +320,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Duckworth and Fraillon (2025)*
 
 **Personalizzazione** — Servizi digitali adattati agli interessi e alle preferenze dei singoli utenti, specialmente attraverso l'applicazione di algoritmi ai comportamenti online degli utenti.  
-→ vedi [[concept/scuola-aumentata]]  
+→ vedi [[concept/scuola-aumentata|Scuola aumentata]]  
 *Fonte: Adattato da Generative AI Outlook Report (2025)*
 
 **Phishing** — Vedi Ingegneria sociale
@@ -336,15 +334,15 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Adattato da Wikipedia: Online piracy; vedi anche Muso global piracy industry report (2023)*
 
 **Plagio** — Usare le idee o il lavoro di qualcun altro e fingere che siano propri. L'ampia diffusione dei sistemi di IA, in particolare dell'IA generativa, ha aggiunto un livello di complessità all'etica del plagio così come un aumento degli strumenti di rilevamento del plagio, che variano nella loro efficacia.  
-→ vedi [[concept/valutazione-integrita-accademica]]  
+→ vedi [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]]  
 *Fonte: Adattato da Cambridge Dictionary: Plagiarism; vedi anche Kwon (2024)*
 
 **Pre-bunking** — Un insieme di strategie che gli individui possono impiegare per costruire una resilienza preventiva alla misinformazione, affrontando le fonti di misinformazione a un livello più alto rispetto alle loro specifiche affermazioni di misinformazione.  
-→ vedi [[concept/disinformazione]]  
+→ vedi [[concept/disinformazione|Disinformazione e misinformazione]]  
 *Fonte: Adattato da Harjani e altri (2022)*
 
 **Privacy** — Nel contesto della legislazione come il Regolamento generale sulla protezione dei dati (GDPR, 2018), la privacy dei dati si riferisce alla capacità degli utenti di prendere le proprie decisioni su chi può trattare i loro dati e per quale scopo.  
-→ vedi [[concept/privacy-protezione-dati]]  
+→ vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]]  
 *Fonte: Adattato da GDPR.eu*
 
 **Problemi computabili e non computabili** — La distinzione tra problemi computabili e non computabili riguarda la computabilità, ossia la capacità di determinare se un problema specifico può essere risolto da un computer, considerando fattori quali risorse, macchine e risolvibilità entro limiti pratici. Se un problema può essere risolto da un computer, è computabile. Se non può, è non computabile.  
@@ -357,11 +355,11 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Cambridge Dictionary: Intellectual property*
 
 **Protezione dei dati** — Si riferisce sia alla sicurezza che alla privacy delle informazioni personali di un individuo (come nome, data di nascita, indirizzo di casa, indirizzo email o numero di telefono) e della proprietà personale (come email, file e account di proprietà o gestiti dall'individuo). La protezione dei dati può anche riferirsi alle pratiche di gestione e archiviazione dei dati che proteggono i dati da perdita, furto o corruzione.  
-→ vedi [[concept/privacy-protezione-dati]]  
+→ vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]]  
 *Fonte: Adattato da Webopedia: Data protection*
 
 **Pseudonimizzazione** — Nel Regolamento generale sulla protezione dei dati (GDPR, 2018), la pseudonimizzazione si riferisce al trattamento dei dati personali in modo tale che i dati non possano più essere attribuiti a un interessato specifico senza l'uso di informazioni aggiuntive, a condizione che tali informazioni aggiuntive siano conservate separatamente e siano soggette a misure tecniche e organizzative per garantire che i dati personali non siano attribuiti a una persona fisica identificata o identificabile.  
-→ vedi [[concept/privacy-protezione-dati]]  
+→ vedi [[concept/privacy-protezione-dati|Privacy e protezione dei dati]]  
 *Fonte: GDPR.eu*
 
 
@@ -420,11 +418,11 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Adattato da Generative AI Outlook Report (2025)*
 
 **Sistema di IA** — Un sistema automatizzato progettato per funzionare con livelli di autonomia variabili e che può presentare adattabilità dopo la diffusione e che, per obiettivi espliciti o impliciti, deduce dall'input che riceve come generare output quali previsioni, contenuti, raccomandazioni o decisioni che possono influenzare ambienti fisici o virtuali.  
-→ vedi [[concept/intelligenza-artificiale]]  
+→ vedi [[concept/intelligenza-artificiale|Intelligenza Artificiale]]  
 *Fonte: AI Act (2024)*
 
 **Sistema di IA ad alto rischio** — Un sistema che è probabile che influenzi negativamente la salute, la sicurezza o i diritti fondamentali. L'alto rischio, nell'AI Act, è collocato tra il rischio inaccettabile, e quindi vietato, e il rischio limitato, che ha alcuni requisiti di trasparenza.  
-→ vedi [[concept/intelligenza-artificiale]], [[source/ai-act-ue]]  
+→ vedi [[concept/intelligenza-artificiale|Intelligenza Artificiale]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]]  
 *Fonte: Generative AI Outlook Report (2025)*
 
 **Sistema operativo** — Il software di sistema di un dispositivo digitale che gestisce le risorse hardware e software del computer per fornire servizi comuni ai programmi informatici.  
@@ -449,7 +447,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 *Fonte: Adattato da Argyriadi e altri (2025)*
 
 **Strumento di assistenza digitale** — Tecnologia digitale che assiste o supporta un individuo nell'esecuzione di un compito. Nel DigComp 3.0, gli strumenti di assistenza digitale si riferiscono a funzionalità integrate nel software; piattaforme o servizi (come la traduzione automatica di contenuti online, la funzionalità di presa di appunti durante le riunioni, la funzionalità da voce a testo e da testo a voce); software o servizi che svolgono una funzione assistiva (come la traduzione automatica di documenti di testo); e assistenti digitali (assistenti virtuali) (che rispondono alle domande degli utenti ed eseguono compiti semplici). Molti di questi si basano su funzionalità dei sistemi di IA per alcune o la maggior parte delle loro funzioni.  
-→ vedi [[concept/didattica-inclusiva-ia]]  
+→ vedi [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]]  
 *Fonte: Elaborazione propria*
 
 **Strumento di collaborazione digitale** — Tecnologie digitali progettate per aiutare le persone che lavorano su un compito comune a raggiungere i loro obiettivi. Tali strumenti includono la comunicazione collaborativa, la collaborazione sui documenti, la gestione dei progetti e la gestione della conoscenza.  
@@ -477,7 +475,7 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 ### T
 
 **Tecnologie assistive** — Un termine ombrello per i prodotti assistivi e i relativi sistemi e servizi. Nel DigComp, le tecnologie assistive si riferiscono a quelle utilizzate negli ambienti digitali. Gli esempi includono, ma non sono limitati a, screen reader, tastiere adattive, dispositivi di input alternativi, assistenti alla lettura, strumenti di comunicazione aumentata e alternativa e ingranditori elettronici.  
-→ vedi [[concept/didattica-inclusiva-ia]]  
+→ vedi [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]]  
 *Fonte: Adattato dal WHO Assistive Technology Factsheet (2024) e da AccessibilityChecker.org (2024)*
 
 **Tecnologie digitali** — Dispositivi come personal computer e tablet, strumenti come robot, fotocamere, calcolatrici e giocattoli digitali, sistemi come software e app, realtà aumentata e virtuale, e forme meno tangibili di tecnologia come internet.  
@@ -487,6 +485,6 @@ Nessuna rilevata. Il glossario è coerente con le definizioni già presenti nel 
 ### U
 
 **Uso responsabile (delle tecnologie digitali)** — L'uso consapevole, etico ed efficace delle tecnologie digitali per massimizzarne i benefici e minimizzarne i rischi.  
-→ vedi [[concept/alfabetizzazione-ia]]  
+→ vedi [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]]  
 *Fonte: Zamora (2024)*
 

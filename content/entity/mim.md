@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Linee Guida MIM (DM 166 del 09/08/2025)", "Regolamento UE 2024/1689 (AI Act)", "Legge italiana 23/09/2025 n. 132", "DM 219/2025, Avviso snodi formativi IA (PNRR)"]
 ---
 
-# Ministero dell'Istruzione e del Merito (MIM)
-
 ## Descrizione
 Il Ministero dell'Istruzione e del Merito (MIM) è l'amministrazione centrale italiana responsabile del sistema scolastico. È l'autorità che ha emanato il primo quadro organico e ufficiale per regolamentare l'uso dell'Intelligenza Artificiale nelle scuole italiane.
 
@@ -21,18 +19,18 @@ Tra le sue azioni principali:
 - Con il **DM 219/2025** ha pubblicato l'Avviso per finanziare gli snodi formativi territoriali sull'IA (PNRR).
 
 ## Connessioni
-- [[source/linee-guida-mim-dm166-2025]] — documento cardine emanato dal MIM
-- [[source/dm-219-2025-snodi-formativi]] — avviso PNRR per gli snodi formativi emanato dal MIM
-- [[concept/governance-scolastica-ia]] — il MIM definisce il modello di governance (deployer, atto di indirizzo, PIA, RIA, DPO)
-- [[concept/supervisione-umana]] — principio antropocentrico e human-in-the-loop sancito dalle Linee Guida MIM
-- [[concept/snodi-formativi-pnrr]] — misura attuata dal MIM tramite DM 219/2025
-- [[entity/garante-privacy]] — ha espresso parere favorevole con condizioni sullo schema di decreto MIM
-- [[entity/commissione-europea]] — l'AI Act recepito dal MIM è del legislatore UE
-- [[entity/agid]] — autorità di vigilanza nazionale ex L.132/2025, complementare all'azione del MIM
-- [[entity/scuola-futura]] — piattaforma gestionale del MIM per la formazione PNRR
+- [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] — documento cardine emanato dal MIM
+- [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]] — avviso PNRR per gli snodi formativi emanato dal MIM
+- [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — il MIM definisce il modello di governance (deployer, atto di indirizzo, PIA, RIA, DPO)
+- [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — principio antropocentrico e human-in-the-loop sancito dalle Linee Guida MIM
+- [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — misura attuata dal MIM tramite DM 219/2025
+- [[entity/garante-privacy|Garante per la protezione dei dati personali]] — ha espresso parere favorevole con condizioni sullo schema di decreto MIM
+- [[entity/commissione-europea|Commissione Europea (e JRC)]] — l'AI Act recepito dal MIM è del legislatore UE
+- [[entity/agid|Agenzia per l'Italia Digitale (AgID)]] — autorità di vigilanza nazionale ex L.132/2025, complementare all'azione del MIM
+- [[entity/scuola-futura|Piattaforma Scuola Futura]] — piattaforma gestionale del MIM per la formazione PNRR
 
 ## Fonti
-[[source/linee-guida-mim-dm166-2025]], [[source/dm-219-2025-snodi-formativi]], [[source/ai-act-ue]], [[source/legge-132-2025]]
+[[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]]
 
 ## Note e aggiornamenti
 - 2026-06-21: pagina creata. Il quadro emanato dal MIM si fonda sulla qualifica della scuola come "deployer" ai sensi dell'art. 3, punto 4, dell'AI Act.

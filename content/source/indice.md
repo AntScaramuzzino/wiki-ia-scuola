@@ -7,8 +7,6 @@ updated: 2026-06-21
 sources: ["Indice"]
 ---
 
-# Modulo di Microlearning — Navigare le Linee Guida sull'IA secondo il Metodo EAS
-
 **File raw**: `raw/notes/indice.md`
 **Origine**: NotebookLM «Linee Guida sull'Intelligenza Artificiale a Scuola»
 
@@ -28,17 +26,17 @@ Modulo formativo di microlearning strutturato secondo il Metodo EAS (Episodi di 
 - Nota metodologica: ottimizzato per ripetizione spaziata (revisione a 48 ore).
 
 ## Entità menzionate
-[[entity/isis-europa]] — modello di dichiarazione di trasparenza
+[[entity/isis-europa|ISIS Europa]] — modello di dichiarazione di trasparenza
 
 ## Concetti trattati
-[[concept/alfabetizzazione-ia]] — uso consapevole e critico della GenAI
-[[concept/ia-generativa]] — oggetto del modulo
-[[concept/allucinazione]] — output "plausibili ma infondati"
-[[concept/prompt]] — prompt engineering vs critical filtering
-[[concept/bias-algoritmico]] — superamento dei bias, inclusione
-[[concept/privacy-protezione-dati]] — divieto di dati sensibili nei prompt
-[[concept/supervisione-umana]] — human-in-the-loop
-[[concept/valutazione-integrita-accademica]] — caso Ferrara, plagio, AI Detectors
+[[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — uso consapevole e critico della GenAI
+[[concept/ia-generativa|IA Generativa]] — oggetto del modulo
+[[concept/allucinazione|Allucinazione]] — output "plausibili ma infondati"
+[[concept/prompt|Prompt]] — prompt engineering vs critical filtering
+[[concept/bias-algoritmico|Bias Algoritmico]] — superamento dei bias, inclusione
+[[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — divieto di dati sensibili nei prompt
+[[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — human-in-the-loop
+[[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — caso Ferrara, plagio, AI Detectors
 
 ## Citazioni rilevanti
 > "L'IA inventa cose che sembrano giuste." (Rodney Brooks)
@@ -46,7 +44,7 @@ Modulo formativo di microlearning strutturato secondo il Metodo EAS (Episodi di 
 > "Ho utilizzato [Nome IA] per la scaletta, ma la validazione e la sintesi finale sono frutto del mio lavoro originale." (Modello ISIS Europa di dichiarazione di trasparenza)
 
 ## Contraddizioni o tensioni
-Coerente con [[source/manifesto-codice-etico-isis-europa]] (di cui riprende il modello di dichiarazione) e con [[source/legge-132-2025]] (di cui cita Artt. 1, 4, 27). Introduce riferimenti non ancora coperti da pagine wiki: il Metodo EAS e le Linee Guida UniBG (vedi suggerimenti nel messaggio finale).
+Coerente con [[source/manifesto-codice-etico-isis-europa|Manifesto e Codice Etico IA Generativa a Scuola (ISIS Europa)]] (di cui riprende il modello di dichiarazione) e con [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] (di cui cita Artt. 1, 4, 27). Introduce riferimenti non ancora coperti da pagine wiki: il Metodo EAS e le Linee Guida UniBG (vedi suggerimenti nel messaggio finale).
 
 ## Domande aperte
 - Le Linee Guida UniBG (Università di Bergamo) meritano una fonte/entità dedicata?

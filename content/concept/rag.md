@@ -7,8 +7,6 @@ updated: 2026-04-22
 sources: [llm-wiki-pattern.md]
 ---
 
-# RAG — Retrieval-Augmented Generation
-
 ## Definizione
 
 Paradigma in cui un LLM recupera chunk rilevanti da una collezione di documenti al momento della query e genera una risposta basata su di essi. Non accumula conoscenza tra le sessioni: ogni risposta ri-deriva la sintesi dalle fonti grezze.
@@ -28,7 +26,7 @@ Paradigma in cui un LLM recupera chunk rilevanti da una collezione di documenti 
 
 ## Relazioni con altri concetti
 
-- [[concept/wiki-persistente]] — il paradigma alternativo: sintesi persistente invece di recupero al volo
+- [[concept/wiki-persistente|Wiki Persistente]] — il paradigma alternativo: sintesi persistente invece di recupero al volo
 
 ## Contraddizioni e dibattiti
 
@@ -36,4 +34,4 @@ RAG ha vantaggi su scala molto grande (milioni di documenti) dove un wiki manual
 
 ## Fonti
 
-[[source/llm-wiki-pattern]]
+[[source/llm-wiki-pattern|LLM Wiki — Il Pattern del Second Brain]]
