@@ -1,6 +1,16 @@
 #!/bin/bash
 # Aggiorna la sezione News del wiki "IA nella scuola".
-# Eseguito da launchd una volta al giorno (vedi ~/Library/LaunchAgents/it.scaramuzzino.wiki-news.plist).
+#
+# ⚠️  NON PIÙ IN USO COME AUTOMAZIONE (dal 2026-08-08).
+# L'aggiornamento giornaliero è gestito dal task schedulato di Claude Cowork
+# "wiki-ia-scuola-news" (~/.claude/scheduled-tasks/wiki-ia-scuola-news/SKILL.md),
+# che usa l'autenticazione dell'app e non il token OAuth della CLI — quest'ultimo
+# veniva revocato periodicamente, bloccando l'automazione.
+# Il job launchd è stato disattivato (plist rinominato in .disabilitato).
+#
+# Questo script resta utilizzabile a mano come fallback: richiede un token
+# a lunga durata (`claude setup-token`) salvato in ~/.claude/news-automation-token.
+#
 # Passi: 1) Claude cerca e scrive l'edizione  2) build Quartz  3) commit+push (Vercel ridistribuisce).
 
 set -uo pipefail
