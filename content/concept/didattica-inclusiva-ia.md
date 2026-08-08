@@ -3,7 +3,7 @@ title: "Didattica inclusiva con IA"
 type: concept
 tags: [ai, educazione, apprendimento, inclusione, pedagogia, ai-formazione, design-formativo, impatto]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Linee Guida MIM (DM 166/2025), Guida Pratica all'IA nella Scuola Secondaria di I grado]
 ---
 
@@ -27,6 +27,8 @@ L'IA offre supporti trasformativi che si integrano con gli strumenti istituziona
 - [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — i dati di PEI/PDP sono dati sensibili: ne è vietato l'inserimento nei prompt di modelli aperti.
 - [[concept/bias-algoritmico|Bias Algoritmico]] — l'accessibilità impone di vigilare contro discriminazioni verso persone con disabilità.
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — l'uso degli strumenti inclusivi richiede competenze digitali adeguate.
+- [[concept/udl|Universal Design for Learning (UDL)]] — è il principio progettuale (accessibilità fin dall'origine) che questa didattica attua con l'IA.
+- [[concept/divario-digitale|Divario digitale]] — l'accesso disomogeneo a strumenti e formazione è la principale controindicazione all'IA come leva di equità.
 
 ## Contraddizioni e dibattiti
 L'IA come strumento di equità è in tensione con il **divario digitale**: l'accesso disomogeneo a strumenti, abbonamenti premium e formazione rischia di creare una "scuola a due velocità". Per questo equità e accessibilità (anche per studenti con BES/DSA) sono considerate imperativi categorici. Inoltre i dati relativi a PEI/PDP, essendo sensibili, non possono essere inseriti nei prompt di sistemi pubblici.

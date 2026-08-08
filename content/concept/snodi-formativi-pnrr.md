@@ -34,6 +34,8 @@ Tutta la formazione è allineata ai quadri europei **DigComp 3.0** (cittadinanza
 - [[concept/allucinazione|Allucinazione]] — i docenti sono formati al fact-checking per riconoscere le allucinazioni.
 - [[concept/digcompedu|DigCompEdu — competenze digitali degli educatori]] — la formazione dev'essere allineata al quadro DigCompEdu (oltre a DigComp 3.0).
 - [[entity/scuola-futura|Piattaforma Scuola Futura]] — piattaforma gestionale obbligatoria dell'operazione.
+- [[concept/divario-digitale|Divario digitale]] — la riserva del 40% al Mezzogiorno e la formazione a cascata sono misure di contrasto al divario territoriale e di competenze.
+- [[concept/udl|Universal Design for Learning (UDL)]] — tra i contenuti ricorrenti dei percorsi figurano le metodologie inclusive.
 
 ## Contraddizioni e dibattiti
 La formazione "va ben oltre l'addestramento all'uso dei software": è concepita come trasformazione pedagogica ed educativa (docente come "co-progettista"). Il vincolo dei 100 milioni con riserva del 40% al Mezzogiorno mira esplicitamente a contrastare il divario territoriale, tema connesso al divario digitale.

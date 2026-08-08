@@ -21,6 +21,8 @@ Le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM]] qualificano formalmente
 - [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — obblighi di valutazione in capo al deployer
 - [[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]] — il deployer valuta la categoria di rischio
 - [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — responsabilità di controllo umano
+- [[concept/trasparenza-algoritmica|Trasparenza algoritmica (art. 50 AI Act)]] — l'obbligo di informare gli utenti (art. 50) grava sul deployer
+- [[concept/riconoscimento-emozioni|Riconoscimento delle emozioni (pratica vietata)]] — spetta al deployer verificare che gli strumenti non incorporino pratiche vietate
 
 ## Contraddizioni e dibattiti
 Il peso degli obblighi del deployer (specie la FRIA) è ritenuto da alcune fonti gravoso per le scuole. Vedi [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi|Linee Guida IA a Scuola: Aspetti Normativi e Operativi (webinar)]].

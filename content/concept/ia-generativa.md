@@ -3,7 +3,7 @@ title: "IA Generativa"
 type: concept
 tags: [ai, llm, automazione, ai-formazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Glossario IA a scuola, Guida Pratica IA scuola secondaria, Linee Guida MIM (DM 166/2025)]
 ---
 
@@ -24,6 +24,7 @@ Questa tecnologia impara da enormi quantità di dati esistenti per produrre outp
 - [[concept/prompt|Prompt]] — l'istruzione in linguaggio naturale che guida la generazione.
 - [[concept/allucinazione|Allucinazione]] — rischio tipico degli output generativi.
 - [[concept/machine-learning|Machine Learning]] — tecnologia fondante dell'IA generativa.
+- [[concept/pigrizia-metacognitiva|Pigrizia metacognitiva]] — è la tecnologia che rende la delega cognitiva a costo quasi nullo.
 
 ## Contraddizioni e dibattiti
 L'uso acritico della GenAI per svolgere compiti scolastici può disincentivare lo sforzo personale, portando a una "pigrizia metacognitiva" e alla riduzione del pensiero critico (vedi [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]]). L'IA deve potenziare e umanizzare la didattica, non bypassare il processo di apprendimento.

@@ -29,6 +29,9 @@ Il modello si fonda su tre meccanismi principali:
 - [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — l'evoluzione del ruolo docente ridefinisce anche le pratiche valutative.
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — la scuola aumentata richiede competenze di AI literacy in docenti e studenti.
 - [[concept/allucinazione|Allucinazione]] — la validazione dell'accuratezza degli output spetta sempre al docente.
+- [[concept/pigrizia-metacognitiva|Pigrizia metacognitiva]] — è il rovescio del potenziamento: la stessa delega che alleggerisce può generare dipendenza cognitiva.
+- [[concept/pensiero-critico|Pensiero critico]] — il modello regge solo se il potenziamento non sostituisce il giudizio autonomo dello studente.
+- [[concept/udl|Universal Design for Learning (UDL)]] — la personalizzazione è la via con cui la scuola aumentata realizza l'accessibilità universale.
 
 - [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] — implicazioni sulla valutazione
 ## Contraddizioni e dibattiti

@@ -26,6 +26,8 @@ L'[[source/ai-act-ue|AI Act]] adotta un **approccio basato sul rischio** (*risk-
 - [[concept/fria|FRIA — Valutazione d'Impatto sui Diritti Fondamentali]] — la valutazione d'impatto sui diritti fondamentali in dettaglio
 - [[concept/deployer|Deployer (utilizzatore professionale di IA)]] — chi usa il sistema ne valuta il rischio
 - [[concept/bias-algoritmico|Bias Algoritmico]] — motivazione della classificazione ad alto rischio dell'istruzione
+- [[concept/riconoscimento-emozioni|Riconoscimento delle emozioni (pratica vietata)]] — l'esempio scolastico tipico di rischio inaccettabile
+- [[concept/trasparenza-algoritmica|Trasparenza algoritmica (art. 50 AI Act)]] — regime tipico del rischio limitato, operativo dal 2 agosto 2026
 
 ## Contraddizioni e dibattiti
 Alcune fonti rilevano che gli obblighi per i sistemi ad alto rischio (specie la FRIA) sono di difficile attuazione pratica per le scuole. Vedi [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi|Linee Guida IA a Scuola: Aspetti Normativi e Operativi (webinar)]].

@@ -3,7 +3,7 @@ title: "DPIA — Valutazione d'Impatto sulla Protezione dei Dati"
 type: concept
 tags: [privacy, normativa, governance-scolastica]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["GDPR (art. 35)", "Linee Guida MIM DM 166/2025", "Presentazione IA Scuola"]
 ---
 
@@ -28,6 +28,8 @@ Quando il sistema è **ad alto rischio** (vedi [[concept/ai-act-categorie-rischi
 - [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — la DPIA è lo strumento cardine della protezione dati
 - [[concept/huderia|HUDERIA — metodologia di valutazione del rischio IA]] — metodo per la valutazione qualitativa dei rischi
 - [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — adempimento guidato da DS e DPO
+- [[concept/dati-sintetici|Dati sintetici]] — misura di mitigazione tipica da documentare nella DPIA
+- [[concept/opt-out|Diritto di non partecipazione (opt-out)]] — la gestione del diritto di non partecipazione è tra le misure da valutare
 
 ## Contraddizioni e dibattiti
 La DPIA è prassi consolidata del GDPR; le difficoltà attuative segnalate dalle fonti riguardano soprattutto la [[concept/fria|FRIA — Valutazione d'Impatto sui Diritti Fondamentali]] (informazioni dei fornitori non disponibili), non la DPIA in sé.

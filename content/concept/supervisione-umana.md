@@ -3,7 +3,7 @@ title: "Supervisione umana (human-in-the-loop)"
 type: concept
 tags: [ai, etica, normativa, educazione, ai-società, politiche]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Linee Guida MIM (DM 166/2025), Regolamento UE 2024/1689 (AI Act), Legge 132/2025]
 ---
 
@@ -27,6 +27,8 @@ Principio cardine secondo cui l'essere umano deve mantenere un ruolo centrale e 
 - [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] — trasparenza e antropocentrismo sono principi condivisi.
 - [[concept/allucinazione|Allucinazione]] — la spiegabilità include la comprensione di risposte plausibili ma errate.
 - [[concept/explainable-ai|Explainable AI (IA spiegabile)]] — la spiegabilità tecnica è precondizione dell'oversight umano consapevole.
+- [[concept/trasparenza-algoritmica|Trasparenza algoritmica (art. 50 AI Act)]] — sapere che c'è un'IA (art. 50) è la precondizione per validarne o contestarne le decisioni.
+- [[concept/riconoscimento-emozioni|Riconoscimento delle emozioni (pratica vietata)]] — pratica vietata: qui non basta la supervisione, il sistema non è ammesso.
 - [[concept/scuola-aumentata|Scuola aumentata]] — il potenziamento della didattica resta subordinato al controllo umano.
 
 ## Contraddizioni e dibattiti

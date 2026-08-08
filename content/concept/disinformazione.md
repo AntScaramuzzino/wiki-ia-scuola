@@ -3,7 +3,7 @@ title: "Disinformazione e misinformazione"
 type: concept
 tags: [ai-società, competenze, educazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["Glossario competenze digitali (DigComp 2.2, 2022)"]
 ---
 
@@ -27,6 +27,7 @@ La diffusione è accelerata dagli algoritmi di classificazione delle piattaforme
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — competenza per riconoscere e contrastare il fenomeno
 - [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] — il fact-checking è pratica condivisa
 - [[concept/allucinazione|Allucinazione]] — falsità non intenzionale prodotta dai modelli, analoga alla misinformazione
+- [[concept/pensiero-critico|Pensiero critico]] — è la competenza mobilitata da debunking e pre-bunking
 
 ## Contraddizioni e dibattiti
 Confine sfumato tra moderazione dei contenuti e censura; rischio che gli stessi strumenti di IA usati per individuare la disinformazione producano falsi positivi.

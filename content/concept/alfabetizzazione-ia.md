@@ -31,6 +31,8 @@ Non si tratta solo di insegnare la tecnologia, ma di formare cittadini consapevo
 - [[concept/allucinazione|Allucinazione]] e [[concept/bias-algoritmico|Bias Algoritmico]] — la dimensione critica include il riconoscimento dei limiti dell'IA.
 - [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — l'obbligo di formazione del personale è parte della governance.
 - [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] — la formazione dei docenti attua l'alfabetizzazione all'IA.
+- [[concept/pensiero-critico|Pensiero critico]] — costituisce la dimensione critica dell'AI literacy.
+- [[concept/divario-digitale|Divario digitale]] — la competenza digitale è una delle quattro leve dell'inclusione digitale.
 
 ## Fonti
 [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]], [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]]

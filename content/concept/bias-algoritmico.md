@@ -3,7 +3,7 @@ title: "Bias Algoritmico"
 type: concept
 tags: [ai, machine-learning, etica, ai-società]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Glossario IA a scuola, Linee Guida MIM (DM 166/2025), Manifesto e Codice Etico ISIS Europa]
 ---
 
@@ -23,6 +23,7 @@ Gli algoritmi di [[concept/machine-learning|Machine Learning]] imparano dai dati
 - [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — la vigilanza umana è necessaria a individuare e correggere i bias.
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — comprendere equità ed etica è parte della dimensione etica.
 - [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — la scuola, come deployer, è responsabile dell'equità dei sistemi.
+- [[concept/divario-digitale|Divario digitale]] — le risorse e le competenze necessarie ad auditare i bias sono distribuite in modo diseguale.
 
 ## Contraddizioni e dibattiti
 Riconoscere e mitigare i bias è essenziale per garantire l'equità algoritmica, ma richiede risorse e competenze non sempre disponibili: l'accesso disomogeneo agli strumenti e alla formazione rischia di alimentare un divario digitale e una "scuola a due velocità".

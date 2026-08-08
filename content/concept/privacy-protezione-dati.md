@@ -3,7 +3,7 @@ title: "Privacy e protezione dei dati"
 type: concept
 tags: [ai, privacy, normativa, etica, educazione, ai-società, politiche]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Legge 132/2025, Regolamento UE 2024/1689 (AI Act), Linee Guida MIM (DM 166/2025), Manifesto + Codice Etico IA Generativa a Scuola (ISIS Europa)]
 ---
 
@@ -25,6 +25,10 @@ Insieme dei principi e degli adempimenti che la scuola deve rispettare nel tratt
 - [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — DPIA, FRIA e ruolo del DPO sono parte della governance d'istituto.
 - [[concept/dpia|DPIA — Valutazione d'Impatto sulla Protezione dei Dati]] — la valutazione d'impatto sulla protezione dati (art. 35 GDPR) in dettaglio.
 - [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — il quadro che lega DPIA e [[concept/fria|FRIA — Valutazione d'Impatto sui Diritti Fondamentali]].
+- [[concept/dati-sintetici|Dati sintetici]] — la misura raccomandata dal Garante per minimizzare il trattamento di dati reali.
+- [[concept/opt-out|Diritto di non partecipazione (opt-out)]] — il diritto di non partecipazione all'uso dei dati per l'addestramento.
+- [[concept/riconoscimento-emozioni|Riconoscimento delle emozioni (pratica vietata)]] — pratica vietata a scuola, presidio contro la profilazione dei minori.
+- [[concept/trasparenza-algoritmica|Trasparenza algoritmica (art. 50 AI Act)]] — obbligo di informare gli utenti dell'interazione con un sistema di IA.
 - [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — antropocentrismo e trasparenza sono principi condivisi.
 - [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] — i dati di PEI/PDP non possono essere inseriti nei prompt.
 - [[concept/bias-algoritmico|Bias Algoritmico]] — la profilazione mal gestita può alimentare discriminazioni.

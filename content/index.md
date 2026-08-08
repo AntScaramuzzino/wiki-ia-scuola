@@ -3,16 +3,16 @@ title: "Indice del wiki"
 type: index
 updated: 2026-08-08
 total_sources: 4
-total_pages: 122
+total_pages: 135
 ---
 
-Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 122 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 135 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
-## Fonti — 69
+## Fonti — 70
 
 | Pagina | Sommario | Data |
 |--------|----------|------|
@@ -43,6 +43,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/il-difficile-rapporto-tra-scuola-e-chatgpt-lucy-sulla-c|Il difficile rapporto tra scuola e ChatGPT (Lucy, Pietro Minto)]] | Reportage di Pietro Minto (Lucy, 14 febbraio 2025) sull'uso reale dell'IA generativa nelle scuo… | 2026-06-21 |
 | [[source/il-ministro-dell-istruzione-e-del-merito-mim|Decreto Ministeriale MIM (DM 166/2025) — testo del decreto e servizio digitale IA su Unica]] | Testo integrale del Decreto Ministeriale del MIM (firmato dal Ministro Giuseppe Valditara) che … | 2026-06-21 |
 | [[source/in-vigore-dal-10-ottobre-l-obbligo-di-informativa-per-i|Obbligo di informativa ai clienti sull'uso dell'IA dal 10 ottobre (Ordine avvocati Bergamo)]] | Comunicazione dell'Ordine degli Avvocati di Bergamo (10 ottobre 2025) sull'entrata in vigore de… | 2026-06-21 |
+| [[source/index]] |  |  |
 | [[source/indice|Modulo di Microlearning — Navigare le Linee Guida sull'IA secondo il Metodo EAS]] | Modulo formativo di microlearning strutturato secondo il Metodo EAS (Episodi di Apprendimento S… | 2026-06-21 |
 | [[source/innovazione-digitale-e-strategie-scolastiche-nazionali-|Innovazione Digitale e Strategie Scolastiche Nazionali — Intervento D'Amico]] | Trascrizione dell'intervento del direttore D'Amico (responsabile dell'innovazione digitale del … | 2026-06-21 |
 | [[source/intelligenza-artificiale-a-scuola-dm-166-2025-e-linee-g|Guida pratica per DS: IA a scuola — DM 166/2025 e Linee guida MIM (Tosolini)]] | Guida operativa per dirigenti scolastici (collana "SOS Dirigenti scolastici", a cura di Aluisi … | 2026-06-21 |
@@ -86,7 +87,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/uso-pervasivo-dell-intelligenza-artificiale-ia-e-import|Uso pervasivo dell'IA e importanza del prompt per l'utilizzo dell'IA a scuola (OPPI)]] | Contributo divulgativo dell'Equipe Formazione Digitale di OPPI (Mario Gabbari, Daniela Sacchi, … | 2026-06-21 |
 | [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]] | Bozza in consultazione pubblica (versione 1.0 del 14.02.2025) della matrice AgID per la Valutaz… | 2026-06-21 |
 
-## Entità — 14
+## Entità — 16
 
 | Pagina | Descrizione |
 |--------|-------------|
@@ -95,8 +96,10 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[entity/commissione-europea|Commissione Europea (e JRC)]] | La Commissione Europea è l'organo esecutivo dell'Unione Europea, promotore della legislazione U… |
 | [[entity/consiglio-europa|Consiglio d'Europa]] | Organizzazione internazionale (46 Stati membri) per la tutela di diritti umani, democrazia e st… |
 | [[entity/garante-privacy|Garante per la protezione dei dati personali]] | Il Garante per la protezione dei dati personali è l'autorità amministrativa indipendente italia… |
+| [[entity/index]] |  |
 | [[entity/isis-europa|ISIS Europa]] | ISIS Europa è un'istituzione scolastica autrice di documenti di autoregolamentazione sull'uso d… |
 | [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] | Il Ministero dell'Istruzione e del Merito (MIM) è l'amministrazione centrale italiana responsab… |
+| [[entity/notebooklm|NotebookLM]] |  |
 | [[entity/obsidian|Obsidian]] | Editor markdown locale con graph view, plugin ecosystem e supporto nativo ai wiki link (link). … |
 | [[entity/ocse|OCSE (OECD)]] | L'OCSE (Organizzazione per la Cooperazione e lo Sviluppo Economico) è l'organizzazione internaz… |
 | [[entity/piattaforma-unica|Piattaforma Unica (MIM)]] | La Piattaforma Unica è lo spazio digitale del MIM dedicato a scuole, famiglie e studenti. Con i… |
@@ -105,7 +108,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[entity/unesco|UNESCO]] | L'UNESCO (Organizzazione delle Nazioni Unite per l'Educazione, la Scienza e la Cultura) è l'age… |
 | [[entity/vannevar-bush|Vannevar Bush]] | Ingegnere e scienziato americano (1890–1974). Direttore dell'OSRD durante la Seconda Guerra Mon… |
 
-## Concetti — 35
+## Concetti — 44
 
 | Pagina | Definizione breve |
 |--------|-------------------|
@@ -114,11 +117,13 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/allucinazione|Allucinazione]] | Le allucinazioni sono output generati dall'IA che appaiono grammaticalmente corretti e narrativ… |
 | [[concept/bias-algoritmico|Bias Algoritmico]] | Il bias (pregiudizio) rappresenta una deviazione sistematica, ovvero una distorsione statistica… |
 | [[concept/cyberbullismo|Cyberbullismo]] | La definizione più citata (2025) descrive il cyberbullismo come un atto aggressivo e intenziona… |
+| [[concept/dati-sintetici|Dati sintetici]] | I dati sintetici sono dati generati artificialmente — anche mediante sistemi di IA — che riprod… |
 | [[concept/deepfake|Deepfake]] | Contenuto di immagini, audio o video generato o manipolato che assomiglia a persone, oggetti, l… |
 | [[concept/deployer|Deployer (utilizzatore professionale di IA)]] | Il deployer è, ai sensi dell'art. 3, punto 4, dell'AI Act, il soggetto che utilizza un sistema … |
 | [[concept/didattica-inclusiva-ia|Didattica inclusiva con IA]] | La didattica inclusiva con IA è l'impiego dell'Intelligenza Artificiale come leva per l'equità … |
 | [[concept/digcompedu|DigCompEdu — competenze digitali degli educatori]] | DigCompEdu (European Framework for the Digital Competence of Educators) è il quadro europeo di … |
 | [[concept/disinformazione|Disinformazione e misinformazione]] | Disinformazione: informazioni false o fuorvianti create e diffuse intenzionalmente per ingannar… |
+| [[concept/divario-digitale|Divario digitale]] | Il divario digitale è la distanza sistematica nell'accesso e nella capacità d'uso delle tecnolo… |
 | [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] | Due valutazioni d'impatto obbligatorie prima di adottare sistemi di IA: |
 | [[concept/dpia|DPIA — Valutazione d'Impatto sulla Protezione dei Dati]] | La DPIA (Data Protection Impact Assessment) è la Valutazione d'Impatto sulla Protezione dei Dat… |
 | [[concept/explainable-ai|Explainable AI (IA spiegabile)]] | L'Explainable AI (XAI) è l'insieme di approcci che rendono comprensibili e interpretabili le lo… |
@@ -128,24 +133,31 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/huderia|HUDERIA — metodologia di valutazione del rischio IA]] | HUDERIA (Human Rights, Democracy and the Rule of Law Impact Assessment) è la metodologia del Co… |
 | [[concept/ia-generativa|IA Generativa]] | L'IA generativa (IAg o GenAI) è uno specifico sottoinsieme dell'intelligenza-artificiale che ut… |
 | [[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]] | Filone normativo e operativo, curato da agid, sull'adozione responsabile dell'IA nella Pubblica… |
+| [[concept/index]] |  |
 | [[concept/ingest|Ingest]] | Operazione con cui una fonte raw viene letta, analizzata e integrata nel wiki. È l'azione fonda… |
 | [[concept/intelligenza-artificiale|Intelligenza Artificiale]] | L'Intelligenza Artificiale (IA) è una branca dell'informatica preposta allo studio e alla creaz… |
 | [[concept/lint-wiki|Lint Wiki]] | Operazione periodica di health-check del wiki. L'LLM scansiona le pagine alla ricerca di proble… |
 | [[concept/llm|LLM (Large Language Model)]] | Un LLM (Modello Linguistico di Grandi Dimensioni) è un sistema basato su reti neurali addestrat… |
 | [[concept/machine-learning|Machine Learning]] | Il Machine Learning (apprendimento automatico) è un campo dell'intelligenza-artificiale che si … |
 | [[concept/memex|Memex]] | Dispositivo ipotetico immaginato da Vannevar Bush nel saggio "As We May Think" (1945). Un archi… |
+| [[concept/opt-out|Diritto di non partecipazione (opt-out)]] | Il diritto di non partecipazione (opt-out) è la facoltà riconosciuta a studenti e famiglie di r… |
+| [[concept/pensiero-critico|Pensiero critico]] | Il pensiero critico è la capacità di valutare informazioni, fonti e output algoritmici sospende… |
 | [[concept/piano-istituto-ia|Piano d'Istituto per l'IA (PIA) e Atto di Indirizzo]] | Il Piano d'Istituto per l'IA (PIA) è il documento di governance con cui la singola scuola defin… |
+| [[concept/pigrizia-metacognitiva|Pigrizia metacognitiva]] | La "pigrizia metacognitiva" è la riduzione dello sforzo cognitivo autonomo che consegue all'aff… |
 | [[concept/privacy-protezione-dati|Privacy e protezione dei dati]] | Insieme dei principi e degli adempimenti che la scuola deve rispettare nel trattamento dei dati… |
 | [[concept/prompt|Prompt]] | Il prompt è l'istruzione, il comando testuale o la domanda iniziale fornita dall'utente in ling… |
 | [[concept/rag|RAG — Retrieval-Augmented Generation]] | Paradigma in cui un LLM recupera chunk rilevanti da una collezione di documenti al momento dell… |
+| [[concept/riconoscimento-emozioni|Riconoscimento delle emozioni (pratica vietata)]] | Il riconoscimento delle emozioni è l'inferenza automatica di stati emotivi delle persone a part… |
 | [[concept/schema-agente|Schema Agente (CLAUDE.md / AGENTS.md)]] | File di configurazione (CLAUDE.md per Claude Code, AGENTS.md per Codex) che trasforma un LLM ge… |
 | [[concept/scuola-aumentata|Scuola aumentata]] | La "scuola aumentata" è il modello di sistema educativo in cui l'Intelligenza Artificiale Gener… |
 | [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] | Gli "snodi formativi territoriali" sono poli scolastici d'eccellenza incaricati di erogare form… |
 | [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] | Principio cardine secondo cui l'essere umano deve mantenere un ruolo centrale e insostituibile … |
+| [[concept/trasparenza-algoritmica|Trasparenza algoritmica (art. 50 AI Act)]] | La trasparenza algoritmica è l'obbligo, previsto dall'art. 50 dell'AI Act, di rendere noto agli… |
+| [[concept/udl|Universal Design for Learning (UDL)]] | L'Universal Design for Learning (progettazione universale per l'apprendimento) è l'approccio ch… |
 | [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] | Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e onestà intellett… |
 | [[concept/wiki-persistente|Wiki Persistente]] | Un wiki persistente è una raccolta strutturata di file markdown interlinkati che un LLM costrui… |
 
-## Analisi — 4
+## Analisi — 5
 
 | Pagina | Domanda | Data |
 |--------|---------|------|
@@ -153,3 +165,4 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[analyses/2026-06-21-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] | Come si confrontano i principali framework di competenze sull'IA rilevanti per la scuola? | 2026-06-21 |
 | [[analyses/2026-06-21-quadro-normativo-ia-scuola|Il quadro normativo dell'IA nella scuola italiana: i tre livelli]] | Qual è il quadro normativo che regola l'IA nella scuola italiana e come si articolano i diversi… | 2026-06-21 |
 | [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] | Se l'IA generativa può produrre il compito al posto dello studente, e non esiste un modo affida… | 2026-08-08 |
+| [[analyses/index]] |  |  |

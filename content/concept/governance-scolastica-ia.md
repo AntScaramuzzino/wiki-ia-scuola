@@ -3,7 +3,7 @@ title: "Governance scolastica dell'IA"
 type: concept
 tags: [ai, normativa, politiche, design-sociale, sistemi, educazione, ai-società]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: [Linee Guida MIM (DM 166/2025), Regolamento UE 2024/1689 (AI Act), Legge 132/2025]
 ---
 
@@ -35,6 +35,9 @@ Cronoprogramma operativo sull'anno scolastico 2025/2026, in vista della piena ap
 - [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — adempimenti di valutazione d'impatto guidati da DS e DPO.
 - [[concept/piano-istituto-ia|Piano d'Istituto per l'IA (PIA) e Atto di Indirizzo]] — Atto di Indirizzo e PIA sono gli strumenti centrali della governance.
 - [[concept/huderia|HUDERIA — metodologia di valutazione del rischio IA]] — metodologia per il piano di gestione dei rischi.
+- [[concept/opt-out|Diritto di non partecipazione (opt-out)]] — il diritto di non partecipazione si formalizza in policy, regolamento d'uso e PIA.
+- [[concept/trasparenza-algoritmica|Trasparenza algoritmica (art. 50 AI Act)]] — informative e censimento degli strumenti sono atti di governance.
+- [[concept/riconoscimento-emozioni|Riconoscimento delle emozioni (pratica vietata)]] — il censimento degli strumenti serve a escludere le pratiche vietate.
 - [[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]] — la categoria di rischio determina gli obblighi.
 - [[entity/mim|Ministero dell'Istruzione e del Merito (MIM)]] — autore delle Linee Guida (DM 166/2025).
 - [[entity/piattaforma-unica|Piattaforma Unica (MIM)]] — canale MIM dove si mappano e condividono i «Progetti IA».

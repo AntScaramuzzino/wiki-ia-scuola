@@ -3,7 +3,7 @@ title: "Explainable AI (IA spiegabile)"
 type: concept
 tags: [ai, etica, competenze, ai-società]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["EC/EDEH, Explainable AI in education (2025)", "Linee Guida MIM DM 166/2025"]
 ---
 
@@ -22,6 +22,7 @@ Si contrappongono modelli *white-box* (intrinsecamente interpretabili) e *black-
 - [[concept/dpia-fria|DPIA e FRIA — valutazioni d'impatto]] — l'interpretabilità è parte della mitigazione del rischio
 - [[concept/bias-algoritmico|Bias Algoritmico]] — spiegare aiuta a individuare discriminazioni
 - [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] — capacità critica di interrogare gli output
+- [[concept/trasparenza-algoritmica|Trasparenza algoritmica (art. 50 AI Act)]] — la soglia minima (art. 50) che la spiegabilità supera: sapere *che* c'è un'IA, non *perché*
 
 ## Contraddizioni e dibattiti
 Il trade-off accuratezza/interpretabilità è una tensione aperta: sistemi più performanti possono risultare meno conformi ai requisiti di spiegabilità richiesti in ambito educativo.

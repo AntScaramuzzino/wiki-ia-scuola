@@ -3,7 +3,7 @@ title: "DPIA e FRIA — valutazioni d'impatto"
 type: concept
 tags: [privacy, normativa, etica, governance-scolastica]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-08
 sources: ["Linee Guida MIM DM 166/2025", "AI Act (art. 27)", "GDPR (art. 35)", "Valutazione d'impatto IA - AgID"]
 ---
 
@@ -27,6 +27,7 @@ La scuola, in qualità di [[concept/deployer|Deployer (utilizzatore professional
 - [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] — adempimento guidato da DS e DPO
 - [[concept/ai-act-categorie-rischio|AI Act — categorie di rischio]] — l'alto rischio attiva la FRIA
 - [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]] — le misure di oversight sono parte della FRIA
+- [[concept/dati-sintetici|Dati sintetici]] — riducono il rischio residuo in entrambe le valutazioni
 
 ## Contraddizioni e dibattiti
 Più fonti (webinar e analisi) segnalano che la FRIA è di fatto **difficile da assolvere** per le scuole, che non dispongono delle informazioni interne dei fornitori (Google, Microsoft). Vedi [[source/linee-guida-ia-a-scuola-aspetti-normativi-e-operativi|Linee Guida IA a Scuola: Aspetti Normativi e Operativi (webinar)]].
