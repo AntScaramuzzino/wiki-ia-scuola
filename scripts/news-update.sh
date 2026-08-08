@@ -13,10 +13,28 @@ NEWS_FILE="$REPO/content/news/$DATE.md"
 CLAUDE="/Users/antonioscaramuzzino/.local/bin/claude"
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.local/bin"
 
+# Token dedicato per l'esecuzione headless (generato con `claude setup-token`).
+# Il token OAuth della sessione interattiva scade/viene revocato: per il cron
+# serve un token a lunga durata salvato in questo file (permessi 600).
+TOKEN_FILE="$HOME/.claude/news-automation-token"
+if [ -z "${CLAUDE_CODE_OAUTH_TOKEN:-}" ] && [ -r "$TOKEN_FILE" ]; then
+  CLAUDE_CODE_OAUTH_TOKEN="$(tr -d '[:space:]' < "$TOKEN_FILE")"
+  export CLAUDE_CODE_OAUTH_TOKEN
+fi
+
 log() { echo "[$(date +'%Y-%m-%d %H:%M:%S')] $*" >> "$LOG"; }
 
 log "=== avvio aggiornamento news $DATE ==="
 cd "$REPO" || { log "ERRORE: repo non trovato"; exit 1; }
+
+# Preflight: verifica che l'autenticazione funzioni davvero (auth status non basta:
+# riporta lo stato locale anche quando il token è stato revocato lato server).
+AUTH_TEST="$("$CLAUDE" -p "rispondi solo: OK" 2>&1 | head -3)"
+if ! printf '%s' "$AUTH_TEST" | grep -q "OK"; then
+  log "ERRORE AUTENTICAZIONE: $(printf '%s' "$AUTH_TEST" | tr '\n' ' ')"
+  log "  → rigenera il token: claude setup-token, poi salvalo in $TOKEN_FILE (chmod 600)"
+  exit 1
+fi
 
 if [ -f "$NEWS_FILE" ]; then
   log "edizione di oggi già presente, esco"
