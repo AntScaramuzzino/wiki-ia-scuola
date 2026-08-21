@@ -3,7 +3,7 @@ title: "AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)"
 type: source
 tags: [ai, normativa, politiche, governance-scolastica]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-21
 sources: ["Digitalic", "La Legge per Tutti", "Tom's Hardware", "Tecnica della Scuola", "Dirigentiscuola", "ADVANT Nctm"]
 ---
 
@@ -41,3 +41,9 @@ Resta aperta la tensione già registrata: la scuola-deployer è responsabile ma 
 ## Domande aperte
 - Il rinvio verrà usato dalle scuole per prepararsi o per rinviare l'adeguamento?
 - Come si combinerà il calendario UE con il cronoprogramma nazionale del DM 166/2025?
+
+## Aggiornamento — agosto 2026
+
+> **Il Digital Omnibus è diritto vigente e ha ampliato l'art. 5.** Il testo è il **Regolamento (UE) 2026/1744**, pubblicato in GUUE il **24 luglio 2026** ed entrato in vigore il **27 luglio 2026**. Oltre al rinvio degli obblighi sull'alto rischio, aggiunge due **nuove pratiche vietate**: i sistemi che generano o manipolano **contenuti intimi non consensuali** (app di *nudification*), salvo consenso libero, specifico e informato della persona ritratta, e quelli che producono **materiale di abuso sessuale su minori**, anche solo parzialmente sintetico. I nuovi divieti si applicano dal **2 dicembre 2026**, mentre i divieti originari restano efficaci dal 2 febbraio 2025. Per i fornitori il divieto scatta quando tale generazione è la finalità prevista del sistema o un esito ragionevolmente prevedibile in assenza di misure tecniche adeguate — rilevante per la scuola secondaria, dove i casi di immagini manipolate tra studenti sono documentati.
+
+Cfr. [[news/2026-08-21|21 agosto 2026]].
