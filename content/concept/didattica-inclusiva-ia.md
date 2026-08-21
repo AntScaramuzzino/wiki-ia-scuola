@@ -3,7 +3,7 @@ title: "Didattica inclusiva con IA"
 type: concept
 tags: [ai, educazione, apprendimento, inclusione, pedagogia, ai-formazione, design-formativo, impatto]
 created: 2026-06-21
-updated: 2026-08-08
+updated: 2026-08-21
 sources: [Linee Guida MIM (DM 166/2025), Guida Pratica all'IA nella Scuola Secondaria di I grado]
 ---
 
@@ -35,3 +35,6 @@ L'IA come strumento di equità è in tensione con il **divario digitale**: l'acc
 
 ## Fonti
 [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/fiorucci-bevilacqua-scoping-review-2024|Fiorucci & Bevilacqua — Il dibattito scientifico sull'IA in educazione: scoping review (2024)]]
+
+## Analisi correlate
+- [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] — confronta la promessa inclusiva delle policy con le evidenze disponibili e i vincoli su PEI/PDP, emozioni e profilazione

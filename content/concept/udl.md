@@ -3,7 +3,7 @@ title: "Universal Design for Learning (UDL)"
 type: concept
 tags: [educazione, pedagogia, inclusione, apprendimento, design-formativo]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-21
 sources: [Guida Pratica all'IA nella Scuola Secondaria di I grado, Linee Guida MIM (DM 166/2025), Glossario competenze digitali (DigComp 3.0)]
 ---
 
@@ -34,3 +34,7 @@ La tensione principale non riguarda il principio, largamente condiviso, ma le su
 
 ## Fonti
 [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/glossario-competenze-digitali|Glossario delle competenze digitali e dell'IA]]
+
+
+## Analisi correlate
+- [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] — individua nella trasformazione dei materiali (non nell'analisi degli studenti) la fascia UDL praticabile oggi senza FRIA

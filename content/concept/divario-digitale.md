@@ -3,7 +3,7 @@ title: "Divario digitale"
 type: concept
 tags: [ai-società, impatto, inclusione, educazione, competenze]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-21
 sources: [Glossario competenze digitali (DigComp 3.0), Guida Pratica all'IA nella Scuola Secondaria di I grado, DM 219/2025 Snodi formativi, Linee Guida MIM (DM 166/2025)]
 ---
 
@@ -43,3 +43,6 @@ La contraddizione centrale è che l'IA viene presentata come strumento di **equi
 
 ## Fonti
 [[source/glossario-competenze-digitali|Glossario delle competenze digitali e dell'IA]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/il-difficile-rapporto-tra-scuola-e-chatgpt-lucy-sulla-c|Il difficile rapporto tra scuola e ChatGPT (Lucy, Pietro Minto)]], [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]]
+
+## Analisi correlate
+- [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] — mostra come il divario sia il principale contro-effetto dell'IA proposta come leva di equità
