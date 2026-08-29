@@ -29,3 +29,6 @@ Il peso degli obblighi del deployer (specie la FRIA) è ritenuto da alcune fonti
 
 ## Fonti
 [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]], [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]], [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]]
+
+## Analisi correlate
+- [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] — cosa comporta in concreto, in fase di adozione, essere deployer anziché utente

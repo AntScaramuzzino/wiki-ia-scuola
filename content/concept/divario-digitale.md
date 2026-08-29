@@ -46,3 +46,4 @@ La contraddizione centrale è che l'IA viene presentata come strumento di **equi
 
 ## Analisi correlate
 - [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] — mostra come il divario sia il principale contro-effetto dell'IA proposta come leva di equità
+- [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] — i requisiti di conformità (ISO, qualificazione AgID) rischiano di rendere diseguale la stessa possibilità di scegliere legalmente uno strumento

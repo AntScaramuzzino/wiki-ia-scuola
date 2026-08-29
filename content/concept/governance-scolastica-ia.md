@@ -48,3 +48,7 @@ Il quadro fa leva su un **vantaggio temporale**: il MIM anticipa gli obblighi de
 
 ## Fonti
 [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]]
+
+
+## Analisi correlate
+- [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] — dalla governance d'istituto alla decisione concreta di adottare o escludere un singolo strumento

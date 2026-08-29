@@ -3,10 +3,10 @@ title: "Indice del wiki"
 type: index
 updated: 2026-08-08
 total_sources: 4
-total_pages: 136
+total_pages: 137
 ---
 
-Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 136 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 137 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
@@ -158,7 +158,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] | Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e onestà intellett… |
 | [[concept/wiki-persistente|Wiki Persistente]] | Un wiki persistente è una raccolta strutturata di file markdown interlinkati che un LLM costrui… |
 
-## Analisi — 5
+## Analisi — 6
 
 | Pagina | Domanda | Data |
 |--------|---------|------|
@@ -167,3 +167,4 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[analyses/2026-06-27-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]] | Come si confrontano i principali framework di competenze sull'IA rilevanti per la scuola? | 2026-06-27 |
 | [[analyses/2026-08-08-valutare-nell-era-dell-ia|Valutare nell'era dell'IA: dal prodotto al processo]] | Se l'IA generativa può produrre il compito al posto dello studente, e non esiste un modo affida… | 2026-08-08 |
 | [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] | L'inclusione è l'obiettivo che tutte le fonti di policy mettono in cima quando parlano di IA a … | 2026-08-21 |
+| [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] | Come si sceglie uno strumento di IA da portare in classe, e chi lo decide davvero? | 2026-08-29 |
