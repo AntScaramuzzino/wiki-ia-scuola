@@ -3,7 +3,7 @@ title: "Piano d'Istituto per l'IA (PIA) e Atto di Indirizzo"
 type: concept
 tags: [governance-scolastica, normativa, politiche, educazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-29
 sources: ["Linee Guida MIM DM 166/2025", "Atto di indirizzo (modello)", "Adempimenti e cronoprogramma"]
 ---
 
@@ -33,3 +33,7 @@ La concentrazione della responsabilità sul **Dirigente Scolastico** è contesta
 
 ## Fonti
 [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/1-atto-di-indirizzo-per-l-adozione-dell-intelligenza-ar|Atto di indirizzo per l'adozione dell'IA nell'istituzione scolastica (modulistica ver. 0.2)]], [[source/adempimenti-e-cronoprogramma|Adempimenti e cronoprogramma per l'IA a scuola (A.S. 2025/2026)]]
+
+## Aggiornamento — agosto 2026
+
+> Con l'anno scolastico 2026/27 il quadro si irrigidisce: la ricognizione di inizio anno indica come adempimento per **ogni istituto** l'adozione di un **regolamento d'istituto** sull'uso etico e sicuro dell'IA per studenti e personale, accanto alla previsione di **comitati tecnico-etici territoriali** di accompagnamento e vigilanza. Lo studio dell'IA entra inoltre nei percorsi di **educazione civica** in tutti gli ordini e gradi. Il regolamento d'uso, che nelle Linee Guida DM 166/2025 figurava a corredo del PIA, diventa quindi il documento minimo atteso da ciascuna scuola. Cfr. [[news/2026-08-29|29 agosto 2026]].
