@@ -3,7 +3,7 @@ title: "Governance scolastica dell'IA"
 type: concept
 tags: [ai, normativa, politiche, design-sociale, sistemi, educazione, ai-società]
 created: 2026-06-21
-updated: 2026-08-08
+updated: 2026-09-04
 sources: [Linee Guida MIM (DM 166/2025), Regolamento UE 2024/1689 (AI Act), Legge 132/2025]
 ---
 
@@ -52,3 +52,6 @@ Il quadro fa leva su un **vantaggio temporale**: il MIM anticipa gli obblighi de
 
 ## Analisi correlate
 - [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] — dalla governance d'istituto alla decisione concreta di adottare o escludere un singolo strumento
+
+## Aggiornamento — settembre 2026
+> Il modello italiano — regolamento adottato da ciascun istituto, senza soglie d'età fissate a livello centrale — non è l'unico praticabile. Il 2 settembre 2026 le scuole pubbliche di New York hanno introdotto una **soglia d'età di sistema**: divieto d'uso studentesco dell'IA generativa dalla pre-K all'ottavo grado (circa 600.000 alunni), accesso ristretto solo alle superiori, limiti orari di schermo per fascia e perimetro esplicito anche sull'uso docente (consentito per progettazione e comunicazioni, vietato per valutazione, monitoraggio comportamentale e progettazione per alunni con disabilità). Il confronto tra le due impostazioni — regola decentrata vs soglia centrale — è un termine di paragone utile quando un collegio discute il proprio regolamento. Vedi [[news/2026-09-04|4 settembre 2026]].
