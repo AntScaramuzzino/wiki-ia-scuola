@@ -3,7 +3,7 @@ title: "Privacy e protezione dei dati"
 type: concept
 tags: [ai, privacy, normativa, etica, educazione, ai-società, politiche]
 created: 2026-06-21
-updated: 2026-08-08
+updated: 2026-09-14
 sources: [Legge 132/2025, Regolamento UE 2024/1689 (AI Act), Linee Guida MIM (DM 166/2025), Manifesto + Codice Etico IA Generativa a Scuola (ISIS Europa)]
 ---
 
@@ -39,3 +39,7 @@ Il **parere del Garante Privacy** è stato favorevole allo schema di decreto del
 
 ## Fonti
 [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/manifesto-codice-etico-isis-europa|Manifesto e Codice Etico IA Generativa a Scuola (ISIS Europa)]], [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]]
+
+## Aggiornamento — settembre 2026
+
+> Il presidio sui dati scolastici può essere fissato **nel contratto di fornitura**, non solo nella norma. Il 9 settembre 2026 i sindacati dei docenti statunitensi (AFT, UFT) e Microsoft hanno sottoscritto un *National AI Safety & Privacy Standard* contrattualmente vincolante: divieto di usare dati di studenti e personale per addestrare modelli o per finalità pubblicitarie, divieto di tracciamento degli studenti tramite IA, obbligo di intervento umano su ogni decisione che riguardi uno studente, controllo della scuola su uso, conservazione e cancellazione. In vigore dal 1° novembre 2026, adottabile senza rinegoziare i contratti esistenti. Cfr. [[news/2026-09-14|14 settembre 2026]].

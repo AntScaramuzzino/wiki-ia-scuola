@@ -15,6 +15,8 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-09-14|14 settembre 2026]] — sindacati docenti USA e Microsoft firmano il primo standard vincolante su dati e IA nelle scuole; INVALSI sul docente insostituibile; l'indagine "Io e l'IA" presentata in Senato; il chatbot al posto del tutor all'università; a Torino la circolare in rima dichiarata come generata da IA
+- [[news/2026-09-12|12 settembre 2026]] — PISA 2025 misura per la prima volta l'uso dell'IA: 47% dei quindicenni italiani usa chatbot ogni settimana; il vademecum privacy del Garante per il rientro; l'indagine INDIRE "Io e l'IA" su 5.342 studenti; adottata la dichiarazione ministeriale UNESCO; l'IA come tutela del consumatore
 - [[news/2026-09-04|4 settembre 2026]] — New York vieta l'IA generativa fino alla terza media; 80 scuole a Valdobbiadene e l'indagine INDIRE sugli studenti; Summer School PATHS su IA e pensiero critico; dichiarazione ministeriale UNESCO; il Manifesto FIDAE 2026
 - [[news/2026-08-29|29 agosto 2026]] — da settembre regolamento d'istituto obbligatorio e IA in educazione civica; alfabetizzazione all'IA insegnata mostrandone i difetti; 460 milioni di messaggi settimanali sui compiti; dubbi sulle tutele di ChatGPT for Teens
 - [[news/2026-08-21|21 agosto 2026]] — il "learning penalty" dell'IA su 26.811 studenti; l'Italia chiude l'attuazione dell'AI Act; nuovi divieti UE su deepfake intimi; la Danimarca riscrive gli esami
