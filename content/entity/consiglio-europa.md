@@ -3,7 +3,7 @@ title: "Consiglio d'Europa"
 type: entity
 tags: [politiche, normativa, etica]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-09-15
 sources: ["IA@School", "Linee Guida MIM DM 166/2025", "AgID, Bozza linee guida IA nella PA"]
 ---
 
@@ -25,3 +25,9 @@ Organizzazione internazionale (46 Stati membri) per la tutela di diritti umani, 
 
 ## Note e aggiornamenti
 La Convenzione 2024 è citata come «32024» nelle fonti (IA@School).
+
+## Aggiornamento — settembre 2026
+
+> Il **4 settembre 2026**, a Monaco di Baviera, il **Comitato dei Ministri** ha adottato una **raccomandazione sull'alfabetizzazione all'IA** rivolta ai 46 Stati membri, in attuazione dell'**articolo 20 della Convenzione quadro sull'IA del 2024**: 22 principi guida (comprensione di base dell'IA, diritti umani e dignità, democrazia e stato di diritto, azione sociale e pensiero critico) e 7 raccomandazioni operative su governance, curricoli, insegnamento, formazione in servizio, istruzione superiore e sensibilizzazione pubblica. Alla metodologia [[concept/huderia|HUDERIA]] e alla Convenzione si affianca quindi un riferimento specifico per la scuola: [[concept/alfabetizzazione-ia|alfabetizzazione all'IA]] intesa come comprensione degli effetti sociali dei sistemi, non solo del loro funzionamento, da integrare nelle discipline e nell'educazione civica.
+>
+> Cfr. [[news/2026-09-15|News del 15 settembre 2026]].
