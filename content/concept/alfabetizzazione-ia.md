@@ -3,7 +3,7 @@ title: "Alfabetizzazione all'IA (AI Literacy)"
 type: concept
 tags: [ai, educazione, competenze, ai-formazione, curriculum]
 created: 2026-06-21
-updated: 2026-08-08
+updated: 2026-09-16
 sources: [Glossario IA a scuola, Regolamento UE 2024/1689 (AI Act), Legge 132/2025, OECD AI Literacy Framework (2025)]
 ---
 
@@ -37,3 +37,8 @@ Non si tratta solo di insegnare la tecnologia, ma di formare cittadini consapevo
 
 ## Fonti
 [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]], [[source/oecd-ai-literacy-2025|OECD AI Literacy Framework (2025)]], [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]], [[source/fiorucci-bevilacqua-scoping-review-2024|Fiorucci & Bevilacqua — Il dibattito scientifico sull'IA in educazione: scoping review (2024)]], [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]], [[source/epistemia-2-0-baranzini-2026|Epistemia 2.0: l'illusione di sapere perché una risposta «suona» giusta (2026)]]
+## Aggiornamento — settembre 2026
+
+> Gli approfondimenti sui dati **PISA 2025** diffusi tra l'8 e il 14 settembre 2026 offrono la prima misura su larga scala dell'effetto dell'alfabetizzazione all'IA sui risultati. La finalità d'uso discrimina più della frequenza: chi non usa mai l'IA per redigere bozze di elaborati ottiene **509** in scienze contro **481** di chi la usa ogni giorno per quello scopo (**28 punti**, circa un anno e mezzo di scolarizzazione, corretti per lo status socioeconomico), mentre tra chi la usa "per aiutarmi a imparare" gli utilizzatori settimanali superano tutti gli altri. Tra gli utilizzatori quotidiani, chi viene regolarmente sollecitato a **valutare le informazioni generate dall'IA** ottiene **13 punti** in più: è il primo dato comparativo internazionale che associa la dimensione critica dell'AI literacy a un guadagno misurabile. Si tratta di correlazioni su dati autodichiarati, non di nessi causali.
+
+Cfr. [[news/2026-09-16|16 settembre 2026]].

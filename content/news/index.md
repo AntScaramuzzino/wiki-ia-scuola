@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-09-16|16 settembre 2026]] — l'Italia terzultima in UE per uso dell'IA generativa tra i 16-19enni e il ritardo dei laboratori informatici; la seconda lettura dei dati PISA distingue l'IA che sostituisce il compito da quella che aiuta a imparare; in Florida notifica alle famiglie e opt-out per ogni strumento di IA adottato
 - [[news/2026-09-15|15 settembre 2026]] — il Consiglio d'Europa adotta la raccomandazione sull'alfabetizzazione all'IA per i 46 Stati membri; l'UNESCO apre la consultazione sulla governance dell'IA fino al 15 ottobre; a Chicago metà dei candidati al consiglio scolastico firma per tre anni di stop; venti strumenti di IA passati in rassegna in sedici sistemi scolastici; la lettera che chiede l'IA fuori dalla portata degli alunni
 - [[news/2026-09-14|14 settembre 2026]] — sindacati docenti USA e Microsoft firmano il primo standard vincolante su dati e IA nelle scuole; INVALSI sul docente insostituibile; l'indagine "Io e l'IA" presentata in Senato; il chatbot al posto del tutor all'università; a Torino la circolare in rima dichiarata come generata da IA
 - [[news/2026-09-12|12 settembre 2026]] — PISA 2025 misura per la prima volta l'uso dell'IA: 47% dei quindicenni italiani usa chatbot ogni settimana; il vademecum privacy del Garante per il rientro; l'indagine INDIRE "Io e l'IA" su 5.342 studenti; adottata la dichiarazione ministeriale UNESCO; l'IA come tutela del consumatore

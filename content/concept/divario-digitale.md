@@ -3,7 +3,7 @@ title: "Divario digitale"
 type: concept
 tags: [ai-società, impatto, inclusione, educazione, competenze]
 created: 2026-08-08
-updated: 2026-08-21
+updated: 2026-09-16
 sources: [Glossario competenze digitali (DigComp 3.0), Guida Pratica all'IA nella Scuola Secondaria di I grado, DM 219/2025 Snodi formativi, Linee Guida MIM (DM 166/2025)]
 ---
 
@@ -47,3 +47,9 @@ La contraddizione centrale è che l'IA viene presentata come strumento di **equi
 ## Analisi correlate
 - [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] — mostra come il divario sia il principale contro-effetto dell'IA proposta come leva di equità
 - [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] — i requisiti di conformità (ISO, qualificazione AgID) rischiano di rendere diseguale la stessa possibilità di scegliere legalmente uno strumento
+
+## Aggiornamento — settembre 2026
+
+> Il dossier *Intelligenza artificiale e povertà educativa, una sfida urgente* di **Con i Bambini-Openpolis** (8 settembre 2026) quantifica l'asse territoriale del divario: solo il **51,9%** dei 16-19enni italiani ha usato IA generativa nei tre mesi precedenti la rilevazione contro il **66,4%** della media UE (terzultimo posto nell'Unione), e l'**8,6%** di chi non la usa dichiara di non saper come fare. Sul lato infrastrutturale, solo il **40,7%** degli edifici scolastici statali ha un laboratorio informatico — **33,8%** nei comuni ultraperiferici, **60%** in Toscana contro **25,4%** nel Lazio. Il dato corregge la lettura implicita in alcune pagine del wiki, che tratta il divario soprattutto come questione di competenze dei docenti: la disuguaglianza si manifesta prima, nelle dotazioni degli edifici e nelle competenze di base degli studenti.
+
+Cfr. [[news/2026-09-16|16 settembre 2026]].
