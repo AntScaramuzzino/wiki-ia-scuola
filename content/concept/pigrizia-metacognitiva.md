@@ -38,3 +38,6 @@ La tensione è reale e non risolta: le stesse fonti che documentano i benefici d
 
 ## Fonti
 [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]], [[source/il-difficile-rapporto-tra-scuola-e-chatgpt-lucy-sulla-c|Il difficile rapporto tra scuola e ChatGPT (Lucy, Pietro Minto)]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/the-future-of-learning-and-teaching-ai-s-role-in-educat|The Future of Learning and Teaching: AI's Role in Education (EDEH)]], [[source/galli-ia-nella-didattica-2025|Galli — L'intelligenza artificiale nella didattica: opportunità, rischi e regole (2025)]], [[source/epistemia-2-0-baranzini-2026|Epistemia 2.0: l'illusione di sapere perché una risposta «suona» giusta (2026)]]
+## Aggiornamento — settembre 2026
+
+> Primo riscontro longitudinale su dati amministrativi: il working paper *The Generative AI Learning Penalty* (Strömberg, Lei, Wu, 2026) segue 26.811 studenti cinesi fino a 30 mesi e trova voti dei compiti in crescita del 18% a fronte di verifiche a libro chiuso in calo del 20%, con scarti che si consolidano negli esami di ammissione (-24% alle superiori, -18% all'università). Il dato rafforza la tesi della dissociazione tra prestazione e apprendimento, ma non è ancora sottoposto a revisione paritaria. Cfr. [[news/2026-09-19|19 settembre 2026]].

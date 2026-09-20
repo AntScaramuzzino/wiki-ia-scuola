@@ -32,3 +32,6 @@ Nessuna. DigCompEdu e DigComp 3.0 sono complementari (educatori vs cittadini); i
 
 ## Fonti
 [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]], [[source/formare-all-intelligenza-artificiale-un-progetto-studio|Formare all'intelligenza artificiale: un progetto-studio con docenti e futuri docenti]], [[source/formazione-pnrr-strumenti-2026|Formazione PNRR e strumenti per la classe (stato agosto 2026)]]
+## Aggiornamento — settembre 2026
+
+> La distanza tra quadro di competenza e padronanza effettiva trova una misura: nell'indagine Spaggiari-La Fabbrica-ANP presentata al Senato il 17 settembre 2026 (1.294 docenti, campione autoselezionato), il 72% usa l'IA almeno settimanalmente ma il 67% ha imparato da autodidatta e solo il 20% ha ricevuto formazione istituzionale. Cfr. [[news/2026-09-19|19 settembre 2026]].
