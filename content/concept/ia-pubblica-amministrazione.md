@@ -30,3 +30,6 @@ Nessuna contraddizione rilevata; il quadro PA è coerente con quello scolastico.
 
 ## Fonti
 [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]], [[source/strategia-italiana-per-l-intelligenza-artificiale-2024-|Strategia Italiana per l'Intelligenza Artificiale 2024-2026 (AgID)]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]], [[source/ia-nella-pubblica-amministrazione-pubblicata-la-prima-i|IA nella Pubblica Amministrazione: prima indagine AgID presso le amministrazioni centrali (2025)]]
+
+## Analisi correlate
+- [[analyses/2026-09-19-ia-segreteria-scolastica-ata-dsga|L'IA in segreteria: l'area meno regolata della scuola è quella con più dati veri]] — applica al back-office scolastico gli avvertimenti dell'indagine AgID (KPI assenti, dipendenza da consulenti, qualità dei dati)

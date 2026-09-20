@@ -36,3 +36,6 @@ La tensione principale registrata dal wiki è il divario tra trasparenza formale
 
 ## Fonti
 [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ec-edh-explainable-ai-in-education-fostering-human-over|EC/EDEH — Explainable AI in education: Fostering human oversight and shared responsibility (2025)]]
+
+## Analisi correlate
+- [[analyses/2026-09-19-ia-segreteria-scolastica-ata-dsga|L'IA in segreteria: l'area meno regolata della scuola è quella con più dati veri]] — l'art. 50 non è stato rinviato dal Digital Omnibus e vale per il back-office quanto per la classe: censimento degli strumenti e dichiarazione d'uso nelle comunicazioni amministrative
