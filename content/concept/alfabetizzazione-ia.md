@@ -3,7 +3,7 @@ title: "Alfabetizzazione all'IA (AI Literacy)"
 type: concept
 tags: [ai, educazione, competenze, ai-formazione, curriculum]
 created: 2026-06-21
-updated: 2026-09-16
+updated: 2026-09-22
 sources: [Glossario IA a scuola, Regolamento UE 2024/1689 (AI Act), Legge 132/2025, OECD AI Literacy Framework (2025)]
 ---
 
@@ -42,3 +42,9 @@ Non si tratta solo di insegnare la tecnologia, ma di formare cittadini consapevo
 > Gli approfondimenti sui dati **PISA 2025** diffusi tra l'8 e il 14 settembre 2026 offrono la prima misura su larga scala dell'effetto dell'alfabetizzazione all'IA sui risultati. La finalità d'uso discrimina più della frequenza: chi non usa mai l'IA per redigere bozze di elaborati ottiene **509** in scienze contro **481** di chi la usa ogni giorno per quello scopo (**28 punti**, circa un anno e mezzo di scolarizzazione, corretti per lo status socioeconomico), mentre tra chi la usa "per aiutarmi a imparare" gli utilizzatori settimanali superano tutti gli altri. Tra gli utilizzatori quotidiani, chi viene regolarmente sollecitato a **valutare le informazioni generate dall'IA** ottiene **13 punti** in più: è il primo dato comparativo internazionale che associa la dimensione critica dell'AI literacy a un guadagno misurabile. Si tratta di correlazioni su dati autodichiarati, non di nessi causali.
 
 Cfr. [[news/2026-09-16|16 settembre 2026]].
+
+## Aggiornamento — 22 settembre 2026
+
+> Un'analisi promossa da AIDAPT con Sanoma su **77.000 messaggi** scambiati da oltre **5.000 docenti italiani** con un assistente didattico — dato comportamentale, non autodichiarato — mostra un uso concentrato sulla produzione diretta (**29%** test e verifiche, **24%** lezioni) più che sull'esplorazione critica dello strumento, e collocato in gran parte fuori dall'orario di servizio (un'interazione su cinque nel weekend, il 47% dei giorni feriali dopo scuola). È un'ulteriore conferma che l'adozione precede la formazione strutturata, coerente con il 67% di autodidatti rilevato dall'indagine Spaggiari-ANP del 17 settembre.
+
+Cfr. [[news/2026-09-22|22 settembre 2026]].
