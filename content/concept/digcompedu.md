@@ -35,3 +35,7 @@ Nessuna. DigCompEdu e DigComp 3.0 sono complementari (educatori vs cittadini); i
 ## Aggiornamento — settembre 2026
 
 > La distanza tra quadro di competenza e padronanza effettiva trova una misura: nell'indagine Spaggiari-La Fabbrica-ANP presentata al Senato il 17 settembre 2026 (1.294 docenti, campione autoselezionato), il 72% usa l'IA almeno settimanalmente ma il 67% ha imparato da autodidatta e solo il 20% ha ricevuto formazione istituzionale. Cfr. [[news/2026-09-19|19 settembre 2026]].
+
+## Aggiornamento — settembre 2026
+
+> Il divario non è solo italiano: secondo il rapporto della Commissione europea *Friend or foe? Evidence from the use of generative artificial intelligence in learning and teaching* (22 settembre 2026, dati TALIS 2024), solo il 29,7% dei docenti UE ha seguito formazione professionale sull'uso didattico dell'IA. Cfr. [[news/2026-09-24|24 settembre 2026]].
