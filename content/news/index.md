@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-09-29|29 settembre 2026]] — la trattativa sul contratto scuola entra nel merito delle clausole sull'IA; il MIM avvia una sperimentazione biennale in quattro regioni pilota; il Majorana di Brindisi vince il Global Schools Prize con Book in Progress AI; un'indagine Unicusano misura l'adozione dell'IA generativa già tra i 9-16 anni
 - [[news/2026-09-28|28 settembre 2026]] — docenti, studenti e dirigenti europei contro la modifica al GDPR che aprirebbe i dati scolastici all'addestramento dell'IA; uno studio su 1.405 docenti in cinque Paesi separa entusiasmo e preoccupazioni; ricerca AIE: solo il 17% degli universitari studia sui manuali
 - [[news/2026-09-24|24 settembre 2026]] — la Commissione europea fotografa l'UE: solo il 29,7% dei docenti è stato formato sull'IA e l'accesso digitale resta diseguale (Eurydice); OpenAI pubblica un Blueprint volontario sulla sicurezza degli adolescenti in Australia; Spaggiari porta in Italia DreamShaper per la didattica per progetti
 - [[news/2026-09-22|22 settembre 2026]] — la Commissione europea propone l'EU Kids Act, con verifica d'età anche per i chatbot IA; l'UNESCO pubblica "The Algorithm in the Room", 26 saggi sul problema dell'allineamento tra IA e fini educativi; un'analisi su 77.000 messaggi di 5.000 docenti mostra un uso reale concentrato su test e verifiche, spesso fuori orario; due dirigenti raccontano l'IA per l'inclusione senza automatizzare la decisione pedagogica

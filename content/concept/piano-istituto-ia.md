@@ -37,3 +37,7 @@ La concentrazione della responsabilità sul **Dirigente Scolastico** è contesta
 ## Aggiornamento — agosto 2026
 
 > Con l'anno scolastico 2026/27 il quadro si irrigidisce: la ricognizione di inizio anno indica come adempimento per **ogni istituto** l'adozione di un **regolamento d'istituto** sull'uso etico e sicuro dell'IA per studenti e personale, accanto alla previsione di **comitati tecnico-etici territoriali** di accompagnamento e vigilanza. Lo studio dell'IA entra inoltre nei percorsi di **educazione civica** in tutti gli ordini e gradi. Il regolamento d'uso, che nelle Linee Guida DM 166/2025 figurava a corredo del PIA, diventa quindi il documento minimo atteso da ciascuna scuola. Cfr. [[news/2026-08-29|29 agosto 2026]].
+
+## Aggiornamento — settembre 2026
+
+> Il MIM ha annunciato l'avvio, dall'a.s. 2026/2027 e per **due anni**, di una sperimentazione di assistenti virtuali IA finanziata con fondi PNRR in diverse classi di **quattro regioni pilota**: Calabria, Lazio, Lombardia e Toscana. Gli strumenti sono destinati a recupero delle lacune, personalizzazione dei materiali e dashboard di monitoraggio per i docenti; gli elenchi delle scuole coinvolte saranno pubblicati dagli uffici scolastici regionali. È un livello ulteriore rispetto al PIA d'istituto — una sperimentazione ministeriale mirata, non un obbligo generale — la cui eventuale estensione dipenderà dai dati raccolti nel biennio. Vedi [[news/2026-09-29|29 settembre 2026]].
