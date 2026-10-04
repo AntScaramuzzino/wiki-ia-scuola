@@ -13,10 +13,12 @@ import os, re, sys, shutil, glob
 SRC = "/Users/antonioscaramuzzino/Library/CloudStorage/GoogleDrive-a.scaramuzzino@gmail.com/Il mio Drive/Brain/LLM-Wiki/LLM-Wiki/wiki"
 DST = "/Users/antonioscaramuzzino/wiki-ia-scuola/content"
 
-# Il wiki sorgente (Obsidian, su Drive) è la FONTE UNICA: tutto nasce lì e viene
-# copiato qui con gli stessi nomi, così i wikilink [[concept/...]] funzionano
+# Il wiki sorgente (Obsidian, su Drive) è la FONTE UNICA per questi tipi: tutto nasce lì
+# e viene copiato qui con gli stessi nomi, così i wikilink [[concept/...]] funzionano
 # identici in Obsidian e sul sito.
-FOLDERS = {c: c for c in ("concept", "entity", "source", "analyses", "news", "social")}
+# "news" è ESCLUSA: dal 2026-10 è scritta direttamente qui da una routine cloud
+# (vedi https://claude.ai/code/routines) e non deve essere sovrascritta dal Drive.
+FOLDERS = {c: c for c in ("concept", "entity", "source", "analyses", "social")}
 ROOT_FILES = ("index.md", "overview.md", "crediti.md")
 
 def copy_from_source():
