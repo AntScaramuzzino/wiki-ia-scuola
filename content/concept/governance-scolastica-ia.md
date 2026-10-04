@@ -3,7 +3,7 @@ title: "Governance scolastica dell'IA"
 type: concept
 tags: [ai, normativa, politiche, design-sociale, sistemi, educazione, ai-società]
 created: 2026-06-21
-updated: 2026-09-20
+updated: 2026-10-04
 sources: [Linee Guida MIM (DM 166/2025), Regolamento UE 2024/1689 (AI Act), Legge 132/2025]
 ---
 
@@ -60,3 +60,5 @@ Il quadro fa leva su un **vantaggio temporale**: il MIM anticipa gli obblighi de
 > Alla governance didattica se ne affianca una **contrattuale**, finora assente dal quadro. La parte normativa del CCNL Istruzione e Ricerca 2025-2027, in trattativa all'ARAN nell'autunno 2026, dedica **tre articoli** all'IA sul rapporto di lavoro: informazione sindacale preventiva prima di introdurre un sistema, divieto di decisioni esclusivamente automatizzate con effetti sul personale e diritto a conoscerne i criteri, formazione e monitoraggio tramite organismo paritetico. È un livello distinto da quello del DM 166/2025 — riguarda il personale, non gli studenti — e resta soggetto al limite segnalato dal dibattito: l'organo di vigilanza è interno all'amministrazione che adotta la tecnologia. Testi non ancora vigenti. Vedi [[news/2026-09-20|20 settembre 2026]].
 
 > Al tavolo ARAN del **28 settembre 2026** i sindacati (UIL Scuola, Federazione Gilda-Unams, FLC CGIL, Anief) hanno precisato le lacune della bozza sui tre articoli IA: mancano scadenze attuative, risorse economiche dedicate e la garanzia che la formazione avvenga in orario di servizio. La Gilda-Unams chiede inoltre l'esclusione esplicita delle scelte didattiche dal perimetro applicativo dell'IA, a tutela della libertà di insegnamento. Chiusura della parte normativa attesa entro fine 2026. Vedi [[news/2026-09-29|29 settembre 2026]].
+
+> Il **29 settembre 2026** SNALS-Confsal ha portato al tavolo la richiesta di quadri contrattuali chiari su competenze digitali, responsabilità professionali e tutele contro interferenze improprie dell'IA sulla funzione didattica. I nodi restano gli stessi (scadenze, risorse, formazione in orario di servizio); il confronto in plenaria riprende il **3 novembre 2026**. Vedi [[news/2026-10-04|4 ottobre 2026]].
