@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-10-14|14 ottobre 2026]] — decreto sull'IA: indicata l'entrata in vigore al 23 ottobre; summit "Next Generation AI" a Cernobbio; prorogato al 31 ottobre il concorso SAFE
 - [[news/2026-10-09|9 ottobre 2026]] — il decreto legislativo sull'IA in Gazzetta Ufficiale con 100 milioni per la formazione docenti; indagine Skuola.net sull'uso dei chatbot; scuole USA tra moratorie e policy
 - [[news/2026-10-06|6 ottobre 2026]] — in Sicilia parte la formazione sull'IA nelle scuole polo della rete Sicil-IA; aperte le iscrizioni al Premio Anitec-Assinform per le superiori; UNESCO e Codemao avanzano con IA e coding nelle scuole africane
 - [[news/2026-10-04|4 ottobre 2026]] — indagine su 1.294 docenti: 7 su 10 usano l'IA ma 2 su 3 si sono formati da soli; DidaMatica 2026 a Padova su AI Literacy ed Etica; il tavolo ARAN sul contratto scuola rinvia al 3 novembre
