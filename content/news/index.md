@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-10-19|19 ottobre 2026]] — D.Lgs. 179/2026: decisioni sul personale non delegabili agli algoritmi; al via il Summit MIM Next Gen AI; Stati Generali della Scuola Digitale a Varese
 - [[news/2026-10-17|17 ottobre 2026]] — D.Lgs. 179/2026: formazione docenti e IA in Educazione civica; dati sull'uso dell'IA tra gli studenti; l'ente australiano AERO invita a un uso parsimonioso dell'IA
 - [[news/2026-10-14|14 ottobre 2026]] — decreto sull'IA: indicata l'entrata in vigore al 23 ottobre; summit "Next Generation AI" a Cernobbio; prorogato al 31 ottobre il concorso SAFE
 - [[news/2026-10-09|9 ottobre 2026]] — il decreto legislativo sull'IA in Gazzetta Ufficiale con 100 milioni per la formazione docenti; indagine Skuola.net sull'uso dei chatbot; scuole USA tra moratorie e policy
