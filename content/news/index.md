@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-10-23|23 ottobre 2026]] — D.Lgs. 179/2026 in vigore: cosa prevede per scuole e docenti; Valditara: assistenti virtuali e IA dalla primaria; INDIRE: il 69% dei docenti usa l'IA
 - [[news/2026-10-21|21 ottobre 2026]] — Summit MIM: 156mila aule digitali e 100 milioni per la formazione docenti; TALIS 2024: IA e studenti con BES; Paesi Bassi, tesi scritte con chatbot e limiti dei rilevatori
 - [[news/2026-10-19|19 ottobre 2026]] — D.Lgs. 179/2026: decisioni sul personale non delegabili agli algoritmi; al via il Summit MIM Next Gen AI; Stati Generali della Scuola Digitale a Varese
 - [[news/2026-10-17|17 ottobre 2026]] — D.Lgs. 179/2026: formazione docenti e IA in Educazione civica; dati sull'uso dell'IA tra gli studenti; l'ente australiano AERO invita a un uso parsimonioso dell'IA
