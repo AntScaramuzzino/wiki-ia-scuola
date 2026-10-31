@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "it-IT",
-    baseUrl: "wiki-ia-scuola.vercel.app",
+    baseUrl: "wikiai.proftecnologia.it",
     ignorePatterns: ["private", "templates", ".obsidian", "social"],
     defaultDateType: "modified",
     theme: {
