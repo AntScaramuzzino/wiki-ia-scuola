@@ -12,7 +12,9 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: "vercel",
+    },
     locale: "it-IT",
     baseUrl: "wikiai.proftecnologia.it",
     ignorePatterns: ["private", "templates", ".obsidian", "social"],
