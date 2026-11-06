@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-11-06|6 novembre 2026]] — Formazione IA docenti: decreto MIM atteso entro gennaio; Google limita l'IA per gli studenti; BRIA Scuola MIM-OLITEC
 - [[news/2026-10-29|29 ottobre 2026]] — FLC CGIL sul D.Lgs. 179/2026; rapporto Minnesota: prima le competenze di base, poi l'IA; docenti USA ripensano verifiche e compiti
 - [[news/2026-10-23|23 ottobre 2026]] — D.Lgs. 179/2026 in vigore: cosa prevede per scuole e docenti; Valditara: assistenti virtuali e IA dalla primaria; INDIRE: il 69% dei docenti usa l'IA
 - [[news/2026-10-21|21 ottobre 2026]] — Summit MIM: 156mila aule digitali e 100 milioni per la formazione docenti; TALIS 2024: IA e studenti con BES; Paesi Bassi, tesi scritte con chatbot e limiti dei rilevatori
