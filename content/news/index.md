@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-11-07|7 novembre 2026]] — pacchetto UE su competenze e IA, proroga snodi formativi richiesta dall'ANP, causa contro Google
 - [[news/2026-11-06|6 novembre 2026]] — Formazione IA docenti: decreto MIM atteso entro gennaio; Google limita l'IA per gli studenti; BRIA Scuola MIM-OLITEC
 - [[news/2026-10-29|29 ottobre 2026]] — FLC CGIL sul D.Lgs. 179/2026; rapporto Minnesota: prima le competenze di base, poi l'IA; docenti USA ripensano verifiche e compiti
 - [[news/2026-10-23|23 ottobre 2026]] — D.Lgs. 179/2026 in vigore: cosa prevede per scuole e docenti; Valditara: assistenti virtuali e IA dalla primaria; INDIRE: il 69% dei docenti usa l'IA
