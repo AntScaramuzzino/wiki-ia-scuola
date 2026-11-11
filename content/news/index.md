@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-11-11|11 novembre 2026]] — Linee Guida AgID sull'IA nella PA (scuole incluse); MIMeraviglIA per le segreterie; Google e l'IA agli studenti in Italia
 - [[news/2026-11-08|8 novembre 2026]] — OCSE: giovani italiani penultimi nell'UE per uso IA; focus CNEL su studenti e docenti; Google e il vincolo Ricerca/IA
 - [[news/2026-11-07|7 novembre 2026]] — pacchetto UE su competenze e IA, proroga snodi formativi richiesta dall'ANP, causa contro Google
 - [[news/2026-11-06|6 novembre 2026]] — Formazione IA docenti: decreto MIM atteso entro gennaio; Google limita l'IA per gli studenti; BRIA Scuola MIM-OLITEC
