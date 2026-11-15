@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-11-15|15 novembre 2026]] — ANP chiede la proroga degli snodi formativi IA; IA «unplugged» nell'infanzia; Chicago contro l'ultimatum Google
 - [[news/2026-11-13|13 novembre 2026]] — Garante privacy: ok allo schema di decreto MIM sull'IA; rassegna Stanford SCALE sulle prove di efficacia; Stati Generali della Scuola Digitale a Varese
 - [[news/2026-11-11|11 novembre 2026]] — Linee Guida AgID sull'IA nella PA (scuole incluse); MIMeraviglIA per le segreterie; Google e l'IA agli studenti in Italia
 - [[news/2026-11-08|8 novembre 2026]] — OCSE: giovani italiani penultimi nell'UE per uso IA; focus CNEL su studenti e docenti; Google e il vincolo Ricerca/IA
