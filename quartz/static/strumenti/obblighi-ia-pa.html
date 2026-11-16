@@ -57,6 +57,11 @@ button,input,select,textarea{font:inherit;color:inherit}
 button{cursor:pointer}
 a{color:var(--accent);text-underline-offset:.18em}
 abbr[title]{text-decoration:underline dotted;text-underline-offset:.2em;cursor:help}
+.gl[data-def]{text-decoration:underline dotted;text-underline-offset:.2em;text-decoration-thickness:.09em;cursor:help;border-radius:2px}
+.gl[data-def]:hover,.gl[data-def][aria-describedby]{background:var(--accent-soft,rgba(0,96,80,.12));text-decoration-style:solid}
+.gl[data-def]:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.gltip{position:fixed;z-index:80;max-width:min(22rem,calc(100vw - 1rem));background:var(--ink);color:var(--bg);border-radius:6px;padding:.6rem .8rem;font-size:.9375rem;line-height:1.45;box-shadow:0 8px 24px rgba(0,0,0,.25);pointer-events:none}
+.gltip strong{display:block;margin-bottom:.15rem}
 :focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
 h1,h2,h3{text-wrap:balance;margin:0;line-height:1.2}
 h1{font-size:clamp(1.9rem,4vw,2.9rem);font-weight:700;letter-spacing:-.01em}
@@ -133,6 +138,9 @@ progress::-moz-progress-bar{background:var(--accent)}
 .filters{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:1.25rem;display:grid;gap:1.1rem}
 .fields{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);gap:1rem}
 .field{display:grid;gap:.3rem;min-width:0}
+.iareq{max-width:44rem;margin:.25rem 0 .75rem}
+.iareq summary{cursor:pointer;font-weight:600;color:var(--accent);padding:.35rem 0;min-height:1.75rem}
+.iareq-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:.75rem;margin:.5rem 0 .75rem}
 .field label,.filters legend{font-weight:600;font-size:.9375rem}
 .field input,.field select{width:100%;min-height:2.75rem;padding:.4rem .7rem;border:1px solid var(--border-ui);border-radius:4px;background:var(--surface)}
 fieldset{border:0;margin:0;padding:0;min-width:0}
@@ -210,10 +218,23 @@ input[type=checkbox]{width:1.5rem;height:1.5rem;accent-color:var(--accent);flex:
 .ialist{list-style:none;padding:0;display:grid;gap:.35rem}
 .ialist li{display:flex;flex-wrap:wrap;gap:.25rem .75rem;align-items:baseline;border-bottom:1px solid var(--border);padding-block:.4rem}
 .ianame{font-weight:600;overflow-wrap:anywhere}
+.ialist li.iadoc{display:grid;gap:.5rem;padding-block:.75rem}
+.iadoc-h{display:flex;flex-wrap:wrap;gap:.25rem .75rem;align-items:baseline}
+.iadoc-q{display:grid;grid-template-columns:minmax(0,16rem) minmax(0,1fr);gap:.75rem;max-width:48rem}
+.iaord{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.25rem 1.5rem}
+.iaord legend{padding:0;margin-bottom:.4rem}
+@media (max-width:40rem){.iadoc-q{grid-template-columns:minmax(0,1fr)}}
 .iacheck{display:flex;gap:.6rem;align-items:flex-start;min-height:2.75rem;font-weight:600}
 .iacheck input{margin-top:.15rem}
 .iacheck span{min-width:0}
 #iaFiles{width:100%;min-height:2.75rem;padding:.4rem;border:1px dashed var(--border-ui);border-radius:4px;background:var(--surface)}
+.iarep{display:grid;gap:.75rem;border:2px solid var(--ink);border-radius:6px;padding:1rem 1.25rem;background:var(--surface)}
+.iarep-g{border-top:1px solid var(--border)}
+.iarep-g summary{cursor:pointer;font-weight:700;min-height:2.75rem;display:flex;align-items:center;gap:.4rem}
+.iarep-l{display:grid;gap:.9rem;padding-left:1.75rem;margin:.5rem 0 1rem;list-style:decimal}
+.iarep-l li::marker{font-weight:700}
+.iarep-l li{display:grid;gap:.25rem;overflow-wrap:anywhere}
+.iarep-l p{margin:0}
 .iaq{margin:0;border:1px solid var(--border-ui);border-radius:4px;background:var(--surface);padding:.7rem .9rem;display:grid;gap:.3rem;overflow-wrap:anywhere}
 .iaq footer{font-style:normal}
 .avarea{display:grid;gap:.75rem}
@@ -584,19 +605,51 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
               <li>I documenti sono inviati al server dell’Osservatorio e da lì all’API di Anthropic per l’analisi. Il server non li conserva.</li>
               <li>Non caricare documenti con dati personali di alunni, famiglie o personale.</li>
               <li>Un livello è proposto solo se nei documenti c’è un passaggio che lo sostiene, e la citazione viene ricontrollata sul testo. Senza riscontro il controllo resta «non determinabile».</li>
-              <li>«A regime» è proposto solo se il documento mostra segni di adozione formale. Che la regola sia applicata davvero lo sa solo la scuola.</li>
+              <li>«A regime» è proposto solo per i documenti che dichiari adottati e in vigore, oppure se il testo mostra segni di adozione formale. Una bozza o un atto approvato ma non ancora applicato si fermano a «In corso».</li>
             </ul>
           </div>
           <div class="field" style="max-width:36rem"><label for="iaFiles">Documenti (PDF, DOCX, TXT o MD, fino a 3 MB ciascuno)</label><input type="file" id="iaFiles" multiple accept=".pdf,.docx,.txt,.md"></div>
-          <ul class="ialist" id="iaList" aria-label="Documenti caricati"></ul>
+          <!-- IA-QUEST -->
+          <div id="iaQ" hidden style="display:grid;gap:1rem">
+            <h3>Prima di analizzare: tre domande</h3>
+            <p class="note">Dal solo testo spesso non si capisce se un documento è stato adottato. Dillo tu: la proposta «A regime» si basa su quello che dichiari qui.</p>
+            <div><p><strong>1. Per ogni documento: è stato adottato?</strong></p>
+              <ul class="ialist" id="iaList" aria-label="Documenti caricati"></ul></div>
+            <fieldset class="iaord"><legend><strong>2. Quali ordini di scuola avete?</strong></legend>
+              <label class="iacheck"><input type="checkbox" name="iaOrd" value="infanzia"><span>Infanzia</span></label>
+              <label class="iacheck"><input type="checkbox" name="iaOrd" value="primaria"><span>Primaria</span></label>
+              <label class="iacheck"><input type="checkbox" name="iaOrd" value="secondaria di primo grado"><span>Secondaria di primo grado</span></label>
+              <label class="iacheck"><input type="checkbox" name="iaOrd" value="secondaria di secondo grado"><span>Secondaria di secondo grado</span></label>
+            </fieldset>
+            <div class="field" style="max-width:44rem"><label for="iaNota"><strong>3. C’è altro da sapere?</strong> <span class="note">(facoltativo, fino a 600 caratteri: per esempio atti adottati che non hai caricato)</span></label><textarea id="iaNota" maxlength="600" rows="3" style="min-height:5rem;font:inherit"></textarea></div>
+          </div>
           <div class="field" id="iaCodeField" hidden style="max-width:20rem"><label for="iaCode">Codice di accesso</label><input id="iaCode" type="password" autocomplete="off"></div>
+          <!-- RICHIESTA-CODICE -->
+          <details class="iareq" id="iaReq" hidden>
+            <summary>Non hai un codice? Richiedilo</summary>
+            <p class="note">L’analisi usa un servizio a consumo: per questo serve un codice, che viene dato a scuole e pubbliche amministrazioni che lo chiedono. Compila i tre campi: si apre un’email già pronta nel tuo programma di posta, da inviare a <a href="mailto:a.scaramuzzino@gmail.com">a.scaramuzzino@gmail.com</a>. Il codice arriva in risposta. I dati restano nell’email: questa pagina non li conserva e non li invia.</p>
+            <div class="iareq-g">
+              <div class="field"><label for="iaReqNome">Nome e cognome</label><input id="iaReqNome" type="text" autocomplete="name"></div>
+              <div class="field"><label for="iaReqEnte">Scuola o ente</label><input id="iaReqEnte" type="text" autocomplete="organization"></div>
+              <div class="field"><label for="iaReqRuolo">Ruolo</label><input id="iaReqRuolo" type="text" autocomplete="organization-title"></div>
+            </div>
+            <p><button class="btn" type="button" id="iaReqGo">Prepara l’email di richiesta</button> <span class="note" id="iaReqMsg" role="status"></span></p>
+          </details>
           <label class="iacheck"><input type="checkbox" id="iaOk"><span>Confermo che i documenti non contengono dati personali.</span></label>
           <div class="tools" style="display:flex;flex-wrap:wrap;gap:.5rem"><button class="btn primary" type="button" id="iaRun">Analizza i documenti</button><button class="btn" type="button" id="iaStop" hidden>Interrompi</button></div>
           <div id="iaProg" hidden><progress id="iaBar" max="10" value="0" aria-labelledby="iaProgLabel"></progress> <span class="note" id="iaProgLabel"></span></div>
           <p class="note" id="iaMsg" role="status"></p>
           <div id="iaRes" hidden style="display:grid;gap:1rem">
-            <h3 id="iaResTitle" tabindex="-1">Proposte dell’analisi</h3>
+            <h3 id="iaResTitle" tabindex="-1">Esito dell’analisi</h3>
             <p class="note" id="iaResSum"></p>
+            <!-- IA-REPORT -->
+            <section class="iarep" aria-labelledby="iaRepTitle">
+              <h3 id="iaRepTitle">Report: i passi da compiere</h3>
+              <p class="note" id="iaRepSum"></p>
+              <div style="display:flex;flex-wrap:wrap;gap:.5rem"><button class="btn" type="button" id="iaRepDoc">Scarica il report (Word)</button><button class="btn" type="button" id="iaRepMd">Scarica il report (Markdown)</button></div>
+              <div id="iaRepBody"></div>
+              <p class="note">Il report nasce solo dai documenti caricati. Lo stato di adozione è quello dichiarato da chi ha compilato il questionario. «Nessun riscontro» vuol dire che lì non c’è una prova, non che la cosa manchi: se esiste in un altro documento, caricalo e ripeti l’analisi, oppure indica il livello a mano. Non è un parere legale.</p>
+            </section>
             <div style="display:flex;flex-wrap:wrap;gap:.5rem"><button class="btn primary" type="button" id="iaApply">Applica le proposte selezionate</button><button class="btn small" type="button" id="iaAll">Seleziona tutte</button><button class="btn small" type="button" id="iaNone">Deseleziona tutte</button><button class="btn small" type="button" id="iaDiscard">Scarta le proposte</button></div>
             <label class="iacheck"><input type="checkbox" id="iaZero"><span>Segna «Da avviare» i controlli senza riscontro che non hanno ancora un livello.</span></label>
             <ul class="avlist" id="iaProps"></ul>
@@ -897,8 +950,10 @@ const DATA=C.voci,CATS=C.categorie,SCOPES=C.ambiti,KINDS=C.nature;
 const app=document.getElementById('app'),MODE=app.dataset.mode,PDF='/static/strumenti/linee-guida-agid-ia-pa.pdf';
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const ABBR={DPIA:'Valutazione d’impatto sulla protezione dei dati',FRIA:'Valutazione d’impatto sui diritti fondamentali',RTD:'Responsabile per la transizione digitale',UTD:'Ufficio per la transizione al digitale',RPD:'Responsabile della protezione dei dati',PIAO:'Piano integrato di attività e organizzazione',GDPR:'Regolamento generale sulla protezione dei dati',CAD:'Codice dell’amministrazione digitale',KPI:'Indicatori chiave di prestazione'};
-const mark=s=>esc(s).replace(/\b(DPIA|FRIA|RTD|UTD|RPD|PIAO|GDPR|CAD|KPI)\b/g,m=>'<abbr title="'+ABBR[m]+'">'+m+'</abbr>').replace(/\b(AI Act|deployer|provider|by design|stakeholder)\b/gi,'<span lang="en">$1</span>');
+const ABBR={DPIA:'Valutazione d’impatto sulla protezione dei dati',FRIA:'Valutazione d’impatto sui diritti fondamentali',RTD:'Responsabile per la transizione digitale',UTD:'Ufficio per la transizione al digitale',RPD:'Responsabile della protezione dei dati',PIAO:'Piano integrato di attività e organizzazione',GDPR:'Regolamento generale sulla protezione dei dati',CAD:'Codice dell’amministrazione digitale',KPI:'Indicatori chiave di prestazione',PTOF:'Piano triennale dell’offerta formativa',DSGA:'Direttore dei servizi generali e amministrativi',DVR:'Documento di valutazione dei rischi',PEI:'Piano educativo individualizzato',PDP:'Piano didattico personalizzato',ATA:'Personale amministrativo, tecnico e ausiliario',MIM:'Ministero dell’istruzione e del merito',AgID:'Agenzia per l’Italia Digitale',ACN:'Agenzia per la cybersicurezza nazionale',STEAM:'Scienze, tecnologia, ingegneria, arte e matematica'};
+/* GLOSSARIO-PAROLE */
+const TERM={'ai act':'Regolamento (UE) 2024/1689 sull’intelligenza artificiale.','deployer':'Chi usa un sistema di IA sotto la propria autorità: per esempio la scuola che adotta uno strumento (AI Act, art. 3, punto 4).','provider':'Il fornitore: chi sviluppa un sistema di IA, o lo fa sviluppare, e lo mette sul mercato o in servizio con il proprio nome (AI Act, art. 3, punto 3).','by design':'Fin dalla progettazione: il requisito è previsto dall’inizio, non aggiunto dopo.','stakeholder':'Portatori di interesse: le persone e i gruppi toccati da una scelta.'};
+const mark=s=>esc(s).replace(/\b(DPIA|FRIA|RTD|UTD|RPD|PIAO|GDPR|CAD|KPI|PTOF|DSGA|DVR|PEI|PDP|ATA|MIM|AgID|ACN|STEAM)\b/g,m=>'<abbr title="'+ABBR[m]+'">'+m+'</abbr>').replace(/\b(AI Act|deployer|provider|by design|stakeholder)\b/gi,m=>'<span lang="en" class="gl" data-gl="'+m.toLowerCase()+'">'+m+'</span>');
 const ICON={obbligo:'<rect x="1" y="1" width="10" height="10" fill="currentColor"/>',condizionato:'<circle cx="6" cy="6" r="4.75" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M6 1.25a4.75 4.75 0 0 0 0 9.5z" fill="currentColor"/>',principio:'<circle cx="6" cy="6" r="4.75" fill="none" stroke="currentColor" stroke-width="1.5"/>'};
 const kindTag=k=>'<span class="tag kind"><svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">'+ICON[k]+'</svg>'+esc(KINDS[k])+'</span>';
 const page=ref=>{const m=ref.match(/(?:^|[^a-zà-ú])pp?\.\s*(\d+)/);return m?Number(m[1]):1};
@@ -913,6 +968,27 @@ const nref=a=>a&&a.length?'<p class="note wikiref">Nel wiki Normativa scuola: '+
 const uniq=a=>a.filter((x,i)=>a.indexOf(x)===i);
 const voceWiki=d=>uniq([...(WK.voci[d.id]||[]),...(WK.categorie[d.cat]||[])]).slice(0,4);
 document.documentElement.lang='it';
+/* ---- glossario sulle parole: definizione al clic, al tocco, da tastiera e al passaggio del mouse ---- */
+const glTip=document.createElement('div');glTip.id='glTip';glTip.className='gltip';glTip.setAttribute('role','tooltip');glTip.hidden=true;(document.querySelector('main')||$('app')).append(glTip);
+let glCur=null,glPin=false;const GLINT='a,button,summary,label,select,legend';
+function glPrep(root){(root.querySelectorAll?root.querySelectorAll('abbr[title],[data-gl]'):[]).forEach(x=>{
+  if(x.dataset.def||x.closest(GLINT))return;                      // dentro un comando resta il suggerimento del browser
+  const d=x.getAttribute('title')||TERM[x.dataset.gl];if(!d)return;
+  x.dataset.def=d;x.removeAttribute('title');x.classList.add('gl');x.tabIndex=0;x.setAttribute('role','button');x.setAttribute('aria-label',x.textContent+': '+d)})}
+function glShow(x){glCur=x;glTip.innerHTML='<strong>'+esc(x.textContent)+'</strong> '+esc(x.dataset.def);glTip.hidden=false;x.setAttribute('aria-describedby','glTip');
+  const r=x.getBoundingClientRect(),w=glTip.offsetWidth,h=glTip.offsetHeight,vw=document.documentElement.clientWidth;
+  glTip.style.left=Math.max(8,Math.min(vw-w-8,r.left+r.width/2-w/2))+'px';glTip.style.top=(r.bottom+h+12>innerHeight&&r.top-h-8>0?r.top-h-8:r.bottom+8)+'px'}
+function glHide(){if(!glCur)return;glCur.removeAttribute('aria-describedby');glCur=null;glPin=false;glTip.hidden=true}
+const glOf=e=>e.target.closest?e.target.closest('[data-def]'):null;
+document.addEventListener('click',e=>{const x=glOf(e);if(!x){glHide();return}if(glCur===x&&glPin)glHide();else{glShow(x);glPin=true}});
+document.addEventListener('keydown',e=>{const x=glOf(e);if(e.key==='Escape')glHide();else if(x&&(e.key==='Enter'||e.key===' ')){e.preventDefault();if(glCur===x&&glPin)glHide();else{glShow(x);glPin=true}}});
+document.addEventListener('focusin',e=>{const x=glOf(e);if(x&&x.matches(':focus-visible')&&glCur!==x){glShow(x);glPin=true}});
+document.addEventListener('focusout',e=>{if(glOf(e))glHide()});
+document.addEventListener('mouseover',e=>{const x=glOf(e);if(x&&!glPin&&matchMedia('(hover:hover)').matches)glShow(x)});
+document.addEventListener('mouseout',e=>{const x=glOf(e);if(x&&!glPin&&matchMedia('(hover:hover)').matches)glHide()});
+addEventListener('scroll',glHide,{passive:true});addEventListener('resize',glHide);
+glPrep(document);new MutationObserver(ms=>ms.forEach(m=>m.addedNodes.forEach(n=>{if(n.nodeType===1){glPrep(n)}}))).observe($('app'),{childList:true,subtree:true});
+
 
 let category='all',view='catalog',checks={},toastTimer,statusTimer;
 try{const saved=JSON.parse(localStorage.getItem('agid-ia-v1-checklist')||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))checks=Object.fromEntries(DATA.map(d=>[d.id,saved[d.id]===true]));}catch(e){}
@@ -1073,25 +1149,39 @@ $('csvCopy').addEventListener('click',()=>{const ta=$('csvText');const sel=()=>{
 
 /* ---- Autovalutazione dai documenti (IA-DOCUMENTI) ---- */
 const IA={docs:[],props:{},busy:false,stop:false,need:false,uso:{ingresso:0,uscita:0,cache_letta:0,cache_scritta:0}};
-const MAXF=3200000,MAXC=300000;
+const MAXF=3200000,MAXC=600000,MAXD=60;
 const kb=n=>n<1048576?Math.max(1,Math.round(n/1024))+' KB':(n/1048576).toFixed(1).replace('.',',')+' MB';
 const iaMsg=s=>{$('iaMsg').textContent=s};
-const iaHead=()=>{const h={'content-type':'application/json'},c=$('iaCode').value.trim();if(c)h['x-codice']=c;return h};
+const iaHead=()=>{const h={'content-type':'application/json'},c=$('iaCode').value.trim();if(c)h['x-codice']=encodeURIComponent(c.normalize('NFC'));return h};
+$('iaReqGo').addEventListener('click',()=>{
+  const v=['iaReqNome','iaReqEnte','iaReqRuolo'].map(i=>$(i).value.trim()),m=$('iaReqMsg');
+  const k=v.findIndex(x=>!x);if(k>=0){m.textContent='Compila tutti e tre i campi.';$(['iaReqNome','iaReqEnte','iaReqRuolo'][k]).focus();return}
+  const corpo='Chiedo il codice di accesso per l’analisi dei documenti dell’Osservatorio IA nella PA.\n\nNome e cognome: '+v[0]+'\nScuola o ente: '+v[1]+'\nRuolo: '+v[2]+'\n';
+  location.href='mailto:a.scaramuzzino@gmail.com?subject='+encodeURIComponent('Osservatorio IA nella PA · richiesta del codice di accesso')+'&body='+encodeURIComponent(corpo);
+  m.textContent='Si è aperto il programma di posta: invia l’email. Se non si apre, scrivi a a.scaramuzzino@gmail.com indicando nome, scuola o ente e ruolo.'});
 async function iaInit(){
   if(MODE!=='standalone'||!/^https?:$/.test(location.protocol))return;
   try{const r=await fetch('/api/autovaluta',{headers:{accept:'application/json'}});if(!r.ok)return;const s=await r.json();if(!s||!s.ok)return;
     if(!s.disponibile){$('iaOff').textContent='L’analisi dei documenti con l’IA non è ancora attiva: sul server manca la chiave API. Puoi compilare l’autovalutazione a mano.';return}
-    IA.need=!!s.richiede_codice;$('iaCodeField').hidden=!IA.need;$('iaModel').textContent='Claude Sonnet ('+s.modello+')';$('iaOff').hidden=true;$('iaOn').hidden=false}catch(e){}
+    IA.need=!!s.richiede_codice;$('iaCodeField').hidden=!IA.need;$('iaReq').hidden=!IA.need;$('iaModel').textContent='Claude Sonnet ('+s.modello+')';$('iaOff').hidden=true;$('iaOn').hidden=false}catch(e){}
 }
+const IAST={adottato:'Adottato e in vigore',approvato:'Approvato, non ancora applicato',bozza:'Bozza o proposta',ignoto:'Non so'};
+const NA_ORD={27:['infanzia','primaria','secondaria di primo grado'],55:['secondaria di primo grado','secondaria di secondo grado']};  // controlli che valgono solo per certi ordini
+const iaOrd=()=>Array.from(document.querySelectorAll('input[name=iaOrd]:checked')).map(x=>x.value);
+const iaFuori=c=>{const o=IA.ctx&&IA.ctx.ordini||[];return !!(NA_ORD[c.n]&&o.length&&!NA_ORD[c.n].some(x=>o.includes(x)))};
+$('iaList').addEventListener('change',e=>{const s=e.target.dataset.iast,x=e.target.dataset.iaes;if(s!=null)IA.docs[s].adoz=e.target.value;if(x!=null)IA.docs[x].estremi=e.target.value.trim()});
 function iaList(){
-  $('iaList').innerHTML=IA.docs.map((d,i)=>'<li><span class="ianame">'+esc(d.nome)+'</span> <span class="note">'+kb(d.size)+' · '+esc(d.stato)+(d.avviso?' · '+esc(d.avviso):'')+'</span> <button type="button" class="linkbtn" data-iarm="'+i+'" aria-label="Togli '+esc(d.nome)+'">Togli</button></li>').join('');
+  $('iaQ').hidden=!IA.docs.length;
+  $('iaList').innerHTML=IA.docs.map((d,i)=>'<li class="iadoc"><div class="iadoc-h"><span class="ianame">'+esc(d.nome)+'</span> <span class="note">'+kb(d.size)+' · '+esc(d.stato)+(d.avviso?' · '+esc(d.avviso):'')+'</span> <button type="button" class="linkbtn" data-iarm="'+i+'" aria-label="Togli '+esc(d.nome)+'">Togli</button></div>'
+    +'<div class="iadoc-q"><div class="field"><label for="iaSt'+i+'">Stato del documento</label><select id="iaSt'+i+'" data-iast="'+i+'"><option value="">Scegli…</option>'+Object.keys(IAST).map(k=>'<option value="'+k+'"'+(d.adoz===k?' selected':'')+'>'+IAST[k]+'</option>').join('')+'</select></div>'
+    +'<div class="field"><label for="iaEs'+i+'">Estremi dell’adozione <span class="note">(organo, numero, data; facoltativo)</span></label><input type="text" id="iaEs'+i+'" data-iaes="'+i+'" maxlength="200" value="'+esc(d.estremi||'')+'"></div></div></li>').join('');
 }
 $('iaFiles').addEventListener('change',e=>{
   const scartati=[];Array.from(e.target.files).forEach(f=>{
     if(!/\.(pdf|docx|txt|md)$/i.test(f.name)){scartati.push(f.name+' (formato non supportato)');return}
     if(f.size>MAXF){scartati.push(f.name+' (oltre 3 MB)');return}
     if(IA.docs.some(d=>d.nome===f.name&&d.size===f.size))return;
-    IA.docs.push({nome:f.name,size:f.size,file:f,testo:null,stato:'da leggere',avviso:''})});
+    IA.docs.push({nome:f.name,size:f.size,file:f,testo:null,stato:'da leggere',avviso:'',adoz:'',estremi:''})});
   e.target.value='';iaList();iaMsg(scartati.length?'Non caricati: '+scartati.join('; ')+'.':IA.docs.length+(IA.docs.length===1?' documento pronto.':' documenti pronti.'))});
 $('iaList').addEventListener('click',e=>{const x=e.target.closest('[data-iarm]');if(!x||IA.busy)return;IA.docs.splice(Number(x.dataset.iarm),1);iaList();$('iaFiles').focus()});
 function b64(buf){let s='';const u=new Uint8Array(buf);for(let i=0;i<u.length;i+=32768)s+=String.fromCharCode.apply(null,u.subarray(i,i+32768));return btoa(s)}
@@ -1109,7 +1199,10 @@ async function iaRun(){
   if(IA.busy)return;
   if(!IA.docs.length){iaMsg('Carica almeno un documento.');$('iaFiles').focus();return}
   if(IA.need&&!$('iaCode').value.trim()){iaMsg('Inserisci il codice di accesso.');$('iaCode').focus();return}
+  const senza=IA.docs.findIndex(d=>!d.adoz);if(senza>=0){iaMsg('Indica lo stato di ogni documento (domanda 1): manca per «'+IA.docs[senza].nome+'». Se non lo sai, scegli «Non so».');$('iaSt'+senza).focus();return}
+  if(!iaOrd().length){iaMsg('Indica almeno un ordine di scuola (domanda 2).');document.querySelector('input[name=iaOrd]').focus();return}
   if(!$('iaOk').checked){iaMsg('Conferma che i documenti non contengono dati personali.');$('iaOk').focus();return}
+  IA.ctx={documenti:IA.docs.map(d=>({nome:d.nome,stato:d.adoz,estremi:d.estremi||''})),ordini:iaOrd(),nota:$('iaNota').value.trim()};
   IA.busy=true;IA.stop=false;IA.props={};IA.uso={ingresso:0,uscita:0,cache_letta:0,cache_scritta:0};$('iaRes').hidden=true;$('iaRun').disabled=true;$('iaStop').hidden=false;
   const fine=m=>{IA.busy=false;$('iaRun').disabled=false;$('iaStop').hidden=true;iaList();if(m)iaMsg(m)};
   try{
@@ -1118,12 +1211,13 @@ async function iaRun(){
     iaList();
     const docs=IA.docs.filter(d=>d.testo&&d.testo.replace(/\s/g,'').length>=200).map(d=>({nome:d.nome,testo:d.testo}));
     if(!docs.length)return fine('Nessun documento ha testo leggibile: controlla gli avvisi accanto ai file.');
+    if(docs.length>MAXD)return fine('Hai caricato '+docs.length+' documenti con testo leggibile: il limite è '+MAXD+' per analisi. Togline qualcuno o uniscili e riprova.');
     const tot=docs.reduce((t,d)=>t+d.testo.length,0);
     if(tot>MAXC)return fine('I documenti contengono '+tot.toLocaleString('it-IT')+' caratteri: il limite è '+MAXC.toLocaleString('it-IT')+'. Togline qualcuno e riprova.');
     const aree=AV.sezioni.map(s=>s.k),falliti=[];let fatte=0;
     $('iaProg').hidden=false;$('iaBar').max=aree.length;$('iaBar').value=0;$('iaProgLabel').textContent='Analisi avviata: 0 di '+aree.length+' aree';
     const una=async k=>{if(IA.stop)return;
-      try{const r=await iaPost('/api/autovaluta',{documenti:docs,area:k});r.esiti.forEach(x=>{IA.props[x.n]=x});Object.keys(IA.uso).forEach(u=>{IA.uso[u]+=r.uso&&r.uso[u]||0})}
+      try{const r=await iaPost('/api/autovaluta',{documenti:docs,area:k,contesto:IA.ctx});r.esiti.forEach(x=>{IA.props[x.n]=x});Object.keys(IA.uso).forEach(u=>{IA.uso[u]+=r.uso&&r.uso[u]||0})}
       catch(er){falliti.push(k);if(er.status===401||er.status===503){IA.stop=true;IA.fatale=er.message}else IA.ultimo=er.message}
       fatte++;$('iaBar').value=fatte;$('iaProgLabel').textContent='Analizzate '+fatte+' di '+aree.length+' aree';iaMsg('Area '+k+' analizzata.')};
     IA.fatale='';IA.ultimo='';
@@ -1147,8 +1241,47 @@ function iaRender(){
   $('iaNd').innerHTML=nd.map(c=>'<li class="av"><p><span class="rid">'+c.n+(c.star?' ★':'')+'</span> '+mark(c.testo)+'</p><p class="note">'+esc(IA.props[c.n].motivazione)+'</p></li>').join('');
   $('iaNdSum').textContent='Controlli senza riscontro nei documenti: '+nd.length;$('iaNdBox').hidden=!nd.length;
   $('iaResSum').textContent=pro.length+' proposte con citazione verificata su '+con.length+' controlli analizzati. Token usati: '+IA.uso.ingresso.toLocaleString('it-IT')+' in ingresso, '+IA.uso.cache_letta.toLocaleString('it-IT')+' letti dalla cache, '+IA.uso.uscita.toLocaleString('it-IT')+' in uscita.';
+  iaRepRender();
   $('iaRes').hidden=false;
 }
+
+/* ---- report dei passi da compiere ---- */
+function iaReport(){
+  const tutti=AV.controlli.filter(c=>IA.props[c.n]),con=tutti.filter(c=>!iaFuori(c)),fuori=tutti.filter(iaFuori),ord=(a,b)=>(b.star-a.star)||(a.n-b.n),lv=c=>IA.props[c.n].livello,sez=c=>AV.sezioni.find(s=>s.k===c.sez);
+  const dich=n=>{const d=IA.docs.find(x=>x.nome===n);return d&&d.adoz?IAST[d.adoz].toLowerCase()+(d.estremi?', '+d.estremi:''):''};
+  const passo=c=>{const p=IA.props[c.n],l=p.livello;
+    return {n:c.n,star:c.star,area:c.sez+'. '+sez(c).nome,testo:c.testo,evidenza:c.evidenza,rif:c.rif,tipo:TIPO[c.tipo],stato:l==null?'Nessun riscontro nei documenti':LV[l],nota:p.motivazione||'',doc:l==null?'':p.documento+(dich(p.documento)?' — dichiarato '+dich(p.documento):''),
+      fare:l==null?'Produrre o recuperare: '+c.evidenza+'. Se esiste già, caricare il documento e ripetere l’analisi.':l===1?'Portare a termine ciò che è solo avviato e formalizzarlo: '+c.evidenza+'.':l===2?'Completare e adottare formalmente: '+c.evidenza+'.':'Mantenere, tenere aggiornato e riesaminare almeno una volta l’anno.'}};
+  const g=[
+    {t:'1. Da fare per primi',d:'Controlli prioritari (★) senza riscontro o appena avviati.',v:con.filter(c=>c.star&&(lv(c)==null||lv(c)===1))},
+    {t:'2. Da avviare',d:'Gli altri controlli per cui nei documenti non c’è una prova.',v:con.filter(c=>!c.star&&lv(c)==null)},
+    {t:'3. Da completare',d:'Controlli avviati o in corso: manca un pezzo o l’adozione formale.',v:con.filter(c=>(lv(c)===1&&!c.star)||lv(c)===2)},
+    {t:'4. Da mantenere',d:'Controlli che dai documenti risultano a regime.',v:con.filter(c=>lv(c)===3)}
+  ].map(x=>({t:x.t,d:x.d,v:x.v.sort(ord).map(passo)}));
+  return {data:new Date().toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'}),documenti:IA.docs.filter(d=>d.testo).map(d=>d.nome+(d.adoz?' ('+IAST[d.adoz].toLowerCase()+(d.estremi?', '+d.estremi:'')+')':'')),ordini:(IA.ctx&&IA.ctx.ordini||[]).join(', '),fuori:fuori.map(c=>c.n),analizzati:con.length,totale:AV.controlli.length,gruppi:g};
+}
+function iaRepRender(){
+  const r=iaReport();
+  $('iaRepSum').textContent=r.gruppi.map(g=>g.t.replace(/^\d\. /,'')+': '+g.v.length).join(' · ')+'. Documenti analizzati: '+r.documenti.join('; ')+'.'+(r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'');
+  $('iaRepBody').innerHTML=r.gruppi.map((g,i)=>'<details class="iarep-g"'+(i===0||!r.gruppi[0].v.length&&i===1?' open':'')+'><summary>'+esc(g.t)+' <span class="note">('+g.v.length+')</span></summary><p class="note">'+esc(g.d)+'</p>'
+    +(g.v.length?'<ol class="iarep-l">'+g.v.map(p=>'<li><p><strong>'+esc(p.fare)+'</strong></p><p>Controllo '+p.n+(p.star?' ★':'')+' · '+esc(p.area)+': '+esc(p.testo)+'</p><p class="note">Stato: '+esc(p.stato)+(p.doc?' ('+esc(p.doc)+')':'')+' · '+esc(p.tipo)+' · Rif. '+esc(p.rif)+(p.nota?'<br>Dall’analisi: '+esc(p.nota):'')+'</p></li>').join('')+'</ol>':'<p class="note">Nessun controllo in questo gruppo.</p>')+'</details>').join('');
+}
+function iaRepMd(){
+  const r=iaReport();
+  return '# Osservatorio IA nella PA · Report dell’analisi dei documenti\n\n'+r.data+'\n\nDocumenti analizzati: '+r.documenti.join('; ')+'\n\n'+((r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'')).trim()+'\n\nControlli analizzati: '+r.analizzati+' di '+r.totale+'\n\n'
+    +r.gruppi.map(g=>'## '+g.t+' ('+g.v.length+')\n\n'+g.d+'\n\n'+(g.v.length?g.v.map((p,i)=>(i+1)+'. **'+p.fare+'**\n   - Controllo '+p.n+(p.star?' ★':'')+' · '+p.area+': '+p.testo+'\n   - Stato: '+p.stato+(p.doc?' ('+p.doc+')':'')+' · '+p.tipo+' · Rif. '+p.rif+(p.nota?'\n   - Dall’analisi: '+p.nota:'')).join('\n')+'\n':'Nessun controllo in questo gruppo.\n')).join('\n')
+    +'\n---\n\nIl report nasce solo dai documenti caricati. Lo stato di adozione è quello dichiarato da chi ha compilato il questionario. «Nessun riscontro» vuol dire che lì non c’è una prova, non che la cosa manchi. Le proposte sono generate da un modello di IA (Claude Sonnet) e vanno verificate da una persona. Non è un parere legale.\n';
+}
+function iaRepDoc(){
+  const r=iaReport();
+  return '<!doctype html><ht'+'ml lang="it"><he'+'ad><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Report dell’analisi dei documenti</title><style>body{font-family:Calibri,Arial,sans-serif;font-size:11pt;line-height:1.35}h1{font-size:18pt}h2{font-size:14pt;margin-top:18pt}li{margin-bottom:8pt}.n{color:#444;font-size:10pt}</style></he'+'ad><bo'+'dy>'
+    +'<h1>Osservatorio IA nella PA · Report dell’analisi dei documenti</h1><p>'+esc(r.data)+'</p><p>Documenti analizzati: '+esc(r.documenti.join('; '))+'</p><p>'+esc(((r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'')).trim())+'</p><p>Controlli analizzati: '+r.analizzati+' di '+r.totale+'</p>'
+    +r.gruppi.map(g=>'<h2>'+esc(g.t)+' ('+g.v.length+')</h2><p>'+esc(g.d)+'</p>'+(g.v.length?'<ol>'+g.v.map(p=>'<li><strong>'+esc(p.fare)+'</strong><br>Controllo '+p.n+(p.star?' ★':'')+' · '+esc(p.area)+': '+esc(p.testo)+'<br><span class="n">Stato: '+esc(p.stato)+(p.doc?' ('+esc(p.doc)+')':'')+' · '+esc(p.tipo)+' · Rif. '+esc(p.rif)+(p.nota?'<br>Dall’analisi: '+esc(p.nota):'')+'</span></li>').join('')+'</ol>':'<p>Nessun controllo in questo gruppo.</p>')).join('')
+    +'<hr><p class="n">Il report nasce solo dai documenti caricati. Lo stato di adozione è quello dichiarato da chi ha compilato il questionario. «Nessun riscontro» vuol dire che lì non c’è una prova, non che la cosa manchi. Le proposte sono generate da un modello di IA (Claude Sonnet) e vanno verificate da una persona. Non è un parere legale.</p></bo'+'dy></ht'+'ml>';
+}
+const iaRepName=e=>'report-osservatorio-ia-'+new Date().toISOString().slice(0,10)+'.'+e;
+$('iaRepMd').addEventListener('click',()=>saveFile(iaRepName('md'),MODE==='standalone'?new Blob([iaRepMd()],{type:'text/markdown;charset=utf-8'}):iaRepMd()));
+$('iaRepDoc').addEventListener('click',()=>saveFile(iaRepName('doc'),MODE==='standalone'?new Blob(['﻿'+iaRepDoc()],{type:'application/msword'}):iaRepDoc()));
 $('iaRun').addEventListener('click',iaRun);
 $('iaStop').addEventListener('click',()=>{IA.stop=true;iaMsg('Interruzione richiesta: attendo le risposte in corso.')});
 $('iaAll').addEventListener('click',()=>document.querySelectorAll('#iaProps [data-ian]:not(:disabled)').forEach(x=>{x.checked=true}));
