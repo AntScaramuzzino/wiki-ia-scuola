@@ -229,9 +229,22 @@ input[type=checkbox]{width:1.5rem;height:1.5rem;accent-color:var(--accent);flex:
 .iacheck span{min-width:0}
 #iaFiles{width:100%;min-height:2.75rem;padding:.4rem;border:1px dashed var(--border-ui);border-radius:4px;background:var(--surface)}
 .iarep{display:grid;gap:.75rem;border:2px solid var(--ink);border-radius:6px;padding:1rem 1.25rem;background:var(--surface)}
+.iarep h4{margin:.5rem 0 0;font-size:1.0625rem}
+.iarep-tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,9.5rem),1fr));gap:.6rem}
+.iatile{border:1px solid var(--border-ui);border-top:5px solid var(--tc,var(--border-ui));border-radius:6px;padding:.7rem .85rem;display:grid;gap:.1rem;background:var(--bg)}
+.iatile b{font-size:2rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.iatile span{font-size:.875rem;color:var(--muted);font-weight:600}
+.iatile.big{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.iatile.big span{color:inherit}
+.t1{--tc:#b3261e}.t2{--tc:#b26a00}.t3{--tc:#2f6fb0}.t4{--tc:#2e8b57}
+.iarep-n{display:inline-grid;place-items:center;min-width:2rem;height:2rem;padding:0 .4rem;border-radius:999px;border:2px solid var(--tc);font-variant-numeric:tabular-nums;font-size:.9375rem}
+#iaRepChart{min-width:0}
+.iastep{border:1px solid var(--border);border-left:6px solid var(--ac,var(--border-ui));border-radius:6px;padding:.75rem .9rem;background:var(--bg)}
+.iastep-h{display:flex;flex-wrap:wrap;gap:.35rem .75rem;align-items:center}
+.iachip{display:inline-flex;gap:.35rem;align-items:center;border:1px solid var(--border-ui);border-radius:999px;padding:.1rem .6rem;font-size:.8125rem;font-weight:600;background:var(--surface)}
 .iarep-g{border-top:1px solid var(--border)}
 .iarep-g summary{cursor:pointer;font-weight:700;min-height:2.75rem;display:flex;align-items:center;gap:.4rem}
-.iarep-l{display:grid;gap:.9rem;padding-left:1.75rem;margin:.5rem 0 1rem;list-style:decimal}
+.iarep-l{display:grid;gap:.75rem;padding-left:0;margin:.5rem 0 1rem;list-style:none}
 .iarep-l li::marker{font-weight:700}
 .iarep-l li{display:grid;gap:.25rem;overflow-wrap:anywhere}
 .iarep-l p{margin:0}
@@ -254,6 +267,33 @@ table.evo .evonow th,table.evo .evonow td{background:var(--bg);font-weight:600}
 #avImpBox,#avCmp{max-width:none;border:2px solid var(--ink)}
 #avImpBox:focus,#avCmp:focus{outline:none}
 #avImpBox:focus-visible,#avCmp:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.avnav{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border-ui);border-radius:6px;padding:.55rem .9rem;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.avnav-p{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:0;font-size:.9375rem}
+.avnav-p strong{font-size:1.25rem;font-variant-numeric:tabular-nums}
+.avnav-bar{width:7rem;height:.5rem;border-radius:999px;background:var(--bg);border:1px solid var(--border-ui);overflow:hidden;display:inline-block}
+.avnav-bar i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s}
+.avnav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.15rem .35rem}
+.avnav ul button{background:none;border:1px solid transparent;border-radius:4px;padding:.3rem .6rem;min-height:2rem;font-weight:600;color:var(--accent)}
+.avnav ul button:hover{border-color:var(--accent);background:var(--bg)}
+#view-auto [id]{scroll-margin-top:5.5rem}
+.avhow{max-width:68ch}
+.avhow>summary{cursor:pointer;font-weight:700;min-height:2.5rem;display:flex;align-items:center;gap:.5rem}
+.avhow[open]>summary{margin-bottom:.5rem}
+.avchips{display:flex;flex-wrap:wrap;gap:.4rem}
+.avchip{display:inline-flex;align-items:center;gap:.4rem;border:1px solid var(--border-ui);border-left:5px solid var(--ac);border-radius:4px;background:var(--surface);color:var(--ink);padding:.3rem .6rem;min-height:2.25rem;font-variant-numeric:tabular-nums}
+.avchip span:not(.sr-only){font-size:.8125rem;color:var(--muted)}
+.avchip:hover{border-color:var(--ink);border-left-color:var(--ac)}
+.avtog{all:unset;box-sizing:border-box;display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem;width:100%;cursor:pointer;padding:.25rem 0;min-height:2.75rem}
+.avtog:hover>span:nth-child(2){text-decoration:underline;text-underline-offset:.18em}
+.avtog:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+.avchev{margin-left:auto;align-self:center;width:.6rem;height:.6rem;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .15s;flex:none}
+.avtog[aria-expanded="true"] .avchev{transform:rotate(-135deg)}
+.avbody{display:grid;gap:.75rem}
+#avPrio{padding-left:1.75rem}
+#avPrio li .linkbtn{display:inline;padding:0}
+.ctit{overflow-wrap:break-word;hyphens:auto}
+@media (max-width:40rem){.avnav{display:grid;grid-template-columns:minmax(0,1fr);gap:.15rem;padding:.4rem .6rem}.avnav-p{font-size:.875rem;gap:.4rem}.avnav-p strong{font-size:1.0625rem}.avnav ul{flex-wrap:nowrap;overflow-x:auto;min-width:0}.avnav ul button{white-space:nowrap;padding:.25rem .45rem}.avnav-bar{width:4rem}}
+@media (prefers-reduced-motion:reduce){.avnav-bar i,.avchev{transition:none}}
 .avarea{display:grid;gap:.75rem}
 .avarea>h3{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem;border-top:2px solid var(--ink);padding-top:1rem;font-size:1.3125rem}
 .avdot{width:.8rem;height:.8rem;border-radius:2px;background:var(--ac);display:inline-block;flex:none;align-self:center}
@@ -280,7 +320,7 @@ kbd{font:500 .8125rem var(--mono);border:1px solid var(--border-ui);border-botto
 .item:hover{background:color-mix(in srgb,var(--accent) 5%,transparent)}
 #toTop{position:fixed;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(1rem + env(safe-area-inset-bottom,0px));z-index:25;box-shadow:0 2px 10px rgba(6,16,20,.25)}
 .cards{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
-.card{display:grid;grid-template-columns:minmax(0,1fr);overflow-wrap:anywhere;gap:.3rem;height:100%;padding:1.25rem;border:1px solid var(--border-ui);border-radius:6px;background:var(--surface);color:var(--ink);text-decoration:none}
+.card{display:grid;grid-template-columns:minmax(0,1fr);overflow-wrap:break-word;gap:.3rem;height:100%;padding:1.25rem;border:1px solid var(--border-ui);border-radius:6px;background:var(--surface);color:var(--ink);text-decoration:none}
 .card:hover{border-color:var(--ink);box-shadow:0 6px 18px rgba(6,16,20,.12);transform:translateY(-3px)}
 .cnum{font:700 2.6rem/1 var(--font);font-variant-numeric:tabular-nums;color:var(--accent)}
 .ctit{font-weight:700;font-size:1.1875rem}
@@ -599,6 +639,19 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
 
     <!-- ===== Autovalutazione (AUTOVAL) ===== -->
     <section class="view" id="view-auto" style="display:grid;gap:2rem">
+      <!-- UX-AUTOVAL -->
+      <nav class="avnav" aria-label="In questa pagina">
+        <p class="avnav-p"><strong id="avNavPct">0%</strong> <span id="avNavCnt">0 di 55 controlli valutati</span><span class="avnav-bar" aria-hidden="true"><i id="avNavBar"></i></span></p>
+        <ul>
+          <li><button type="button" data-avjump="avRose">Grafico</button></li>
+          <li><button type="button" data-avjump="iaBox">Dai documenti</button></li>
+          <li><button type="button" data-avjump="avPrioTitle">Priorità</button></li>
+          <li><button type="button" data-avjump="avEvoTitle">Evoluzione</button></li>
+          <li><button type="button" data-avjump="avListTitle">Controlli</button></li>
+        </ul>
+      </nav>
+      <details class="avhow" id="avHow" open>
+      <summary>Come si compila</summary>
       <div class="prose">
         <p>Per ogni controllo scegli il livello che descrive la tua scuola oggi. Un controllo è «A regime» solo se esiste il documento indicato come evidenza.</p>
         <ul>
@@ -611,6 +664,7 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
         <p>Puoi rispondere in due modi: nell’elenco area per area, oppure dal grafico. Un clic su uno spicchio o sul suo numero apre la scheda del controllo, dove scegli il livello e passi al successivo.</p>
         <p class="note">Tipo: <strong>O</strong> obbligo per ogni scuola statale · <strong>C</strong> obbligo che scatta solo se ricorre la condizione · <strong>P</strong> prassi prudente proposta, non prescritta. ★ segna i controlli da fare per primi. Le risposte restano in questo browser.</p>
       </div>
+      </details>
       <!-- IA-DOCUMENTI -->
       <div class="panel" id="iaBox">
         <h2>Parti dai documenti della scuola</h2>
@@ -661,9 +715,14 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
             <p class="note" id="iaResSum"></p>
             <!-- IA-REPORT -->
             <section class="iarep" aria-labelledby="iaRepTitle">
-              <h3 id="iaRepTitle">Report: i passi da compiere</h3>
+              <!-- IA-REPORT-2 -->
+              <h3 id="iaRepTitle">Report: la situazione e i passi da compiere</h3>
               <p class="note" id="iaRepSum"></p>
-              <div style="display:flex;flex-wrap:wrap;gap:.5rem"><button class="btn" type="button" id="iaRepDoc">Scarica il report (Word)</button><button class="btn" type="button" id="iaRepMd">Scarica il report (Markdown)</button></div>
+              <div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center"><button class="btn primary" type="button" id="iaRepDoc">Scarica il report (Word, con il grafico)</button><button class="btn" type="button" id="iaRepMd">Scarica il report (Markdown)</button> <span class="note" id="iaRepMsg" role="status"></span></div>
+              <div class="iarep-tiles" id="iaRepTiles"></div>
+              <h4>La fotografia della situazione, secondo i documenti</h4>
+              <div id="iaRepChart"></div>
+              <h4>I passi, in ordine di priorità</h4>
               <div id="iaRepBody"></div>
               <p class="note">Il report nasce solo dai documenti caricati. Lo stato di adozione è quello dichiarato da chi ha compilato il questionario. «Nessun riscontro» vuol dire che lì non c’è una prova, non che la cosa manchi: se esiste in un altro documento, caricalo e ripeti l’analisi, oppure indica il livello a mano. Non è un parere legale.</p>
             </section>
@@ -677,13 +736,13 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
       <div><h2 class="sr-only">Quadro d’insieme</h2><div id="avRose"></div>
       <div class="hbox" id="avCard" hidden tabindex="-1" role="region" aria-label="Scheda del controllo scelto"></div></div>
       <div class="panel" id="avPrioBox">
-        <h2 id="avPrioTitle">Da fare per primi</h2>
+        <h2 id="avPrioTitle" tabindex="-1">Da fare per primi</h2>
         <ol class="prose" id="avPrio"></ol>
         <p class="note" id="avPrioNone" hidden>Nessun controllo prioritario in sospeso.</p>
       </div>
       <!-- AV-EVOLUZIONE -->
       <section class="hbox avevo" aria-labelledby="avEvoTitle">
-        <h2 id="avEvoTitle">Evoluzione nel tempo</h2>
+        <h2 id="avEvoTitle" tabindex="-1">Evoluzione nel tempo</h2>
         <p class="note">Quando chiudi un giro di lavoro salva una fotografia dei livelli: la volta dopo vedi che cosa è cambiato. Con il file JSON conservi tutto, lo passi a un collega o lo riprendi su un altro dispositivo. Fotografie e file restano sul tuo dispositivo.</p>
         <div class="avevo-row">
           <div class="field"><label for="avSnapNote">Nota per la fotografia <span class="note">(facoltativa)</span></label><input id="avSnapNote" type="text" maxlength="120" autocomplete="off"></div>
@@ -704,13 +763,16 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
         <div class="hbox" id="avCmp" hidden tabindex="-1" role="region" aria-labelledby="avCmpTitle"></div>
       </section>
       <div class="listbar">
-        <h2>I controlli, area per area</h2>
+        <h2 id="avListTitle" tabindex="-1">I controlli, area per area</h2>
         <div class="tools">
+          <button class="btn small" type="button" id="avAllOpen">Apri tutte le aree</button>
+          <button class="btn small" type="button" id="avAllClose">Chiudi tutte</button>
           <button class="btn small" type="button" id="avCsv">Esporta l’autovalutazione (CSV)</button>
           <button class="btn small" type="button" id="avReset">Azzera l’autovalutazione</button>
         </div>
       </div>
-      <div id="avAreas" style="display:grid;gap:2.25rem"></div>
+      <div class="avchips" id="avChips" role="group" aria-label="Vai a un’area"></div>
+      <div id="avAreas" style="display:grid;gap:1rem"></div>
       <div class="panel">
         <h2>Avvertenze</h2>
         <ul class="prose">
@@ -935,7 +997,7 @@ const Rose = (() => {
     return `<div class="rose-bar" style="--rc:${col}"><span>${esc(label)}</span><div class="rose-track"><div class="rose-fill" style="width:${pct}%"></div><div class="rose-bub" style="left:clamp(19px,${pct}%,calc(100% - 19px))">${pct}%</div></div></div>`;
   }
 
-  async function exportPng(svg, fn, save) {
+  async function pngBlob(svg) {
     const clone = svg.cloneNode(true), src = svg.querySelectorAll("*"), dst = clone.querySelectorAll("*");
     src.forEach((e, k) => { const cs = getComputedStyle(e), d = dst[k]; ["fill", "fill-opacity", "stroke", "stroke-width", "stroke-opacity", "stroke-dasharray", "paint-order", "font-size", "font-weight", "font-family", "opacity"].forEach(p => d.style[p] = cs[p]); });
     const vb = svg.viewBox.baseVal, sc = 2, pad = 40;
@@ -950,8 +1012,10 @@ const Rose = (() => {
     const img = new Image(); await new Promise((ok, ko) => { img.onload = ok; img.onerror = ko; img.src = url; });
     const c = document.createElement("canvas"); c.width = img.width; c.height = img.height; c.getContext("2d").drawImage(img, 0, 0); URL.revokeObjectURL(url);
     const blob = await new Promise(ok => c.toBlob(ok, "image/png"));
-    return save(fn, blob);
+    return { blob, w: c.width, h: c.height };
   }
+  async function exportPng(svg, fn, save) { return save(fn, (await pngBlob(svg)).blob); }
+  const png = host => pngBlob(host.querySelector("svg"));
 
   function render(host, cfg) {
     if (!injected) { const st = document.createElement("style"); st.textContent = css; document.head.appendChild(st); injected = true; }
@@ -962,7 +1026,7 @@ const Rose = (() => {
     host.innerHTML = `<div class="rose"><div class="rose-side"><h3>${esc(cfg.totalLabel || "Livello complessivo")}</h3><p class="rose-cnt">${done} di ${cfg.items.length} controlli con un livello</p>${bar(cfg.subject || "Tutti i controlli", tot, cfg.totalCol)}
       <h4>Per ${esc(cfg.areaWord || "area")}</h4>${cfg.areas.map(a => bar(a.nome, avg(cfg.items.filter(i => i.area === a.key).map(i => i.pct)), a.col)).join("")}
       <div class="rose-tools"><button type="button" class="btn rose-png">Scarica il grafico (PNG)</button></div>
-      <p class="rose-note">${empty ? "Il grafico si riempie man mano che registri i livelli qui sotto." : "Ogni spicchio è un controllo, raggruppato per colore; la parte piena arriva all'anello del livello scelto. Tocca uno spicchio o il suo numero per aprire la scheda del controllo e scegliere il livello."}</p><p class="rose-note" data-st></p>${how}</div>
+      <p class="rose-note">${empty ? "Il grafico si riempie man mano che registri i livelli qui sotto." : (cfg.note || "Ogni spicchio è un controllo, raggruppato per colore; la parte piena arriva all'anello del livello scelto. Tocca uno spicchio o il suo numero per aprire la scheda del controllo e scegliere il livello.")}</p><p class="rose-note" data-st></p>${how}</div>
       <figure class="rose-fig"><figcaption>${esc(cfg.title)}</figcaption></figure></div>`;
     const svg = svgChart(cfg); host.querySelector(".rose-fig").appendChild(svg);
     // ritaglia il disegno sul contenuto visibile (su mobile i titoli brevi sono nascosti e il grafico si ingrandisce)
@@ -977,7 +1041,7 @@ const Rose = (() => {
       try { await exportPng(svg, cfg.filename || "grafico.png", cfg.save); st.textContent = "Immagine pronta: " + (cfg.filename || "grafico.png"); }
       catch (e) { st.textContent = e && e.code === "declined" ? "Download annullato." : "Download non disponibile qui."; } };
   }
-  return { render };
+  return { render, png };
 })();
 
 </script>
@@ -1135,10 +1199,10 @@ let av={},avSel=null;
 try{const s=JSON.parse(localStorage.getItem(AVKEY)||'{}');if(s&&typeof s==='object'&&!Array.isArray(s))AV.controlli.forEach(c=>{const x=s[c.n];if(x==='na'||[0,1,2,3].includes(x))av[c.n]=x});}catch(e){}
 function avStore(){try{localStorage.setItem(AVKEY,JSON.stringify(av))}catch(e){toast('Archiviazione locale non disponibile: i livelli valgono solo per questa sessione.')}}
 const avOpt=(c,v,l)=>'<label class="opt"><input type="radio" name="av-'+c.n+'" value="'+v+'"'+(av[c.n]===v?' checked':'')+'><span>'+l+'</span></label>';
-$('avAreas').innerHTML=AV.sezioni.map((s,i)=>'<section class="avarea" aria-labelledby="avh-'+s.k+'" style="--ac:'+AVCOL[i]+'"><h3 id="avh-'+s.k+'"><span class="avdot" aria-hidden="true"></span>'+s.k+'. '+esc(s.nome)+' <span class="note" id="avp-'+s.k+'"></span></h3>'+(s.nota?'<p class="note">'+mark(s.nota)+'</p>':'')+'<ul class="avlist">'+AV.controlli.filter(c=>c.sez===s.k).map(c=>'<li class="av" id="av-'+c.n+'"><fieldset><legend><button type="button" class="ridbtn" data-avcard="'+c.n+'" aria-label="Controllo '+c.n+(c.star?', prioritario':'')+': apri la scheda accanto al grafico">'+c.n+(c.star?' ★':'')+'</button> <span class="avq">'+mark(c.testo)+'</span>'+(c.star?'<span class="sr-only"> (prioritario)</span>':'')+'</legend><div class="avopts">'+LV.map((l,v)=>avOpt(c,v,l)).join('')+avOpt(c,'na','Non applicabile')+'</div></fieldset><p class="note"><strong>Evidenza:</strong> '+mark(c.evidenza)+' · <strong>Tipo:</strong> '+TIPO[c.tipo]+' · <strong>Rif.:</strong> '+mark(c.rif)+'</p><p class="note wikiref">Nel wiki IA: '+wlinks(c.wiki)+'</p>'+nref(c.norm)+'</li>').join('')+'</ul></section>').join('');
+$('avAreas').innerHTML=AV.sezioni.map((s,i)=>'<section class="avarea" aria-labelledby="avh-'+s.k+'" style="--ac:'+AVCOL[i]+'"><h3 id="avh-'+s.k+'"><button type="button" class="avtog" aria-expanded="false" aria-controls="avb-'+s.k+'" data-avtog="'+s.k+'"><span class="avdot" aria-hidden="true"></span><span>'+s.k+'. '+esc(s.nome)+'</span> <span class="note" id="avp-'+s.k+'"></span><span class="avchev" aria-hidden="true"></span></button></h3><div class="avbody" id="avb-'+s.k+'" hidden>'+(s.nota?'<p class="note">'+mark(s.nota)+'</p>':'')+'<ul class="avlist">'+AV.controlli.filter(c=>c.sez===s.k).map(c=>'<li class="av" id="av-'+c.n+'"><fieldset><legend><button type="button" class="ridbtn" data-avcard="'+c.n+'" aria-label="Controllo '+c.n+(c.star?', prioritario':'')+': apri la scheda accanto al grafico">'+c.n+(c.star?' ★':'')+'</button> <span class="avq">'+mark(c.testo)+'</span>'+(c.star?'<span class="sr-only"> (prioritario)</span>':'')+'</legend><div class="avopts">'+LV.map((l,v)=>avOpt(c,v,l)).join('')+avOpt(c,'na','Non applicabile')+'</div></fieldset><p class="note"><strong>Evidenza:</strong> '+mark(c.evidenza)+' · <strong>Tipo:</strong> '+TIPO[c.tipo]+' · <strong>Rif.:</strong> '+mark(c.rif)+'</p><p class="note wikiref">Nel wiki IA: '+wlinks(c.wiki)+'</p>'+nref(c.norm)+'</li>').join('')+'</ul></div></section>').join('');
 const avPct=c=>Math.round((av[c.n]||0)/3*100);
 const avItems=()=>AV.controlli.filter(c=>av[c.n]!=='na');
-function avGo(n){const li=$('av-'+n);if(!li)return;li.scrollIntoView({block:'center'});const r=li.querySelector('input:checked')||li.querySelector('input');r.focus({preventScroll:true})}
+function avGo(n){const li=$('av-'+n);if(!li)return;avArea(li.closest('.avarea').querySelector('[data-avtog]').dataset.avtog,true);li.scrollIntoView({block:'center'});const r=li.querySelector('input:checked')||li.querySelector('input');r.focus({preventScroll:true})}
 const cardOpt=(c,v,l)=>'<label class="opt"><input type="radio" name="avc" value="'+v+'"'+(av[c.n]===v?' checked':'')+'><span>'+l+'</span></label>';
 function avOpen(n,focus){
   const c=AV.controlli.find(x=>x.n===n);if(!c)return;avSel=n;
@@ -1161,6 +1225,25 @@ $('avCard').addEventListener('click',e=>{
   if(e.target.closest('[data-avlist]'))avGo(avSel)});
 $('avCard').addEventListener('keydown',e=>{if(e.key==='Escape')avClose()});
 $('avAreas').addEventListener('click',e=>{const x=e.target.closest('[data-avcard]');if(x){avOpen(Number(x.dataset.avcard),true);$('avRose').scrollIntoView({block:'start'})}});
+
+/* ---- usabilità: aree richiudibili, scorciatoie, barra della pagina ---- */
+function avArea(k,open){const t=document.querySelector('[data-avtog="'+k+'"]'),bx=$('avb-'+k);if(!t)return;const o=open==null?bx.hidden:open;bx.hidden=!o;t.setAttribute('aria-expanded',String(o))}
+$('avAreas').addEventListener('click',e=>{const t=e.target.closest('[data-avtog]');if(t)avArea(t.dataset.avtog)});
+$('avAllOpen').addEventListener('click',()=>AV.sezioni.forEach(s=>avArea(s.k,true)));
+$('avAllClose').addEventListener('click',()=>AV.sezioni.forEach(s=>avArea(s.k,false)));
+$('avChips').addEventListener('click',e=>{const x=e.target.closest('[data-avchip]');if(!x)return;avArea(x.dataset.avchip,true);const h=document.querySelector('[data-avtog="'+x.dataset.avchip+'"]');h.closest('h3').scrollIntoView({block:'start'});h.focus({preventScroll:true})});
+document.querySelector('.avnav').addEventListener('click',e=>{const x=e.target.closest('[data-avjump]');if(!x)return;const t=$(x.dataset.avjump);if(!t)return;t.scrollIntoView({block:'start'});
+  const f=t.matches('h2')?t:t.querySelector('h2,h3,[tabindex]')||t;if(!f.hasAttribute('tabindex'))f.tabIndex=-1;f.focus({preventScroll:true})});
+try{if(localStorage.getItem('ia-oss-come')==='chiuso')$('avHow').open=false}catch(e){}
+$('avHow').addEventListener('toggle',()=>{try{localStorage.setItem('ia-oss-come',$('avHow').open?'aperto':'chiuso')}catch(e){}});
+avArea((AV.controlli.find(c=>av[c.n]==null)||AV.controlli[0]).sez,true);
+function avUx(){
+  const tot=AV.controlli.length,done=AV.controlli.filter(c=>av[c.n]!=null).length,it=avItems(),pct=it.length?Math.round(it.reduce((t,c)=>t+avPct(c),0)/it.length):0;
+  $('avNavPct').textContent=pct+'%';$('avNavCnt').textContent=done+' di '+tot+' controlli valutati';$('avNavBar').style.width=Math.round(done/tot*100)+'%';
+  $('avChips').innerHTML=AV.sezioni.map((s,i)=>{const cs=AV.controlli.filter(c=>c.sez===s.k),d=cs.filter(c=>av[c.n]!=null).length;
+    return '<button type="button" class="avchip" data-avchip="'+s.k+'" style="--ac:'+AVCOL[i]+'"><span class="sr-only">Area </span><b>'+s.k+'</b><span class="sr-only">, '+esc(s.nome)+': </span><span>'+d+'/'+cs.length+'</span><span class="sr-only"> controlli valutati</span></button>'}).join('');
+  AV.sezioni.forEach(s=>{const cs=AV.controlli.filter(c=>c.sez===s.k),d=cs.filter(c=>av[c.n]!=null).length,p=$('avp-'+s.k);if(p)p.textContent=p.textContent.replace(/^· \d+ di \d+ valutati /,'· ').replace(/^· /,'· '+d+' di '+cs.length+' valutati · ')});
+}
 function avChart(){try{avEvoRender()}catch(e){}
 
   const items=avItems();
@@ -1173,6 +1256,7 @@ function avChart(){try{avEvoRender()}catch(e){}
   const pr=[...items.filter(c=>c.star&&av[c.n]!==3),...items.filter(c=>!c.star&&c.tipo==='O'&&!av[c.n])].slice(0,8);
   $('avPrio').innerHTML=pr.map(c=>'<li><button type="button" class="linkbtn" data-avgo="'+c.n+'">'+c.n+(c.star?' ★':'')+' · '+mark(c.testo)+'</button> <span class="note">('+LV[av[c.n]||0]+')</span></li>').join('');
   $('avPrio').hidden=!pr.length;$('avPrioNone').hidden=!!pr.length;
+  avUx();
 }
 $('avPrio').addEventListener('click',e=>{const b=e.target.closest('[data-avgo]');if(b)avGo(b.dataset.avgo)});
 $('avAreas').addEventListener('change',e=>{const m=e.target.name&&e.target.name.match(/^av-(\d+)$/);if(!m)return;const v=e.target.value;av[m[1]]=v==='na'?'na':Number(v);avStore();if(avSel===Number(m[1]))avOpen(avSel,false);else avChart();
@@ -1350,9 +1434,10 @@ function iaRender(){
 /* ---- report dei passi da compiere ---- */
 function iaReport(){
   const tutti=AV.controlli.filter(c=>IA.props[c.n]),con=tutti.filter(c=>!iaFuori(c)),fuori=tutti.filter(iaFuori),ord=(a,b)=>(b.star-a.star)||(a.n-b.n),lv=c=>IA.props[c.n].livello,sez=c=>AV.sezioni.find(s=>s.k===c.sez);
+  const pctOf=cs=>cs.length?Math.round(cs.reduce((t,c)=>t+Math.round((lv(c)||0)/3*100),0)/cs.length):0;
   const dich=n=>{const d=IA.docs.find(x=>x.nome===n);return d&&d.adoz?IAST[d.adoz].toLowerCase()+(d.estremi?', '+d.estremi:''):''};
   const passo=c=>{const p=IA.props[c.n],l=p.livello;
-    return {n:c.n,star:c.star,area:c.sez+'. '+sez(c).nome,testo:c.testo,evidenza:c.evidenza,rif:c.rif,tipo:TIPO[c.tipo],stato:l==null?'Nessun riscontro nei documenti':LV[l],nota:p.motivazione||'',doc:l==null?'':p.documento+(dich(p.documento)?' — dichiarato '+dich(p.documento):''),
+    return {n:c.n,star:c.star,lvl:l,sezk:c.sez,area:c.sez+'. '+sez(c).nome,testo:c.testo,evidenza:c.evidenza,rif:c.rif,tipo:TIPO[c.tipo],stato:l==null?'Nessun riscontro nei documenti':LV[l],nota:p.motivazione||'',doc:l==null?'':p.documento+(dich(p.documento)?' — dichiarato '+dich(p.documento):''),
       fare:l==null?'Produrre o recuperare: '+c.evidenza+'. Se esiste già, caricare il documento e ripetere l’analisi.':l===1?'Portare a termine ciò che è solo avviato e formalizzarlo: '+c.evidenza+'.':l===2?'Completare e adottare formalmente: '+c.evidenza+'.':'Mantenere, tenere aggiornato e riesaminare almeno una volta l’anno.'}};
   const g=[
     {t:'1. Da fare per primi',d:'Controlli prioritari (★) senza riscontro o appena avviati.',v:con.filter(c=>c.star&&(lv(c)==null||lv(c)===1))},
@@ -1360,30 +1445,85 @@ function iaReport(){
     {t:'3. Da completare',d:'Controlli avviati o in corso: manca un pezzo o l’adozione formale.',v:con.filter(c=>(lv(c)===1&&!c.star)||lv(c)===2)},
     {t:'4. Da mantenere',d:'Controlli che dai documenti risultano a regime.',v:con.filter(c=>lv(c)===3)}
   ].map(x=>({t:x.t,d:x.d,v:x.v.sort(ord).map(passo)}));
-  return {data:new Date().toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'}),documenti:IA.docs.filter(d=>d.testo).map(d=>d.nome+(d.adoz?' ('+IAST[d.adoz].toLowerCase()+(d.estremi?', '+d.estremi:'')+')':'')),ordini:(IA.ctx&&IA.ctx.ordini||[]).join(', '),fuori:fuori.map(c=>c.n),analizzati:con.length,totale:AV.controlli.length,gruppi:g};
+  return {data:new Date().toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'}),documenti:IA.docs.filter(d=>d.testo).map(d=>d.nome+(d.adoz?' ('+IAST[d.adoz].toLowerCase()+(d.estremi?', '+d.estremi:'')+')':'')),ordini:(IA.ctx&&IA.ctx.ordini||[]).join(', '),fuori:fuori.map(c=>c.n),pct:pctOf(con),aree:AV.sezioni.map((z,i)=>({k:z.k,nome:z.k+'. '+z.nome,col:AVCOL[i],cs:con.filter(c=>c.sez===z.k)})).filter(a=>a.cs.length).map(a=>({k:a.k,nome:a.nome,col:a.col,pct:pctOf(a.cs),n:a.cs.length})),items:con.map(c=>({id:String(c.n),code:String(c.n),label:c.testo,area:c.sez,pct:Math.round((lv(c)||0)/3*100)})),analizzati:con.length,totale:AV.controlli.length,gruppi:g};
 }
+const IASYM=l=>l==null?'○':l===1?'◔':l===2?'◑':'●';
 function iaRepRender(){
   const r=iaReport();
-  $('iaRepSum').textContent=r.gruppi.map(g=>g.t.replace(/^\d\. /,'')+': '+g.v.length).join(' · ')+'. Documenti analizzati: '+r.documenti.join('; ')+'.'+(r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'');
-  $('iaRepBody').innerHTML=r.gruppi.map((g,i)=>'<details class="iarep-g"'+(i===0||!r.gruppi[0].v.length&&i===1?' open':'')+'><summary>'+esc(g.t)+' <span class="note">('+g.v.length+')</span></summary><p class="note">'+esc(g.d)+'</p>'
-    +(g.v.length?'<ol class="iarep-l">'+g.v.map(p=>'<li><p><strong>'+esc(p.fare)+'</strong></p><p>Controllo '+p.n+(p.star?' ★':'')+' · '+esc(p.area)+': '+esc(p.testo)+'</p><p class="note">Stato: '+esc(p.stato)+(p.doc?' ('+esc(p.doc)+')':'')+' · '+esc(p.tipo)+' · Rif. '+esc(p.rif)+(p.nota?'<br>Dall’analisi: '+esc(p.nota):'')+'</p></li>').join('')+'</ol>':'<p class="note">Nessun controllo in questo gruppo.</p>')+'</details>').join('');
+  $('iaRepSum').textContent=r.data+'. Documenti analizzati: '+r.documenti.join('; ')+'.'+(r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'');
+  $('iaRepTiles').innerHTML='<div class="iatile big"><b>'+r.pct+'%</b><span>Livello documentato</span></div>'+r.gruppi.map((g,i)=>'<div class="iatile t'+(i+1)+'"><b>'+g.v.length+'</b><span>'+esc(g.t.replace(/^\d\. /,''))+'</span></div>').join('');
+  Rose.render($('iaRepChart'),{title:'Situazione secondo i documenti · '+r.data,totalLabel:'Livello documentato',subject:'Controlli analizzati',totalCol:'var(--accent)',areaWord:'area',levels:LV,
+    areas:r.aree.map(a=>({key:a.k,nome:a.nome,col:a.col})),items:r.items,filename:'Report_situazione_IA.png',save:saveFile,
+    note:'Ogni spicchio è un controllo; la parte piena arriva al livello che i documenti dimostrano. Uno spicchio vuoto vuol dire che nei documenti non c’è un riscontro.'});
+  $('iaRepBody').innerHTML=r.gruppi.map((g,i)=>'<details class="iarep-g"'+(i===0||!r.gruppi[0].v.length&&i===1?' open':'')+'><summary><span class="iarep-n t'+(i+1)+'">'+g.v.length+'</span> '+esc(g.t)+'</summary><p class="note">'+esc(g.d)+'</p>'
+    +(g.v.length?'<ol class="iarep-l">'+g.v.map(p=>'<li class="iastep" style="--ac:'+AVCOL[AV.sezioni.findIndex(z=>z.k===p.sezk)]+'"><p class="iastep-h"><span class="iachip"><span aria-hidden="true">'+IASYM(p.lvl)+'</span> '+esc(p.lvl==null?'Nessun riscontro':p.stato)+'</span><span class="rid">Controllo '+p.n+(p.star?' ★':'')+'</span><span class="note">'+esc(p.area)+'</span></p>'
+      +'<p><strong>'+esc(p.fare)+'</strong></p><p>'+esc(p.testo)+'</p><p class="note">'+(p.doc?'Documento: '+esc(p.doc)+' · ':'')+esc(p.tipo)+' · Rif. '+esc(p.rif)+(p.nota?'<br>Dall’analisi: '+esc(p.nota):'')+'</p></li>').join('')+'</ol>':'<p class="note">Nessun controllo in questo gruppo.</p>')+'</details>').join('');
 }
 function iaRepMd(){
   const r=iaReport();
   return '# Osservatorio IA nella PA · Report dell’analisi dei documenti\n\n'+r.data+'\n\nDocumenti analizzati: '+r.documenti.join('; ')+'\n\n'+((r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'')).trim()+'\n\nControlli analizzati: '+r.analizzati+' di '+r.totale+'\n\n'
+    +'## La situazione secondo i documenti\n\nLivello documentato: '+r.pct+'%\n\n| Area | Controlli | Livello |\n|---|---|---|\n'+r.aree.map(a=>'| '+a.nome+' | '+a.n+' | '+a.pct+'% |').join('\n')+'\n\n'
     +r.gruppi.map(g=>'## '+g.t+' ('+g.v.length+')\n\n'+g.d+'\n\n'+(g.v.length?g.v.map((p,i)=>(i+1)+'. **'+p.fare+'**\n   - Controllo '+p.n+(p.star?' ★':'')+' · '+p.area+': '+p.testo+'\n   - Stato: '+p.stato+(p.doc?' ('+p.doc+')':'')+' · '+p.tipo+' · Rif. '+p.rif+(p.nota?'\n   - Dall’analisi: '+p.nota:'')).join('\n')+'\n':'Nessun controllo in questo gruppo.\n')).join('\n')
     +'\n---\n\nIl report nasce solo dai documenti caricati. Lo stato di adozione è quello dichiarato da chi ha compilato il questionario. «Nessun riscontro» vuol dire che lì non c’è una prova, non che la cosa manchi. Le proposte sono generate da un modello di IA (Claude Sonnet) e vanno verificate da una persona. Non è un parere legale.\n';
 }
-function iaRepDoc(){
-  const r=iaReport();
-  return '<!doctype html><ht'+'ml lang="it"><he'+'ad><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Report dell’analisi dei documenti</title><style>body{font-family:Calibri,Arial,sans-serif;font-size:11pt;line-height:1.35}h1{font-size:18pt}h2{font-size:14pt;margin-top:18pt}li{margin-bottom:8pt}.n{color:#444;font-size:10pt}</style></he'+'ad><bo'+'dy>'
-    +'<h1>Osservatorio IA nella PA · Report dell’analisi dei documenti</h1><p>'+esc(r.data)+'</p><p>Documenti analizzati: '+esc(r.documenti.join('; '))+'</p><p>'+esc(((r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'')).trim())+'</p><p>Controlli analizzati: '+r.analizzati+' di '+r.totale+'</p>'
-    +r.gruppi.map(g=>'<h2>'+esc(g.t)+' ('+g.v.length+')</h2><p>'+esc(g.d)+'</p>'+(g.v.length?'<ol>'+g.v.map(p=>'<li><strong>'+esc(p.fare)+'</strong><br>Controllo '+p.n+(p.star?' ★':'')+' · '+esc(p.area)+': '+esc(p.testo)+'<br><span class="n">Stato: '+esc(p.stato)+(p.doc?' ('+esc(p.doc)+')':'')+' · '+esc(p.tipo)+' · Rif. '+esc(p.rif)+(p.nota?'<br>Dall’analisi: '+esc(p.nota):'')+'</span></li>').join('')+'</ol>':'<p>Nessun controllo in questo gruppo.</p>')).join('')
-    +'<hr><p class="n">Il report nasce solo dai documenti caricati. Lo stato di adozione è quello dichiarato da chi ha compilato il questionario. «Nessun riscontro» vuol dire che lì non c’è una prova, non che la cosa manchi. Le proposte sono generate da un modello di IA (Claude Sonnet) e vanno verificate da una persona. Non è un parere legale.</p></bo'+'dy></ht'+'ml>';
+/* .docx minimo: archivio zip senza compressione, scritto a mano (nessuna libreria) */
+const CRCT=(()=>{const t=new Uint32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return t})();
+const crc32=u=>{let c=0xFFFFFFFF;for(let i=0;i<u.length;i++)c=CRCT[(c^u[i])&255]^(c>>>8);return(c^0xFFFFFFFF)>>>0};
+function zipStore(files){
+  const enc=new TextEncoder(),parts=[],cen=[];let off=0;
+  files.forEach(f=>{const name=enc.encode(f.name),data=typeof f.data==='string'?enc.encode(f.data):f.data,crc=crc32(data);
+    const h=new DataView(new ArrayBuffer(30));h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,0x0800,true);h.setUint16(8,0,true);h.setUint16(10,0,true);h.setUint16(12,0x21,true);h.setUint32(14,crc,true);h.setUint32(18,data.length,true);h.setUint32(22,data.length,true);h.setUint16(26,name.length,true);h.setUint16(28,0,true);
+    const c=new DataView(new ArrayBuffer(46));c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);c.setUint16(6,20,true);c.setUint16(8,0x0800,true);c.setUint16(10,0,true);c.setUint16(12,0,true);c.setUint16(14,0x21,true);c.setUint32(16,crc,true);c.setUint32(20,data.length,true);c.setUint32(24,data.length,true);c.setUint16(28,name.length,true);c.setUint32(42,off,true);
+    parts.push(new Uint8Array(h.buffer),name,data);cen.push(new Uint8Array(c.buffer),name);off+=30+name.length+data.length});
+  const cl=cen.reduce((t,x)=>t+x.length,0),e=new DataView(new ArrayBuffer(22));e.setUint32(0,0x06054b50,true);e.setUint16(8,files.length,true);e.setUint16(10,files.length,true);e.setUint32(12,cl,true);e.setUint32(16,off,true);
+  return new Blob([...parts,...cen,new Uint8Array(e.buffer)],{type:'application/vnd.openxmlformats-officedocument.wordprocessingml.document'});
+}
+async function iaRepDocx(){
+  const r=iaReport(),x=s=>String(s??'').replace(/[&<>]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[m])).replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g,'');
+  const run=(t,o={})=>'<w:r><w:rPr>'+(o.b?'<w:b/>':'')+(o.i?'<w:i/>':'')+(o.c?'<w:color w:val="'+o.c+'"/>':'')+(o.sz?'<w:sz w:val="'+o.sz+'"/>':'')+'</w:rPr><w:t xml:space="preserve">'+x(t)+'</w:t></w:r>';
+  const P=(runs,o={})=>'<w:p><w:pPr>'+(o.st?'<w:pStyle w:val="'+o.st+'"/>':'')+(o.keep?'<w:keepNext/>':'')+'<w:spacing w:before="'+(o.sb??0)+'" w:after="'+(o.sa??120)+'"/>'+(o.ind?'<w:ind w:left="'+o.ind+'"/>':'')+(o.jc?'<w:jc w:val="'+o.jc+'"/>':'')+(o.bar?'<w:pBdr><w:left w:val="single" w:sz="24" w:space="8" w:color="'+o.bar+'"/></w:pBdr>':'')+'</w:pPr>'+(Array.isArray(runs)?runs.join(''):run(runs,o))+'</w:p>';
+  const cell=(inner,w,fill)=>'<w:tc><w:tcPr><w:tcW w:w="'+w+'" w:type="pct"/>'+(fill?'<w:shd w:val="clear" w:color="auto" w:fill="'+fill+'"/>':'')+'<w:tcMar><w:top w:w="90" w:type="dxa"/><w:left w:w="120" w:type="dxa"/><w:bottom w:w="90" w:type="dxa"/><w:right w:w="120" w:type="dxa"/></w:tcMar></w:tcPr>'+inner+'</w:tc>';
+  const tbl=(rows,bord)=>'<w:tbl><w:tblPr><w:tblW w:w="5000" w:type="pct"/>'+(bord?'<w:tblBorders><w:top w:val="single" w:sz="4" w:color="B8C4C2"/><w:bottom w:val="single" w:sz="4" w:color="B8C4C2"/><w:insideH w:val="single" w:sz="4" w:color="B8C4C2"/></w:tblBorders>':'')+'</w:tblPr>'+rows.map(c=>'<w:tr>'+c.join('')+'</w:tr>').join('')+'</w:tbl>';
+  const hex=c=>/^#[0-9a-f]{6}$/i.test(c)?c.slice(1).toUpperCase():'0A7C70',TILE=['10262D','8A1C1C','7A4B00','1F4E79','1E6B3A'];
+  let img=null;try{img=await Rose.png($('iaRepChart'));img.data=new Uint8Array(await img.blob.arrayBuffer())}catch(e){img=null}
+  const cx=5760000,cy=img?Math.round(cx*img.h/img.w):0;
+  const body=[
+    P('Osservatorio IA nella PA',{c:'5A6B69',sz:20,sa:0}),P('Report dell’analisi dei documenti',{st:'Title'}),
+    P(r.data+' · Controlli analizzati: '+r.analizzati+' di '+r.totale,{c:'5A6B69'}),
+    P([run('Documenti analizzati: ',{b:1}),run(r.documenti.join('; '))]),
+    r.ordini?P([run('Ordini di scuola: ',{b:1}),run(r.ordini+(r.fuori.length?'. Controlli non pertinenti, esclusi dal report: '+r.fuori.join(', '):''))]):'',
+    P('La situazione in sintesi',{st:'Heading1'}),
+    tbl([[cell(P(r.pct+'%',{b:1,sz:44,c:'FFFFFF',sa:0,jc:'center'})+P('Livello documentato',{c:'FFFFFF',sz:18,sa:0,jc:'center'}),1000,TILE[0])]
+      .concat(r.gruppi.map((g,i)=>cell(P(String(g.v.length),{b:1,sz:44,c:'FFFFFF',sa:0,jc:'center'})+P(g.t.replace(/^\d\. /,''),{c:'FFFFFF',sz:18,sa:0,jc:'center'}),1000,TILE[i+1])))]),
+    P('',{sa:60}),
+    P('La fotografia della situazione, secondo i documenti',{st:'Heading1'}),
+    img?'<w:p><w:pPr><w:jc w:val="center"/></w:pPr><w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp:extent cx="'+cx+'" cy="'+cy+'"/><wp:docPr id="1" name="Grafico" descr="Grafico a spicchi: ogni spicchio è un controllo, pieno fino al livello che i documenti dimostrano. I valori sono nella tabella che segue."/><a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:nvPicPr><pic:cNvPr id="1" name="grafico.png"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="rId2"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="'+cx+'" cy="'+cy+'"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r></w:p>'
+       +P('Ogni spicchio è un controllo; la parte piena arriva al livello che i documenti dimostrano. Uno spicchio vuoto vuol dire che nei documenti non c’è un riscontro.',{c:'5A6B69',sz:18,jc:'center'}):'',
+    tbl([[cell(P('Area',{b:1,sa:0}),3000,'E8EEED'),cell(P('Controlli',{b:1,sa:0}),1000,'E8EEED'),cell(P('Livello',{b:1,sa:0}),1000,'E8EEED')]]
+      .concat(r.aree.map(a=>[cell(P([run('■ ',{c:hex(a.col)}),run(a.nome)],{sa:0}),3000),cell(P(String(a.n),{sa:0}),1000),cell(P(a.pct+'%',{b:1,sa:0}),1000)])),true),
+    P('I passi, in ordine di priorità',{st:'Heading1',sb:360})
+  ].concat(r.gruppi.flatMap((g,gi)=>[P(g.t+' ('+g.v.length+')',{st:'Heading2'}),P(g.d,{c:'5A6B69',keep:1})].concat(g.v.length?g.v.flatMap((p,i)=>[
+      P([run((i+1)+'. ',{b:1,c:TILE[gi+1]}),run(p.fare,{b:1})],{sb:160,sa:40,bar:hex(AVCOL[AV.sezioni.findIndex(z=>z.k===p.sezk)]),keep:1}),
+      P([run('Controllo '+p.n+(p.star?' ★':'')+' · '+p.area+'. ',{b:1,sz:20}),run(p.testo,{sz:20})],{sa:40,bar:hex(AVCOL[AV.sezioni.findIndex(z=>z.k===p.sezk)])}),
+      P([run(IASYM(p.lvl)+' '+p.stato+(p.doc?' ('+p.doc+')':'')+' · '+p.tipo+' · Rif. '+p.rif,{sz:18,c:'5A6B69'})].concat(p.nota?[run(' — Dall’analisi: '+p.nota,{sz:18,c:'5A6B69',i:1})]:[]),{sa:80,bar:hex(AVCOL[AV.sezioni.findIndex(z=>z.k===p.sezk)])})
+    ]):[P('Nessun controllo in questo gruppo.',{c:'5A6B69'})])))
+   .concat([P('Il report nasce solo dai documenti caricati. Lo stato di adozione è quello dichiarato da chi ha compilato il questionario. «Nessun riscontro» vuol dire che lì non c’è una prova, non che la cosa manchi. Le proposte sono generate da un modello di IA (Claude Sonnet) e vanno verificate da una persona. Non è un parere legale.',{sz:18,c:'5A6B69',sb:360})]);
+  const NSW='xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"',XH='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>';
+  const st=(id,nome,sz,b,col,sb,sa,base)=>'<w:style w:type="paragraph" w:styleId="'+id+'"><w:name w:val="'+nome+'"/>'+(base?'<w:basedOn w:val="Normal"/><w:next w:val="Normal"/>':'')+'<w:qFormat/><w:pPr>'+(base?'<w:keepNext/>':'')+'<w:spacing w:before="'+sb+'" w:after="'+sa+'"/></w:pPr><w:rPr>'+(b?'<w:b/>':'')+'<w:color w:val="'+col+'"/><w:sz w:val="'+sz+'"/></w:rPr></w:style>';
+  const files=[
+    {name:'[Content_Types].xml',data:XH+'<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Default Extension="png" ContentType="image/png"/><Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/><Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/></Types>'},
+    {name:'_rels/.rels',data:XH+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/></Relationships>'},
+    {name:'word/document.xml',data:XH+'<w:document '+NSW+'><w:body>'+body.join('')+'<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="708" w:footer="708" w:gutter="0"/></w:sectPr></w:body></w:document>'},
+    {name:'word/styles.xml',data:XH+'<w:styles '+NSW+'><w:docDefaults><w:rPrDefault><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:sz w:val="22"/><w:lang w:val="it-IT"/></w:rPr></w:rPrDefault><w:pPrDefault><w:pPr><w:spacing w:after="120" w:line="276" w:lineRule="auto"/></w:pPr></w:pPrDefault></w:docDefaults>'
+      +'<w:style w:type="paragraph" w:default="1" w:styleId="Normal"><w:name w:val="Normal"/><w:qFormat/></w:style>'+st('Title','Title',52,1,'10262D',0,120,1)+st('Heading1','heading 1',30,1,'10262D',320,120,1)+st('Heading2','heading 2',25,1,'006050',280,80,1)+'</w:styles>'},
+    {name:'word/_rels/document.xml.rels',data:XH+'<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>'+(img?'<Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image" Target="media/grafico.png"/>':'')+'</Relationships>'}
+  ];
+  if(img)files.push({name:'word/media/grafico.png',data:img.data});
+  return {blob:zipStore(files),grafico:!!img};
 }
 const iaRepName=e=>'report-osservatorio-ia-'+new Date().toISOString().slice(0,10)+'.'+e;
 $('iaRepMd').addEventListener('click',()=>saveFile(iaRepName('md'),MODE==='standalone'?new Blob([iaRepMd()],{type:'text/markdown;charset=utf-8'}):iaRepMd()));
-$('iaRepDoc').addEventListener('click',()=>saveFile(iaRepName('doc'),MODE==='standalone'?new Blob(['﻿'+iaRepDoc()],{type:'application/msword'}):iaRepDoc()));
+$('iaRepDoc').addEventListener('click',async()=>{const m=$('iaRepMsg');m.textContent='Preparo il file…';try{const d=await iaRepDocx();await saveFile(iaRepName('docx'),d.blob);m.textContent='File Word pronto'+(d.grafico?', con il grafico.':'. Il grafico non è stato incluso: scaricalo a parte con «Scarica il grafico (PNG)».')}catch(e){m.textContent='Download non riuscito o annullato.'}});
 $('iaRun').addEventListener('click',iaRun);
 $('iaStop').addEventListener('click',()=>{IA.stop=true;iaMsg('Interruzione richiesta: attendo le risposte in corso.')});
 $('iaAll').addEventListener('click',()=>document.querySelectorAll('#iaProps [data-ian]:not(:disabled)').forEach(x=>{x.checked=true}));
