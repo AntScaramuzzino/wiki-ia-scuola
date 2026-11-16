@@ -264,7 +264,10 @@ table.evo tbody th{font-weight:600}
 table.evo .evonow th,table.evo .evonow td{background:var(--bg);font-weight:600}
 .evoact{white-space:nowrap}
 .evoch{list-style:none;padding:0;display:grid;gap:.45rem}
-#avImpBox,#avCmp{max-width:none;border:2px solid var(--ink)}
+#avImpBox,#avCmp,#avShare{max-width:none;border:2px solid var(--ink)}
+#avShare:focus{outline:none}
+#avShare:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+#avShareUrl{font-family:var(--mono);font-size:.8125rem}
 #avImpBox:focus,#avCmp:focus{outline:none}
 #avImpBox:focus-visible,#avCmp:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .avnav{position:sticky;top:0;z-index:20;display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border-ui);border-radius:6px;padding:.55rem .9rem;box-shadow:0 2px 10px rgba(0,0,0,.08)}
@@ -749,8 +752,17 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
           <button class="btn primary" type="button" id="avSnap">Salva la fotografia di oggi</button>
         </div>
         <div class="avevo-row">
+          <button class="btn" type="button" id="avShareBtn" aria-expanded="false" aria-controls="avShare">Condividi con un link</button>
           <button class="btn" type="button" id="avJson">Esporta in JSON</button>
           <div class="field"><label for="avImp">Importa un file JSON</label><input id="avImp" type="file" accept=".json,application/json"></div>
+        </div>
+        <!-- AV-CONDIVIDI -->
+        <div class="hbox" id="avShare" hidden tabindex="-1" role="group" aria-labelledby="avShareTitle">
+          <h3 id="avShareTitle">Condividi l’autovalutazione</h3>
+          <p class="note">Il link contiene i livelli di oggi, non i documenti né le fotografie. Chi lo apre vede la tua autovalutazione, può confrontarla con la propria o prenderla come base: mandalo solo a chi deve vederla. Se poi cambi i livelli, il link già inviato non cambia: ne serve uno nuovo.</p>
+          <div class="field" style="max-width:28rem"><label for="avShareNote">Nota per chi riceve <span class="note">(facoltativa, viaggia nel link)</span></label><input id="avShareNote" type="text" maxlength="80" autocomplete="off"></div>
+          <div class="field"><label for="avShareUrl">Link da condividere</label><input id="avShareUrl" type="text" readonly></div>
+          <div style="display:flex;flex-wrap:wrap;gap:.5rem;align-items:center"><button class="btn primary" type="button" id="avShareCopy">Copia il link</button><button class="btn" type="button" id="avShareSys" hidden>Condividi…</button><a class="btn" id="avShareMail" href="#">Invia per email</a><button class="btn" type="button" id="avShareNo">Chiudi</button> <span class="note" id="avShareMsg" role="status"></span></div>
         </div>
         <div class="hbox" id="avImpBox" hidden tabindex="-1" role="group" aria-labelledby="avImpTitle">
           <h3 id="avImpTitle">File letto</h3>
@@ -1314,15 +1326,44 @@ $('avImp').addEventListener('change',async e=>{const f=e.target.files[0];e.targe
   if(!d||d.formato!==EVFMT||!d.attuale||typeof d.attuale!=='object'){$('avEvoMsg').textContent='Il file non è un’esportazione dell’autovalutazione dell’Osservatorio (formato non riconosciuto).';return}
   evFile={livelli:evClean(d.attuale.livelli),foto:(Array.isArray(d.fotografie)?d.fotografie:[]).filter(evSnapOk).map(evNorm),quando:evSnapOk({data:d.esportato})?d.esportato:null};
   const nuove=evFile.foto.filter(s=>!evo.some(x=>x.id===s.id)).length;
+  $('avImpTitle').textContent='File letto';$('avImpAdd').textContent='Aggiungi solo le fotografie';$('avImpAll').textContent='Aggiungi le fotografie e sostituisci i livelli di oggi';
   $('avImpSum').textContent='«'+f.name+'»'+(evFile.quando?', esportato il '+evDate(evFile.quando):'')+': livelli con '+evDone(evFile.livelli)+' controlli valutati ('+evPct(evFile.livelli,AV.controlli)+'% complessivo) e '+evFile.foto.length+(evFile.foto.length===1?' fotografia':' fotografie')+', di cui '+nuove+' non ancora presenti qui.';
   $('avEvoMsg').textContent='';$('avImpBox').hidden=false;$('avImpBox').focus({preventScroll:true})});
 function evImport(all){if(!evFile)return;let n=0;evFile.foto.forEach(s=>{if(!evo.some(x=>x.id===s.id)){evo.push(s);n++}});evStore();
   if(all){av=evFile.livelli;avStore();document.querySelectorAll('#avAreas input:checked').forEach(i=>{i.checked=false});Object.keys(av).forEach(k=>{const i=document.querySelector('input[name="av-'+k+'"][value="'+av[k]+'"]');if(i)i.checked=true});
     if(avSel!=null)avOpen(avSel,false);else avChart()}
-  evFile=null;$('avImpBox').hidden=true;$('avCmp').hidden=true;avEvoRender();$('avEvoMsg').textContent='Importazione completata: '+n+(n===1?' fotografia aggiunta':' fotografie aggiunte')+(all?', livelli di oggi sostituiti con quelli del file.':'. I livelli di oggi non sono cambiati.');$('avEvoList').focus()}
+  evFile=null;$('avImpBox').hidden=true;$('avCmp').hidden=true;avEvoRender();$('avEvoMsg').textContent='Importazione completata: '+n+(n===1?' fotografia aggiunta':' fotografie aggiunte')+(all?', livelli di oggi sostituiti con quelli ricevuti.':'. I livelli di oggi non sono cambiati.');$('avEvoList').focus()}
 $('avImpAdd').addEventListener('click',()=>evImport(false));$('avImpAll').addEventListener('click',()=>evImport(true));
 $('avImpNo').addEventListener('click',()=>{evFile=null;$('avImpBox').hidden=true;$('avImp').focus()});
 avEvoRender();
+
+/* ---- condivisione con un link: i livelli stanno nell'indirizzo ---- */
+const shCode=L=>AV.controlli.map(c=>L[c.n]==='na'?'n':L[c.n]==null?'-':String(L[c.n])).join('');
+const shRead=s=>{const o={};AV.controlli.forEach((c,i)=>{const x=s[i];if(x==='n')o[c.n]='na';else if(x!=='-')o[c.n]=Number(x)});return o};
+function shUrl(){const u=new URL(location.href);u.search='';u.hash='autovalutazione';u.searchParams.set('av',shCode(av));u.searchParams.set('d',new Date().toISOString().slice(0,10));const n=$('avShareNote').value.trim();if(n)u.searchParams.set('nota',n);return u.href}
+function shFill(){const u=shUrl();$('avShareUrl').value=u;$('avShareMail').href='mailto:?subject='+encodeURIComponent('Autovalutazione IA della scuola')+'&body='+encodeURIComponent('Ti condivido l’autovalutazione sull’IA della scuola ('+evPct(av,AV.controlli)+'% complessivo, '+evDone(av)+' controlli valutati su '+AV.controlli.length+').\n\nAprila da qui:\n'+u+'\n')}
+if(MODE!=='standalone')$('avShareBtn').hidden=true;
+$('avShareBtn').addEventListener('click',()=>{const bx=$('avShare');if(!bx.hidden){bx.hidden=true;$('avShareBtn').setAttribute('aria-expanded','false');return}
+  if(!evDone(av)){$('avEvoMsg').textContent='Non c’è ancora nessun controllo valutato: indica almeno un livello prima di condividere.';return}
+  shFill();$('avShareMsg').textContent='';$('avShareSys').hidden=!navigator.share;bx.hidden=false;$('avShareBtn').setAttribute('aria-expanded','true');bx.focus({preventScroll:true});bx.scrollIntoView({block:'nearest'})});
+$('avShareNote').addEventListener('input',shFill);
+$('avShareUrl').addEventListener('focus',e=>e.target.select());
+$('avShareCopy').addEventListener('click',()=>{const u=$('avShareUrl'),m=$('avShareMsg'),ko=()=>{u.focus();u.select();m.textContent='Link selezionato: copialo con la tastiera.'};try{navigator.clipboard.writeText(u.value).then(()=>{m.textContent='Link copiato.'},ko)}catch(e){ko()}});
+$('avShareSys').addEventListener('click',()=>{navigator.share({title:'Autovalutazione IA della scuola',text:'Autovalutazione sull’IA della scuola: '+evPct(av,AV.controlli)+'% complessivo.',url:$('avShareUrl').value}).catch(()=>{})});
+$('avShareNo').addEventListener('click',()=>{$('avShare').hidden=true;$('avShareBtn').setAttribute('aria-expanded','false');$('avShareBtn').focus()});
+(function(){ // apertura di un link condiviso
+  let q;try{q=new URLSearchParams(location.search)}catch(e){return}
+  const code=q.get('av');if(!code)return;
+  try{const u=new URL(location.href);u.search='';history.replaceState(null,'',u.href)}catch(e){}
+  if(!new RegExp('^[0-3n-]{'+AV.controlli.length+'}$').test(code)){$('avEvoMsg').textContent='Il link condiviso non è valido o è incompleto: chiedi a chi te l’ha mandato di copiarlo di nuovo per intero.';return}
+  const L=shRead(code),d=/^\d{4}-\d\d-\d\d$/.test(q.get('d')||'')&&!isNaN(Date.parse(q.get('d')))?q.get('d')+'T12:00:00.000Z':new Date().toISOString(),nota=String(q.get('nota')||'').replace(/[\u0000-\u001f<>]/g,' ').trim().slice(0,80);
+  evFile={livelli:L,foto:[evNorm({id:'c'+d.slice(0,10)+'-'+[...code].reduce((h,ch)=>(h*31+ch.charCodeAt(0))>>>0,7).toString(36),data:d,nota:'Condivisa'+(nota?': '+nota:''),livelli:L})],quando:null};
+  const gia=evo.some(x=>x.id===evFile.foto[0].id);
+  $('avImpTitle').textContent='Autovalutazione condivisa';
+  $('avImpSum').textContent='Hai aperto un’autovalutazione condivisa'+(nota?' («'+nota+'»)':'')+', del '+new Date(d).toLocaleDateString('it-IT',{day:'numeric',month:'long',year:'numeric'})+': '+evDone(L)+' controlli valutati su '+AV.controlli.length+', '+evPct(L,AV.controlli)+'% complessivo. '+(evDone(av)?'Qui ci sono già i tuoi livelli ('+evPct(av,AV.controlli)+'% complessivo): se la aggiungi alle fotografie puoi confrontarla con «Confronta con oggi» senza perdere nulla.':'Su questo dispositivo non ci sono ancora livelli: puoi prenderla come punto di partenza.')+(gia?' Questa condivisione è già tra le tue fotografie.':'');
+  $('avImpAdd').textContent='Aggiungila alle fotografie';$('avImpAll').textContent='Usala come mia autovalutazione';
+  $('avImpBox').hidden=false;setTimeout(()=>{$('avImpBox').scrollIntoView({block:'center'});$('avImpBox').focus({preventScroll:true})},400);
+})();
 $('avReset').addEventListener('click',()=>$('dlgAv').showModal());
 $('dlgAv').addEventListener('close',()=>{if($('dlgAv').returnValue==='ok'){av={};avStore();document.querySelectorAll('#avAreas input:checked').forEach(i=>{i.checked=false});avSel=null;$('avCard').hidden=true;$('avCard').innerHTML='';avChart();toast('Autovalutazione azzerata.')}$('dlgAv').returnValue='';$('avReset').focus()});
 $('avCsv').addEventListener('click',()=>{const val=s=>'"'+String(s).replace(/"/g,'""')+'"';const nome=k=>AV.sezioni.find(s=>s.k===k).nome;
