@@ -292,8 +292,12 @@ table.evo .evonow th,table.evo .evonow td{background:var(--bg);font-weight:600}
 .avchev{margin-left:auto;align-self:center;width:.6rem;height:.6rem;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);transition:transform .15s;flex:none}
 .avtog[aria-expanded="true"] .avchev{transform:rotate(-135deg)}
 .avbody{display:grid;gap:.75rem}
-#avPrio{padding-left:1.75rem}
+#avPrio{list-style:none;padding:0;gap:.6rem}
+#avPrio li{display:grid;grid-template-columns:3.25rem minmax(0,1fr);gap:.6rem;align-items:start;margin:0}
 #avPrio li .linkbtn{display:inline;padding:0}
+.avpn{font:700 .875rem var(--mono);font-variant-numeric:tabular-nums;color:var(--bg);background:var(--r-1,var(--ink));border-radius:4px;padding:.15rem .4rem;text-align:center;white-space:nowrap}
+.avpl{display:inline-block;font-size:.8125rem;font-weight:600;border:1px solid var(--border-ui);border-bottom:3px solid var(--lc,var(--border-ui));border-radius:4px;padding:0 .4rem;white-space:nowrap}
+.avpl.l0{--lc:var(--l-0)}.avpl.l1{--lc:var(--l-1)}.avpl.l2{--lc:var(--l-2)}.avpl.l3{--lc:var(--l-3)}
 .ctit{overflow-wrap:break-word;hyphens:auto}
 @media (max-width:40rem){.avnav{display:grid;grid-template-columns:minmax(0,1fr);gap:.15rem;padding:.4rem .6rem}.avnav-p{font-size:.875rem;gap:.4rem}.avnav-p strong{font-size:1.0625rem}.avnav ul{flex-wrap:nowrap;overflow-x:auto;min-width:0}.avnav ul button{white-space:nowrap;padding:.25rem .45rem}.avnav-bar{width:4rem}}
 @media (prefers-reduced-motion:reduce){.avnav-bar i,.avchev{transition:none}}
@@ -423,6 +427,64 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
   .phase,.nuclei li,.panel{break-inside:avoid}
   a{color:#000}
 }
+/* PIU-COLORE */
+:root{--c-a:#00695c;--c-b:#1f5fae;--c-c:#b23b1e;--c-d:#6d3fb5;--c-e:#2f7a34;--c-f:#855600;--c-g:#a3306e;--c-h:#3d5a80;--c-i:#5a6610;--l-0:#56636b;--l-1:#855600;--l-2:#1f5fae;--l-3:#2f7a34;--r-1:#b3261e;--r-2:#b23b1e;--r-3:#855600;--r-4:#1f5fae;--r-5:#2f7a34}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--c-a:#6fd3c0;--c-b:#8db8f2;--c-c:#f2a48f;--c-d:#c3a8f2;--c-e:#8fd694;--c-f:#f0c26b;--c-g:#f09cc4;--c-h:#a9c3e6;--c-i:#cbd66f;--l-0:#b9c4c9;--l-1:#f0c26b;--l-2:#8db8f2;--l-3:#8fd694;--r-1:#f5a39b;--r-2:#f2a48f;--r-3:#f0c26b;--r-4:#8db8f2;--r-5:#8fd694}}
+:root[data-theme="dark"]{--c-a:#6fd3c0;--c-b:#8db8f2;--c-c:#f2a48f;--c-d:#c3a8f2;--c-e:#8fd694;--c-f:#f0c26b;--c-g:#f09cc4;--c-h:#a9c3e6;--c-i:#cbd66f;--l-0:#b9c4c9;--l-1:#f0c26b;--l-2:#8db8f2;--l-3:#8fd694;--r-1:#f5a39b;--r-2:#f2a48f;--r-3:#f0c26b;--r-4:#8db8f2;--r-5:#8fd694}
+.side a[href="#cat-a"],.mrow:has(.mlab[href="#cat-a"]),.item[data-cat="A"]{--cc:var(--c-a)}
+.side a[href="#cat-b"],.mrow:has(.mlab[href="#cat-b"]),.item[data-cat="B"]{--cc:var(--c-b)}
+.side a[href="#cat-c"],.mrow:has(.mlab[href="#cat-c"]),.item[data-cat="C"]{--cc:var(--c-c)}
+.side a[href="#cat-d"],.mrow:has(.mlab[href="#cat-d"]),.item[data-cat="D"]{--cc:var(--c-d)}
+.side a[href="#cat-e"],.mrow:has(.mlab[href="#cat-e"]),.item[data-cat="E"]{--cc:var(--c-e)}
+.side a[href="#cat-f"],.mrow:has(.mlab[href="#cat-f"]),.item[data-cat="F"]{--cc:var(--c-f)}
+.side a[href="#cat-g"],.mrow:has(.mlab[href="#cat-g"]),.item[data-cat="G"]{--cc:var(--c-g)}
+.side a[href="#cat-h"],.mrow:has(.mlab[href="#cat-h"]),.item[data-cat="H"]{--cc:var(--c-h)}
+.side a[href="#cat-i"],.mrow:has(.mlab[href="#cat-i"]),.item[data-cat="I"]{--cc:var(--c-i)}
+.side a[href^="#cat-"]::before{content:"";width:.7rem;height:.7rem;border-radius:2px;background:var(--cc);flex:none;align-self:center}
+.side a[href^="#cat-"][aria-current="page"]{background:var(--cc);color:var(--bg)}
+.side a[href^="#cat-"][aria-current="page"]::before{content:"›";width:auto;height:auto;background:none}
+.side a[href="#autovalutazione"]{--cc:var(--c-d)}.side a[href="#scuola"]{--cc:var(--c-f)}.side a[href="#roadmap"]{--cc:var(--c-e)}.side a[href="#criteri"]{--cc:var(--c-h)}.side a[href="#panoramica"]{--cc:var(--c-a)}.side a[href="#repertorio"]{--cc:var(--c-b)}
+.side a[href="#autovalutazione"],.side a[href="#scuola"],.side a[href="#roadmap"],.side a[href="#criteri"],.side a[href="#panoramica"],.side a[href="#repertorio"]{border-left:4px solid var(--cc)}
+.item[data-cat]{border-left:5px solid var(--cc);padding-left:.75rem}
+.item[data-cat] .rid{color:var(--cc);font-weight:700}
+.mrow .mlab{border-left:5px solid var(--cc);padding-left:.5rem}
+.mseg{border-color:var(--cc);color:var(--cc)}
+.mseg.k-obbligo{background:var(--cc);color:var(--bg);border-color:var(--cc)}
+.mseg.k-condizionato{color:var(--ink);background:repeating-linear-gradient(135deg,var(--surface) 0 6px,color-mix(in srgb,var(--cc) 38%,var(--surface)) 6px 9px)}
+.cards>li:nth-child(1) .card{--cc:var(--c-b)}.cards>li:nth-child(2) .card{--cc:var(--c-d)}.cards>li:nth-child(3) .card{--cc:var(--c-f)}.cards>li:nth-child(4) .card{--cc:var(--c-e)}
+.card{border-top:6px solid var(--cc,var(--accent));background:linear-gradient(180deg,color-mix(in srgb,var(--cc,var(--accent)) 9%,var(--surface)),var(--surface) 55%)}
+.card .cnum,.card .cgo{color:var(--cc,var(--accent))}
+.card:hover{border-color:var(--cc,var(--accent))}
+.tag.kind.k-obbligo svg,.tag.kind svg{color:var(--c-c)}
+.opt input[value="0"]:checked+span{background:var(--l-0);border-color:var(--l-0);color:var(--bg)}
+.opt input[value="1"]:checked+span{background:var(--l-1);border-color:var(--l-1);color:var(--bg)}
+.opt input[value="2"]:checked+span{background:var(--l-2);border-color:var(--l-2);color:var(--bg)}
+.opt input[value="3"]:checked+span{background:var(--l-3);border-color:var(--l-3);color:var(--bg)}
+.opt input[value="0"]+span{box-shadow:inset 0 -3px 0 var(--l-0)}.opt input[value="1"]+span{box-shadow:inset 0 -3px 0 var(--l-1)}.opt input[value="2"]+span{box-shadow:inset 0 -3px 0 var(--l-2)}.opt input[value="3"]+span{box-shadow:inset 0 -3px 0 var(--l-3)}
+#hmRisk .rbtn:nth-child(1){--rc:var(--r-1)}#hmRisk .rbtn:nth-child(2){--rc:var(--r-2)}#hmRisk .rbtn:nth-child(3){--rc:var(--r-3)}#hmRisk .rbtn:nth-child(4){--rc:var(--r-4)}#hmRisk .rbtn:nth-child(5){--rc:var(--r-5)}
+#hmRisk .rbtn{border-left:6px solid var(--rc)}
+#hmRisk .rbtn[aria-pressed="true"]{background:var(--rc);border-color:var(--rc);color:var(--bg)}
+.phase:nth-child(6n+1),.nuclei li:nth-child(6n+1){--cc:var(--c-a)}.phase:nth-child(6n+2),.nuclei li:nth-child(6n+2){--cc:var(--c-b)}.phase:nth-child(6n+3),.nuclei li:nth-child(6n+3){--cc:var(--c-d)}
+.phase:nth-child(6n+4),.nuclei li:nth-child(6n+4){--cc:var(--c-g)}.phase:nth-child(6n+5),.nuclei li:nth-child(6n+5){--cc:var(--c-f)}.phase:nth-child(6n),.nuclei li:nth-child(6n){--cc:var(--c-e)}
+.phase .num,.nuclei li::before{color:var(--cc)}
+.phase{border-left:5px solid var(--cc);padding-left:.9rem}
+.nuclei li::before{font-weight:700}
+.calbtn{border-left:5px solid var(--c-h)}
+.calbtn.past{border-left-color:var(--c-e)}
+.calbtn[aria-pressed="true"]{border-left-color:var(--ink)}
+.t1{--tc:var(--r-1)}.t2{--tc:var(--c-f)}.t3{--tc:var(--c-b)}.t4{--tc:var(--c-e)}
+.iatile:not(.big){background:linear-gradient(180deg,color-mix(in srgb,var(--tc) 10%,var(--bg)),var(--bg) 70%)}
+.iatile:not(.big) b{color:var(--tc)}
+.avnav-bar i{background:linear-gradient(90deg,var(--c-a),var(--c-b),var(--c-d))}
+@media (forced-colors:active){.item[data-cat],.phase,.card,.calbtn,#hmRisk .rbtn{border-color:CanvasText}}
+@media print{.card{background:#fff}}
+/* TASTI-LIVELLO: più piccoli della domanda, che resta la cosa da leggere */
+.av legend,#avCard legend{font-size:1.125rem;font-weight:700;line-height:1.4}
+.avopts{gap:.3rem .35rem}
+.avopts .opt span{min-height:1.875rem;padding:.1rem .6rem;font-size:.8125rem;font-weight:600;border-radius:999px}
+.avopts .opt input:checked+span{padding-inline:.5rem .7rem}
+.av .note{font-size:.8125rem}
+@media (max-width:40rem){.avopts{display:flex;flex-wrap:wrap}.avopts .opt span{width:auto;min-height:2rem}}
 </style>
 </head>
 <body>
@@ -740,7 +802,7 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
       <div class="hbox" id="avCard" hidden tabindex="-1" role="region" aria-label="Scheda del controllo scelto"></div></div>
       <div class="panel" id="avPrioBox">
         <h2 id="avPrioTitle" tabindex="-1">Da fare per primi</h2>
-        <ol class="prose" id="avPrio"></ol>
+        <ul class="prose" id="avPrio"></ul>
         <p class="note" id="avPrioNone" hidden>Nessun controllo prioritario in sospeso.</p>
       </div>
       <!-- AV-EVOLUZIONE -->
@@ -1114,7 +1176,7 @@ function storeChecks(){try{localStorage.setItem('agid-ia-v1-checklist',JSON.stri
 Object.entries(CATS).forEach(([c,label])=>{const li=document.createElement('li');li.innerHTML='<a href="#cat-'+c.toLowerCase()+'" data-route="cat-'+c.toLowerCase()+'">'+esc(label)+' <span class="count" data-count="'+c+'"></span></a>';$('catList').append(li)});
 const hay={};
 $('list').innerHTML=DATA.map(d=>{hay[d.id]=low([d.title,d.action,d.ref,d.when,CATS[d.cat],SCOPES[d.scope],d.id].join(' '));const p=page(d.ref);
-return '<li class="item'+(checks[d.id]?' done':'')+'" data-id="'+d.id+'"><details><summary><span class="rid">'+d.id+'</span><h3 id="t-'+d.id+'">'+mark(d.title)+'</h3><span class="plus" aria-hidden="true"></span><span class="tags">'+kindTag(d.kind)+'<span class="tag scope-'+d.scope+'">'+esc(SCOPES[d.scope])+'</span><span class="tag cat">'+esc(CATS[d.cat])+'</span></span></summary><div class="detail"><p>'+mark(d.action)+'</p><dl class="meta"><div><dt>Quando / condizione</dt><dd>'+mark(d.when)+'</dd></div><div><dt>Riferimento nel PDF</dt><dd>'+esc(d.ref)+'</dd></div></dl><p><a href="'+PDF+'#page='+p+'" target="_blank" rel="noopener">Apri la fonte a p. '+p+' <span class="sr-only">(PDF, si apre in una nuova scheda)</span><span aria-hidden="true">↗</span></a></p><p class="note wikiref">Nel wiki IA: '+wlinks(voceWiki(d))+'</p>'+nref(NM.categorie[d.cat])+(MODE==='standalone'?'<p><button type="button" class="linkbtn" data-copy="'+d.id+'">Copia il link a questa voce</button></p>':'')+'</div></details><label class="check"><input type="checkbox" id="c-'+d.id+'" data-check="'+d.id+'" aria-labelledby="cl-'+d.id+' t-'+d.id+'"'+(checks[d.id]?' checked':'')+'><span id="cl-'+d.id+'">Presidiata</span></label></li>'}).join('');
+return '<li class="item'+(checks[d.id]?' done':'')+'" data-id="'+d.id+'" data-cat="'+d.cat+'"><details><summary><span class="rid">'+d.id+'</span><h3 id="t-'+d.id+'">'+mark(d.title)+'</h3><span class="plus" aria-hidden="true"></span><span class="tags">'+kindTag(d.kind)+'<span class="tag scope-'+d.scope+'">'+esc(SCOPES[d.scope])+'</span><span class="tag cat">'+esc(CATS[d.cat])+'</span></span></summary><div class="detail"><p>'+mark(d.action)+'</p><dl class="meta"><div><dt>Quando / condizione</dt><dd>'+mark(d.when)+'</dd></div><div><dt>Riferimento nel PDF</dt><dd>'+esc(d.ref)+'</dd></div></dl><p><a href="'+PDF+'#page='+p+'" target="_blank" rel="noopener">Apri la fonte a p. '+p+' <span class="sr-only">(PDF, si apre in una nuova scheda)</span><span aria-hidden="true">↗</span></a></p><p class="note wikiref">Nel wiki IA: '+wlinks(voceWiki(d))+'</p>'+nref(NM.categorie[d.cat])+(MODE==='standalone'?'<p><button type="button" class="linkbtn" data-copy="'+d.id+'">Copia il link a questa voce</button></p>':'')+'</div></details><label class="check"><input type="checkbox" id="c-'+d.id+'" data-check="'+d.id+'" aria-labelledby="cl-'+d.id+' t-'+d.id+'"'+(checks[d.id]?' checked':'')+'><span id="cl-'+d.id+'">Presidiata</span></label></li>'}).join('');
 const LI=Object.fromEntries(Array.from($('list').children).map(li=>[li.dataset.id,li]));
 $('nuclei').innerHTML=C.percorso_scuola.nuclei.map(x=>'<li><div><h3>'+esc(x.titolo)+'</h3><p>'+mark(x.testo)+'</p><p><a href="#cat-'+x.categoria.toLowerCase()+'">Esplora la categoria «'+esc(CATS[x.categoria])+'» →</a></p></div></li>').join('');
 $('phases').innerHTML=C.roadmap.fasi.map(s=>{const g=s.giorni.split('–');return '<li class="phase"><div class="num" aria-hidden="true">'+s.n+'</div><div class="body"><div class="track" aria-hidden="true" style="--s:'+Number(g[0])+';--e:'+Number(g[1])+'"><i></i></div><p class="period">Giorni '+esc(s.giorni)+'</p><h3><span class="sr-only">Fase '+s.n+': </span>'+esc(s.titolo)+'</h3><p>'+mark(s.attivita)+'</p><p class="note"><strong>Chi:</strong> '+mark(s.chi)+'<br><strong>Esito:</strong> '+mark(s.esito)+'</p></div></li>'}).join('');
@@ -1266,7 +1328,7 @@ function avChart(){try{avEvoRender()}catch(e){}
     selected:avSel,onOpen:id=>avOpen(Number(id),true),filename:'Autovalutazione_IA_scuola.png',save:saveFile});
   AV.sezioni.forEach(s=>{const it=items.filter(c=>c.sez===s.k);$('avp-'+s.k).textContent=it.length?'· '+Math.round(it.reduce((t,c)=>t+avPct(c),0)/it.length)+'%':'· non applicabile'});
   const pr=[...items.filter(c=>c.star&&av[c.n]!==3),...items.filter(c=>!c.star&&c.tipo==='O'&&!av[c.n])].slice(0,8);
-  $('avPrio').innerHTML=pr.map(c=>'<li><button type="button" class="linkbtn" data-avgo="'+c.n+'">'+c.n+(c.star?' ★':'')+' · '+mark(c.testo)+'</button> <span class="note">('+LV[av[c.n]||0]+')</span></li>').join('');
+  $('avPrio').innerHTML=pr.map(c=>'<li><span class="avpn" aria-hidden="true">'+c.n+(c.star?' ★':'')+'</span><span><button type="button" class="linkbtn" data-avgo="'+c.n+'"><span class="sr-only">Controllo '+c.n+(c.star?', prioritario':'')+': </span>'+mark(c.testo)+'</button> <span class="avpl l'+(av[c.n]||0)+'">'+LV[av[c.n]||0]+'</span></span></li>').join('');
   $('avPrio').hidden=!pr.length;$('avPrioNone').hidden=!!pr.length;
   avUx();
 }
