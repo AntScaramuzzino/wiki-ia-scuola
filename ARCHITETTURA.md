@@ -42,7 +42,7 @@ un corrispondente nel wiki sorgente e la sincronizzazione non le tocca.
 
 | File | Cosa è |
 |---|---|
-| `quartz/static/strumenti/obblighi-ia-pa.html` | Repertorio interattivo delle 87 voci ricavate dalle Linee Guida AgID (det. 169/2026) e vista «Autovalutazione» (`#autovalutazione`: 55 controlli, grafico a rosa come in framework.proftecnologia.it). Rimanda alle pagine del wiki con indirizzi assoluti: se una pagina collegata cambia slug, il file va rigenerato |
+| `quartz/static/strumenti/obblighi-ia-pa.html` | Repertorio interattivo delle 87 voci ricavate dalle Linee Guida AgID (det. 169/2026) e vista «Autovalutazione» (`#autovalutazione`: 55 controlli, grafico a rosa come in framework.proftecnologia.it). Rimanda alle pagine del wiki con indirizzi assoluti: se una pagina collegata cambia slug, il file va rigenerato Dal 16/11/2026 è l'«Osservatorio IA nella PA» (Panoramica con mappa, calendario e rischio; scheda del controllo dal grafico; collegamenti anche al wiki Normativa scolastica); si genera dal progetto `osservatorio-ia` (`tools/build.py`), l'analisi dei documenti con l'IA qui è spenta. |
 | `quartz/static/strumenti/linee-guida-agid-ia-pa.pdf` | PDF AgID a cui rimandano i collegamenti «Apri la fonte» |
 
 Dalle pagine del wiki si collegano con un `<a href="/static/strumenti/…" target="_blank" data-router-ignore>`,
