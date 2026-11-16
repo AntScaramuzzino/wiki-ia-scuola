@@ -237,6 +237,23 @@ input[type=checkbox]{width:1.5rem;height:1.5rem;accent-color:var(--accent);flex:
 .iarep-l p{margin:0}
 .iaq{margin:0;border:1px solid var(--border-ui);border-radius:4px;background:var(--surface);padding:.7rem .9rem;display:grid;gap:.3rem;overflow-wrap:anywhere}
 .iaq footer{font-style:normal}
+.avevo{max-width:none;gap:1rem;margin-block:1.5rem}
+.avevo>*,#avCmp>*{min-width:0}
+.avevo input[type=file]{max-width:100%}
+.avevo-row{display:flex;flex-wrap:wrap;gap:.75rem 1rem;align-items:end}
+.avevo-row .field{flex:1 1 16rem;max-width:28rem}
+.evowrap{overflow-x:auto;max-width:100%;position:relative}
+.evowrap:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+table.evo{border-collapse:collapse;width:100%;font-size:.9375rem;font-variant-numeric:tabular-nums}
+table.evo th,table.evo td{text-align:left;padding:.55rem .7rem;border-bottom:1px solid var(--border);vertical-align:top}
+table.evo thead th{font-size:.8125rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);border-bottom:2px solid var(--border-ui);white-space:nowrap}
+table.evo tbody th{font-weight:600}
+table.evo .evonow th,table.evo .evonow td{background:var(--bg);font-weight:600}
+.evoact{white-space:nowrap}
+.evoch{list-style:none;padding:0;display:grid;gap:.45rem}
+#avImpBox,#avCmp{max-width:none;border:2px solid var(--ink)}
+#avImpBox:focus,#avCmp:focus{outline:none}
+#avImpBox:focus-visible,#avCmp:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
 .avarea{display:grid;gap:.75rem}
 .avarea>h3{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem;border-top:2px solid var(--ink);padding-top:1rem;font-size:1.3125rem}
 .avdot{width:.8rem;height:.8rem;border-radius:2px;background:var(--ac);display:inline-block;flex:none;align-self:center}
@@ -664,6 +681,28 @@ dialog textarea{width:100%;min-height:12rem;font:400 .875rem var(--mono);border:
         <ol class="prose" id="avPrio"></ol>
         <p class="note" id="avPrioNone" hidden>Nessun controllo prioritario in sospeso.</p>
       </div>
+      <!-- AV-EVOLUZIONE -->
+      <section class="hbox avevo" aria-labelledby="avEvoTitle">
+        <h2 id="avEvoTitle">Evoluzione nel tempo</h2>
+        <p class="note">Quando chiudi un giro di lavoro salva una fotografia dei livelli: la volta dopo vedi che cosa è cambiato. Con il file JSON conservi tutto, lo passi a un collega o lo riprendi su un altro dispositivo. Fotografie e file restano sul tuo dispositivo.</p>
+        <div class="avevo-row">
+          <div class="field"><label for="avSnapNote">Nota per la fotografia <span class="note">(facoltativa)</span></label><input id="avSnapNote" type="text" maxlength="120" autocomplete="off"></div>
+          <button class="btn primary" type="button" id="avSnap">Salva la fotografia di oggi</button>
+        </div>
+        <div class="avevo-row">
+          <button class="btn" type="button" id="avJson">Esporta in JSON</button>
+          <div class="field"><label for="avImp">Importa un file JSON</label><input id="avImp" type="file" accept=".json,application/json"></div>
+        </div>
+        <div class="hbox" id="avImpBox" hidden tabindex="-1" role="group" aria-labelledby="avImpTitle">
+          <h3 id="avImpTitle">File letto</h3>
+          <p id="avImpSum"></p>
+          <div style="display:flex;flex-wrap:wrap;gap:.5rem"><button class="btn primary" type="button" id="avImpAdd">Aggiungi solo le fotografie</button><button class="btn" type="button" id="avImpAll">Aggiungi le fotografie e sostituisci i livelli di oggi</button><button class="btn" type="button" id="avImpNo">Annulla</button></div>
+          <p class="note">Sostituire i livelli di oggi cancella quelli che vedi ora nella pagina: se ti servono, prima salva una fotografia.</p>
+        </div>
+        <p class="note" id="avEvoMsg" role="status"></p>
+        <div class="evowrap" id="avEvoList" tabindex="0" role="region" aria-label="Fotografie salvate"></div>
+        <div class="hbox" id="avCmp" hidden tabindex="-1" role="region" aria-labelledby="avCmpTitle"></div>
+      </section>
       <div class="listbar">
         <h2>I controlli, area per area</h2>
         <div class="tools">
@@ -1122,7 +1161,8 @@ $('avCard').addEventListener('click',e=>{
   if(e.target.closest('[data-avlist]'))avGo(avSel)});
 $('avCard').addEventListener('keydown',e=>{if(e.key==='Escape')avClose()});
 $('avAreas').addEventListener('click',e=>{const x=e.target.closest('[data-avcard]');if(x){avOpen(Number(x.dataset.avcard),true);$('avRose').scrollIntoView({block:'start'})}});
-function avChart(){
+function avChart(){try{avEvoRender()}catch(e){}
+
   const items=avItems();
   if(!items.length){$('avRose').innerHTML='<p class="note">Tutti i controlli sono segnati «Non applicabile»: nessun grafico da mostrare.</p>'}
   else Rose.render($('avRose'),{title:'Autovalutazione IA a scuola',totalLabel:'Livello complessivo',subject:'Tutti i controlli',totalCol:'var(--accent)',areaWord:'area',levels:LV,
@@ -1137,6 +1177,68 @@ function avChart(){
 $('avPrio').addEventListener('click',e=>{const b=e.target.closest('[data-avgo]');if(b)avGo(b.dataset.avgo)});
 $('avAreas').addEventListener('change',e=>{const m=e.target.name&&e.target.name.match(/^av-(\d+)$/);if(!m)return;const v=e.target.value;av[m[1]]=v==='na'?'na':Number(v);avStore();if(avSel===Number(m[1]))avOpen(avSel,false);else avChart();
   const items=avItems();clearTimeout(statusTimer);statusTimer=setTimeout(()=>{$('status').textContent='Livello complessivo: '+(items.length?Math.round(items.reduce((t,c)=>t+avPct(c),0)/items.length):0)+'%'},350)});
+
+/* ---- evoluzione: fotografie, confronto, JSON ---- */
+const EVKEY='ia-scuola-fotografie-v1',EVFMT='osservatorio-ia-autovalutazione';
+let evo=[];
+const evClean=L=>{const o={};if(L&&typeof L==='object')AV.controlli.forEach(c=>{const x=L[c.n];if(x==='na'||[0,1,2,3].includes(x))o[c.n]=x});return o};
+const evSnapOk=s=>s&&typeof s==='object'&&typeof s.data==='string'&&!isNaN(Date.parse(s.data));
+const evNorm=s=>({id:String(s.id||Date.parse(s.data).toString(36)).slice(0,40),data:new Date(s.data).toISOString(),nota:String(s.nota||'').slice(0,120),livelli:evClean(s.livelli)});
+try{const s=JSON.parse(localStorage.getItem(EVKEY)||'[]');if(Array.isArray(s))evo=s.filter(evSnapOk).map(evNorm)}catch(e){}
+function evStore(){evo.sort((a,b)=>a.data<b.data?-1:1);evo=evo.slice(-60);try{localStorage.setItem(EVKEY,JSON.stringify(evo))}catch(e){toast('Archiviazione locale non disponibile: le fotografie valgono solo per questa sessione.')}}
+const evPct=(L,cs)=>{const it=cs.filter(c=>L[c.n]!=='na');return it.length?Math.round(it.reduce((t,c)=>t+Math.round((L[c.n]||0)/3*100),0)/it.length):0};
+const evDone=L=>AV.controlli.filter(c=>L[c.n]!=null).length;
+const evD=d=>d>0?'+'+d+' punti':d<0?'−'+(-d)+' punti':'invariato';
+const evDate=s=>new Date(s).toLocaleDateString('it-IT',{day:'numeric',month:'short',year:'numeric'})+', '+new Date(s).toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'});
+const evName=v=>v==='na'?'Non applicabile':v==null?'Non valutato':LV[v];
+function avEvoRender(){
+  const all=AV.controlli,now=evPct(av,all),last=evo[evo.length-1];
+  $('avEvoList').innerHTML='<table class="evo"><caption class="sr-only">Fotografie salvate dell’autovalutazione, dalla più vecchia a oggi</caption><thead><tr><th scope="col">Quando</th><th scope="col">Nota</th><th scope="col">Livello complessivo</th><th scope="col">Controlli valutati</th><th scope="col">Rispetto alla precedente</th><th scope="col"><span class="sr-only">Azioni</span></th></tr></thead><tbody>'
+    +evo.map((s,i)=>{const p=evPct(s.livelli,all),prev=i?evPct(evo[i-1].livelli,all):null;
+      return '<tr><th scope="row">'+esc(evDate(s.data))+'</th><td>'+esc(s.nota||'—')+'</td><td>'+p+'%</td><td>'+evDone(s.livelli)+' di '+all.length+'</td><td>'+(prev==null?'—':evD(p-prev))+'</td><td class="evoact"><button type="button" class="btn small" data-evcmp="'+esc(s.id)+'">Confronta con oggi</button> <button type="button" class="linkbtn" data-evdel="'+esc(s.id)+'" aria-label="Elimina la fotografia del '+esc(evDate(s.data))+'">Elimina</button></td></tr>'}).join('')
+    +'<tr class="evonow"><th scope="row">Oggi <span class="note">(non salvato)</span></th><td>—</td><td>'+now+'%</td><td>'+evDone(av)+' di '+all.length+'</td><td>'+(last?evD(now-evPct(last.livelli,all)):'—')+'</td><td></td></tr></tbody></table>'
+    +(evo.length?'':'<p class="note">Nessuna fotografia salvata: la prima fissa il punto di partenza.</p>');
+}
+function avEvoCmp(id){
+  const s=evo.find(x=>x.id===id);if(!s)return;const all=AV.controlli,a=evPct(s.livelli,all),b=evPct(av,all);
+  const ch=all.filter(c=>(s.livelli[c.n]??null)!==(av[c.n]??null)),val=v=>v==='na'||v==null?-1:v;
+  const su=ch.filter(c=>val(av[c.n])>val(s.livelli[c.n])),giu=ch.filter(c=>val(av[c.n])<val(s.livelli[c.n]));
+  const li=c=>'<li><span class="rid">'+c.n+(c.star?' ★':'')+'</span> '+mark(c.testo)+' <span class="note">da «'+evName(s.livelli[c.n])+'» a «'+evName(av[c.n])+'»</span></li>';
+  $('avCmp').innerHTML='<div class="avc-head"><h3 id="avCmpTitle">Dal '+esc(evDate(s.data))+' a oggi'+(s.nota?' · '+esc(s.nota):'')+'</h3><button type="button" class="btn small" data-evclose>Chiudi</button></div>'
+    +'<p><strong>Livello complessivo: dal '+a+'% al '+b+'% ('+evD(b-a)+').</strong> Controlli cambiati: '+ch.length+' su '+all.length+'.</p>'
+    +'<div class="evowrap" tabindex="0" role="region" aria-label="Confronto per area"><table class="evo"><caption class="sr-only">Livello per area, allora e oggi</caption><thead><tr><th scope="col">Area</th><th scope="col">Allora</th><th scope="col">Oggi</th><th scope="col">Variazione</th></tr></thead><tbody>'
+    +AV.sezioni.map(z=>{const cs=all.filter(c=>c.sez===z.k),x=evPct(s.livelli,cs),y=evPct(av,cs);return '<tr><th scope="row">'+z.k+'. '+esc(z.nome)+'</th><td>'+x+'%</td><td>'+y+'%</td><td>'+evD(y-x)+'</td></tr>'}).join('')+'</tbody></table></div>'
+    +(su.length?'<h4>Migliorati ('+su.length+')</h4><ul class="evoch">'+su.map(li).join('')+'</ul>':'')
+    +(giu.length?'<h4>Arretrati o tolti ('+giu.length+')</h4><ul class="evoch">'+giu.map(li).join('')+'</ul>':'')
+    +(ch.length-su.length-giu.length?'<h4>Altri cambiamenti ('+(ch.length-su.length-giu.length)+')</h4><ul class="evoch">'+ch.filter(c=>!su.includes(c)&&!giu.includes(c)).map(li).join('')+'</ul>':'')
+    +(ch.length?'':'<p class="note">Nessun controllo è cambiato rispetto a questa fotografia.</p>');
+  $('avCmp').hidden=false;$('avCmp').focus({preventScroll:true});$('avCmp').scrollIntoView({block:'nearest'});
+}
+$('avSnap').addEventListener('click',()=>{if(!evDone(av)){$('avEvoMsg').textContent='Non c’è ancora nessun controllo valutato: indica almeno un livello prima di salvare.';return}
+  evo.push(evNorm({id:Date.now().toString(36)+Math.random().toString(36).slice(2,6),data:new Date().toISOString(),nota:$('avSnapNote').value.trim(),livelli:av}));evStore();$('avSnapNote').value='';avEvoRender();$('avEvoMsg').textContent='Fotografia salvata: '+evPct(av,AV.controlli)+'% complessivo, '+evDone(av)+' controlli valutati.'});
+$('avEvoList').addEventListener('click',e=>{const c=e.target.closest('[data-evcmp]'),d=e.target.closest('[data-evdel]');if(c)avEvoCmp(c.dataset.evcmp);
+  if(d){evo=evo.filter(x=>x.id!==d.dataset.evdel);evStore();$('avCmp').hidden=true;avEvoRender();$('avEvoMsg').textContent='Fotografia eliminata.';$('avSnap').focus()}});
+$('avCmp').addEventListener('click',e=>{if(e.target.closest('[data-evclose]')){$('avCmp').hidden=true;$('avEvoList').focus()}});
+$('avCmp').addEventListener('keydown',e=>{if(e.key==='Escape'){$('avCmp').hidden=true;$('avEvoList').focus()}});
+$('avJson').addEventListener('click',async()=>{
+  const t=JSON.stringify({formato:EVFMT,versione:1,strumento:'Osservatorio IA nella PA',esportato:new Date().toISOString(),controlli:AV.controlli.length,legenda:{0:LV[0],1:LV[1],2:LV[2],3:LV[3],na:'Non applicabile'},attuale:{data:new Date().toISOString(),complessivo:evPct(av,AV.controlli),livelli:av},fotografie:evo.map(s=>({...s,complessivo:evPct(s.livelli,AV.controlli)}))},null,2);
+  try{await saveFile('autovalutazione-ia-'+new Date().toISOString().slice(0,10)+'.json',MODE==='standalone'?new Blob([t],{type:'application/json'}):t);$('avEvoMsg').textContent='File JSON esportato: livelli di oggi e '+evo.length+(evo.length===1?' fotografia.':' fotografie.')}catch(er){$('avEvoMsg').textContent='Esportazione non riuscita o annullata.'}});
+let evFile=null;
+$('avImp').addEventListener('change',async e=>{const f=e.target.files[0];e.target.value='';if(!f)return;$('avImpBox').hidden=true;evFile=null;
+  if(f.size>2e6){$('avEvoMsg').textContent='File troppo grande: non sembra un’esportazione dell’Osservatorio.';return}
+  let d=null;try{d=JSON.parse(await f.text())}catch(er){}
+  if(!d||d.formato!==EVFMT||!d.attuale||typeof d.attuale!=='object'){$('avEvoMsg').textContent='Il file non è un’esportazione dell’autovalutazione dell’Osservatorio (formato non riconosciuto).';return}
+  evFile={livelli:evClean(d.attuale.livelli),foto:(Array.isArray(d.fotografie)?d.fotografie:[]).filter(evSnapOk).map(evNorm),quando:evSnapOk({data:d.esportato})?d.esportato:null};
+  const nuove=evFile.foto.filter(s=>!evo.some(x=>x.id===s.id)).length;
+  $('avImpSum').textContent='«'+f.name+'»'+(evFile.quando?', esportato il '+evDate(evFile.quando):'')+': livelli con '+evDone(evFile.livelli)+' controlli valutati ('+evPct(evFile.livelli,AV.controlli)+'% complessivo) e '+evFile.foto.length+(evFile.foto.length===1?' fotografia':' fotografie')+', di cui '+nuove+' non ancora presenti qui.';
+  $('avEvoMsg').textContent='';$('avImpBox').hidden=false;$('avImpBox').focus({preventScroll:true})});
+function evImport(all){if(!evFile)return;let n=0;evFile.foto.forEach(s=>{if(!evo.some(x=>x.id===s.id)){evo.push(s);n++}});evStore();
+  if(all){av=evFile.livelli;avStore();document.querySelectorAll('#avAreas input:checked').forEach(i=>{i.checked=false});Object.keys(av).forEach(k=>{const i=document.querySelector('input[name="av-'+k+'"][value="'+av[k]+'"]');if(i)i.checked=true});
+    if(avSel!=null)avOpen(avSel,false);else avChart()}
+  evFile=null;$('avImpBox').hidden=true;$('avCmp').hidden=true;avEvoRender();$('avEvoMsg').textContent='Importazione completata: '+n+(n===1?' fotografia aggiunta':' fotografie aggiunte')+(all?', livelli di oggi sostituiti con quelli del file.':'. I livelli di oggi non sono cambiati.');$('avEvoList').focus()}
+$('avImpAdd').addEventListener('click',()=>evImport(false));$('avImpAll').addEventListener('click',()=>evImport(true));
+$('avImpNo').addEventListener('click',()=>{evFile=null;$('avImpBox').hidden=true;$('avImp').focus()});
+avEvoRender();
 $('avReset').addEventListener('click',()=>$('dlgAv').showModal());
 $('dlgAv').addEventListener('close',()=>{if($('dlgAv').returnValue==='ok'){av={};avStore();document.querySelectorAll('#avAreas input:checked').forEach(i=>{i.checked=false});avSel=null;$('avCard').hidden=true;$('avCard').innerHTML='';avChart();toast('Autovalutazione azzerata.')}$('dlgAv').returnValue='';$('avReset').focus()});
 $('avCsv').addEventListener('click',()=>{const val=s=>'"'+String(s).replace(/"/g,'""')+'"';const nome=k=>AV.sezioni.find(s=>s.k===k).nome;
