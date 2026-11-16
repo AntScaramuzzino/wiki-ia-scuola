@@ -37,3 +37,16 @@ Il dibattito centrale oppone il **divieto** dell'IA alla sua **integrazione crit
 
 ## Fonti
 [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/guida-pratica-ia-secondaria|Guida Pratica all'IA nella Scuola Secondaria di I grado]], [[source/oecd-digital-education-outlook-2026|OECD Digital Education Outlook 2026]], [[source/hofer-epistemologia-personale-2001|Hofer — Epistemologia personale: implicazioni per apprendimento e insegnamento (2001)]]
+## Aggiornamento — 16 novembre 2026: i rilevatori violano il regolamento che la scuola ha adottato
+
+> All'inefficacia tecnica degli AI detector — già registrata sopra — si aggiunge un argomento **giuridico** che il corpus non conteneva. «Non esistono strumenti che consentano di stabilire con certezza se un testo sia stato generato: i rilevatori automatici producono falsi positivi in misura tale da non poter fondare alcuna contestazione.» Ma soprattutto: **caricare l'elaborato di uno studente in un servizio di rilevazione significa immettere in un'applicazione esterna un testo riferibile a una persona identificata** — precisamente ciò che il [[concept/regolamento-ia-istituto|Regolamento d'istituto]] vieta. Il rilevatore non è solo inaffidabile: è incompatibile con le regole che la scuola si è data.
+>
+> L'accertamento resta affidato a strumenti ordinari della professione docente: il **colloquio** con lo studente e la **coerenza** fra l'elaborato e il lavoro svolto in classe.
+>
+> **Tre leve sulla valutazione**, nell'ordine: il tipo di compito assegnato («un esercizio risolvibile in pochi secondi da un assistente conversazionale verrà risolto in quel modo, quali che siano i divieti scritti nel Regolamento» — da compiti che chiedono *che cosa* a compiti che chiedono *come* e *perché*); la **dichiarazione d'uso** negli elaborati, che «ha una funzione educativa prima che di controllo»; i **criteri di valutazione**, spostati sul processo, sulle scelte compiute, sulle fonti e su ciò che lo studente è in grado di sostenere oralmente.
+>
+> **Differenza fra i cicli**: nel primo ciclo l'intervento sugli elaborati non riconducibili al lavoro dell'alunno ha natura **didattica ed educativa, non disciplinare** — «trattarla come tale produrrebbe un effetto sproporzionato rispetto alla condotta e all'età».
+>
+> **Una deroga da comunicare ai docenti curricolari**: gli studenti con PEI o PDP possono impiegare funzioni di IA a fini compensativi, anche generative ove il piano lo preveda, **senza obbligo di dichiarazione d'uso**. L'informazione non va nella comunicazione alla classe, per evitare stigmatizzazione, ma deve raggiungere i docenti di disciplina e non i soli docenti di sostegno: «è il docente della disciplina a ricevere l'elaborato, e se ignora che quell'impiego è ammesso tratterà come inadempienza ciò che il piano ha autorizzato».
+>
+> Vedi [[source/vargiu-svr-95-26-comunicazione-studenti-famiglie|SVR 95/26 — La comunicazione a studenti e famiglie: dall'informativa al Patto educativo]] e [[source/vargiu-svr-93-26-regolamento-ia|SVR 93/26 — Il Regolamento per l'uso degli strumenti di IA]].

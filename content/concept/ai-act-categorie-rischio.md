@@ -44,3 +44,15 @@ Alcune fonti rilevano che gli obblighi per i sistemi ad alto rischio (specie la 
 
 ## Fonti
 [[source/ai-act-ue|AI Act — Regolamento (UE) 2024/1689]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]], [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]], [[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]]
+
+## Aggiornamento — 16 novembre 2026: la deroga dell'art. 6, par. 3
+
+> **Comparire nell'Allegato III non basta.** L'art. 6, par. 3 esclude dalla classificazione ad alto rischio i sistemi il cui apporto alla decisione resta marginale, in quattro figure alternative: il sistema svolge un **compito procedurale limitato**; **migliora il risultato** di un'attività umana già completata; **rileva scostamenti** da schemi decisionali precedenti senza sostituire la valutazione umana; svolge un **compito meramente preparatorio**.
+>
+> Due condizioni valgono in ogni caso: la deroga **non opera mai in presenza di profilazione** di persone fisiche, e chi la invoca deve **documentare per iscritto** la valutazione compiuta. «È una via stretta: la correzione meccanica di quiz a risposta chiusa vi rientra plausibilmente, la valutazione di un elaborato argomentativo no.»
+>
+> **Allegato III, punto 3** (istruzione e formazione professionale), per esteso: determinare l'accesso, l'ammissione o l'assegnazione di persone a istituti di istruzione; **valutare i risultati dell'apprendimento, anche quando siano utilizzati per orientare il processo di apprendimento**; valutare il livello di istruzione appropriato; monitorare e rilevare comportamenti vietati durante le prove. Sono «proprio le funzioni presenti nelle proposte commerciali fatte spesso alle scuole»: correzione automatizzata, piattaforme adattive, proctoring.
+>
+> **I due nuovi divieti del 2 dicembre 2026** riguardano i sistemi che generano o manipolano materiale intimo non consensuale raffigurante persone riconoscibili (*nudification*) e quelli che generano materiale di abuso sessuale su minori. Per la scuola il riflesso non è sull'adozione ma sull'**e-safety policy** e sul Regolamento: è un fenomeno che si manifesta fra studenti, e la sua qualificazione come pratica vietata dal diritto dell'Unione — oltre che come illecito penale — va portata a conoscenza di alunni e famiglie. Vedi [[concept/deepfake|Deepfake]].
+>
+> Vedi [[source/vargiu-svr-90-26-casi-uso-ia|SVR 90/26 — I casi d'uso dell'IA a scuola: classificarli prima di scegliere gli strumenti]], [[source/vargiu-svr-87-26-quadro-normativo-ia-scuola|SVR 87/26 — Il quadro normativo per l'adozione dell'IA a scuola]] e [[concept/caso-uso-ia|Caso d'uso dell'IA (unità di classificazione del rischio)]].

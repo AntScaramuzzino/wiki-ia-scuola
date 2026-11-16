@@ -32,3 +32,15 @@ Il peso degli obblighi del deployer (specie la FRIA) è ritenuto da alcune fonti
 
 ## Analisi correlate
 - [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] — cosa comporta in concreto, in fase di adozione, essere deployer anziché utente
+
+## Aggiornamento — 16 novembre 2026: il salto da deployer a fornitore
+
+> **Non è una gradazione, è un cambio di regime.** Una scuola che sviluppi un proprio sistema di IA — o che ne personalizzi uno esistente *al punto da modificarne la finalità prevista*, a maggior ragione se lo mette a disposizione di altri, anche gratuitamente o nell'ambito di una rete di istituti — **assume la qualifica di fornitore**. Con essa: documentazione tecnica, sistema di gestione della qualità e dei rischi lungo l'intero ciclo di vita, governo dei dati di addestramento, valutazione di conformità, marcatura, registrazione nella banca dati europea e sorveglianza successiva all'immissione sul mercato. Sono adempimenti che presuppongono un controllo sul funzionamento del sistema che la scuola, utilizzatrice di un prodotto altrui, non ha.
+>
+> L'**art. 25 dell'AI Act** produce lo stesso effetto per via di destinazione: se la scuola destina un assistente generativo generico a una delle funzioni dell'Allegato III, quello strumento diventa un sistema ad alto rischio e la scuola è considerata fornitore.
+>
+> «La crescente disponibilità di modelli aperti e di ambienti che consentono di costruire assistenti personalizzati rende oggi tecnicamente semplice ciò che sul piano giuridico semplice non è affatto.» Prima di avviare qualsiasi iniziativa di sviluppo o personalizzazione avanzata — anche se nasce come progetto didattico o sperimentazione di un gruppo di docenti — la scuola deve valutarne preventivamente le implicazioni con il DPO e il referente per l'IA.
+>
+> Vedi [[source/vargiu-svr-87-26-quadro-normativo-ia-scuola|SVR 87/26 — Il quadro normativo per l'adozione dell'IA a scuola]], [[source/vargiu-svr-90-26-casi-uso-ia|SVR 90/26 — I casi d'uso dell'IA a scuola: classificarli prima di scegliere gli strumenti]] e [[concept/caso-uso-ia|Caso d'uso dell'IA (unità di classificazione del rischio)]].
+>
+> **Il docente che usa l'IA a titolo personale non è un deployer: lo è l'istituzione.** Se un docente immette dati di alunni in un'applicazione non autorizzata, la responsabilità «non è soltanto sua: è anche dell'istituzione che non ha governato il fenomeno, non ha adottato regole e non ha formato il personale». È la ragione per cui il [[concept/regolamento-ia-istituto|Regolamento]] non è un adempimento formale ma la misura organizzativa che circoscrive la responsabilità della scuola.

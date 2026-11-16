@@ -41,3 +41,17 @@ La concentrazione della responsabilità sul **Dirigente Scolastico** è contesta
 ## Aggiornamento — settembre 2026
 
 > Il MIM ha annunciato l'avvio, dall'a.s. 2026/2027 e per **due anni**, di una sperimentazione di assistenti virtuali IA finanziata con fondi PNRR in diverse classi di **quattro regioni pilota**: Calabria, Lazio, Lombardia e Toscana. Gli strumenti sono destinati a recupero delle lacune, personalizzazione dei materiali e dashboard di monitoraggio per i docenti; gli elenchi delle scuole coinvolte saranno pubblicati dagli uffici scolastici regionali. È un livello ulteriore rispetto al PIA d'istituto — una sperimentazione ministeriale mirata, non un obbligo generale — la cui eventuale estensione dipenderà dai dati raccolti nel biennio. Vedi [[news/2026-09-29|29 settembre 2026]].
+
+## Aggiornamento — 16 novembre 2026: Piano e Regolamento come atti distinti
+
+> Nelle Linee Guida MIM il regolamento d'uso figura *a corredo* del PIA. Una prassi consulenziale diffusa propone invece **due atti autonomi**, con un criterio di riparto netto: *se una previsione può essere violata da una persona appartiene al [[concept/regolamento-ia-istituto|Regolamento]]; se descrive un obiettivo o una scelta dell'istituzione appartiene al Piano*. Il Piano è atto di indirizzo, pluriennale, allegato al PTOF; il Regolamento è atto prescrittivo, ad aggiornamento più frequente. Un terzo livello — l'**elenco degli strumenti ammessi** — è atto autonomo del dirigente, aggiornabile senza deliberazione degli organi collegiali.
+>
+> La critica al **documento unico (PUIA)**: «o il testo resta sulle generali, e allora non governa i comportamenti; oppure scende nel dettaglio operativo, e allora invecchia in pochi mesi e richiede di tornare in Collegio ogni volta che cambia uno strumento».
+>
+> **Le cinque componenti del Piano**: da dove si parte (il profilo AS IS del [[concept/grado-maturita-ia|grado di maturità]] più la sintesi aggregata della rilevazione sul personale); quali scelte si compiono (perimetro dei [[concept/caso-uso-ia|casi d'uso]], basi giuridiche, criteri di scelta degli strumenti, modalità di impiego da parte degli studenti); chi le attua; con quali risorse; come si verifica.
+>
+> **Due raccomandazioni redazionali controintuitive.** Non inserire scadenze puntuali: il Piano è pubblicato, e «termini datati e non rispettati diventano la prova documentale di ciò che l'istituto non ha fatto». Non riprodurre compiti e composizione degli organi, ma richiamare gli atti che li istituiscono, per non dover modificare il Piano a ogni cambio di persona.
+>
+> **Le risorse condizionano le priorità, non viceversa**: «sono le priorità a doversi commisurare alle risorse effettivamente disponibili, e non l'inverso».
+>
+> Vedi [[source/vargiu-svr-92-26-piano-istituto-ia|SVR 92/26 — Il Piano d'Istituto per l'intelligenza artificiale]].

@@ -38,3 +38,15 @@ L'IA come strumento di equità è in tensione con il **divario digitale**: l'acc
 
 ## Analisi correlate
 - [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] — confronta la promessa inclusiva delle policy con le evidenze disponibili e i vincoli su PEI/PDP, emozioni e profilazione
+
+## Aggiornamento — 16 novembre 2026: la deroga compensativa nei regolamenti d'istituto
+
+> Le funzioni di **IA non generativa** — sintesi vocale, trascrizione, riconoscimento ottico dei caratteri, adattamento tipografico, conversione di formato — sono strumenti compensativi che «sostengono l'autonomia dell'alunno senza sostituirsi al suo lavoro». Per questo i modelli di [[concept/regolamento-ia-istituto|Regolamento]] le escludono dal regime autorizzatorio: sottoporle ad ammissione «produrrebbe soltanto regole disattese perché di difficile gestione». Vedi [[concept/ia-generativa-vs-elaborazione|IA generativa e IA di elaborazione]].
+>
+> Per gli studenti con **PEI o PDP** la deroga si estende, ove il piano lo preveda, anche alle **funzioni generative**: semplificazione o riformulazione di un testo, produzione di schemi e mappe, generazione di esercizi. Le funzioni ammesse e le condizioni d'impiego sono individuate nel piano, sentito il referente per l'IA, e si utilizzano con gli strumenti dell'elenco d'istituto e le credenziali istituzionali. **L'impiego compensativo non è oggetto della dichiarazione d'uso.**
+>
+> Due accorgimenti conseguenti: la deroga **non si scrive nella comunicazione rivolta alla classe**, per evitare effetti di stigmatizzazione; ma **va portata a conoscenza dei docenti curricolari**, non dei soli docenti di sostegno — «è il docente della disciplina a ricevere l'elaborato, e se ignora che quell'impiego è ammesso tratterà come inadempienza ciò che il piano ha autorizzato».
+>
+> Resta escluso, in fase di prima adozione, l'impiego dell'IA generativa sui **documenti dell'inclusione** (PEI, relazioni finali, diagnosi): sono dati appartenenti a categorie particolari, e il loro conferimento a uno strumento generativo produrrebbe «le conseguenze più gravi».
+>
+> Vedi [[source/vargiu-svr-95-26-comunicazione-studenti-famiglie|SVR 95/26 — La comunicazione a studenti e famiglie: dall'informativa al Patto educativo]], [[source/vargiu-svr-91-26-strumenti-ia-garanzie|SVR 91/26 — Adottare gli strumenti di IA: quali, come, con quali garanzie]], [[source/vargiu-svr-90-26-casi-uso-ia|SVR 90/26 — I casi d'uso dell'IA a scuola: classificarli prima di scegliere gli strumenti]].
