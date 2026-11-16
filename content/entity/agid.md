@@ -3,7 +3,7 @@ title: "Agenzia per l'Italia Digitale (AgID)"
 type: entity
 tags: [normativa, politiche, ai-società, etica, automazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-16
 sources: ["Legge italiana 23/09/2025 n. 132", "Linee Guida MIM (DM 166 del 09/08/2025)"]
 ---
 
@@ -31,3 +31,5 @@ L'AgID ha inoltre adottato un **Codice Etico e di comportamento per la Pubblica 
 
 ## Note e aggiornamenti
 - 2026-06-21: pagina creata. Designata come autorità di vigilanza dalla L.132/2025 insieme all'ACN.
+
+- 2026-11-16: adottate le Linee Guida definitive per l'adozione di IA nella PA (determinazione n. 169 del 9 novembre 2026): [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]]. Il [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] la qualifica come **autorità nazionale di notifica** (art. 4), non di vigilanza del mercato, e richiama un suo modello di codice etico per i regolamenti scolastici (art. 38, c. 6).

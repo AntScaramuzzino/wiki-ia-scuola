@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 type: overview
-updated: 2026-08-08
+updated: 2026-11-16
 sources: [llm-wiki-pattern, linee-guida-mim-dm166-2025, ai-act-ue, legge-132-2025]
 ---
 
@@ -34,6 +34,7 @@ L'IA entra ufficialmente nella scuola italiana attraverso un'**innovazione proce
 - **Competenze e alfabetizzazione**: [[concept/alfabetizzazione-ia|Alfabetizzazione all'IA (AI Literacy)]] e il confronto tra framework UNESCO, OECD e DigComp ([[analyses/2026-06-27-confronto-framework-competenze-ia|Confronto tra i framework di competenze sull'IA per la scuola]]).
 - **Etica e rischi**: [[concept/privacy-protezione-dati|Privacy e protezione dei dati]], [[concept/bias-algoritmico|Bias Algoritmico]], [[concept/supervisione-umana|Supervisione umana (human-in-the-loop)]], [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]].
 - **Formazione e finanziamenti**: [[concept/snodi-formativi-pnrr|Snodi formativi PNRR (DM 219/2025)]] (DM 219/2025, PNRR, 100 mln €, [[entity/scuola-futura|Piattaforma Scuola Futura]]).
+- **La scuola come amministrazione (novembre 2026)**: con le [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]] e il [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] al quadro a tre livelli si aggiungono le regole che valgono per la scuola in quanto PA e datore di lavoro. Vedi [[analyses/2026-11-16-linee-guida-agid-lette-dalla-scuola|Le Linee guida AgID sull'IA lette dalla scuola]], [[analyses/2026-11-16-checklist-ia-scuole|IA a scuola: checklist di controllo in 55 punti]] e [[analyses/2026-11-16-griglia-omnibus-dlgs-179|Omnibus IA e D.Lgs. 179/2026: griglia per aggiornare i documenti della scuola]].
 
 ---
 

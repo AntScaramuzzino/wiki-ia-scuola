@@ -3,7 +3,7 @@ title: "Ministero dell'Istruzione e del Merito (MIM)"
 type: entity
 tags: [politiche, normativa, ai-società, ai-formazione, educazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-16
 sources: ["Linee Guida MIM (DM 166 del 09/08/2025)", "Regolamento UE 2024/1689 (AI Act)", "Legge italiana 23/09/2025 n. 132", "DM 219/2025, Avviso snodi formativi IA (PNRR)"]
 ---
 
@@ -34,3 +34,5 @@ Tra le sue azioni principali:
 
 ## Note e aggiornamenti
 - 2026-06-21: pagina creata. Il quadro emanato dal MIM si fonda sulla qualifica della scuola come "deployer" ai sensi dell'art. 3, punto 4, dell'AI Act.
+
+- 2026-11-16: il [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] gli affida un piano di formazione dei docenti su social e piattaforme digitali (art. 37, entro 90 giorni, fino a 100 milioni dal PN Scuola e Competenze), un decreto sui criteri della formazione dei docenti sull'IA (art. 38, entro il 21 gennaio 2027) e l'aggiornamento di linee guida STEM, linee guida per l'orientamento e Indicazioni nazionali (art. 36). Fino al nuovo decreto resta applicabile il DM 166/2025.

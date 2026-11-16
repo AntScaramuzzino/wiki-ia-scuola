@@ -3,16 +3,17 @@ title: "Indice del wiki"
 type: index
 updated: 2026-08-08
 total_sources: 4
-total_pages: 138
+total_pages: 143
 ---
 
-Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 138 pagine.
+Aggiornato: 2026-08-08 — corpus principale: notebook NotebookLM «Linee Guida sull'IA a Scuola» (70 fonti in `raw/`) + glossario (126 voci) + rassegna news. 143 pagine.
 
 Catalogo dell'intero wiki. Leggi questo file prima di qualsiasi query.
 
 Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki con LLM) e **IA nella scuola** (didattica, policy, strumenti, etica; Italia + internazionale).
 
-## Fonti — 73
+## Fonti — 75
+
 
 | Pagina | Sommario | Data |
 |--------|----------|------|
@@ -27,6 +28,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/celex-32023c0123-01-it-txt|Dichiarazione europea sui diritti e i principi digitali per il decennio digitale (2023/C 23/01)]] | Testo integrale della Dichiarazione comune di Parlamento europeo, Consiglio e Commissione europ… | 2026-06-21 |
 | [[source/convegno-anp-2025|Convegno ANP 2025 — VIII edizione (webinar)]] | Trascrizione dell'ottava edizione del convegno nazionale ANP (Associazione Nazionale Presidi/di… | 2026-06-21 |
 | [[source/digcomp-3-0|DigComp 3.0 — Quadro europeo delle competenze digitali (2025)]] | DigComp 3.0 (2025) è il quadro europeo trasversale delle competenze digitali per tutti i cittad… | 2026-06-21 |
+| [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] | È il decreto che attua le deleghe della legge 132/2025: adegua l'ordinamento italiano all'AI Act, … | 2026-11-16 |
 | [[source/dm-219-2025-snodi-formativi|DM 219/2025 — Avviso snodi formativi IA (PNRR)]] | Il Decreto del Ministro dell'istruzione e del merito 11 novembre 2025, n. 219 pubblica l'Avviso… | 2026-06-21 |
 | [[source/ec-edh-explainable-ai-in-education-fostering-human-over|EC/EDEH — Explainable AI in education: Fostering human oversight and shared responsibility (2025)]] | Report 2025 dello squad dello European Digital Education Hub (EDEH) sull'IA spiegabile (Explain… | 2026-06-21 |
 | [[source/epistemia-2-0-baranzini-2026|Epistemia 2.0: l'illusione di sapere perché una risposta «suona» giusta (2026)]] | Articolo divulgativo che introduce il termine «Epistemia»: l'illusione di sapere prodotta dal f… | 2026-08-08 |
@@ -42,8 +44,8 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/ia-generativa-in-classe-le-linee-guida-internazionali-r|IA (generativa) in classe: le linee guida internazionali (Bricks, 2023)]] | Articolo di Eleonora Pantò (Associazione Dschola) pubblicato su BRICKS n.3-2023, che mappa e co… | 2026-06-21 |
 | [[source/ia-guidelines-generale-01-unibg|Linee guida UniBg per l'uso dell'IA in Didattica, Ricerca e Processi Amministrativi]] | Documento di indirizzo dell'Università degli Studi di Bergamo che definisce una cornice orienta… | 2026-06-21 |
 | [[source/ia-nella-pubblica-amministrazione-pubblicata-la-prima-i|IA nella Pubblica Amministrazione: prima indagine AgID presso le amministrazioni centrali (2025)]] | Comunicato AgID (10 giugno 2025) sulla prima indagine nazionale sull'uso dell'IA nelle Pubblich… | 2026-06-21 |
-| [[source/ia-school-linee-guida-sull-intelligenza-artificiale-nel|IA@School: linee guida sull'Intelligenza Artificiale nella scuola (webinar)]] | Materiale di copertina del ciclo di webinar online "IA@School: linee guida sull'Intelligenza Ar… | 2026-06-21 |
 | [[source/ia-school|IA@School — Quadro normativo e strategico (EFT Calabria)]] | Presentazione formativa a cura di Antonio Scaramuzzino e Rosetta Riotto (EFT Calabria) che illu… | 2026-06-21 |
+| [[source/ia-school-linee-guida-sull-intelligenza-artificiale-nel|IA@School: linee guida sull'Intelligenza Artificiale nella scuola (webinar)]] | Materiale di copertina del ciclo di webinar online "IA@School: linee guida sull'Intelligenza Ar… | 2026-06-21 |
 | [[source/il-difficile-rapporto-tra-scuola-e-chatgpt-lucy-sulla-c|Il difficile rapporto tra scuola e ChatGPT (Lucy, Pietro Minto)]] | Reportage di Pietro Minto (Lucy, 14 febbraio 2025) sull'uso reale dell'IA generativa nelle scuo… | 2026-06-21 |
 | [[source/il-ministro-dell-istruzione-e-del-merito-mim|Decreto Ministeriale MIM (DM 166/2025) — testo del decreto e servizio digitale IA su Unica]] | Testo integrale del Decreto Ministeriale del MIM (firmato dal Ministro Giuseppe Valditara) che … | 2026-06-21 |
 | [[source/in-vigore-dal-10-ottobre-l-obbligo-di-informativa-per-i|Obbligo di informativa ai clienti sull'uso dell'IA dal 10 ottobre (Ordine avvocati Bergamo)]] | Comunicazione dell'Ordine degli Avvocati di Bergamo (10 ottobre 2025) sull'entrata in vigore de… | 2026-06-21 |
@@ -60,6 +62,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/la-nuova-legge-italiana-sull-ai-cosa-cambia-e-come-evit|La nuova legge italiana sull'AI: cosa cambia e come evitare le sanzioni (Furnari Consulting)]] | Articolo di blog aziendale (Furnari Consulting Srl, ottobre 2025) che commenta in chiave di com… | 2026-06-21 |
 | [[source/la-nuova-legge-italiana-sull-ia-la-prima-normativa-nazi|La nuova legge italiana sull'IA: prima normativa nazionale UE (Cleary Gottlieb)]] | Alert memorandum dello studio legale Cleary Gottlieb (29 ottobre 2025) che analizza in profondi… | 2026-06-21 |
 | [[source/legge-132-2025|Legge 23 settembre 2025, n. 132]] | La Legge italiana 23 settembre 2025, n. 132 (in vigore dal 10 ottobre 2025) è la prima normativ… | 2026-06-21 |
+| [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]] | È la versione definitiva delle Linee Guida che il wiki conosceva solo in bozza. Adottata con det… | 2026-11-16 |
 | [[source/linee-guida-agid-per-l-adozione-dell-ia-nella-pa|Linee guida AgID per l'adozione dell'IA nella PA: dai principi agli strumenti pratici (FPA)]] | Articolo di Michela Stentella (FORUM PA, 21 febbraio 2025) che presenta e commenta le Linee Gui… | 2026-06-21 |
 | [[source/linee-guida-agid-sull-intelligenza-artificiale-nella-pu|Linee Guida AgID sull'IA nella PA: consultazione pubblica e Codice Etico (AI4PA)]] | Breve nota di AI4PA (Osservatorio sull'IA nelle PA) sull'avvio della consultazione pubblica del… | 2026-06-21 |
 | [[source/linee-guida-del-mim-sull-intelligenza-artificiale-aspet|WEBINAR — Linee guida del MIM sull'IA: aspetti normativi e didattici (Redaelli, Galli)]] | Trascrizione di un webinar dell'Associazione Culturale Didattica Innovativa con Lorenzo Redaell… | 2026-06-21 |
@@ -78,8 +81,8 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[source/pnrr-avviso-snodi-formativi|Avviso pubblico PNRR snodi formativi IA nella scuola (circolare 73226/2026)]] | Testo integrale dell'Avviso pubblico del MIM (Unità di missione PNRR) attuativo del DM 219/2025… | 2026-06-21 |
 | [[source/presentazione-ia-scuola|Presentazione IA Scuola — privacy, DPIA e FRIA]] | Presentazione (14 slide) sugli adempimenti di protezione dati connessi all'uso dell'IA a scuola… | 2026-06-21 |
 | [[source/privacy-e-intelligenza-artificiale-dopo-la-nuova-legge-|Privacy e IA dopo la Legge 132/2025: il modello italiano (Federprivacy)]] | Articolo di approfondimento giuridico dell'Avv. Michele Iaselli (Coordinatore del Comitato Scie… | 2026-06-21 |
-| [[source/pubblicate-le-linee-guida-per-l-introduzione-dell-intel-2|Pubblicate le Linee guida IA nelle scuole — Allegato al DM 166/2025 (comunicato MIM)]] | Breve comunicato/notizia del sito MIM (29 agosto 2025) che annuncia la pubblicazione delle Line… | 2026-06-21 |
 | [[source/pubblicate-le-linee-guida-per-l-introduzione-dell-intel|MIM — Pubblicazione delle Linee guida IA nelle scuole (Allegato al DM 166/2025)]] | Comunicato stampa del MIM (29 agosto 2025) che annuncia la pubblicazione delle Linee guida per … | 2026-06-21 |
+| [[source/pubblicate-le-linee-guida-per-l-introduzione-dell-intel-2|Pubblicate le Linee guida IA nelle scuole — Allegato al DM 166/2025 (comunicato MIM)]] | Breve comunicato/notizia del sito MIM (29 agosto 2025) che annuncia la pubblicazione delle Line… | 2026-06-21 |
 | [[source/sanoma-lr-mv560300017u|Sanoma — Intelligenza Artificiale: Guida all'IA (con attività didattiche)]] | Guida didattica edita da Sanoma Italia (2024) che inquadra l'uso dell'IA generativa nella scuol… | 2026-06-21 |
 | [[source/scuola-ok-del-garante-alle-linee-guida-del-mim-per-l-ia|Scuola: ok del Garante alle Linee guida del MIM per l'IA negli istituti (news)]] | Breve notizia (dalla newsletter del Garante del 10/09/2025, ripresa da Privacy.it) che riporta … | 2026-06-21 |
 | [[source/strategia-italiana-per-l-intelligenza-artificiale-2024-|Strategia Italiana per l'Intelligenza Artificiale 2024-2026 (AgID)]] | Documento strategico nazionale a cura dell'Agenzia per l'Italia Digitale (AgID) che definisce l… | 2026-06-21 |
@@ -158,7 +161,8 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[concept/valutazione-integrita-accademica|Valutazione e integrità accademica]] | Insieme delle questioni che l'IA generativa pone al rapporto tra valutazione e onestà intellett… |
 | [[concept/wiki-persistente|Wiki Persistente]] | Un wiki persistente è una raccolta strutturata di file markdown interlinkati che un LLM costrui… |
 
-## Analisi — 7
+## Analisi — 10
+
 
 | Pagina | Domanda | Data |
 |--------|---------|------|
@@ -169,3 +173,7 @@ Il wiki ha due cluster: **Meta — second brain** (come si costruisce un wiki co
 | [[analyses/2026-08-21-ia-inclusione-prova-evidenze|IA e inclusione: la promessa più ripetuta e la meno documentata]] | L'inclusione è l'obiettivo che tutte le fonti di policy mettono in cima quando parlano di IA a … | 2026-08-21 |
 | [[analyses/2026-08-29-scegliere-strumento-ia-classe|Scegliere uno strumento di IA per la classe: i filtri che vengono prima della didattica]] | Come si sceglie uno strumento di IA da portare in classe, e chi lo decide davvero? | 2026-08-29 |
 | [[analyses/2026-09-19-ia-segreteria-scolastica-ata-dsga|L'IA in segreteria: l'area meno regolata della scuola è quella con più dati veri]] | Che cosa cambia concretamente per DSGA e personale ATA con l'introduzione dell'IA a scuola, e q… | 2026-09-19 |
+| [[analyses/2026-11-16-checklist-ia-scuole|IA a scuola: checklist di controllo in 55 punti]] | Che cosa deve controllare una scuola statale per capire a che punto è con le regole sull'IA, e … | 2026-11-16 |
+| [[analyses/2026-11-16-griglia-omnibus-dlgs-179|Omnibus IA e D.Lgs. 179/2026: griglia per aggiornare i documenti della scuola]] | Quali affermazioni contenute in regolamenti, PTOF, informative, piani di formazione e materiali… | 2026-11-16 |
+| [[analyses/2026-11-16-linee-guida-agid-lette-dalla-scuola|Le Linee guida AgID sull'IA lette dalla scuola]] | Che cosa chiedono davvero alle scuole statali le Linee guida AgID per l'adozione dell'IA nella … | 2026-11-16 |
+

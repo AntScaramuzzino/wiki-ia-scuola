@@ -3,7 +3,7 @@ title: "AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Ammini
 type: source
 tags: [ai, politiche, normativa, privacy, etica, governance-scolastica-ia, ai-società, impatto]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-16
 sources: ["2024 | Agid, Bozza di linee guida per l'adozione di IA nella pubblica amministrazione - Agid"]
 ---
 
@@ -49,3 +49,7 @@ Nessuna contraddizione rilevata. È la fonte canonica primaria per le linee guid
 ## Domande aperte
 - Quale rapporto strutturale tra le linee guida AgID per la PA e le [[source/linee-guida-mim-dm166-2025|Linee Guida MIM per l'IA a scuola (DM 166/2025)]] per la scuola (che riprendono lo stesso modello deployer/rischio)?
 - Come si declinano gli allegati B e C (valutazione rischio e d'impatto) nel contesto scolastico?
+
+## Aggiornamento — novembre 2026
+
+> **Superata dalla versione definitiva.** Le Linee Guida sono state adottate con determinazione AgID n. 169 del 9 novembre 2026. La pagina di riferimento è ora [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]]; questa bozza resta come documentazione storica. Sul rapporto con la scuola vedi [[analyses/2026-11-16-linee-guida-agid-lette-dalla-scuola|Le Linee guida AgID sull'IA lette dalla scuola]].

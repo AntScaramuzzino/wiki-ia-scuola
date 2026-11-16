@@ -3,7 +3,7 @@ title: "Alfabetizzazione all'IA (AI Literacy)"
 type: concept
 tags: [ai, educazione, competenze, ai-formazione, curriculum]
 created: 2026-06-21
-updated: 2026-09-22
+updated: 2026-11-16
 sources: [Glossario IA a scuola, Regolamento UE 2024/1689 (AI Act), Legge 132/2025, OECD AI Literacy Framework (2025)]
 ---
 
@@ -48,3 +48,7 @@ Cfr. [[news/2026-09-16|16 settembre 2026]].
 > Un'analisi promossa da AIDAPT con Sanoma su **77.000 messaggi** scambiati da oltre **5.000 docenti italiani** con un assistente didattico — dato comportamentale, non autodichiarato — mostra un uso concentrato sulla produzione diretta (**29%** test e verifiche, **24%** lezioni) più che sull'esplorazione critica dello strumento, e collocato in gran parte fuori dall'orario di servizio (un'interazione su cinque nel weekend, il 47% dei giorni feriali dopo scuola). È un'ulteriore conferma che l'adozione precede la formazione strutturata, coerente con il 67% di autodidatti rilevato dall'indagine Spaggiari-ANP del 17 settembre.
 
 Cfr. [[news/2026-09-22|22 settembre 2026]].
+
+## Aggiornamento — novembre 2026
+
+> Tre fonti nuove ridisegnano l'obbligo. Il **Regolamento (UE) 2026/1744** ha riscritto l'art. 4 dell'AI Act: misure a sostegno dell'alfabetizzazione, senza un livello garantito per ogni persona ([[source/ai-act-digital-omnibus-2026|AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)]]). Le **Linee Guida AgID** chiedono però alle PA che «tutto il personale» acquisisca un livello adeguato, con percorsi differenziati per ruolo ([[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]], cap. 8): per una scuola statale significa docenti, ATA, DSGA e dirigente. Il **D.Lgs. 179/2026** affida a un decreto del MIM, entro il 21 gennaio 2027, i criteri per la formazione dei docenti e gli interventi di alfabetizzazione degli studenti (art. 38), prevede un piano di formazione dei docenti su social e piattaforme (art. 37) e lascia alle scuole la facoltà di promuovere attività formative sull'IA fin dal primo ciclo (art. 36) ([[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]]).

@@ -3,7 +3,7 @@ title: "ACN — Agenzia per la Cybersicurezza Nazionale"
 type: entity
 tags: [politiche, normativa, sistemi]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-16
 sources: ["Legge 132/2025", "Strategia italiana per l'IA 2024-2026"]
 ---
 
@@ -23,3 +23,5 @@ La Legge 132/2025 ripartisce la governance nazionale dell'IA: ad **AgID** spetta
 
 ## Note e aggiornamenti
 Citata in più fonti del cluster normativo come partner istituzionale del MIM sui temi di cybersicurezza scolastica.
+
+- 2026-11-16: il [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] la designa autorità nazionale di **vigilanza del mercato** sui sistemi di IA e **punto di contatto unico** (artt. 5–6); riceve i reclami di propria competenza e ne disciplina la procedura con decreto del direttore generale (art. 18).

@@ -3,7 +3,7 @@ title: "AI Act e Digital Omnibus: applicazione e rinvii (agosto 2026)"
 type: source
 tags: [ai, normativa, politiche, governance-scolastica]
 created: 2026-08-08
-updated: 2026-08-21
+updated: 2026-11-16
 sources: ["Digitalic", "La Legge per Tutti", "Tom's Hardware", "Tecnica della Scuola", "Dirigentiscuola", "ADVANT Nctm"]
 ---
 
@@ -47,3 +47,11 @@ Resta aperta la tensione già registrata: la scuola-deployer è responsabile ma 
 > **Il Digital Omnibus è diritto vigente e ha ampliato l'art. 5.** Il testo è il **Regolamento (UE) 2026/1744**, pubblicato in GUUE il **24 luglio 2026** ed entrato in vigore il **27 luglio 2026**. Oltre al rinvio degli obblighi sull'alto rischio, aggiunge due **nuove pratiche vietate**: i sistemi che generano o manipolano **contenuti intimi non consensuali** (app di *nudification*), salvo consenso libero, specifico e informato della persona ritratta, e quelli che producono **materiale di abuso sessuale su minori**, anche solo parzialmente sintetico. I nuovi divieti si applicano dal **2 dicembre 2026**, mentre i divieti originari restano efficaci dal 2 febbraio 2025. Per i fornitori il divieto scatta quando tale generazione è la finalità prevista del sistema o un esito ragionevolmente prevedibile in assenza di misure tecniche adeguate — rilevante per la scuola secondaria, dove i casi di immagini manipolate tra studenti sono documentati.
 
 Cfr. [[news/2026-08-21|21 agosto 2026]].
+
+## Aggiornamento — novembre 2026
+
+> **Lettura dell'articolo 1 del Regolamento (UE) 2026/1744.** Il testo è stato letto articolo per articolo in una riproduzione non ufficiale; EUR-Lex non era consultabile. Conferma il calendario già registrato e precisa quattro punti. **Art. 4**: fornitori e deployer devono adottare misure per sostenere l'alfabetizzazione, senza dover garantire un livello specifico per ogni persona. **Art. 4 bis** (nuovo): base giuridica per trattare categorie particolari di dati al solo fine di rilevare e correggere distorsioni, a sei condizioni; soppresso l'art. 10, par. 5. **Art. 27**: la valutazione d'impatto sui diritti fondamentali può richiamare la DPIA e l'Ufficio per l'IA predisporrà un modello di questionario. **Art. 111, par. 2** (sostituito): per i sistemi ad alto rischio già in uso presso autorità pubbliche resta il termine del 2 agosto 2030.
+>
+> **Non modificati** gli artt. 26 (obblighi dei deployer) e 49 (registrazione): l'Omnibus sposta la data dell'alto rischio, non riduce gli obblighi.
+
+Cfr. [[analyses/2026-11-16-griglia-omnibus-dlgs-179|Omnibus IA e D.Lgs. 179/2026: griglia per aggiornare i documenti della scuola]] e [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]].

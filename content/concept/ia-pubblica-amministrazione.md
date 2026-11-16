@@ -3,7 +3,7 @@ title: "IA nella Pubblica Amministrazione"
 type: concept
 tags: [ai, politiche, design-sociale, impatto, automazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-16
 sources: ["Linee guida AgID IA nella PA", "Strategia italiana per l'IA 2024-2026", "Valutazione d'impatto IA - AgID", "Indagine AgID IA nella PA"]
 ---
 
@@ -27,6 +27,10 @@ Filone normativo e operativo, curato da [[entity/agid|Agenzia per l'Italia Digit
 
 ## Contraddizioni e dibattiti
 Nessuna contraddizione rilevata; il quadro PA è coerente con quello scolastico. Resta aperto il tema delle risorse e competenze per attuarlo.
+
+## Aggiornamento — novembre 2026
+
+> Le Linee Guida AgID sono definitive: determinazione n. 169 del 9 novembre 2026, adottate con l'iter dell'art. 71 del CAD ([[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]]). Venti principi, modello organizzativo, governance affidata al RTD, formazione di tutto il personale, nessun termine generale di adeguamento. Il [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] completa il quadro: AgID autorità di notifica, ACN vigilanza del mercato e punto di contatto, linee guida del Ministro per la PA sul quadro minimo di competenze dei dipendenti pubblici (art. 40). Per le scuole: [[analyses/2026-11-16-linee-guida-agid-lette-dalla-scuola|Le Linee guida AgID sull'IA lette dalla scuola]].
 
 ## Fonti
 [[source/agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu|AgID — Bozza di linee guida per l'adozione di IA nella Pubblica Amministrazione (v1.0, 2025)]], [[source/strategia-italiana-per-l-intelligenza-artificiale-2024-|Strategia Italiana per l'Intelligenza Artificiale 2024-2026 (AgID)]], [[source/valutazione-d-impatto-dell-intelligenza-artificiale-agi|AgID — Valutazione d'impatto dell'Intelligenza Artificiale (AIIA), v1.0 2025]], [[source/ia-nella-pubblica-amministrazione-pubblicata-la-prima-i|IA nella Pubblica Amministrazione: prima indagine AgID presso le amministrazioni centrali (2025)]]

@@ -3,7 +3,7 @@ title: "Linee Guida MIM per l'IA a scuola (DM 166/2025)"
 type: source
 tags: [ai, politiche, normativa, educazione, governance-scolastica, ai-formazione]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-16
 sources: ["Decreto Ministeriale n. 166 del 9 agosto 2025", "Linee guida per l'introduzione dell'IA nelle Istituzioni scolastiche (Versione 1.0)"]
 ---
 
@@ -45,3 +45,9 @@ Nessuna rilevata. Le linee guida anticipano e si armonizzano con [[source/ai-act
 ## Domande aperte
 - Quali strumenti concreti di valutazione dell'*AI readiness* il MIM metterà a disposizione sulla Piattaforma Unica?
 - Come verrà gestita la transizione per le scuole che non completano il cronoprogramma entro il 2 agosto 2026?
+
+## Aggiornamento — novembre 2026
+
+> **Regime transitorio.** Il [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] (art. 38) prevede un decreto del MIM, entro il 21 gennaio 2027, su criteri e modalità della formazione dei docenti sull'IA e sugli interventi di alfabetizzazione per gli studenti. Fino ad allora queste Linee guida «continuano ad applicarsi» (c. 4). Resta ferma l'autonomia delle scuole nell'adozione e gestione delle piattaforme (c. 5).
+>
+> Accanto a queste Linee guida, dal 9 novembre 2026 le scuole statali rientrano anche nelle [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]], che guardano alla scuola come amministrazione.

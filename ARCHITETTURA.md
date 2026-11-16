@@ -34,6 +34,20 @@ pubblicata vengono applicate due trasformazioni:
 > ⚠️ Le cartelle sono al **singolare** (`concept/`, `entity/`, `source/`). Erano al plurale
 > fino al 2026-08-08: con i link scritti al singolare, in Obsidian risultavano tutti rotti.
 
+## Strumenti statici (solo in questo repo)
+
+`quartz/static/strumenti/` contiene pagine HTML autonome che Quartz copia così come sono in `/static/strumenti/`.
+(In `content/` no: Quartz toglie l'estensione `.html` ai file non markdown e Vercel non li servirebbe come pagine.) Non hanno
+un corrispondente nel wiki sorgente e la sincronizzazione non le tocca.
+
+| File | Cosa è |
+|---|---|
+| `quartz/static/strumenti/obblighi-ia-pa.html` | Repertorio interattivo delle 87 voci ricavate dalle Linee Guida AgID (det. 169/2026) |
+| `quartz/static/strumenti/linee-guida-agid-ia-pa.pdf` | PDF AgID a cui rimandano i collegamenti «Apri la fonte» |
+
+Dalle pagine del wiki si collegano con un `<a href="/static/strumenti/…" target="_blank" data-router-ignore>`,
+perché non sono pagine Quartz.
+
 ## Script
 
 | Script | Cosa fa |

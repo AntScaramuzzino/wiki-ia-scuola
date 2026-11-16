@@ -3,7 +3,7 @@ title: "Linee guida AgID per l'adozione dell'IA nella PA: dai principi agli stru
 type: source
 tags: [ai, politiche, normativa, etica, governance-scolastica-ia, competenze, ai-società]
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-11-16
 sources: ["Linee guida AGID per l'adozione dell'IA nella PA"]
 ---
 
@@ -34,3 +34,7 @@ Commento/sintesi giornalistica della fonte canonica [[source/agid-bozza-di-linee
 
 ## Domande aperte
 - Quale versione definitiva è emersa al termine della consultazione del 20 marzo 2025?
+
+## Aggiornamento — novembre 2026
+
+> **Risposta alla domanda aperta.** La versione definitiva è stata adottata con determinazione AgID n. 169 del 9 novembre 2026: vedi [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]].

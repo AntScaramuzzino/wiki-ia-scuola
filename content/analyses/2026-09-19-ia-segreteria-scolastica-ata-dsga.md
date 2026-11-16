@@ -3,7 +3,7 @@ title: "L'IA in segreteria: l'area meno regolata della scuola è quella con più
 type: analysis
 tags: [governance-scolastica-ia, privacy, automazione, normativa, ai-società]
 created: 2026-09-19
-updated: 2026-09-19
+updated: 2026-11-16
 sources: [ia-e-personale-amministrativo-scolastico-applicazioni-e, linee-guida-mim-dm166-2025, agid-bozza-di-linee-guida-per-l-adozione-di-ia-nella-pu, ia-nella-pubblica-amministrazione-pubblicata-la-prima-i, legge-132-2025, ai-act-ue, ai-act-digital-omnibus-2026, dm-219-2025-snodi-formativi, adempimenti-e-cronoprogramma]
 ---
 
@@ -97,3 +97,7 @@ Ricavato dalle fonti, non da buone intenzioni:
 - **Nessun analogo scolastico di AI Officer e Data Steward.** La domanda è posta dalle fonti AgID e non trova risposta: il wiki non documenta alcuna figura tecnica dedicata ai dati nell'organico scolastico.
 - **Nessuna pronuncia sul back-office.** Il parere del Garante nel corpus riguarda lo schema di decreto MIM e la didattica; non risultano indicazioni specifiche sull'uso amministrativo dell'IA nelle scuole.
 - **Manca un concetto dedicato.** Il wiki non ha una pagina `concept/` sull'amministrazione scolastica aumentata: l'area è trattata solo come sottosezione di [[concept/governance-scolastica-ia|Governance scolastica dell'IA]] e [[concept/ia-pubblica-amministrazione|IA nella Pubblica Amministrazione]]. Potrebbe valere la pena crearla.
+
+## Aggiornamento — novembre 2026
+
+> **Una lacuna si chiude.** La «gestione del personale: regime ignoto» ha ora una norma: l'art. 41 del [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] vieta che decisioni sul rapporto di lavoro, provvedimenti disciplinari e valutazioni delle prestazioni siano adottati unicamente con un trattamento automatizzato, impone l'informativa preventiva e dichiara nulle le decisioni in violazione. Le [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]] coprono inoltre proprio l'area amministrativa che qui risultava senza guida: vedi [[analyses/2026-11-16-linee-guida-agid-lette-dalla-scuola|Le Linee guida AgID sull'IA lette dalla scuola]].

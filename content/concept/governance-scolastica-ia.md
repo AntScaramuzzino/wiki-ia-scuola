@@ -3,7 +3,7 @@ title: "Governance scolastica dell'IA"
 type: concept
 tags: [ai, normativa, politiche, design-sociale, sistemi, educazione, ai-società]
 created: 2026-06-21
-updated: 2026-10-04
+updated: 2026-11-16
 sources: [Linee Guida MIM (DM 166/2025), Regolamento UE 2024/1689 (AI Act), Legge 132/2025]
 ---
 
@@ -62,3 +62,9 @@ Il quadro fa leva su un **vantaggio temporale**: il MIM anticipa gli obblighi de
 > Al tavolo ARAN del **28 settembre 2026** i sindacati (UIL Scuola, Federazione Gilda-Unams, FLC CGIL, Anief) hanno precisato le lacune della bozza sui tre articoli IA: mancano scadenze attuative, risorse economiche dedicate e la garanzia che la formazione avvenga in orario di servizio. La Gilda-Unams chiede inoltre l'esclusione esplicita delle scelte didattiche dal perimetro applicativo dell'IA, a tutela della libertà di insegnamento. Chiusura della parte normativa attesa entro fine 2026. Vedi [[news/2026-09-29|29 settembre 2026]].
 
 > Il **29 settembre 2026** SNALS-Confsal ha portato al tavolo la richiesta di quadri contrattuali chiari su competenze digitali, responsabilità professionali e tutele contro interferenze improprie dell'IA sulla funzione didattica. I nodi restano gli stessi (scadenze, risorse, formazione in orario di servizio); il confronto in plenaria riprende il **3 novembre 2026**. Vedi [[news/2026-10-04|4 ottobre 2026]].
+
+## Aggiornamento — novembre 2026
+
+> **Due livelli in più.** Dal 9 novembre 2026 le scuole statali rientrano nelle [[source/linee-guida-agid-ia-pa-2026|Linee Guida AgID per l'adozione di IA nella PA — versione definitiva (det. 169/2026)]], che affidano la governance dell'IA al Responsabile per la transizione digitale e la ancorano al PIAO: due elementi che la scuola non ha in proprio (il RTD è indicato nel Ministero da una nota del 2019; dal PIAO le scuole sono escluse). La traduzione scolastica passa da un atto del dirigente sulle responsabilità e da PTOF, piano di formazione e regolamento d'istituto: vedi [[analyses/2026-11-16-linee-guida-agid-lette-dalla-scuola|Le Linee guida AgID sull'IA lette dalla scuola]] e la [[analyses/2026-11-16-checklist-ia-scuole|IA a scuola: checklist di controllo in 55 punti]].
+>
+> Il [[source/dlgs-179-2026|D.Lgs. 179/2026 — adeguamento all'AI Act, autorità nazionali e IA nella formazione]] aggiunge la **tutela legale del personale** — decisioni sul rapporto di lavoro, disciplinari e valutazioni non possono essere solo automatizzate, pena la nullità (art. 41) — che anticipa quanto si discuteva al tavolo ARAN, e prevede comitati tecnico-etici territoriali promossi dagli USR per l'adeguamento di regolamento d'istituto e Patto di corresponsabilità (art. 38, c. 6).
