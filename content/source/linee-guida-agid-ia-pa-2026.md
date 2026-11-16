@@ -63,3 +63,4 @@ sources: ["AgID, Linee Guida per l'adozione di IA nella Pubblica Amministrazione
 
 ## Strumenti collegati
 - <a href="/static/strumenti/obblighi-ia-pa" target="_blank" rel="noopener" data-router-ignore>Repertorio interattivo degli obblighi</a>: 87 voci ricavate dal documento, con filtri, checklist e rinvio alla pagina del PDF. È una sintesi editoriale: le voci non sono numerate così nel testo ufficiale.
+- <a href="/static/strumenti/obblighi-ia-pa#autovalutazione" target="_blank" rel="noopener" data-router-ignore>Autovalutazione interattiva</a>: i 55 controlli della [[analyses/2026-11-16-checklist-ia-scuole|IA a scuola: checklist di controllo in 55 punti]] con quattro livelli, grafico a rosa per area e priorità.
