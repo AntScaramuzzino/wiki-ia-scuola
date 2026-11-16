@@ -1006,7 +1006,7 @@ const Rose = (() => {
 .rose .lab-c:hover{fill:var(--accent);text-decoration:underline}
 .rose .lab-c.sel{fill:var(--accent);text-decoration:underline}
 .rose .pet.sel .bg{fill-opacity:.5;stroke:var(--fg);stroke-width:2.5}
-.rose .lab-t{fill:var(--muted);font-size:10.5px}
+.rose .lab-t{fill:var(--muted);font-size:10.5px}\n.rose .cor-b{fill-opacity:.2}\n.rose .cor-t{fill:var(--fg);font-size:10.5px;font-weight:700;letter-spacing:.01em}\n.rose .cor-key{display:none;font-size:17px}
 .rose-many .lab-c{font-size:10.5px}
 .rose .stub{stroke-width:2;stroke-linecap:round}
 .rose-key{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;font-size:.8rem;color:var(--muted);margin:6px 0 0}
@@ -1022,9 +1022,9 @@ const Rose = (() => {
   .rose .lab-c{font-size:18px}
   .rose-many .lab-c{font-size:16px}
   .rose .gtxt{font-size:18px;stroke-width:5px}
-  .rose .pct{display:none}
+  .rose .pct{display:none}\n  .rose .cor-full{display:none}\n  .rose .cor-key{display:inline}
 }}`;
-  let injected = false;
+  let injected = false, seq = 0;
   const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
   const pol = (cx, cy, r, deg) => { const a = (deg - 90) * Math.PI / 180; return [cx + r * Math.cos(a), cy + r * Math.sin(a)]; };
   const esc = s => String(s ?? "").replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
@@ -1041,7 +1041,7 @@ const Rose = (() => {
     // In alto resta uno spicchio libero per le etichette degli anelli.
     const N = cfg.items.length, many = N > 24, L = cfg.levels || ["", "1", "2", "3"], mx = L.length - 1;
     const W = 640, H = 640, cx = W / 2, cy = H / 2, r0 = 20, R = many ? 205 : 195, GAP = many ? 14 : 20, span = 360 - GAP, st0 = GAP / 2, step = span / N, gap = Math.min(1.6, step * .14);
-    const rad = p => r0 + (R - r0) * p / 100;
+    const rad = p => r0 + (R - r0) * p / 100, BAND = 20, uid = "rs" + (++seq);
     const s = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "group", class: many ? "rose-many" : "", "aria-label": `${cfg.title}: ` + cfg.items.map(i => `${i.code} ${i.label} ${i.pct}%`).join("; ") });
     cfg.items.forEach((it, i) => {
       const area = cfg.areas.find(a => a.key === it.area), a0 = st0 + i * step + gap / 2, a1 = st0 + (i + 1) * step - gap / 2, mid = (a0 + a1) / 2;
@@ -1052,16 +1052,26 @@ const Rose = (() => {
       if (it.pct > 0) el("path", { class: "val", d: wedge(cx, cy, r0, rad(it.pct), a0, a1), style: `fill:${area.col}` }, g);
       if (it.pct > 0 && !many) { const [px, py] = pol(cx, cy, it.pct >= 60 ? rad(it.pct) - 16 : rad(it.pct) + 13, mid); const t = el("text", { class: "pct", x: px, y: py + 4, "text-anchor": "middle" }, s); t.textContent = it.pct + "%"; }
       const right = mid < 180, an = Math.abs(mid - 180) < 6 || mid < 6 || mid > 354 ? "middle" : right ? "start" : "end";
-      const [lx, ly] = pol(cx, cy, R + 22, mid), dy = mid > 100 && mid < 260 ? 8 : 0;
+      const [lx, ly] = pol(cx, cy, R + BAND + 20, mid), dy = mid > 100 && mid < 260 ? 8 : 0;
       const tc = el("text", { class: "lab-c", x: lx, y: ly + dy, "text-anchor": an, "data-id": it.id }, s); tc.textContent = it.code;
       if (!many) { const tt = el("text", { class: "lab-t", x: lx, y: ly + dy + 13, "text-anchor": an }, s); tt.textContent = trunc(it.label, 22); }
     });
     const rg = el("g", { "pointer-events": "none" }, s);
     for (let k = 1; k <= mx; k++) el("circle", { class: "ring" + (k === mx ? " top" : ""), cx, cy, r: rad(k / mx * 100) }, rg);
-    // archi esterni per area
-    let i = 0;
+    // corona circolare con i nomi delle aree (CORONA-AREE): fascia tinta del colore dell'area, nome lungo l'arco.
+    // Nella metà bassa il percorso gira al contrario, così il testo non è capovolto. Se il nome non entra, si accorcia; se non entra nemmeno così, resta la lettera.
+    const cor = el("g", { class: "corona", "aria-hidden": "true", "pointer-events": "none" }, s), rm = R + 4 + BAND / 2;
+    let i = 0, n = 0;
     while (i < N) { const k = cfg.items[i].area; let j = i; while (j + 1 < N && cfg.items[j + 1].area === k) j++; const area = cfg.areas.find(a => a.key === k);
-      el("path", { d: arc(cx, cy, R + 9, st0 + i * step + 1, st0 + (j + 1) * step - 1), fill: "none", style: `stroke:${area.col}`, "stroke-width": 5, "stroke-linecap": "round" }, s); i = j + 1; }
+      const a0 = st0 + i * step + .6, a1 = st0 + (j + 1) * step - .6, mid = (a0 + a1) / 2, len = (a1 - a0) * Math.PI / 180 * rm;
+      el("path", { class: "cor-b", d: wedge(cx, cy, R + 4, R + 4 + BAND, a0, a1), style: `fill:${area.col}` }, cor);
+      el("path", { d: arc(cx, cy, R + 4 + BAND, a0, a1), fill: "none", style: `stroke:${area.col}`, "stroke-width": 3 }, cor);
+      const giu = mid > 90 && mid < 270, [x0, y0] = pol(cx, cy, rm, giu ? a1 : a0), [x1, y1] = pol(cx, cy, rm, giu ? a0 : a1), id = uid + "-" + (n++);
+      el("path", { id, d: `M${x0} ${y0}A${rm} ${rm} 0 ${a1 - a0 > 180 ? 1 : 0} ${giu ? 0 : 1} ${x1} ${y1}`, fill: "none" }, cor);
+      const key = String(area.key ?? area.nome).slice(0, 3);
+      [["cor-t cor-full", area.nome], ["cor-t cor-key", key]].forEach(([cls, txt]) => { const t = el("text", { class: cls, "dominant-baseline": "central", "data-len": Math.floor(len - 10), "data-breve": area.breve || "", "data-key": key }, cor);
+        const tp = el("textPath", { href: "#" + id, startOffset: "50%", "text-anchor": "middle" }, t); tp.textContent = txt; });
+      i = j + 1; }
     // etichette degli anelli nello spicchio libero in alto
     for (let k = 1; k <= mx; k++) { const t = el("text", { class: "gtxt", x: cx, y: cy - rad(k / mx * 100) + 4, "text-anchor": "middle" }, s); t.textContent = L[k]; }
     return s;
@@ -1104,7 +1114,8 @@ const Rose = (() => {
       <figure class="rose-fig"><figcaption>${esc(cfg.title)}</figcaption></figure></div>`;
     const svg = svgChart(cfg); host.querySelector(".rose-fig").appendChild(svg);
     // ritaglia il disegno sul contenuto visibile (su mobile i titoli brevi sono nascosti e il grafico si ingrandisce)
-    const fit = () => { if (!svg.isConnected) return; try { const b = svg.getBBox(); if (b.width > 0) svg.setAttribute("viewBox", `${b.x - 6} ${b.y - 6} ${b.width + 12} ${b.height + 12}`); } catch (e) {} };
+    const fit = () => { if (!svg.isConnected) return; try { svg.querySelectorAll(".cor-full").forEach(t => { const tp = t.firstChild, max = Number(t.dataset.len); if (!t.getComputedTextLength()) return;
+        for (const alt of [t.dataset.breve, t.dataset.key]) { if (t.getComputedTextLength() <= max) break; if (alt) tp.textContent = alt; } }); } catch (e) {} try { const b = svg.getBBox(); if (b.width > 0) svg.setAttribute("viewBox", `${b.x - 6} ${b.y - 6} ${b.width + 12} ${b.height + 12}`); } catch (e) {} };
     requestAnimationFrame(fit); const mq = matchMedia("(max-width:760px)"); mq.addEventListener && mq.addEventListener("change", () => { svg.setAttribute("viewBox", "0 0 640 640"); requestAnimationFrame(fit); });
     host.querySelector(".rose-fig").insertAdjacentHTML("beforeend", `<p class="rose-key"><span><i class="k-val"></i>livello raggiunto</span><span><i class="k-bg"></i>da completare</span><span><i class="k-ring"></i>anelli: ${L.slice(1).map(esc).join(" · ")}</span></p>`);
     const go = e => { const g = e.target.closest("[data-id]"); if (g && cfg.onOpen) cfg.onOpen(g.dataset.id); };
@@ -1266,6 +1277,7 @@ async function saveText(name,t,okMsg){
 $('csv').addEventListener('click',()=>saveText('Obblighi_IA_selezione.csv',csvText(),'Esportati i risultati attualmente filtrati.'));
 /* ---- Autovalutazione (AUTOVAL) ---- */
 const AV=C.autoval,AVKEY='ia-scuola-autovalutazione-v1',LV=['Da avviare','Avviato','In corso','A regime'];
+const AVBREVE={A:'A. Ricognizione',B:'B. Responsabilità',C:'C. Nuovo strumento',D:'D. Dati personali',E:'E. Trasparenza',F:'F. Alto rischio',G:'G. Formazione',H:'H. Sicurezza',I:'I. Verifica',J:'J. D.Lgs. 179'};  // nomi brevi per la corona del grafico, quando quello intero non entra
 const AVCOL=['#0a7c70','#3b6fb6','#8a5cc2','#c2577a','#c46a1b','#8a8f1f','#2f8f4e','#b0473a','#5a6f8f','#a0522d'];
 const TIPO={O:'Obbligo',C:'Obbligo condizionato',P:'Prassi prudente'};
 /* AV-SCHEDA */
@@ -1323,7 +1335,7 @@ function avChart(){try{avEvoRender()}catch(e){}
   const items=avItems();
   if(!items.length){$('avRose').innerHTML='<p class="note">Tutti i controlli sono segnati «Non applicabile»: nessun grafico da mostrare.</p>'}
   else Rose.render($('avRose'),{title:'Autovalutazione IA a scuola',totalLabel:'Livello complessivo',subject:'Tutti i controlli',totalCol:'var(--accent)',areaWord:'area',levels:LV,
-    areas:AV.sezioni.map((s,i)=>({key:s.k,nome:s.k+'. '+s.nome,col:AVCOL[i]})).filter(a=>items.some(c=>c.sez===a.key)),
+    areas:AV.sezioni.map((s,i)=>({key:s.k,nome:s.k+'. '+s.nome,breve:AVBREVE[s.k],col:AVCOL[i]})).filter(a=>items.some(c=>c.sez===a.key)),
     items:items.map(c=>({id:String(c.n),code:String(c.n),label:c.testo,area:c.sez,pct:avPct(c)})),
     selected:avSel,onOpen:id=>avOpen(Number(id),true),filename:'Autovalutazione_IA_scuola.png',save:saveFile});
   AV.sezioni.forEach(s=>{const it=items.filter(c=>c.sez===s.k);$('avp-'+s.k).textContent=it.length?'· '+Math.round(it.reduce((t,c)=>t+avPct(c),0)/it.length)+'%':'· non applicabile'});
@@ -1556,7 +1568,7 @@ function iaRepRender(){
   $('iaRepSum').textContent=r.data+'. Documenti analizzati: '+r.documenti.join('; ')+'.'+(r.ordini?' Ordini di scuola: '+r.ordini+'.':'')+(r.fuori.length?' Controlli non pertinenti per questi ordini, esclusi dal report: '+r.fuori.join(', ')+'.':'');
   $('iaRepTiles').innerHTML='<div class="iatile big"><b>'+r.pct+'%</b><span>Livello documentato</span></div>'+r.gruppi.map((g,i)=>'<div class="iatile t'+(i+1)+'"><b>'+g.v.length+'</b><span>'+esc(g.t.replace(/^\d\. /,''))+'</span></div>').join('');
   Rose.render($('iaRepChart'),{title:'Situazione secondo i documenti · '+r.data,totalLabel:'Livello documentato',subject:'Controlli analizzati',totalCol:'var(--accent)',areaWord:'area',levels:LV,
-    areas:r.aree.map(a=>({key:a.k,nome:a.nome,col:a.col})),items:r.items,filename:'Report_situazione_IA.png',save:saveFile,
+    areas:r.aree.map(a=>({key:a.k,nome:a.nome,breve:AVBREVE[a.k],col:a.col})),items:r.items,filename:'Report_situazione_IA.png',save:saveFile,
     note:'Ogni spicchio è un controllo; la parte piena arriva al livello che i documenti dimostrano. Uno spicchio vuoto vuol dire che nei documenti non c’è un riscontro.'});
   $('iaRepBody').innerHTML=r.gruppi.map((g,i)=>'<details class="iarep-g"'+(i===0||!r.gruppi[0].v.length&&i===1?' open':'')+'><summary><span class="iarep-n t'+(i+1)+'">'+g.v.length+'</span> '+esc(g.t)+'</summary><p class="note">'+esc(g.d)+'</p>'
     +(g.v.length?'<ol class="iarep-l">'+g.v.map(p=>'<li class="iastep" style="--ac:'+AVCOL[AV.sezioni.findIndex(z=>z.k===p.sezk)]+'"><p class="iastep-h"><span class="iachip"><span aria-hidden="true">'+IASYM(p.lvl)+'</span> '+esc(p.lvl==null?'Nessun riscontro':p.stato)+'</span><span class="rid">Controllo '+p.n+(p.star?' ★':'')+'</span><span class="note">'+esc(p.area)+'</span></p>'
