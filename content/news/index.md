@@ -15,6 +15,7 @@ Ogni voce riporta **fonte, data e link all'originale** con una sintesi di poche 
 
 ## Edizioni
 
+- [[news/2026-11-19|19 novembre 2026]] — Commissione UE: guida sull'alfabetizzazione all'IA e certificato pilota; parte «Intelligentemente Artificiali»; master Unimol; Rapporto Scuola-Azienda
 - [[news/2026-11-17|17 novembre 2026]] — Kansas: piano obbligatorio su tecnologia e IA; sindacato californiano chiede moratoria triennale; Markey incalza Google
 - [[news/2026-11-15|15 novembre 2026]] — ANP chiede la proroga degli snodi formativi IA; IA «unplugged» nell'infanzia; Chicago contro l'ultimatum Google
 - [[news/2026-11-13|13 novembre 2026]] — Garante privacy: ok allo schema di decreto MIM sull'IA; rassegna Stanford SCALE sulle prove di efficacia; Stati Generali della Scuola Digitale a Varese
